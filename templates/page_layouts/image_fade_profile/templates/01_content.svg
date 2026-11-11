@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" lang="zh-CN" font-family="Arial" font-size="20"
+ data-pptx-master="image_fade_profile_master" data-pptx-master-name="图文渐隐"
+ data-pptx-layout="image_fade_profile_content" data-pptx-layout-name="图文渐隐信息页">
+<defs>
+ <linearGradient id="left-fade" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#FFFFFF"/><stop offset="0.28" stop-color="#FFFFFF"/>
+  <stop offset="0.43" stop-color="#FFFFFF" stop-opacity="0.98"/><stop offset="0.57" stop-color="#FFFFFF" stop-opacity="0.65"/>
+  <stop offset="0.73" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+ </linearGradient>
+ <linearGradient id="bottom-fade" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.38" stop-color="#FFFFFF" stop-opacity="0.46"/>
+  <stop offset="0.76" stop-color="#FFFFFF" stop-opacity="0.94"/><stop offset="1" stop-color="#FFFFFF"/>
+ </linearGradient>
+ <linearGradient id="rule-fade" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#222222"/><stop offset="0.65" stop-color="#222222"/>
+  <stop offset="1" stop-color="#222222" stop-opacity="0"/>
+ </linearGradient>
+</defs>
+<rect id="master-background" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+<g id="main-picture" data-pptx-placeholder="picture" data-pptx-idx="1" data-pptx-bounds="380 0 900 720">
+ <image id="main-picture-carrier" data-pptx-carrier="true" href="../images/sample-photo.png" x="380" y="0" width="900" height="720" preserveAspectRatio="xMidYMid slice"/>
+</g>
+<rect id="left-fade-overlay" data-pptx-role="decoration" width="1280" height="720" fill="url(#left-fade)"/>
+<rect id="bottom-fade-overlay" data-pptx-role="decoration" x="0" y="478" width="1280" height="242" fill="url(#bottom-fade)"/>
+<rect id="section-tab" data-pptx-role="decoration" x="0" y="42" width="25" height="56" fill="#222222"/>
+<rect id="section-tab-secondary" data-pptx-role="decoration" x="35" y="42" width="12" height="56" fill="#999999"/>
+<g id="section-name" data-pptx-placeholder="subtitle" data-pptx-idx="2" data-pptx-bounds="80 43 470 52">
+ <text id="section-name-carrier" data-pptx-carrier="true" x="82" y="82" font-size="28" fill="#222222">{{SECTION_NAME}}</text>
+</g>
+<g id="main-title" data-pptx-placeholder="title" data-pptx-bounds="78 116 560 82">
+ <text id="main-title-carrier" data-pptx-carrier="true" x="80" y="175" font-size="46" font-weight="700" fill="#222222">{{TITLE}}</text>
+</g>
+<g id="main-subtitle" data-pptx-placeholder="body" data-pptx-idx="3" data-pptx-bounds="82 203 560 50">
+ <text id="main-subtitle-carrier" data-pptx-carrier="true" x="84" y="236" font-size="23" fill="#333333">{{SUBTITLE}}</text>
+</g>
+<line id="information-divider" data-pptx-role="decoration" x1="345" y1="290" x2="345" y2="505" stroke="#999999" stroke-width="1" stroke-dasharray="2,2"/>
+<g id="information-1" data-pptx-placeholder="object" data-pptx-binding="proxy" data-pptx-idx="4" data-pptx-bounds="82 280 290 112">
+ <use data-icon="imported/clock" x="82" y="299" width="42" height="42" fill="#222222"/>
+ <text x="148" y="305" font-size="18" fill="#444444">{{LABEL_1}}</text>
+ <text x="146" y="345" font-size="28" font-weight="700" fill="#222222">{{VALUE_1}}</text>
+ <text x="148" y="376" font-size="15" fill="#555555">{{NOTE_1}}</text>
+</g>
+<g id="information-2" data-pptx-placeholder="object" data-pptx-binding="proxy" data-pptx-idx="5" data-pptx-bounds="376 280 290 112">
+ <use data-icon="imported/users" x="376" y="299" width="42" height="42" fill="#222222"/>
+ <text x="442" y="305" font-size="18" fill="#444444">{{LABEL_2}}</text>
+ <text x="440" y="345" font-size="28" font-weight="700" fill="#222222">{{VALUE_2}}</text>
+ <text x="442" y="376" font-size="15" fill="#555555">{{NOTE_2}}</text>
+</g>
+<g id="information-3" data-pptx-placeholder="object" data-pptx-binding="proxy" data-pptx-idx="6" data-pptx-bounds="82 405 290 112">
+ <use data-icon="imported/map-pin" x="82" y="424" width="42" height="42" fill="#222222"/>
+ <text x="148" y="430" font-size="18" fill="#444444">{{LABEL_3}}</text>
+ <text x="146" y="470" font-size="28" font-weight="700" fill="#222222">{{VALUE_3}}</text>
+ <text x="148" y="501" font-size="15" fill="#555555">{{NOTE_3}}</text>
+</g>
+<g id="information-4" data-pptx-placeholder="object" data-pptx-binding="proxy" data-pptx-idx="7" data-pptx-bounds="376 405 290 112">
+ <use data-icon="imported/devices" x="376" y="424" width="42" height="42" fill="#222222"/>
+ <text x="442" y="430" font-size="18" fill="#444444">{{LABEL_4}}</text>
+ <text x="440" y="470" font-size="28" font-weight="700" fill="#222222">{{VALUE_4}}</text>
+ <text x="442" y="501" font-size="15" fill="#555555">{{NOTE_4}}</text>
+</g>
+<rect id="summary-rule" data-pptx-role="decoration" x="0" y="546" width="1070" height="4" fill="url(#rule-fade)"/>
+<g id="key-message" data-pptx-placeholder="body" data-pptx-idx="8" data-pptx-bounds="82 567 250 45">
+ <text id="key-message-carrier" data-pptx-carrier="true" x="84" y="598" font-size="23" fill="#222222">{{KEY_MESSAGE}}</text>
+</g>
+<g id="tagline" data-pptx-placeholder="object" data-pptx-binding="proxy" data-pptx-idx="9" data-pptx-bounds="350 568 260 42">
+ <rect x="350" y="568" width="260" height="42" rx="21" fill="#222222"/>
+ <text x="480" y="596" text-anchor="middle" fill="#FFFFFF">{{TAGLINE}}</text>
+</g>
+<g id="summary" data-pptx-placeholder="body" data-pptx-idx="10" data-pptx-bounds="82 631 900 62">
+ <text id="summary-carrier" data-pptx-carrier="true" x="84" y="657" font-size="18" fill="#333333">{{CONTENT_AREA}}</text>
+</g>
+<g id="source" data-pptx-placeholder="footer" data-pptx-idx="11" data-pptx-bounds="82 695 1116 24">
+ <text id="source-carrier" data-pptx-carrier="true" x="84" y="713" font-size="12" fill="#666666">{{SOURCE}}</text>
+</g>
+</svg>

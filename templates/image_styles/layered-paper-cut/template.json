@@ -1,0 +1,16 @@
+{
+  "id": "layered-paper-cut",
+  "name": "层叠剪纸立体化",
+  "use_when": "把主体轮廓简化为层次清楚、有浅浮雕感的纸艺",
+  "composition": "将主体和背景分解成少量完整纸层，通过遮挡与层间阴影建立深度",
+  "material": "手工剪裁边缘、哑光卡纸、纸面纹理和一致方向的柔和层间阴影",
+  "identity": "主要轮廓、比例和关键物件保留；允许简化摄影细节",
+  "text": "图片默认无字，页面标题可以另外叠放",
+  "avoid": "碎纸马赛克冒充完整剪纸、厚重塑料倒角、每层不同方向的阴影",
+  "origin": "提炼自上游 image-renderings/paper-cut 的风格方向",
+  "mode": "image-transform",
+  "input": "user-image-required",
+  "variant": "image-restyle",
+  "reference": "references/image_styles/layered-paper-cut/sample.json",
+  "image_policy": "先查看用户输入图片，再按本模板改造；主体、空间关系与允许重绘范围按当前用户要求确定。"
+}

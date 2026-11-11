@@ -1,0 +1,8 @@
+{
+  "template_id": "editorial-photo",
+  "mode": "image-transform",
+  "template": "templates/image_styles/editorial-photo/template.json",
+  "preview": "preview.webp",
+  "preview_kind": "style-reference",
+  "note": "包内风格参考；主体与文案可替换"
+}

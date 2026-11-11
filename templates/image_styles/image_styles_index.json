@@ -1,0 +1,86 @@
+{
+  "minimal-zine": {
+    "name": "留白纸感杂志海报",
+    "summary": "安静、日常、诗意主题；少量标题与一张主体图",
+    "mode": "image-transform",
+    "template": "templates/image_styles/minimal-zine/template.json",
+    "reference": "references/image_styles/minimal-zine/sample.json"
+  },
+  "swiss-typographic": {
+    "name": "瑞士网格字体海报",
+    "summary": "展览、设计活动、强信息层级和有力度的标题",
+    "mode": "image-transform",
+    "template": "templates/image_styles/swiss-typographic/template.json",
+    "reference": "references/image_styles/swiss-typographic/sample.json"
+  },
+  "vintage-travel": {
+    "name": "复古旅行印刷海报",
+    "summary": "地点、旅行、文化活动、复古品牌故事",
+    "mode": "image-transform",
+    "template": "templates/image_styles/vintage-travel/template.json",
+    "reference": "references/image_styles/vintage-travel/sample.json"
+  },
+  "cinematic-poster": {
+    "name": "叙事电影感海报",
+    "summary": "一个人物、产品或场景承载明确情绪和故事",
+    "mode": "image-transform",
+    "template": "templates/image_styles/cinematic-poster/template.json",
+    "reference": "references/image_styles/cinematic-poster/sample.json"
+  },
+  "editorial-photo": {
+    "name": "摄影编辑海报",
+    "summary": "人物、生活方式、餐饮、产品及文化主题的摄影主视觉",
+    "mode": "image-transform",
+    "template": "templates/image_styles/editorial-photo/template.json",
+    "reference": "references/image_styles/editorial-photo/sample.json"
+  },
+  "screen-print-poster": {
+    "name": "丝网套色海报",
+    "summary": "音乐、文化、展览或适合高辨识轮廓的主题",
+    "mode": "image-transform",
+    "template": "templates/image_styles/screen-print-poster/template.json",
+    "reference": "references/image_styles/screen-print-poster/sample.json"
+  },
+  "torn-paper-collage": {
+    "name": "原图转手工撕纸拼贴",
+    "summary": "把人物、宠物、食物或日常场景重构为有纸片搭接感的插画",
+    "mode": "image-transform",
+    "template": "templates/image_styles/torn-paper-collage/template.json",
+    "reference": "references/image_styles/torn-paper-collage/sample.json"
+  },
+  "layered-paper-cut": {
+    "name": "层叠剪纸立体化",
+    "summary": "把主体轮廓简化为层次清楚、有浅浮雕感的纸艺",
+    "mode": "image-transform",
+    "template": "templates/image_styles/layered-paper-cut/template.json",
+    "reference": "references/image_styles/layered-paper-cut/sample.json"
+  },
+  "watercolor-restyle": {
+    "name": "原图转透明水彩",
+    "summary": "柔和、轻盈的场景记忆、植物、食物与生活插画",
+    "mode": "image-transform",
+    "template": "templates/image_styles/watercolor-restyle/template.json",
+    "reference": "references/image_styles/watercolor-restyle/sample.json"
+  },
+  "ink-wash-restyle": {
+    "name": "原图转水墨写意",
+    "summary": "希望用笔触、墨色浓淡和留白表达主体",
+    "mode": "image-transform",
+    "template": "templates/image_styles/ink-wash-restyle/template.json",
+    "reference": "references/image_styles/ink-wash-restyle/sample.json"
+  },
+  "halftone-duotone": {
+    "name": "双色网点印刷改造",
+    "summary": "从原图提取强轮廓和明暗，用于杂志、音乐与复古印刷图像",
+    "mode": "image-transform",
+    "template": "templates/image_styles/halftone-duotone/template.json",
+    "reference": "references/image_styles/halftone-duotone/sample.json"
+  },
+  "photo-abstract-memory": {
+    "name": "原片加抽象记忆面板",
+    "summary": "保留原始照片，同时用色块、材质与形状表达照片的视觉记忆",
+    "mode": "image-transform",
+    "template": "templates/image_styles/photo-abstract-memory/template.json",
+    "reference": "references/image_styles/photo-abstract-memory/sample.json"
+  }
+}

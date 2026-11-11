@@ -1,0 +1,16 @@
+{
+  "id": "minimal-zine",
+  "name": "留白纸感杂志海报",
+  "use_when": "安静、日常、诗意主题；少量标题与一张主体图",
+  "composition": "不对称留白，主体图只占部分画面，标题与小字有明确阅读顺序",
+  "material": "自然纸纹、克制的印刷颗粒、细微旧纸感；避免整张泛黄影响主体",
+  "identity": "使用原图时保持可辨识主体；用户要求原片保留时不重绘原片",
+  "text": "短标题与少量辅助文字；准确文案可后期排版",
+  "avoid": "贴纸堆叠、装饰过量、每个空白都填满",
+  "origin": "结合项目 source/gc-minimal-zine-poster-v0-1 的风格方向重新整理",
+  "mode": "image-transform",
+  "input": "user-image-required",
+  "variant": "poster-layout",
+  "reference": "references/image_styles/minimal-zine/sample.json",
+  "image_policy": "以用户输入图片为内容来源组织该版式，不从纯主题另起画面；主体或原片保留程度由用户要求决定。"
+}

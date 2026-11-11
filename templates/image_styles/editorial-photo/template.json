@@ -1,0 +1,16 @@
+{
+  "id": "editorial-photo",
+  "name": "摄影编辑海报",
+  "use_when": "人物、生活方式、餐饮、产品及文化主题的摄影主视觉",
+  "composition": "有意图的裁切、图片与文字比例对比、明确的标题和小字层级",
+  "material": "保留摄影细节，可用受控颗粒与少量纸感强化印刷气质",
+  "identity": "原图仅裁切/调色还是允许重绘应明确；严格保留模式不改变原片",
+  "text": "简短主标题，长文案后期排版；不要附加虚假品牌信息",
+  "avoid": "每个角落排字、主体被装饰遮住、滤镜损坏肤色与材质",
+  "origin": "提炼自上游 image-renderings/editorial 的风格方向",
+  "mode": "image-transform",
+  "input": "user-image-required",
+  "variant": "poster-layout",
+  "reference": "references/image_styles/editorial-photo/sample.json",
+  "image_policy": "以用户输入图片为内容来源组织该版式，不从纯主题另起画面；主体或原片保留程度由用户要求决定。"
+}

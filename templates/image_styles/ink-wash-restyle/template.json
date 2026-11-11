@@ -1,0 +1,15 @@
+{
+  "id": "ink-wash-restyle",
+  "name": "原图转水墨写意",
+  "use_when": "希望用笔触、墨色浓淡和留白表达主体",
+  "composition": "提取原图主体与方向性，用必要笔触承载结构，以留白表达远近与空气",
+  "material": "宣纸吸墨、干湿笔变化、浓淡墨层次，可少量保留源图色彩线索",
+  "identity": "保持主体辨识度与关键姿态；细节可以意象化",
+  "text": "默认不加书法、印章或题款；需要时只用指定内容",
+  "avoid": "灰度照片加纸纹、无关山水符号、随意伪造书法和印章",
+  "mode": "image-transform",
+  "input": "user-image-required",
+  "variant": "image-restyle",
+  "reference": "references/image_styles/ink-wash-restyle/sample.json",
+  "image_policy": "先查看用户输入图片，再按本模板改造；主体、空间关系与允许重绘范围按当前用户要求确定。"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "torn-paper-collage",
+  "name": "原图转手工撕纸拼贴",
+  "use_when": "把人物、宠物、食物或日常场景重构为有纸片搭接感的插画",
+  "composition": "沿用原图主要主体、视角与物件关系，按明暗和局部轮廓组织大小不同的纸片",
+  "material": "不规则撕裂纤维边缘、纸片重叠、纸纹、轻微搭接阴影；通过真实纸片形状表现细节",
+  "identity": "保留身份特征和主要姿态；只保留语义细节而非逐像素照片纹理",
+  "text": "默认无文字；需要时加少量短字，不能照搬参考图文案",
+  "avoid": "照片加纸纹滤镜、光滑矢量块、剪刀切割感取代撕纸感、主体变成另一对象",
+  "origin": "用户提供的原片与金毛早餐撕纸拼贴对照参考；结合上游 paper-cut 的材质方向",
+  "mode": "image-transform",
+  "input": "user-image-required",
+  "variant": "image-restyle",
+  "reference": "references/image_styles/torn-paper-collage/sample.json",
+  "image_policy": "先查看用户输入图片，再按本模板改造；主体、空间关系与允许重绘范围按当前用户要求确定。"
+}

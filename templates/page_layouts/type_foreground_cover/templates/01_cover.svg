@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" lang="en-US" font-family="Arial" font-size="18"
+ data-pptx-master="type_foreground_cover_master" data-pptx-master-name="大字与前景穿插"
+ data-pptx-layout="type_foreground_cover_main" data-pptx-layout-name="大字与前景穿插封面">
+<defs>
+ <linearGradient id="sky-tone" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#333333" stop-opacity="0.58"/><stop offset="0.4" stop-color="#555555" stop-opacity="0.24"/>
+  <stop offset="0.72" stop-color="#555555" stop-opacity="0"/><stop offset="1" stop-color="#555555" stop-opacity="0"/>
+ </linearGradient>
+ <linearGradient id="title-fill" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#EEEEEE" stop-opacity="0.88"/><stop offset="0.62" stop-color="#FFFFFF" stop-opacity="0.90"/>
+  <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.08"/>
+ </linearGradient>
+</defs>
+<rect id="master-background" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+<g id="background-picture" data-pptx-placeholder="picture" data-pptx-idx="1" data-pptx-bounds="0 0 1280 720">
+ <image id="background-carrier" data-pptx-carrier="true" href="../images/sample-background.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="none"/>
+</g>
+<rect id="sky-tone-overlay" data-pptx-role="decoration" width="1280" height="720" fill="url(#sky-tone)"/>
+<g id="hero-title" data-pptx-placeholder="title" data-pptx-bounds="0 132 1280 390">
+ <text id="hero-title-carrier" data-pptx-carrier="true" x="640" y="410" text-anchor="middle" font-size="240" font-weight="700" fill="url(#title-fill)">{{TITLE}}</text>
+</g>
+<g id="foreground-picture" data-pptx-placeholder="picture" data-pptx-idx="2" data-pptx-bounds="0 0 1280 720">
+ <image id="foreground-carrier" data-pptx-carrier="true" href="../images/sample-foreground.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="none"/>
+</g>
+<g id="eyebrow" data-pptx-placeholder="subtitle" data-pptx-idx="3" data-pptx-bounds="220 48 840 64">
+ <text id="eyebrow-carrier" data-pptx-carrier="true" x="640" y="82" text-anchor="middle" font-size="17" letter-spacing="4" fill="#EEEEEE">{{SUBTITLE}}</text>
+</g>
+<line id="eyebrow-rule" data-pptx-role="decoration" x1="586" y1="108" x2="694" y2="108" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="1"/>
+</svg>

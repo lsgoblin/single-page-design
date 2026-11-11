@@ -1,0 +1,16 @@
+{
+  "id": "swiss-typographic",
+  "name": "瑞士网格字体海报",
+  "use_when": "展览、设计活动、强信息层级和有力度的标题",
+  "composition": "清晰网格、非对称对齐、大字号形成主结构，辅助信息遵循同一轴线",
+  "material": "干净平面和有限印刷纹理，文字与几何的尺度对比承担视觉张力",
+  "identity": "图片可裁切或抽象化，但不可随意改变指定产品/人物身份",
+  "text": "标题是主要视觉元素；准确排字优先使用可编辑文本",
+  "avoid": "无意义伪文字、图标卡片堆积、装饰性渐变破坏网格",
+  "origin": "提炼自上游 image-renderings/minimalist-swiss 的风格方向",
+  "mode": "image-transform",
+  "input": "user-image-required",
+  "variant": "poster-layout",
+  "reference": "references/image_styles/swiss-typographic/sample.json",
+  "image_policy": "以用户输入图片为内容来源组织该版式，不从纯主题另起画面；主体或原片保留程度由用户要求决定。"
+}

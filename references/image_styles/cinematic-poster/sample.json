@@ -1,0 +1,8 @@
+{
+  "template_id": "cinematic-poster",
+  "mode": "image-transform",
+  "template": "templates/image_styles/cinematic-poster/template.json",
+  "preview": "preview.png",
+  "preview_kind": "style-reference",
+  "note": "为展厅生成的风格示例"
+}

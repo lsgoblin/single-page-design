@@ -1,0 +1,8 @@
+{
+  "template_id": "halftone-duotone",
+  "mode": "image-transform",
+  "template": "templates/image_styles/halftone-duotone/template.json",
+  "preview": "preview.png",
+  "preview_kind": "style-reference",
+  "note": "为展厅生成的风格示例"
+}

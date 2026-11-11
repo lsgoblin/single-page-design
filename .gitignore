@@ -1,0 +1,10 @@
+# Python runtime and local environments
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local credentials and experiments
+.env
+.env.*
+!.env.example
+.Work/

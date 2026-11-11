@@ -1,0 +1,8 @@
+{
+  "template_id": "torn-paper-collage",
+  "mode": "image-transform",
+  "template": "templates/image_styles/torn-paper-collage/template.json",
+  "preview": "preview.png",
+  "preview_kind": "before-after-reference",
+  "note": "用户提供的原图与撕纸拼贴对照参考"
+}

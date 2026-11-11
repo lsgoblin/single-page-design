@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" lang="zh-CN" font-family="Arial" font-size="18"
+ data-pptx-master="torn_paper_diagonal_master" data-pptx-master-name="双纸层斜向开窗"
+ data-pptx-layout="torn_paper_diagonal_main" data-pptx-layout-name="双纸层斜向开窗">
+<defs>
+ <filter id="paper-shadow" x="-10%" y="-10%" width="120%" height="120%">
+  <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#333333" flood-opacity="0.14"/>
+ </filter>
+</defs>
+<rect id="master-background" width="1280" height="720" fill="#FFFFFF" data-pptx-layer="master" data-pptx-editable="false"/>
+<g id="scene-picture" data-pptx-placeholder="picture" data-pptx-idx="3" data-pptx-bounds="0 0 1280 720">
+ <image id="scene-carrier" data-pptx-carrier="true" href="../images/pastoral-scene.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="none"/>
+</g>
+<g id="upper-paper-picture" data-pptx-placeholder="picture" data-pptx-idx="4" data-pptx-bounds="0 0 1280 720">
+ <image id="upper-paper-carrier" data-pptx-carrier="true" href="../images/paper-upper-left.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="none" filter="url(#paper-shadow)"/>
+</g>
+<g id="lower-paper-picture" data-pptx-placeholder="picture" data-pptx-idx="5" data-pptx-bounds="0 0 1280 720">
+ <image id="lower-paper-carrier" data-pptx-carrier="true" href="../images/paper-lower-right.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="none" filter="url(#paper-shadow)"/>
+</g>
+<g id="main-title" data-pptx-placeholder="title" data-pptx-bounds="50 84 490 224">
+ <text id="main-title-carrier" data-pptx-carrier="true" x="58" y="136" font-size="40" font-weight="700" fill="#222222">{{TITLE}}</text>
+</g>
+<g id="small-subtitle" data-pptx-placeholder="subtitle" data-pptx-idx="1" data-pptx-bounds="56 42 440 34">
+ <text id="small-subtitle-carrier" data-pptx-carrier="true" x="62" y="67" font-size="13" letter-spacing="2.2" fill="#666666">{{SUBTITLE}}</text>
+</g>
+<g id="body-copy" data-pptx-placeholder="body" data-pptx-idx="2" data-pptx-bounds="842 540 392 148">
+ <text id="body-copy-carrier" data-pptx-carrier="true" x="858" y="572" fill="#444444">{{CONTENT_AREA}}</text>
+</g>
+</svg>

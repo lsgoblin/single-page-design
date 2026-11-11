@@ -1,0 +1,16 @@
+{
+  "id": "screen-print-poster",
+  "name": "丝网套色海报",
+  "use_when": "音乐、文化、展览或适合高辨识轮廓的主题",
+  "composition": "主体简化成少量层次，使用大块形状与正负空间建立辨识度",
+  "material": "有限色版、油墨颗粒、少量叠印与可控套色偏移",
+  "identity": "简化细节但保留主要轮廓、姿态和指定标识",
+  "text": "标题作为独立印刷层处理；精确字形优先后期排版",
+  "avoid": "所有边缘随机抖动、过密网点、柔滑渐变吞掉油墨质感",
+  "origin": "提炼自上游 image-renderings/screen-print 的风格方向",
+  "mode": "image-transform",
+  "input": "user-image-required",
+  "variant": "poster-layout",
+  "reference": "references/image_styles/screen-print-poster/sample.json",
+  "image_policy": "以用户输入图片为内容来源组织该版式，不从纯主题另起画面；主体或原片保留程度由用户要求决定。"
+}

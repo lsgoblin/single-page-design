@@ -1,0 +1,15 @@
+{
+  "id": "halftone-duotone",
+  "name": "双色网点印刷改造",
+  "use_when": "从原图提取强轮廓和明暗，用于杂志、音乐与复古印刷图像",
+  "composition": "延续原图裁切与重心，通过少量色版分离高光、暗部和关键轮廓",
+  "material": "有尺度控制的半色调网点、可信油墨叠印与纸底，保持关键细节可读",
+  "identity": "身份、产品轮廓与场景关系保留；改变色彩表达而非替换主体",
+  "text": "原图文字可保留/去除须明确；不自动增加标题",
+  "avoid": "网点大到遮住眼睛和产品细节、彩虹滤镜、随机脏污",
+  "mode": "image-transform",
+  "input": "user-image-required",
+  "variant": "image-restyle",
+  "reference": "references/image_styles/halftone-duotone/sample.json",
+  "image_policy": "先查看用户输入图片，再按本模板改造；主体、空间关系与允许重绘范围按当前用户要求确定。"
+}
