@@ -22,3 +22,7 @@ references/
 当前图片改造样张并非每项都具有可单独读取的原图与结果；后续补齐真实对照时在 `sample.json` 明确记录。本轮只整理已有样张，不新增生图任务。
 
 执行说明位于 `workflows/`，来源记录位于技能根目录 `provenance.json`。本目录不再混放资源发现索引或执行流程说明。
+
+## 共用配色样张
+
+`color_palettes/<id>/sample.json` 对应同 ID 配色定义，`preview.svg` 展示其五个正式色值；`color_palettes/overview.svg` 展示全部 56 组。样张记录源图片文件名、SHA-256 与可见署名，预览仅重绘色块和色值，不复制原图插画，也不依赖 `drafts/` 或 `reference-drafts/`。定义入口为 `templates/color_palettes/color_palettes_index.json`；应用方式见 [配色说明](../workflows/color-palette.md)。

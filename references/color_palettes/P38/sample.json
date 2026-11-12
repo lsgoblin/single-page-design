@@ -1,0 +1,13 @@
+{
+  "palette_id": "P38",
+  "template": "templates/color_palettes/P38/palette.json",
+  "preview": "preview.svg",
+  "preview_kind": "palette-swatches",
+  "source": {
+    "filename": "aff62bc1ea372676ebc32f7be46d52cf_720.jpg",
+    "sha256": "e91fb4b8c47ba1a438dcf57a795893a3079e9d204615d73792bdc5db4c4ddc11",
+    "origin": "user-supplied-reference",
+    "visible_credit": "@HUNTER"
+  },
+  "note": "从用户提供色卡中提取；预览仅重绘色块和色值，不包含原图插画。原图不属于本技能上游素材，源文件名与摘要仅作溯源，不是运行依赖。"
+}

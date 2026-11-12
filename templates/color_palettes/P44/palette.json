@@ -1,0 +1,103 @@
+{
+  "id": "P44",
+  "name": "配色 P44",
+  "kind": "color-palette",
+  "color_space": "sRGB",
+  "applies_to": [
+    "ppt-layout",
+    "image-transform"
+  ],
+  "colors": [
+    {
+      "position": 1,
+      "hex": "#B9BDD4",
+      "rgb": [
+        185,
+        189,
+        212
+      ],
+      "label_hex": "#B9BDD4",
+      "sampled_hex": "#B9BDD6",
+      "sampled_rgb": [
+        185,
+        189,
+        214
+      ],
+      "method": "printed-label",
+      "note": ""
+    },
+    {
+      "position": 2,
+      "hex": "#E3E2D9",
+      "rgb": [
+        227,
+        226,
+        217
+      ],
+      "label_hex": "#E3E2D9",
+      "sampled_hex": "#E3E3D9",
+      "sampled_rgb": [
+        227,
+        227,
+        217
+      ],
+      "method": "printed-label",
+      "note": ""
+    },
+    {
+      "position": 3,
+      "hex": "#DEB9C1",
+      "rgb": [
+        222,
+        185,
+        193
+      ],
+      "label_hex": "#E3E2D9",
+      "sampled_hex": "#DEB9C1",
+      "sampled_rgb": [
+        222,
+        185,
+        193
+      ],
+      "method": "pixel-sample",
+      "note": "原图第2、3色重复标注#E3E2D9，但第3色块为粉色；采用中心像素中位数近似值，保留原标注供核对。"
+    },
+    {
+      "position": 4,
+      "hex": "#832A0C",
+      "rgb": [
+        131,
+        42,
+        12
+      ],
+      "label_hex": "#832A0C",
+      "sampled_hex": "#852A0D",
+      "sampled_rgb": [
+        133,
+        42,
+        13
+      ],
+      "method": "printed-label",
+      "note": ""
+    },
+    {
+      "position": 5,
+      "hex": "#192409",
+      "rgb": [
+        25,
+        36,
+        9
+      ],
+      "label_hex": "#192409",
+      "sampled_hex": "#1C250A",
+      "sampled_rgb": [
+        28,
+        37,
+        10
+      ],
+      "method": "printed-label",
+      "note": ""
+    }
+  ],
+  "reference": "references/color_palettes/P44/sample.json"
+}

@@ -1,0 +1,13 @@
+{
+  "palette_id": "P43",
+  "template": "templates/color_palettes/P43/palette.json",
+  "preview": "preview.svg",
+  "preview_kind": "palette-swatches",
+  "source": {
+    "filename": "cf3f7a2dfdb5ad3ba5d200d185809f90_720.jpg",
+    "sha256": "fd9dd0ed4b6f48a3a5cdd7df6544adc050c4529e73e5aafc953cf45e4119bb9d",
+    "origin": "user-supplied-reference",
+    "visible_credit": "@HUNTER"
+  },
+  "note": "从用户提供色卡中提取；预览仅重绘色块和色值，不包含原图插画。原图不属于本技能上游素材，源文件名与摘要仅作溯源，不是运行依赖。"
+}

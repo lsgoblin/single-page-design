@@ -28,10 +28,12 @@
 single-page-design/
 ├── templates/
 │   ├── page_layouts/<id>/       单页结构规格、SVG 和应用所需素材
-│   └── image_styles/<id>/       图片改造模板与应用规则
+│   ├── image_styles/<id>/       图片改造模板与应用规则
+│   └── color_palettes/<id>/     两种模式共用的配色定义
 ├── references/
 │   ├── page_layouts/<id>/       对应单页样张与样张说明
-│   └── image_styles/<id>/       对应图片改造样张与样张说明
+│   ├── image_styles/<id>/       对应图片改造样张与样张说明
+│   └── color_palettes/          对应配色色块样张与整体预览
 ├── workflows/                  两种模式的执行说明
 ├── scripts/                    工具与运行代码
 └── provenance.json             来源与提取记录
@@ -78,6 +80,12 @@ single-page-design/
 展厅为每种样式展示效果参考；适合对照的样式展示原图与改造结果，帮助用户理解视觉变化。实际制作时以用户当前输入的图片为内容来源，不把展示样例中的主体或文案固定到新作品中。
 
 技能根据输入图片、所选样式、用途和修改要求组织提示词，调用可用图像能力完成改造与排版，再更新浏览器预览。主体、身份、空间关系、原片是否允许重绘，以及文字与构图的变化范围，按当前用户要求确定。用户只要提示词时，直接在聊天框输出，不保存为提示词 `.md` 文件。
+
+## 共用配色库
+
+已将用户参考色卡整理为 56 组五色配色（P01–P56，280 个色位），可与任意单页版式或图片改造模板组合。入口为 `templates/color_palettes/color_palettes_index.json`，定义、样张及来源记录随包保存，不依赖 `drafts/`。查看 [整体色卡预览](references/color_palettes/overview.svg) 或 [配色使用说明](workflows/color-palette.md)。原图标注和采样值均保留，P44 第 3 色的标注错误已注明。
+
+配色属于现有两种模式共用的资源；独立展厅的配色选择界面尚未开发。
 
 ## 当前状态与实施边界
 

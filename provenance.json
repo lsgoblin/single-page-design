@@ -195,5 +195,16 @@
     "templates": "Reusable selectable resources for ppt-layout and image-transform modes.",
     "references": "Sample imagery and sample metadata linked by matching template id.",
     "old_paths": "Twenty obsolete files removed after explicit user approval; canonical resources reside under templates/ and references/."
+  },
+  "color_palette_library": {
+    "date": "2026-11-12",
+    "origin": "User-supplied reference color cards, extracted and visually checked in the drafts workspace.",
+    "index": "templates/color_palettes/color_palettes_index.json",
+    "guide": "workflows/color-palette.md",
+    "palette_count": 56,
+    "color_position_count": 280,
+    "source_records": "references/color_palettes/<id>/sample.json",
+    "runtime_policy": "Definitions and regenerated swatch previews are self-contained; original artwork and drafts are not runtime dependencies.",
+    "correction": "P44 position 3 uses sampled #DEB9C1; duplicated original label #E3E2D9 remains recorded."
   }
 }

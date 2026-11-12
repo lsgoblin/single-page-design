@@ -9,7 +9,7 @@ description: >
   preserve the corresponding PPT Simplify workflow. Topic-only poster
   generation and full multi-slide deck production are outside this scope.
 metadata:
-  version: "0.2.0"
+  version: "0.4.0"
   copyright: "Copyright (c) 2025-2026 Hugo He"
   license: "MIT"
   official_repository: "https://github.com/hugohe3/ppt-master"
@@ -41,6 +41,10 @@ metadata:
 
 已有素材和用户指定样式优先。海报、杂志等是图片改造内部的排版形式，必须以用户输入图片为内容来源，不单独开设主题生图模式。浏览器负责浏览、选择、结果预览，修改通过对话驱动。
 
+## 共用配色资源
+
+两种模式均可按需组合 [配色资源库](workflows/color-palette.md)。从 `templates/color_palettes/color_palettes_index.json` 发现 P01–P56 共 56 组五色配色，再读取选中条目的定义和样张；整体预览为 `references/color_palettes/overview.svg`。用户指定配色、品牌色和原片保留要求优先，具体映射与检查按配色说明执行。配色沿用原策划/确认节点，不增加制作模式。
+
 ## PPT 流程边界
 
 单页 PPT 生成完全按照 `ppt-simplify` 对应流程执行，保留其路由、角色、策划确认、模板安装、素材准备、页面制作、检查和导出要求。只有一页或已选择 layout，均不构成进入 Quick 或跳过原步骤的依据。
@@ -70,4 +74,4 @@ metadata:
 
 新增图片改造模板放在 `templates/image_styles/<id>/template.json`，记录应用规则和用户图片要求；样板样张放在 `references/image_styles/<id>/`。在 `templates/image_styles/image_styles_index.json` 登记二者，不将样张作为实际制作输入。具体任务的成品提示词仍在聊天框动态组织。
 
-`scripts/` 中包括提取的上游依赖和本项目工具/未完成原型。工具私有的 `scripts/assets/` 不属于展厅模板库。Sponsor 文件仅保留上游归属信息，不在正常设计中主动推介。资源发现入口只使用 `templates/` 的两份索引，不回退到旧路径。
+`scripts/` 中包括提取的上游依赖和本项目工具/未完成原型。工具私有的 `scripts/assets/` 不属于展厅模板库。Sponsor 文件仅保留上游归属信息，不在正常设计中主动推介。模板发现使用 `templates/` 的两份模式索引；可选配色另读 `templates/color_palettes/color_palettes_index.json`，不回退到旧路径。

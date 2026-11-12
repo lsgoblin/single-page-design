@@ -1,0 +1,13 @@
+{
+  "palette_id": "P21",
+  "template": "templates/color_palettes/P21/palette.json",
+  "preview": "preview.svg",
+  "preview_kind": "palette-swatches",
+  "source": {
+    "filename": "6129a6334f7ac2879fa7c6bb5a7ea3ee_720.jpg",
+    "sha256": "1d155066f58de3280b29d7b5ce8adccca9b0960fb7b3d2743fe02728bff3c393",
+    "origin": "user-supplied-reference",
+    "visible_credit": "@HUNTER"
+  },
+  "note": "从用户提供色卡中提取；预览仅重绘色块和色值，不包含原图插画。原图不属于本技能上游素材，源文件名与摘要仅作溯源，不是运行依赖。"
+}

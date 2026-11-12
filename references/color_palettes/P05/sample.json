@@ -1,0 +1,13 @@
+{
+  "palette_id": "P05",
+  "template": "templates/color_palettes/P05/palette.json",
+  "preview": "preview.svg",
+  "preview_kind": "palette-swatches",
+  "source": {
+    "filename": "14dfd05b87906e3d001f8b91202aa6ef_720.jpg",
+    "sha256": "8dd7ce2edf5a0f5728a4cf13c981c60e4424812a7c04e77c301857420f9e44c4",
+    "origin": "user-supplied-reference",
+    "visible_credit": "@HUNTER"
+  },
+  "note": "从用户提供色卡中提取；预览仅重绘色块和色值，不包含原图插画。原图不属于本技能上游素材，源文件名与摘要仅作溯源，不是运行依赖。"
+}

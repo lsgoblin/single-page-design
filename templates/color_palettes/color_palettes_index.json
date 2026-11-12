@@ -1,0 +1,730 @@
+{
+  "P01": {
+    "name": "配色 P01",
+    "colors": [
+      "#839623",
+      "#547830",
+      "#7CA481",
+      "#DEA376",
+      "#9CB5D1"
+    ],
+    "template": "templates/color_palettes/P01/palette.json",
+    "reference": "references/color_palettes/P01/sample.json",
+    "preview": "references/color_palettes/P01/preview.svg"
+  },
+  "P02": {
+    "name": "配色 P02",
+    "colors": [
+      "#DAC9B9",
+      "#D98B8D",
+      "#A9A141",
+      "#D14231",
+      "#36487B"
+    ],
+    "template": "templates/color_palettes/P02/palette.json",
+    "reference": "references/color_palettes/P02/sample.json",
+    "preview": "references/color_palettes/P02/preview.svg"
+  },
+  "P03": {
+    "name": "配色 P03",
+    "colors": [
+      "#E9E7E2",
+      "#637A92",
+      "#3C4356",
+      "#92A2AF",
+      "#4A517F"
+    ],
+    "template": "templates/color_palettes/P03/palette.json",
+    "reference": "references/color_palettes/P03/sample.json",
+    "preview": "references/color_palettes/P03/preview.svg"
+  },
+  "P04": {
+    "name": "配色 P04",
+    "colors": [
+      "#EDE8D7",
+      "#B63C39",
+      "#BD5B58",
+      "#CB837F",
+      "#DBB1A8"
+    ],
+    "template": "templates/color_palettes/P04/palette.json",
+    "reference": "references/color_palettes/P04/sample.json",
+    "preview": "references/color_palettes/P04/preview.svg"
+  },
+  "P05": {
+    "name": "配色 P05",
+    "colors": [
+      "#0E98D7",
+      "#CE3920",
+      "#E9AE20",
+      "#A58238",
+      "#133545"
+    ],
+    "template": "templates/color_palettes/P05/palette.json",
+    "reference": "references/color_palettes/P05/sample.json",
+    "preview": "references/color_palettes/P05/preview.svg"
+  },
+  "P06": {
+    "name": "配色 P06",
+    "colors": [
+      "#E2E9E0",
+      "#C7D0C3",
+      "#0E4853",
+      "#23666E",
+      "#86A249"
+    ],
+    "template": "templates/color_palettes/P06/palette.json",
+    "reference": "references/color_palettes/P06/sample.json",
+    "preview": "references/color_palettes/P06/preview.svg"
+  },
+  "P07": {
+    "name": "配色 P07",
+    "colors": [
+      "#F0F0EF",
+      "#C4AA9A",
+      "#915D50",
+      "#2D1F1E",
+      "#7B7979"
+    ],
+    "template": "templates/color_palettes/P07/palette.json",
+    "reference": "references/color_palettes/P07/sample.json",
+    "preview": "references/color_palettes/P07/preview.svg"
+  },
+  "P08": {
+    "name": "配色 P08",
+    "colors": [
+      "#E9E5DA",
+      "#D5B787",
+      "#CA9C58",
+      "#8A4815",
+      "#512C14"
+    ],
+    "template": "templates/color_palettes/P08/palette.json",
+    "reference": "references/color_palettes/P08/sample.json",
+    "preview": "references/color_palettes/P08/preview.svg"
+  },
+  "P09": {
+    "name": "配色 P09",
+    "colors": [
+      "#E8E6E4",
+      "#476582",
+      "#F14F39",
+      "#F6B448",
+      "#0D1116"
+    ],
+    "template": "templates/color_palettes/P09/palette.json",
+    "reference": "references/color_palettes/P09/sample.json",
+    "preview": "references/color_palettes/P09/preview.svg"
+  },
+  "P10": {
+    "name": "配色 P10",
+    "colors": [
+      "#BFCCC3",
+      "#5A7A7A",
+      "#AE2019",
+      "#271911",
+      "#C09A4B"
+    ],
+    "template": "templates/color_palettes/P10/palette.json",
+    "reference": "references/color_palettes/P10/sample.json",
+    "preview": "references/color_palettes/P10/preview.svg"
+  },
+  "P11": {
+    "name": "配色 P11",
+    "colors": [
+      "#EC9986",
+      "#F2AF14",
+      "#F4D1BA",
+      "#E56B66",
+      "#E48031"
+    ],
+    "template": "templates/color_palettes/P11/palette.json",
+    "reference": "references/color_palettes/P11/sample.json",
+    "preview": "references/color_palettes/P11/preview.svg"
+  },
+  "P12": {
+    "name": "配色 P12",
+    "colors": [
+      "#BE8E33",
+      "#E4D7C0",
+      "#A37827",
+      "#DAA84A",
+      "#F5CD57"
+    ],
+    "template": "templates/color_palettes/P12/palette.json",
+    "reference": "references/color_palettes/P12/sample.json",
+    "preview": "references/color_palettes/P12/preview.svg"
+  },
+  "P13": {
+    "name": "配色 P13",
+    "colors": [
+      "#B78B51",
+      "#497775",
+      "#258AA8",
+      "#D0D0C3",
+      "#B74534"
+    ],
+    "template": "templates/color_palettes/P13/palette.json",
+    "reference": "references/color_palettes/P13/sample.json",
+    "preview": "references/color_palettes/P13/preview.svg"
+  },
+  "P14": {
+    "name": "配色 P14",
+    "colors": [
+      "#ECEEEA",
+      "#A2B2AD",
+      "#DFDECD",
+      "#CEC8A3",
+      "#A5803D"
+    ],
+    "template": "templates/color_palettes/P14/palette.json",
+    "reference": "references/color_palettes/P14/sample.json",
+    "preview": "references/color_palettes/P14/preview.svg"
+  },
+  "P15": {
+    "name": "配色 P15",
+    "colors": [
+      "#4990BC",
+      "#D67760",
+      "#CD5767",
+      "#915A6A",
+      "#3C5F7F"
+    ],
+    "template": "templates/color_palettes/P15/palette.json",
+    "reference": "references/color_palettes/P15/sample.json",
+    "preview": "references/color_palettes/P15/preview.svg"
+  },
+  "P16": {
+    "name": "配色 P16",
+    "colors": [
+      "#E1DECE",
+      "#C8BBA1",
+      "#A58E6A",
+      "#33463E",
+      "#5E5C4D"
+    ],
+    "template": "templates/color_palettes/P16/palette.json",
+    "reference": "references/color_palettes/P16/sample.json",
+    "preview": "references/color_palettes/P16/preview.svg"
+  },
+  "P17": {
+    "name": "配色 P17",
+    "colors": [
+      "#E3B8BD",
+      "#C6697E",
+      "#7DA6AB",
+      "#214885",
+      "#A1A154"
+    ],
+    "template": "templates/color_palettes/P17/palette.json",
+    "reference": "references/color_palettes/P17/sample.json",
+    "preview": "references/color_palettes/P17/preview.svg"
+  },
+  "P18": {
+    "name": "配色 P18",
+    "colors": [
+      "#A994A3",
+      "#C4B1AA",
+      "#8E769F",
+      "#5E5267",
+      "#748997"
+    ],
+    "template": "templates/color_palettes/P18/palette.json",
+    "reference": "references/color_palettes/P18/sample.json",
+    "preview": "references/color_palettes/P18/preview.svg"
+  },
+  "P19": {
+    "name": "配色 P19",
+    "colors": [
+      "#13847A",
+      "#A1BBB3",
+      "#619A96",
+      "#16423D",
+      "#E6D8B7"
+    ],
+    "template": "templates/color_palettes/P19/palette.json",
+    "reference": "references/color_palettes/P19/sample.json",
+    "preview": "references/color_palettes/P19/preview.svg"
+  },
+  "P20": {
+    "name": "配色 P20",
+    "colors": [
+      "#122646",
+      "#131818",
+      "#948024",
+      "#3E4F5D",
+      "#B3C9D4"
+    ],
+    "template": "templates/color_palettes/P20/palette.json",
+    "reference": "references/color_palettes/P20/sample.json",
+    "preview": "references/color_palettes/P20/preview.svg"
+  },
+  "P21": {
+    "name": "配色 P21",
+    "colors": [
+      "#B65144",
+      "#E4A95D",
+      "#2F2927",
+      "#414A3D",
+      "#8C7F54"
+    ],
+    "template": "templates/color_palettes/P21/palette.json",
+    "reference": "references/color_palettes/P21/sample.json",
+    "preview": "references/color_palettes/P21/preview.svg"
+  },
+  "P22": {
+    "name": "配色 P22",
+    "colors": [
+      "#C33B2B",
+      "#F0E4DE",
+      "#E2A6AD",
+      "#BE6B7D",
+      "#C45C50"
+    ],
+    "template": "templates/color_palettes/P22/palette.json",
+    "reference": "references/color_palettes/P22/sample.json",
+    "preview": "references/color_palettes/P22/preview.svg"
+  },
+  "P23": {
+    "name": "配色 P23",
+    "colors": [
+      "#C2B6A5",
+      "#191715",
+      "#0D4338",
+      "#47433E",
+      "#C43C2A"
+    ],
+    "template": "templates/color_palettes/P23/palette.json",
+    "reference": "references/color_palettes/P23/sample.json",
+    "preview": "references/color_palettes/P23/preview.svg"
+  },
+  "P24": {
+    "name": "配色 P24",
+    "colors": [
+      "#CB6088",
+      "#CF9DB0",
+      "#43316A",
+      "#8B7F40",
+      "#B6262C"
+    ],
+    "template": "templates/color_palettes/P24/palette.json",
+    "reference": "references/color_palettes/P24/sample.json",
+    "preview": "references/color_palettes/P24/preview.svg"
+  },
+  "P25": {
+    "name": "配色 P25",
+    "colors": [
+      "#A4B6CA",
+      "#293D6B",
+      "#E2DFD9",
+      "#425B8B",
+      "#ECB873"
+    ],
+    "template": "templates/color_palettes/P25/palette.json",
+    "reference": "references/color_palettes/P25/sample.json",
+    "preview": "references/color_palettes/P25/preview.svg"
+  },
+  "P26": {
+    "name": "配色 P26",
+    "colors": [
+      "#B0745F",
+      "#6B3526",
+      "#E6AC99",
+      "#EED9C9",
+      "#39130F"
+    ],
+    "template": "templates/color_palettes/P26/palette.json",
+    "reference": "references/color_palettes/P26/sample.json",
+    "preview": "references/color_palettes/P26/preview.svg"
+  },
+  "P27": {
+    "name": "配色 P27",
+    "colors": [
+      "#CFAEA8",
+      "#856415",
+      "#B08B26",
+      "#C1533A",
+      "#4D3D0C"
+    ],
+    "template": "templates/color_palettes/P27/palette.json",
+    "reference": "references/color_palettes/P27/sample.json",
+    "preview": "references/color_palettes/P27/preview.svg"
+  },
+  "P28": {
+    "name": "配色 P28",
+    "colors": [
+      "#D1D1CD",
+      "#1A262D",
+      "#2D5A5A",
+      "#1C3742",
+      "#902818"
+    ],
+    "template": "templates/color_palettes/P28/palette.json",
+    "reference": "references/color_palettes/P28/sample.json",
+    "preview": "references/color_palettes/P28/preview.svg"
+  },
+  "P29": {
+    "name": "配色 P29",
+    "colors": [
+      "#C1CBD3",
+      "#455696",
+      "#4E3E99",
+      "#B48D5B",
+      "#90062F"
+    ],
+    "template": "templates/color_palettes/P29/palette.json",
+    "reference": "references/color_palettes/P29/sample.json",
+    "preview": "references/color_palettes/P29/preview.svg"
+  },
+  "P30": {
+    "name": "配色 P30",
+    "colors": [
+      "#CAAFB0",
+      "#B392A0",
+      "#757998",
+      "#8A637B",
+      "#37395B"
+    ],
+    "template": "templates/color_palettes/P30/palette.json",
+    "reference": "references/color_palettes/P30/sample.json",
+    "preview": "references/color_palettes/P30/preview.svg"
+  },
+  "P31": {
+    "name": "配色 P31",
+    "colors": [
+      "#182B30",
+      "#164346",
+      "#D8D7D2",
+      "#7B241E",
+      "#9E291E"
+    ],
+    "template": "templates/color_palettes/P31/palette.json",
+    "reference": "references/color_palettes/P31/sample.json",
+    "preview": "references/color_palettes/P31/preview.svg"
+  },
+  "P32": {
+    "name": "配色 P32",
+    "colors": [
+      "#EBB216",
+      "#F4E0BE",
+      "#52899D",
+      "#EFC677",
+      "#BC3A11"
+    ],
+    "template": "templates/color_palettes/P32/palette.json",
+    "reference": "references/color_palettes/P32/sample.json",
+    "preview": "references/color_palettes/P32/preview.svg"
+  },
+  "P33": {
+    "name": "配色 P33",
+    "colors": [
+      "#4F638F",
+      "#7F98C2",
+      "#1D2635",
+      "#C2D3EA",
+      "#929BA5"
+    ],
+    "template": "templates/color_palettes/P33/palette.json",
+    "reference": "references/color_palettes/P33/sample.json",
+    "preview": "references/color_palettes/P33/preview.svg"
+  },
+  "P34": {
+    "name": "配色 P34",
+    "colors": [
+      "#BAC4D2",
+      "#93ACC8",
+      "#34588E",
+      "#567CAA",
+      "#25365D"
+    ],
+    "template": "templates/color_palettes/P34/palette.json",
+    "reference": "references/color_palettes/P34/sample.json",
+    "preview": "references/color_palettes/P34/preview.svg"
+  },
+  "P35": {
+    "name": "配色 P35",
+    "colors": [
+      "#E0E8E7",
+      "#223F59",
+      "#336383",
+      "#16202A",
+      "#95A8B0"
+    ],
+    "template": "templates/color_palettes/P35/palette.json",
+    "reference": "references/color_palettes/P35/sample.json",
+    "preview": "references/color_palettes/P35/preview.svg"
+  },
+  "P36": {
+    "name": "配色 P36",
+    "colors": [
+      "#365992",
+      "#9DC1D7",
+      "#88AECC",
+      "#5682BF",
+      "#B4D9E7"
+    ],
+    "template": "templates/color_palettes/P36/palette.json",
+    "reference": "references/color_palettes/P36/sample.json",
+    "preview": "references/color_palettes/P36/preview.svg"
+  },
+  "P37": {
+    "name": "配色 P37",
+    "colors": [
+      "#E0DDDC",
+      "#353338",
+      "#7B90A3",
+      "#AF474E",
+      "#B6B2B3"
+    ],
+    "template": "templates/color_palettes/P37/palette.json",
+    "reference": "references/color_palettes/P37/sample.json",
+    "preview": "references/color_palettes/P37/preview.svg"
+  },
+  "P38": {
+    "name": "配色 P38",
+    "colors": [
+      "#DAC5BF",
+      "#487974",
+      "#0E3D0A",
+      "#86A3B5",
+      "#D69716"
+    ],
+    "template": "templates/color_palettes/P38/palette.json",
+    "reference": "references/color_palettes/P38/sample.json",
+    "preview": "references/color_palettes/P38/preview.svg"
+  },
+  "P39": {
+    "name": "配色 P39",
+    "colors": [
+      "#0E2931",
+      "#12484C",
+      "#2B7574",
+      "#861211",
+      "#E2E2E0"
+    ],
+    "template": "templates/color_palettes/P39/palette.json",
+    "reference": "references/color_palettes/P39/sample.json",
+    "preview": "references/color_palettes/P39/preview.svg"
+  },
+  "P40": {
+    "name": "配色 P40",
+    "colors": [
+      "#DFDBD9",
+      "#CAC4C1",
+      "#C7727C",
+      "#DC9198",
+      "#B35A65"
+    ],
+    "template": "templates/color_palettes/P40/palette.json",
+    "reference": "references/color_palettes/P40/sample.json",
+    "preview": "references/color_palettes/P40/preview.svg"
+  },
+  "P41": {
+    "name": "配色 P41",
+    "colors": [
+      "#5B6E81",
+      "#838B8F",
+      "#596D64",
+      "#C3BCB5",
+      "#223138"
+    ],
+    "template": "templates/color_palettes/P41/palette.json",
+    "reference": "references/color_palettes/P41/sample.json",
+    "preview": "references/color_palettes/P41/preview.svg"
+  },
+  "P42": {
+    "name": "配色 P42",
+    "colors": [
+      "#394E2C",
+      "#7596AA",
+      "#99AF87",
+      "#6B814D",
+      "#DCDCD9"
+    ],
+    "template": "templates/color_palettes/P42/palette.json",
+    "reference": "references/color_palettes/P42/sample.json",
+    "preview": "references/color_palettes/P42/preview.svg"
+  },
+  "P43": {
+    "name": "配色 P43",
+    "colors": [
+      "#365377",
+      "#46668B",
+      "#131D30",
+      "#97A6B4",
+      "#D9C8C3"
+    ],
+    "template": "templates/color_palettes/P43/palette.json",
+    "reference": "references/color_palettes/P43/sample.json",
+    "preview": "references/color_palettes/P43/preview.svg"
+  },
+  "P44": {
+    "name": "配色 P44",
+    "colors": [
+      "#B9BDD4",
+      "#E3E2D9",
+      "#DEB9C1",
+      "#832A0C",
+      "#192409"
+    ],
+    "template": "templates/color_palettes/P44/palette.json",
+    "reference": "references/color_palettes/P44/sample.json",
+    "preview": "references/color_palettes/P44/preview.svg"
+  },
+  "P45": {
+    "name": "配色 P45",
+    "colors": [
+      "#D0BEB4",
+      "#BB7B6E",
+      "#C9391A",
+      "#596D62",
+      "#2F4725"
+    ],
+    "template": "templates/color_palettes/P45/palette.json",
+    "reference": "references/color_palettes/P45/sample.json",
+    "preview": "references/color_palettes/P45/preview.svg"
+  },
+  "P46": {
+    "name": "配色 P46",
+    "colors": [
+      "#DCD1C9",
+      "#CD6D55",
+      "#205A8C",
+      "#3A3F3B",
+      "#C5A93B"
+    ],
+    "template": "templates/color_palettes/P46/palette.json",
+    "reference": "references/color_palettes/P46/sample.json",
+    "preview": "references/color_palettes/P46/preview.svg"
+  },
+  "P47": {
+    "name": "配色 P47",
+    "colors": [
+      "#81281C",
+      "#DCDCD8",
+      "#273B2D",
+      "#982218",
+      "#191D14"
+    ],
+    "template": "templates/color_palettes/P47/palette.json",
+    "reference": "references/color_palettes/P47/sample.json",
+    "preview": "references/color_palettes/P47/preview.svg"
+  },
+  "P48": {
+    "name": "配色 P48",
+    "colors": [
+      "#F7F7EE",
+      "#5F690F",
+      "#ABAE7C",
+      "#CCCDAE",
+      "#8A9048"
+    ],
+    "template": "templates/color_palettes/P48/palette.json",
+    "reference": "references/color_palettes/P48/sample.json",
+    "preview": "references/color_palettes/P48/preview.svg"
+  },
+  "P49": {
+    "name": "配色 P49",
+    "colors": [
+      "#F0F2EA",
+      "#DFE0D2",
+      "#C8C8B4",
+      "#27383A",
+      "#757F7E"
+    ],
+    "template": "templates/color_palettes/P49/palette.json",
+    "reference": "references/color_palettes/P49/sample.json",
+    "preview": "references/color_palettes/P49/preview.svg"
+  },
+  "P50": {
+    "name": "配色 P50",
+    "colors": [
+      "#161617",
+      "#E9E5DF",
+      "#E5DFD5",
+      "#D3A687",
+      "#CF875C"
+    ],
+    "template": "templates/color_palettes/P50/palette.json",
+    "reference": "references/color_palettes/P50/sample.json",
+    "preview": "references/color_palettes/P50/preview.svg"
+  },
+  "P51": {
+    "name": "配色 P51",
+    "colors": [
+      "#E1C9D0",
+      "#D597AB",
+      "#4D579C",
+      "#9E98C5",
+      "#C0647C"
+    ],
+    "template": "templates/color_palettes/P51/palette.json",
+    "reference": "references/color_palettes/P51/sample.json",
+    "preview": "references/color_palettes/P51/preview.svg"
+  },
+  "P52": {
+    "name": "配色 P52",
+    "colors": [
+      "#B8B8BB",
+      "#AC2011",
+      "#D89385",
+      "#C89548",
+      "#6D6D43"
+    ],
+    "template": "templates/color_palettes/P52/palette.json",
+    "reference": "references/color_palettes/P52/sample.json",
+    "preview": "references/color_palettes/P52/preview.svg"
+  },
+  "P53": {
+    "name": "配色 P53",
+    "colors": [
+      "#D1B1A2",
+      "#C75E4B",
+      "#4B6736",
+      "#3B5274",
+      "#C3931C"
+    ],
+    "template": "templates/color_palettes/P53/palette.json",
+    "reference": "references/color_palettes/P53/sample.json",
+    "preview": "references/color_palettes/P53/preview.svg"
+  },
+  "P54": {
+    "name": "配色 P54",
+    "colors": [
+      "#1A181A",
+      "#314234",
+      "#CAC6B8",
+      "#9E332E",
+      "#BF8B4F"
+    ],
+    "template": "templates/color_palettes/P54/palette.json",
+    "reference": "references/color_palettes/P54/sample.json",
+    "preview": "references/color_palettes/P54/preview.svg"
+  },
+  "P55": {
+    "name": "配色 P55",
+    "colors": [
+      "#163B35",
+      "#B7B7B4",
+      "#5F8AA6",
+      "#D3B71B",
+      "#DA5647"
+    ],
+    "template": "templates/color_palettes/P55/palette.json",
+    "reference": "references/color_palettes/P55/sample.json",
+    "preview": "references/color_palettes/P55/preview.svg"
+  },
+  "P56": {
+    "name": "配色 P56",
+    "colors": [
+      "#BECBBB",
+      "#708666",
+      "#521505",
+      "#7FA8BA",
+      "#6C5650"
+    ],
+    "template": "templates/color_palettes/P56/palette.json",
+    "reference": "references/color_palettes/P56/sample.json",
+    "preview": "references/color_palettes/P56/preview.svg"
+  }
+}

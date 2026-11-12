@@ -1,0 +1,103 @@
+{
+  "id": "P38",
+  "name": "配色 P38",
+  "kind": "color-palette",
+  "color_space": "sRGB",
+  "applies_to": [
+    "ppt-layout",
+    "image-transform"
+  ],
+  "colors": [
+    {
+      "position": 1,
+      "hex": "#DAC5BF",
+      "rgb": [
+        218,
+        197,
+        191
+      ],
+      "label_hex": "#DAC5BF",
+      "sampled_hex": "#DDC4BF",
+      "sampled_rgb": [
+        221,
+        196,
+        191
+      ],
+      "method": "printed-label",
+      "note": ""
+    },
+    {
+      "position": 2,
+      "hex": "#487974",
+      "rgb": [
+        72,
+        121,
+        116
+      ],
+      "label_hex": "#487974",
+      "sampled_hex": "#487975",
+      "sampled_rgb": [
+        72,
+        121,
+        117
+      ],
+      "method": "printed-label",
+      "note": ""
+    },
+    {
+      "position": 3,
+      "hex": "#0E3D0A",
+      "rgb": [
+        14,
+        61,
+        10
+      ],
+      "label_hex": "#0E3D0A",
+      "sampled_hex": "#0E3C0B",
+      "sampled_rgb": [
+        14,
+        60,
+        11
+      ],
+      "method": "printed-label",
+      "note": ""
+    },
+    {
+      "position": 4,
+      "hex": "#86A3B5",
+      "rgb": [
+        134,
+        163,
+        181
+      ],
+      "label_hex": "#86A3B5",
+      "sampled_hex": "#86A3B3",
+      "sampled_rgb": [
+        134,
+        163,
+        179
+      ],
+      "method": "printed-label",
+      "note": ""
+    },
+    {
+      "position": 5,
+      "hex": "#D69716",
+      "rgb": [
+        214,
+        151,
+        22
+      ],
+      "label_hex": "#D69716",
+      "sampled_hex": "#D89717",
+      "sampled_rgb": [
+        216,
+        151,
+        23
+      ],
+      "method": "printed-label",
+      "note": ""
+    }
+  ],
+  "reference": "references/color_palettes/P38/sample.json"
+}

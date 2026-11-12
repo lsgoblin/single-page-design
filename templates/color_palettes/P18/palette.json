@@ -1,0 +1,103 @@
+{
+  "id": "P18",
+  "name": "配色 P18",
+  "kind": "color-palette",
+  "color_space": "sRGB",
+  "applies_to": [
+    "ppt-layout",
+    "image-transform"
+  ],
+  "colors": [
+    {
+      "position": 1,
+      "hex": "#A994A3",
+      "rgb": [
+        169,
+        148,
+        163
+      ],
+      "label_hex": "#A994A3",
+      "sampled_hex": "#B396AA",
+      "sampled_rgb": [
+        179,
+        150,
+        170
+      ],
+      "method": "printed-label",
+      "note": ""
+    },
+    {
+      "position": 2,
+      "hex": "#C4B1AA",
+      "rgb": [
+        196,
+        177,
+        170
+      ],
+      "label_hex": "#C4B1AA",
+      "sampled_hex": "#C9B5AE",
+      "sampled_rgb": [
+        201,
+        181,
+        174
+      ],
+      "method": "printed-label",
+      "note": ""
+    },
+    {
+      "position": 3,
+      "hex": "#8E769F",
+      "rgb": [
+        142,
+        118,
+        159
+      ],
+      "label_hex": "#8E769F",
+      "sampled_hex": "#9577A9",
+      "sampled_rgb": [
+        149,
+        119,
+        169
+      ],
+      "method": "printed-label",
+      "note": ""
+    },
+    {
+      "position": 4,
+      "hex": "#5E5267",
+      "rgb": [
+        94,
+        82,
+        103
+      ],
+      "label_hex": "#5E5267",
+      "sampled_hex": "#6E5A76",
+      "sampled_rgb": [
+        110,
+        90,
+        118
+      ],
+      "method": "printed-label",
+      "note": "原标注与图像采样有明显差异；保留原图标注，采样值另列。"
+    },
+    {
+      "position": 5,
+      "hex": "#748997",
+      "rgb": [
+        116,
+        137,
+        151
+      ],
+      "label_hex": "#748997",
+      "sampled_hex": "#7791A2",
+      "sampled_rgb": [
+        119,
+        145,
+        162
+      ],
+      "method": "printed-label",
+      "note": ""
+    }
+  ],
+  "reference": "references/color_palettes/P18/sample.json"
+}

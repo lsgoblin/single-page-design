@@ -1,0 +1,13 @@
+{
+  "palette_id": "P13",
+  "template": "templates/color_palettes/P13/palette.json",
+  "preview": "preview.svg",
+  "preview_kind": "palette-swatches",
+  "source": {
+    "filename": "46ebf99f96be7c79a14e96743b4181c2_720.jpg",
+    "sha256": "45aaff699b8edc4ed93b0eb72c90edfa21534c5e5e1c023492a6ac4754c402f9",
+    "origin": "user-supplied-reference",
+    "visible_credit": "@HUNTER"
+  },
+  "note": "从用户提供色卡中提取；预览仅重绘色块和色值，不包含原图插画。原图不属于本技能上游素材，源文件名与摘要仅作溯源，不是运行依赖。"
+}

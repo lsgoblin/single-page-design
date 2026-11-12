@@ -1,0 +1,103 @@
+{
+  "id": "P46",
+  "name": "配色 P46",
+  "kind": "color-palette",
+  "color_space": "sRGB",
+  "applies_to": [
+    "ppt-layout",
+    "image-transform"
+  ],
+  "colors": [
+    {
+      "position": 1,
+      "hex": "#DCD1C9",
+      "rgb": [
+        220,
+        209,
+        201
+      ],
+      "label_hex": "#DCD1C9",
+      "sampled_hex": "#E1D3CA",
+      "sampled_rgb": [
+        225,
+        211,
+        202
+      ],
+      "method": "printed-label",
+      "note": ""
+    },
+    {
+      "position": 2,
+      "hex": "#CD6D55",
+      "rgb": [
+        205,
+        109,
+        85
+      ],
+      "label_hex": "#CD6D55",
+      "sampled_hex": "#D26C55",
+      "sampled_rgb": [
+        210,
+        108,
+        85
+      ],
+      "method": "printed-label",
+      "note": ""
+    },
+    {
+      "position": 3,
+      "hex": "#205A8C",
+      "rgb": [
+        32,
+        90,
+        140
+      ],
+      "label_hex": "#205A8C",
+      "sampled_hex": "#1E5F97",
+      "sampled_rgb": [
+        30,
+        95,
+        151
+      ],
+      "method": "printed-label",
+      "note": ""
+    },
+    {
+      "position": 4,
+      "hex": "#3A3F3B",
+      "rgb": [
+        58,
+        63,
+        59
+      ],
+      "label_hex": "#3A3F3B",
+      "sampled_hex": "#465048",
+      "sampled_rgb": [
+        70,
+        80,
+        72
+      ],
+      "method": "printed-label",
+      "note": "原标注与图像采样有明显差异；保留原图标注，采样值另列。"
+    },
+    {
+      "position": 5,
+      "hex": "#C5A93B",
+      "rgb": [
+        197,
+        169,
+        59
+      ],
+      "label_hex": "#C5A93B",
+      "sampled_hex": "#CBAD3B",
+      "sampled_rgb": [
+        203,
+        173,
+        59
+      ],
+      "method": "printed-label",
+      "note": ""
+    }
+  ],
+  "reference": "references/color_palettes/P46/sample.json"
+}

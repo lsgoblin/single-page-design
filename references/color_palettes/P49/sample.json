@@ -1,0 +1,13 @@
+{
+  "palette_id": "P49",
+  "template": "templates/color_palettes/P49/palette.json",
+  "preview": "preview.svg",
+  "preview_kind": "palette-swatches",
+  "source": {
+    "filename": "dfc15d063aee14c4bb7c056387ed7b88_720.jpg",
+    "sha256": "e22fd1e212c9869fc3b4b2f730e7e0e1dc00a5a04b3eda332b8220a8e35d7e7b",
+    "origin": "user-supplied-reference",
+    "visible_credit": "@HUNTER"
+  },
+  "note": "从用户提供色卡中提取；预览仅重绘色块和色值，不包含原图插画。原图不属于本技能上游素材，源文件名与摘要仅作溯源，不是运行依赖。"
+}

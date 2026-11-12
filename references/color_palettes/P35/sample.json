@@ -1,0 +1,13 @@
+{
+  "palette_id": "P35",
+  "template": "templates/color_palettes/P35/palette.json",
+  "preview": "preview.svg",
+  "preview_kind": "palette-swatches",
+  "source": {
+    "filename": "9ce8a6261b0b51af5c6efc94f5404514_720.jpg",
+    "sha256": "85c02bf93960e170fc5279de3d6e81a90863cfdab737a3d0bf3e5f92c5e2ffd1",
+    "origin": "user-supplied-reference",
+    "visible_credit": "@HUNTER"
+  },
+  "note": "从用户提供色卡中提取；预览仅重绘色块和色值，不包含原图插画。原图不属于本技能上游素材，源文件名与摘要仅作溯源，不是运行依赖。"
+}

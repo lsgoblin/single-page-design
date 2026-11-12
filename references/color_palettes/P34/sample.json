@@ -1,0 +1,13 @@
+{
+  "palette_id": "P34",
+  "template": "templates/color_palettes/P34/palette.json",
+  "preview": "preview.svg",
+  "preview_kind": "palette-swatches",
+  "source": {
+    "filename": "97e30a9e8286d0574ab2b3fb175b321a_720.jpg",
+    "sha256": "3fb2b6391a938e6bd0d63999d43d68fd3173f5900a3d5eb0cff171b30829aa5f",
+    "origin": "user-supplied-reference",
+    "visible_credit": "@HUNTER"
+  },
+  "note": "从用户提供色卡中提取；预览仅重绘色块和色值，不包含原图插画。原图不属于本技能上游素材，源文件名与摘要仅作溯源，不是运行依赖。"
+}

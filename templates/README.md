@@ -30,3 +30,7 @@
 海报排版也以用户图片为内容来源。样张可以展示视觉语言，但不能代替用户原图，也不能据此转为仅凭主题从零生图。
 
 新增模板与样张后，同时更新本模式索引。资源发现只读索引，读取选中条目后再载入其规则与样张。
+
+## 两种模式共用的配色
+
+`color_palettes/color_palettes_index.json` 发现 56 组配色；每组定义位于 `color_palettes/<id>/palette.json`，对应样张位于技能根目录的 `references/color_palettes/<id>/`。每组保留五色顺序、HEX/RGB 以及原标注和采样记录，不预设颜色角色。按需读取 [配色应用说明](../workflows/color-palette.md)，与版式和图片风格独立组合。
