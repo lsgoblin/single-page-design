@@ -1,0 +1,16 @@
+{
+  "template_id": "halftone-editorial",
+  "mode": "image-transform",
+  "template": "templates/image_styles/halftone-editorial/template.json",
+  "preview": "preview.jpg",
+  "preview_kind": "style-reference",
+  "note": "AFTERIMAGE 只是示例标题；彩色碎片须落在主体关键处",
+  "source": {
+    "platform": "GitHub",
+    "post_type": "文生图",
+    "author": "VigoCreativeAI",
+    "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook/blob/main/docs/copy-prompts/halftone-chroma-fragment-editorial.md",
+    "published": "",
+    "collected": "2026-11-12"
+  }
+}

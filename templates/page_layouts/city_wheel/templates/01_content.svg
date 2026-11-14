@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" lang="zh-CN" font-family="Arial" font-size="18" data-pptx-master="city_wheel_master" data-pptx-master-name="转盘式图文展示" data-pptx-layout="city_wheel_main" data-pptx-layout-name="转盘式图文展示">
+<defs><clipPath id="quarter-ring-clip"><path d="M 0 13.71 A 706.29 706.29 0 0 1 706.29 720 L 250.73 720 A 250.73 250.73 0 0 0 0 469.27 Z"/></clipPath></defs>
+<rect id="master-background" width="1280" height="720" fill="#0E6B49" data-pptx-layer="master" data-pptx-editable="false"/>
+<g id="visible-wheel-picture" data-pptx-placeholder="picture" data-pptx-idx="1" data-pptx-bounds="0 13.71 706.29 706.29"><image id="visible-wheel-carrier" data-pptx-carrier="true" href="../images/paris.png" x="0" y="13.71" width="706.29" height="706.29" preserveAspectRatio="none" clip-path="url(#quarter-ring-clip)"/></g>
+<g id="arc-title" data-pptx-placeholder="object" data-pptx-binding="proxy" data-pptx-idx="2" data-pptx-bounds="440 16 500 678">
+<text id="arc-letter-1" x="555.38" y="145.19" text-anchor="middle" font-size="128" fill="#F4EEE2" transform="rotate(42 555.38 103.19)">S</text>
+<text id="arc-letter-2" x="635.82" y="228.49" text-anchor="middle" font-size="128" fill="#F4EEE2" transform="rotate(50 635.82 186.49)">A</text>
+<text id="arc-letter-3" x="703.88" y="322.17" text-anchor="middle" font-size="128" fill="#F4EEE2" transform="rotate(58 703.88 280.17)">M</text>
+<text id="arc-letter-4" x="758.24" y="424.41" text-anchor="middle" font-size="128" fill="#F4EEE2" transform="rotate(66 758.24 382.41)">P</text>
+<text id="arc-letter-5" x="797.85" y="533.22" text-anchor="middle" font-size="128" fill="#F4EEE2" transform="rotate(74 797.85 491.22)">L</text>
+<text id="arc-letter-6" x="821.92" y="646.49" text-anchor="middle" font-size="128" fill="#F4EEE2" transform="rotate(82 821.92 604.49)">E</text>
+</g>
+<g id="page-number" data-pptx-placeholder="body" data-pptx-idx="3" data-pptx-bounds="40 530 175 116"><text id="page-number-carrier" data-pptx-carrier="true" x="127.5" y="613" font-family="Microsoft YaHei" font-size="90" fill="#F4EEE2" text-anchor="middle">{{PAGE_NUMBER}}</text></g>
+<g id="page-total" data-pptx-placeholder="body" data-pptx-idx="4" data-pptx-bounds="65 650 130 28"><text id="page-total-carrier" data-pptx-carrier="true" x="130" y="670" font-family="Microsoft YaHei" font-size="16" fill="#A6CDB8" text-anchor="middle">{{TOTAL}}</text></g>
+<g id="eyebrow" data-pptx-placeholder="body" data-pptx-idx="5" data-pptx-bounds="950 40 295 28"><text id="eyebrow-carrier" data-pptx-carrier="true" x="1245" y="60" font-family="Microsoft YaHei" font-size="14" fill="#A6CDB8" text-anchor="end">{{SECTION_NAME}}</text></g>
+<g id="main-title" data-pptx-placeholder="title" data-pptx-idx="0" data-pptx-bounds="1000 78 245 100"><text id="main-title-carrier" data-pptx-carrier="true" x="1245" y="153" font-family="Microsoft YaHei" font-size="64" fill="#F4EEE2" text-anchor="end">{{TITLE}}</text></g>
+<g id="nickname" data-pptx-placeholder="body" data-pptx-idx="6" data-pptx-bounds="940 95 110 34"><text id="nickname-carrier" data-pptx-carrier="true" x="1050" y="118" font-family="Microsoft YaHei" font-size="18" fill="#A6CDB8" text-anchor="end">{{TAGLINE}}</text></g>
+<g id="subtitle" data-pptx-placeholder="subtitle" data-pptx-idx="7" data-pptx-bounds="1000 186 245 42"><text id="subtitle-carrier" data-pptx-carrier="true" x="1245" y="214" font-family="Microsoft YaHei" font-size="24" fill="#A6CDB8" text-anchor="end">{{SUBTITLE}}</text></g>
+<g id="value-1" data-pptx-placeholder="body" data-pptx-idx="8" data-pptx-bounds="1000 338 245 92"><text id="value-1-carrier" data-pptx-carrier="true" x="1245" y="407" font-family="Microsoft YaHei" font-size="58" fill="#F4EEE2" text-anchor="end">{{VALUE_1}}</text></g>
+<g id="note-1" data-pptx-placeholder="body" data-pptx-idx="9" data-pptx-bounds="1000 435 245 30"><text id="note-1-carrier" data-pptx-carrier="true" x="1245" y="456" font-family="Microsoft YaHei" font-size="16" fill="#A6CDB8" text-anchor="end">{{NOTE_1}}</text></g>
+<g id="value-2" data-pptx-placeholder="body" data-pptx-idx="10" data-pptx-bounds="1000 478 245 92"><text id="value-2-carrier" data-pptx-carrier="true" x="1245" y="547" font-family="Microsoft YaHei" font-size="58" fill="#F4EEE2" text-anchor="end">{{VALUE_2}}</text></g>
+<g id="note-2" data-pptx-placeholder="body" data-pptx-idx="11" data-pptx-bounds="1000 574 245 30"><text id="note-2-carrier" data-pptx-carrier="true" x="1245" y="595" font-family="Microsoft YaHei" font-size="16" fill="#A6CDB8" text-anchor="end">{{NOTE_2}}</text></g>
+<g id="source" data-pptx-placeholder="body" data-pptx-idx="12" data-pptx-bounds="1015 648 230 30"><text id="source-carrier" data-pptx-carrier="true" x="1245" y="669" font-family="Microsoft YaHei" font-size="14" fill="#A6CDB8" text-anchor="end">{{SOURCE}}</text></g>
+<line id="information-rule" x1="1018" y1="636" x2="1245" y2="636" stroke="#A6CDB8" stroke-opacity="0.65" stroke-width="1"/>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Segoe UI, Arial, sans-serif" font-size="14" lang="en-US">
+    <title>Q4 2025 OKR Progress Tracking</title>
+    <metadata id="chart-evidence" type="application/json">{"original_payload": null, "data": {"metrics": [["Revenue Target", 46, 50, "$M"], ["New Customer Acquisition", 170, 200, "accounts"], ["Product Launch", 3, 4, "features"], ["Team Expansion", 17, 25, "hires"], ["Cost Optimization", -11, -20, "% reduction"], ["Brand Awareness", 20, 30, "% increase"]], "as_of": "2025-12-11", "deadline": "2025-12-31"}, "method": "Exact ratios are averaged before rounding. Status bands are mutually exclusive; no ahead/late judgment without a time-phased plan.", "validation": {"ratios": [92.0, 85.0, 75.0, 68.0, 55.00000000000001, 66.66666666666666], "equal_weight_mean": 73.61111111111111, "remaining_days": 20}, "palette": {"id": "lavender-spring", "name": "科研配色｜薰紫春庭", "description": "Low-saturation lavender, dusty rose, cream apricot and sage default chart palette.", "colors": ["#8F86B4", "#B7ACCD", "#DBCCE2", "#D6A3B1", "#E8CCAB", "#A8C3B5"], "roles": {"primary": "#8F86B4", "secondary": "#B7ACCD", "surface_accent": "#DBCCE2", "emphasis": "#D6A3B1", "warm": "#E8CCAB", "positive": "#A8C3B5", "negative": "#D6A3B1", "neutral_data": "#B7ACCD", "text": "#241F30", "secondary_text": "#655E75", "background": "#FFFFFF", "surface": "#F8F5FA", "divider": "#D8D2E0", "connector": "#8F86B4", "mark_outline": "#716684"}, "shading": {"space": "linear-sRGB", "front_and_top": "Use the exact assigned core color.", "light_cap_white_mix": 0.1, "outer_wall_light_multiplier": 0.5, "inner_wall_light_multiplier": 0.29, "radial_cut_light_multiplier": 0.39, "lighter_cut_light_multiplier": 0.6}, "rules": ["The six core HEX values are authoritative and keep their listed order for categorical series.", "Use named semantic roles for increase/decrease and threshold states; preserve their labels and signs.", "Use the same category assignment in faces, legend swatches and anchor dots.", "Use dark text on pastel data marks; small text contrast must be at least 4.5:1.", "Use explicit labels or outlines as well as color; do not claim universal color-vision safety.", "Hierarchies with more than six leaves use parent-family tints; do not invent unrelated accent hues.", "Project-specified palettes may override this default. Keep native metadata synchronized where native replacement is used."]}, "source_svg": "progress_bar_chart.svg"}</metadata>
+    <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+    <g id="header" data-pptx-bounds="40 24 1200 105">
+        <text x="56" y="61" font-size="32" fill="#241F30" font-weight="700" text-anchor="start">Q4 2025 OKR Progress Tracking</text>
+        <text x="56" y="94" font-size="15" fill="#655E75" font-weight="400" text-anchor="start">Fixed example as of Dec 11, 2025 · Deadline Dec 31, 2025 · 20 days remaining</text>
+    </g>
+    <g id="chart-module" data-pptx-bounds="40 132 1200 500">
+        <g id="chart">
+            <line x1="1030" y1="178" x2="1030" y2="605" stroke="#716684" stroke-width="1.5" stroke-dasharray="4 4" />
+            <text x="1030" y="160" font-size="13" fill="#655E75" font-weight="400" text-anchor="middle">100% goal</text>
+            <text x="60" y="195" font-size="17" fill="#241F30" font-weight="600" text-anchor="start">Revenue Target</text>
+            <text x="60" y="218" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Actual 46 / target 50 $M</text>
+            <rect x="450" y="183" width="580" height="23" fill="#F8F5FA" rx="3" />
+            <rect x="450" y="183" width="533.6" height="23" fill="#A8C3B5" rx="3" stroke="#716684" stroke-width="0.8" data-ratio="92.0" />
+            <text x="1060" y="202" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">92.0%</text>
+            <text x="1155" y="202" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">≥80%</text>
+            <text x="60" y="262" font-size="17" fill="#241F30" font-weight="600" text-anchor="start">New Customer Acquisition</text>
+            <text x="60" y="285" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Actual 170 / target 200 accounts</text>
+            <rect x="450" y="250" width="580" height="23" fill="#F8F5FA" rx="3" />
+            <rect x="450" y="250" width="493.0" height="23" fill="#A8C3B5" rx="3" stroke="#716684" stroke-width="0.8" data-ratio="85.0" />
+            <text x="1060" y="269" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">85.0%</text>
+            <text x="1155" y="269" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">≥80%</text>
+            <text x="60" y="329" font-size="17" fill="#241F30" font-weight="600" text-anchor="start">Product Launch</text>
+            <text x="60" y="352" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Actual 3 / target 4 features</text>
+            <rect x="450" y="317" width="580" height="23" fill="#F8F5FA" rx="3" />
+            <rect x="450" y="317" width="435.0" height="23" fill="#8F86B4" rx="3" stroke="#716684" stroke-width="0.8" data-ratio="75.0" />
+            <text x="1060" y="336" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">75.0%</text>
+            <text x="1155" y="336" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">70–&lt;80%</text>
+            <text x="60" y="396" font-size="17" fill="#241F30" font-weight="600" text-anchor="start">Team Expansion</text>
+            <text x="60" y="419" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Actual 17 / target 25 hires</text>
+            <rect x="450" y="384" width="580" height="23" fill="#F8F5FA" rx="3" />
+            <rect x="450" y="384" width="394.4" height="23" fill="#E8CCAB" rx="3" stroke="#716684" stroke-width="0.8" data-ratio="68.0" />
+            <text x="1060" y="403" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">68.0%</text>
+            <text x="1155" y="403" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">60–&lt;70%</text>
+            <text x="60" y="463" font-size="17" fill="#241F30" font-weight="600" text-anchor="start">Cost Optimization</text>
+            <text x="60" y="486" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Actual -11 / target -20 % reduction</text>
+            <rect x="450" y="451" width="580" height="23" fill="#F8F5FA" rx="3" />
+            <rect x="450" y="451" width="319.00000000000006" height="23" fill="#D6A3B1" rx="3" stroke="#716684" stroke-width="0.8" data-ratio="55.00000000000001" />
+            <text x="1060" y="470" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">55.0%</text>
+            <text x="1155" y="470" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">&lt;60%</text>
+            <text x="60" y="530" font-size="17" fill="#241F30" font-weight="600" text-anchor="start">Brand Awareness</text>
+            <text x="60" y="553" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Actual 20 / target 30 % increase</text>
+            <rect x="450" y="518" width="580" height="23" fill="#F8F5FA" rx="3" />
+            <rect x="450" y="518" width="386.66666666666663" height="23" fill="#E8CCAB" rx="3" stroke="#716684" stroke-width="0.8" data-ratio="66.66666666666666" />
+            <text x="1060" y="537" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">66.7%</text>
+            <text x="1155" y="537" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">60–&lt;70%</text>
+        </g>
+    </g>
+    <g id="source" data-pptx-bounds="40 685 1200 28">
+        <text x="56" y="705" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Data Source: OKR Management System</text>
+    </g>
+    <g id="statistics" data-pptx-bounds="40 636 1200 44">
+        <text x="56.0" y="650" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Equal-weight mean attainment</text>
+        <text x="56.0" y="674" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">73.6%</text>
+        <text x="445.3333333333333" y="650" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Calculation</text>
+        <text x="445.3333333333333" y="674" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">Six exact ratios · Equal weights</text>
+        <text x="834.6666666666666" y="650" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Reduction metric</text>
+        <text x="834.6666666666666" y="674" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">11 / 20 = 55.0%</text>
+    </g>
+</svg>

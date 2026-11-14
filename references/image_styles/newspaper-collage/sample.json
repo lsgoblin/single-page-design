@@ -1,0 +1,16 @@
+{
+  "template_id": "newspaper-collage",
+  "mode": "image-transform",
+  "template": "templates/image_styles/newspaper-collage/template.json",
+  "preview": "preview.jpg",
+  "preview_kind": "style-reference",
+  "note": "报纸文字是材质，不是文案；主体可换",
+  "source": {
+    "platform": "X",
+    "post_type": "文生图",
+    "author": "Beanie Blossom",
+    "url": "https://x.com/BeanieBlossom/status/1923651342758969613",
+    "published": "2025-05-17",
+    "collected": "2026-11-12"
+  }
+}

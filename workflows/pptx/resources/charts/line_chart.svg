@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Segoe UI, Arial, sans-serif" font-size="14" lang="en-US">
+    <title>Revenue &amp; Net Profit Trend</title>
+    <metadata id="chart-evidence" type="application/json">{"original_payload": {"name": "line-chart", "x": 120, "y": 141, "width": 1063.1, "height": 447.5, "type": "line", "line_style": "lineMarker", "categories": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "series": [{"name": "Revenue", "values": [32, 38, 45, 52, 58, 62, 68, 75, 78, 82, 88, 92]}, {"name": "Net Profit", "values": [12, 15, 18, 22, 25, 28, 32, 36, 38, 42, 48, 52]}], "style": {"colors": ["#2563EB", "#059669"]}}, "data": {"name": "line-chart", "x": 120, "y": 141, "width": 1063.1, "height": 447.5, "type": "line", "line_style": "lineMarker", "categories": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "series": [{"name": "Revenue", "values": [32, 38, 45, 52, 58, 62, 68, 75, 78, 82, 88, 92]}, {"name": "Net Profit", "values": [12, 15, 18, 22, 25, 28, 32, 36, 38, 42, 48, 52]}], "style": {"colors": ["#2563EB", "#059669"]}}, "method": "Unsmoothed piecewise linear paths on the original common 0–100 scale; solid/dashed series and direct endpoint labels.", "validation": {"original_points": 24, "last_values": [92, 52], "y_domain": [0, 100]}, "palette": {"id": "lavender-spring", "name": "科研配色｜薰紫春庭", "description": "Low-saturation lavender, dusty rose, cream apricot and sage default chart palette.", "colors": ["#8F86B4", "#B7ACCD", "#DBCCE2", "#D6A3B1", "#E8CCAB", "#A8C3B5"], "roles": {"primary": "#8F86B4", "secondary": "#B7ACCD", "surface_accent": "#DBCCE2", "emphasis": "#D6A3B1", "warm": "#E8CCAB", "positive": "#A8C3B5", "negative": "#D6A3B1", "neutral_data": "#B7ACCD", "text": "#241F30", "secondary_text": "#655E75", "background": "#FFFFFF", "surface": "#F8F5FA", "divider": "#D8D2E0", "connector": "#8F86B4", "mark_outline": "#716684"}, "shading": {"space": "linear-sRGB", "front_and_top": "Use the exact assigned core color.", "light_cap_white_mix": 0.1, "outer_wall_light_multiplier": 0.5, "inner_wall_light_multiplier": 0.29, "radial_cut_light_multiplier": 0.39, "lighter_cut_light_multiplier": 0.6}, "rules": ["The six core HEX values are authoritative and keep their listed order for categorical series.", "Use named semantic roles for increase/decrease and threshold states; preserve their labels and signs.", "Use the same category assignment in faces, legend swatches and anchor dots.", "Use dark text on pastel data marks; small text contrast must be at least 4.5:1.", "Use explicit labels or outlines as well as color; do not claim universal color-vision safety.", "Hierarchies with more than six leaves use parent-family tints; do not invent unrelated accent hues.", "Project-specified palettes may override this default. Keep native metadata synchronized where native replacement is used."]}, "source_svg": "line_chart.svg"}</metadata>
+    <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+    <g id="header" data-pptx-bounds="40 24 1200 105">
+        <text x="56" y="61" font-size="32" fill="#241F30" font-weight="700" text-anchor="start">Revenue &amp; Net Profit Trend</text>
+        <text x="56" y="94" font-size="15" fill="#655E75" font-weight="400" text-anchor="start">Fiscal year 2025 · Values in USD millions · Direct labels identify the final values</text>
+        <circle cx="850" cy="116" r="4" fill="#8F86B4" stroke="#716684" stroke-width="0.8" />
+        <text x="863" y="120" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">Revenue</text>
+        <circle cx="1025" cy="116" r="4" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" />
+        <text x="1038" y="120" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">Net Profit</text>
+    </g>
+    <g id="chart-module" data-pptx-bounds="40 132 1200 500">
+        <g id="chart" data-pptx-replace-with="chart" data-pptx-fallback-sha256="c6f8622ac7e3746a8c0c14628e853320c81d67a8db7f0f1a3b506f7f1722802b">
+            <metadata type="application/json">{"name": "line_chart", "x": 40, "y": 132, "width": 1200, "height": 500, "type": "line", "line_style": "lineMarker", "categories": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "series": [{"name": "Revenue", "values": [32, 38, 45, 52, 58, 62, 68, 75, 78, 82, 88, 92]}, {"name": "Net Profit", "values": [12, 15, 18, 22, 25, 28, 32, 36, 38, 42, 48, 52]}], "style": {"colors": ["#8F86B4", "#D6A3B1"], "text_color": "#655E75", "axis_color": "#716684", "grid_color": "#D8D2E0", "font_family": "Segoe UI", "axis_font_size": 14, "chart_area_fill": "none", "plot_area_fill": "none"}, "marker_size": 8, "axes": {"category": {"kind": "text"}, "value": {"minimum": 0, "maximum": 100, "major_unit": 20}}, "axis_titles": {"value": "USD millions"}, "plot_area": {"x": 110, "y": 185, "width": 960, "height": 360}}</metadata>
+            <line x1="110" y1="545.0" x2="1070" y2="545.0" stroke="#D8D2E0" stroke-width="1" id="grid-0" />
+            <text x="96" y="550.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">0</text>
+            <line x1="110" y1="473.0" x2="1070" y2="473.0" stroke="#D8D2E0" stroke-width="1" id="grid-20" />
+            <text x="96" y="478.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">20</text>
+            <line x1="110" y1="401.0" x2="1070" y2="401.0" stroke="#D8D2E0" stroke-width="1" id="grid-40" />
+            <text x="96" y="406.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">40</text>
+            <line x1="110" y1="329.0" x2="1070" y2="329.0" stroke="#D8D2E0" stroke-width="1" id="grid-60" />
+            <text x="96" y="334.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">60</text>
+            <line x1="110" y1="257.0" x2="1070" y2="257.0" stroke="#D8D2E0" stroke-width="1" id="grid-80" />
+            <text x="96" y="262.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">80</text>
+            <line x1="110" y1="185.0" x2="1070" y2="185.0" stroke="#D8D2E0" stroke-width="1" id="grid-100" />
+            <text x="96" y="190.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">100</text>
+            <line x1="110" y1="185" x2="110" y2="545" stroke="#716684" stroke-width="1.2" id="axis-y" />
+            <line x1="110" y1="545" x2="1070" y2="545" stroke="#716684" stroke-width="1.2" id="axis-x" />
+            <text x="110" y="167" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">USD millions</text>
+            <text x="110.0" y="573" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Jan</text>
+            <text x="197.27272727272725" y="573" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Feb</text>
+            <text x="284.5454545454545" y="573" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Mar</text>
+            <text x="371.8181818181818" y="573" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Apr</text>
+            <text x="459.09090909090907" y="573" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">May</text>
+            <text x="546.3636363636364" y="573" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Jun</text>
+            <text x="633.6363636363636" y="573" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Jul</text>
+            <text x="720.9090909090909" y="573" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Aug</text>
+            <text x="808.1818181818181" y="573" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Sep</text>
+            <text x="895.4545454545455" y="573" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Oct</text>
+            <text x="982.7272727272727" y="573" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Nov</text>
+            <text x="1070.0" y="573" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Dec</text>
+            <path d="M 110.0000,429.8000 L 197.2727,408.2000 L 284.5455,383.0000 L 371.8182,357.8000 L 459.0909,336.2000 L 546.3636,321.8000 L 633.6364,300.2000 L 720.9091,275.0000 L 808.1818,264.2000 L 895.4545,249.8000 L 982.7273,228.2000 L 1070.0000,213.8000" fill="none" stroke="#8F86B4" stroke-width="3" />
+            <circle cx="110.0" cy="429.8" r="4" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="32" data-series="0" data-index="0" />
+            <circle cx="197.27272727272725" cy="408.2" r="4" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="38" data-series="0" data-index="1" />
+            <circle cx="284.5454545454545" cy="383.0" r="4" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="45" data-series="0" data-index="2" />
+            <circle cx="371.8181818181818" cy="357.8" r="4" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="52" data-series="0" data-index="3" />
+            <circle cx="459.09090909090907" cy="336.2" r="4" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="58" data-series="0" data-index="4" />
+            <circle cx="546.3636363636364" cy="321.8" r="4" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="62" data-series="0" data-index="5" />
+            <circle cx="633.6363636363636" cy="300.2" r="4" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="68" data-series="0" data-index="6" />
+            <circle cx="720.9090909090909" cy="275.0" r="4" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="75" data-series="0" data-index="7" />
+            <circle cx="808.1818181818181" cy="264.2" r="4" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="78" data-series="0" data-index="8" />
+            <circle cx="895.4545454545455" cy="249.8" r="4" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="82" data-series="0" data-index="9" />
+            <circle cx="982.7272727272727" cy="228.2" r="4" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="88" data-series="0" data-index="10" />
+            <circle cx="1070.0" cy="213.8" r="4" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="92" data-series="0" data-index="11" />
+            <path d="M 110.0000,501.8000 L 197.2727,491.0000 L 284.5455,480.2000 L 371.8182,465.8000 L 459.0909,455.0000 L 546.3636,444.2000 L 633.6364,429.8000 L 720.9091,415.4000 L 808.1818,408.2000 L 895.4545,393.8000 L 982.7273,372.2000 L 1070.0000,357.8000" fill="none" stroke="#D6A3B1" stroke-width="3" stroke-dasharray="8 4" />
+            <circle cx="110.0" cy="501.8" r="4" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="12" data-series="1" data-index="0" />
+            <circle cx="197.27272727272725" cy="491.0" r="4" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="15" data-series="1" data-index="1" />
+            <circle cx="284.5454545454545" cy="480.2" r="4" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="18" data-series="1" data-index="2" />
+            <circle cx="371.8181818181818" cy="465.8" r="4" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="22" data-series="1" data-index="3" />
+            <circle cx="459.09090909090907" cy="455.0" r="4" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="25" data-series="1" data-index="4" />
+            <circle cx="546.3636363636364" cy="444.2" r="4" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="28" data-series="1" data-index="5" />
+            <circle cx="633.6363636363636" cy="429.8" r="4" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="32" data-series="1" data-index="6" />
+            <circle cx="720.9090909090909" cy="415.4" r="4" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="36" data-series="1" data-index="7" />
+            <circle cx="808.1818181818181" cy="408.2" r="4" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="38" data-series="1" data-index="8" />
+            <circle cx="895.4545454545455" cy="393.8" r="4" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="42" data-series="1" data-index="9" />
+            <circle cx="982.7272727272727" cy="372.2" r="4" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="48" data-series="1" data-index="10" />
+            <circle cx="1070.0" cy="357.8" r="4" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="52" data-series="1" data-index="11" />
+        </g>
+        <g id="direct-series-labels">
+            <line x1="1078" y1="213.8" x2="1090" y2="213.8" stroke="#8F86B4" stroke-width="2" />
+            <text x="1097" y="218.8" font-size="15" fill="#241F30" font-weight="600" text-anchor="start">Revenue</text>
+            <text x="1097" y="242.8" font-size="18" fill="#241F30" font-weight="600" text-anchor="start">$92M</text>
+            <line x1="1078" y1="357.8" x2="1090" y2="357.8" stroke="#D6A3B1" stroke-width="2" />
+            <text x="1097" y="362.8" font-size="15" fill="#241F30" font-weight="600" text-anchor="start">Net Profit</text>
+            <text x="1097" y="386.8" font-size="18" fill="#241F30" font-weight="600" text-anchor="start">$52M</text>
+        </g>
+    </g>
+    <g id="source" data-pptx-bounds="40 685 1200 28">
+        <text x="56" y="705" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Source: Corporate Finance Department</text>
+    </g>
+</svg>

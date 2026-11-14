@@ -1,0 +1,16 @@
+{
+  "template_id": "hand-torn-collage",
+  "mode": "image-transform",
+  "template": "templates/image_styles/hand-torn-collage/template.json",
+  "preview": "preview.jpg",
+  "preview_kind": "style-reference",
+  "note": "同帖四张成图之一；纸片只保留语义细节，不复制照片纹理",
+  "source": {
+    "platform": "X",
+    "post_type": "图生图",
+    "author": "Sigrid Jin 🪽",
+    "url": "https://x.com/realsigridjin/status/2054368795121361249",
+    "published": "2026-05-13",
+    "collected": "2026-11-12"
+  }
+}

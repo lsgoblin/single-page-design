@@ -19,11 +19,15 @@
 
 ## 图片改造
 
+当前登记 16 个图片改造风格，入口为 `image_styles/image_styles_index.json`。图片改造以用户当前参考图和描述为依据；以下为新增风格时的资源合约。
+
 每个 `template.json` 保存一种可以应用到用户图片的规则，包括适用用途、构图、材质、主体保留要求、文字处理和常见误差。
 
 - `id` 与索引键、样张的 `template_id` 一致。
 - `mode` 固定为 `image-transform`；`input` 为 `user-image-required`。
 - `variant` 仅区分内部处理形式，例如 `poster-layout`、`image-restyle`，不增加第三种模式。
+- `aspect`、`slots`、`tags` 记录画面比例、可替换槽位和筛选词，供组织提示词时参考。
+- `source_prompt` 保存原始风格的完整提示词，`prompt_assembly` 说明如何把主体与槽位替换成当前任务。
 - `reference` 指向同 ID 的 `references/image_styles/<id>/sample.json`。
 - 实际任务提示词根据用户输入动态组织，直接输出到聊天框，不维护成品提示词 `.md`。
 

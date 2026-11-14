@@ -1,0 +1,16 @@
+{
+  "template_id": "texture-zones-diptych",
+  "mode": "image-transform",
+  "template": "templates/image_styles/texture-zones-diptych/template.json",
+  "preview": "preview.jpg",
+  "preview_kind": "style-reference",
+  "note": "七种纹理区都压在同一张照片上；区外保持摄影原样",
+  "source": {
+    "platform": "X",
+    "post_type": "图生图",
+    "author": "Sairah",
+    "url": "https://x.com/Sairah_0/status/2112779843251376490",
+    "published": "2026-10-21",
+    "collected": "2026-11-12"
+  }
+}

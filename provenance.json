@@ -5,7 +5,12 @@
   "extraction_date": "2026-11-11",
   "runtime_policy": "Upstream Python dependencies and attribution gates retained verbatim. No external checkout required.",
   "adapted_files": {
-    "templates/page_layouts/page_layouts_index.json": "Added mode, template root, and skill-relative reference/sample paths."
+    "templates/page_layouts/page_layouts_index.json": "Added mode, template root, and skill-relative reference/sample paths.",
+    "scripts/config.py": "Relocated PPT runtime technical resources/rules; canonical page library and external projects supported.",
+    "scripts/register_template.py": "Relocated PPT runtime technical resources/rules; canonical page library and external projects supported.",
+    "scripts/visualization_catalog.py": "Relocated PPT runtime technical resources/rules; canonical page library and external projects supported.",
+    "scripts/project_management/paths.py": "Relocated PPT runtime technical resources/rules; canonical page library and external projects supported.",
+    "scripts/project_management/project_specs.py": "Relocated PPT runtime technical resources/rules; canonical page library and external projects supported."
   },
   "source_sha256": {
     "LICENSE": "cd9cf27f52d3c336dd42e13f4a1df453da118e25e15520bbe02f91d75531e91b",
@@ -196,6 +201,13 @@
     "references": "Sample imagery and sample metadata linked by matching template id.",
     "old_paths": "Twenty obsolete files removed after explicit user approval; canonical resources reside under templates/ and references/."
   },
+  "ppt_workflow_migration": {
+    "date": "2026-11-11",
+    "entry": "workflows/single-page.md",
+    "runtime": "workflows/pptx/generate-pptx.md",
+    "manifest": "workflows/pptx/migration_manifest.json",
+    "verification": "See original engineering log; no production user confirmation fabricated."
+  },
   "color_palette_library": {
     "date": "2026-11-12",
     "origin": "User-supplied reference color cards, extracted and visually checked in the drafts workspace.",
@@ -206,5 +218,17 @@
     "source_records": "references/color_palettes/<id>/sample.json",
     "runtime_policy": "Definitions and regenerated swatch previews are self-contained; original artwork and drafts are not runtime dependencies.",
     "correction": "P44 position 3 uses sampled #DEB9C1; duplicated original label #E3E2D9 remains recorded."
+  },
+  "image_style_library": {
+    "date": "2026-11-12",
+    "origin": "User-approved prompt collection in drafts; prompts and original images crawled from X authors and two GitHub prompt repositories. NavXD served only as a search index and mirror, and every prompt was checked against the original post.",
+    "index": "templates/image_styles/image_styles_index.json",
+    "guide": "workflows/image-transform.md",
+    "style_count": 16,
+    "source_image_count": 21,
+    "source_records": "references/image_styles/<id>/sample.json",
+    "template_fields": "Each template.json keeps the distilled rules plus the verbatim source prompt and prompt_assembly notes.",
+    "runtime_policy": "Templates and JPEG previews are self-contained; previews are copies of the authors' posted images and are never used as generation input. drafts/ is not a runtime dependency.",
+    "attribution": "sample.json records platform, author, post URL and publish date for every style; redistribution beyond internal reference requires the original author's permission."
   }
 }

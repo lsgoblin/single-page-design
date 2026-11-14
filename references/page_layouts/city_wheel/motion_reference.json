@@ -1,0 +1,388 @@
+{
+  "template_id": "city_wheel",
+  "kind": "observed-source-motion-reference",
+  "executable": false,
+  "source_sha256": "39d274048e6050e2fc580a16e48dd63e5fef1660d8f709e2c6fc48af9ab9f7e3",
+  "canvas_emu": [
+    12192000,
+    6858000
+  ],
+  "coordinate_scale": "1 layout unit = 9525 EMU",
+  "state_count": 4,
+  "native_powerpoint_playback_verified": false,
+  "verification": "PowerPoint静态逐页渲染和OOXML转场/对象/旋转参数检查；未声称实际播放验证。",
+  "states": [
+    {
+      "slide": 1,
+      "preview": "state-01.png",
+      "wheel_identity": {
+        "id": "8",
+        "name": "组合 7"
+      },
+      "wheel_rotation_degrees": 0.0,
+      "wheel_frame_emu": {
+        "off": {
+          "x": "-6727371",
+          "y": "130629"
+        },
+        "ext": {
+          "cx": "13454742",
+          "cy": "13454742"
+        },
+        "chOff": {
+          "x": "2743200",
+          "y": "76200"
+        },
+        "chExt": {
+          "cx": "6705600",
+          "cy": "6705600"
+        }
+      },
+      "quadrants": [
+        {
+          "identity": {
+            "id": "4",
+            "name": "空心弧 3"
+          },
+          "rotation_ooxml": 0,
+          "geometry": "blockArc",
+          "adjustments": {
+            "adj1": "val 16192069",
+            "adj2": "val 0",
+            "adj3": "val 32250"
+          },
+          "image_relationship_id": "rId1"
+        },
+        {
+          "identity": {
+            "id": "5",
+            "name": "空心弧 4"
+          },
+          "rotation_ooxml": 5400000,
+          "geometry": "blockArc",
+          "adjustments": {
+            "adj1": "val 16192069",
+            "adj2": "val 0",
+            "adj3": "val 32250"
+          },
+          "image_relationship_id": "rId2"
+        },
+        {
+          "identity": {
+            "id": "6",
+            "name": "空心弧 5"
+          },
+          "rotation_ooxml": 10800000,
+          "geometry": "blockArc",
+          "adjustments": {
+            "adj1": "val 16192069",
+            "adj2": "val 0",
+            "adj3": "val 32250"
+          },
+          "image_relationship_id": "rId3"
+        },
+        {
+          "identity": {
+            "id": "7",
+            "name": "空心弧 6"
+          },
+          "rotation_ooxml": 16200000,
+          "geometry": "blockArc",
+          "adjustments": {
+            "adj1": "val 16192069",
+            "adj2": "val 0",
+            "adj3": "val 32250"
+          },
+          "image_relationship_id": "rId4"
+        }
+      ],
+      "slide_background": "0E6B49",
+      "morph": {
+        "option": "byObject",
+        "duration_ms": 2000,
+        "fallback": "fade"
+      },
+      "single_slide_timing_present": false,
+      "automatic_advance_configured": false
+    },
+    {
+      "slide": 2,
+      "preview": "state-02.png",
+      "wheel_identity": {
+        "id": "8",
+        "name": "组合 7"
+      },
+      "wheel_rotation_degrees": 270.0,
+      "wheel_frame_emu": {
+        "off": {
+          "x": "-6727371",
+          "y": "130629"
+        },
+        "ext": {
+          "cx": "13454742",
+          "cy": "13454742"
+        },
+        "chOff": {
+          "x": "2743200",
+          "y": "76200"
+        },
+        "chExt": {
+          "cx": "6705600",
+          "cy": "6705600"
+        }
+      },
+      "quadrants": [
+        {
+          "identity": {
+            "id": "4",
+            "name": "空心弧 3"
+          },
+          "rotation_ooxml": 0,
+          "geometry": "blockArc",
+          "adjustments": {
+            "adj1": "val 16192069",
+            "adj2": "val 0",
+            "adj3": "val 32250"
+          },
+          "image_relationship_id": "rId1"
+        },
+        {
+          "identity": {
+            "id": "5",
+            "name": "空心弧 4"
+          },
+          "rotation_ooxml": 5400000,
+          "geometry": "blockArc",
+          "adjustments": {
+            "adj1": "val 16192069",
+            "adj2": "val 0",
+            "adj3": "val 32250"
+          },
+          "image_relationship_id": "rId2"
+        },
+        {
+          "identity": {
+            "id": "6",
+            "name": "空心弧 5"
+          },
+          "rotation_ooxml": 10800000,
+          "geometry": "blockArc",
+          "adjustments": {
+            "adj1": "val 16192069",
+            "adj2": "val 0",
+            "adj3": "val 32250"
+          },
+          "image_relationship_id": "rId3"
+        },
+        {
+          "identity": {
+            "id": "7",
+            "name": "空心弧 6"
+          },
+          "rotation_ooxml": 16200000,
+          "geometry": "blockArc",
+          "adjustments": {
+            "adj1": "val 16192069",
+            "adj2": "val 0",
+            "adj3": "val 32250"
+          },
+          "image_relationship_id": "rId4"
+        }
+      ],
+      "slide_background": "C41F29",
+      "morph": {
+        "option": "byObject",
+        "duration_ms": 2000,
+        "fallback": "fade"
+      },
+      "single_slide_timing_present": false,
+      "automatic_advance_configured": false
+    },
+    {
+      "slide": 3,
+      "preview": "state-03.png",
+      "wheel_identity": {
+        "id": "8",
+        "name": "组合 7"
+      },
+      "wheel_rotation_degrees": 180.0,
+      "wheel_frame_emu": {
+        "off": {
+          "x": "-6727371",
+          "y": "130629"
+        },
+        "ext": {
+          "cx": "13454742",
+          "cy": "13454742"
+        },
+        "chOff": {
+          "x": "2743200",
+          "y": "76200"
+        },
+        "chExt": {
+          "cx": "6705600",
+          "cy": "6705600"
+        }
+      },
+      "quadrants": [
+        {
+          "identity": {
+            "id": "4",
+            "name": "空心弧 3"
+          },
+          "rotation_ooxml": 0,
+          "geometry": "blockArc",
+          "adjustments": {
+            "adj1": "val 16192069",
+            "adj2": "val 0",
+            "adj3": "val 32250"
+          },
+          "image_relationship_id": "rId1"
+        },
+        {
+          "identity": {
+            "id": "5",
+            "name": "空心弧 4"
+          },
+          "rotation_ooxml": 5400000,
+          "geometry": "blockArc",
+          "adjustments": {
+            "adj1": "val 16192069",
+            "adj2": "val 0",
+            "adj3": "val 32250"
+          },
+          "image_relationship_id": "rId2"
+        },
+        {
+          "identity": {
+            "id": "6",
+            "name": "空心弧 5"
+          },
+          "rotation_ooxml": 10800000,
+          "geometry": "blockArc",
+          "adjustments": {
+            "adj1": "val 16192069",
+            "adj2": "val 0",
+            "adj3": "val 32250"
+          },
+          "image_relationship_id": "rId3"
+        },
+        {
+          "identity": {
+            "id": "7",
+            "name": "空心弧 6"
+          },
+          "rotation_ooxml": 16200000,
+          "geometry": "blockArc",
+          "adjustments": {
+            "adj1": "val 16192069",
+            "adj2": "val 0",
+            "adj3": "val 32250"
+          },
+          "image_relationship_id": "rId4"
+        }
+      ],
+      "slide_background": "1637B8",
+      "morph": {
+        "option": "byObject",
+        "duration_ms": 2000,
+        "fallback": "fade"
+      },
+      "single_slide_timing_present": false,
+      "automatic_advance_configured": false
+    },
+    {
+      "slide": 4,
+      "preview": "state-04.png",
+      "wheel_identity": {
+        "id": "8",
+        "name": "组合 7"
+      },
+      "wheel_rotation_degrees": 90.0,
+      "wheel_frame_emu": {
+        "off": {
+          "x": "-6727371",
+          "y": "130629"
+        },
+        "ext": {
+          "cx": "13454742",
+          "cy": "13454742"
+        },
+        "chOff": {
+          "x": "2743200",
+          "y": "76200"
+        },
+        "chExt": {
+          "cx": "6705600",
+          "cy": "6705600"
+        }
+      },
+      "quadrants": [
+        {
+          "identity": {
+            "id": "4",
+            "name": "空心弧 3"
+          },
+          "rotation_ooxml": 0,
+          "geometry": "blockArc",
+          "adjustments": {
+            "adj1": "val 16192069",
+            "adj2": "val 0",
+            "adj3": "val 32250"
+          },
+          "image_relationship_id": "rId1"
+        },
+        {
+          "identity": {
+            "id": "5",
+            "name": "空心弧 4"
+          },
+          "rotation_ooxml": 5400000,
+          "geometry": "blockArc",
+          "adjustments": {
+            "adj1": "val 16192069",
+            "adj2": "val 0",
+            "adj3": "val 32250"
+          },
+          "image_relationship_id": "rId2"
+        },
+        {
+          "identity": {
+            "id": "6",
+            "name": "空心弧 5"
+          },
+          "rotation_ooxml": 10800000,
+          "geometry": "blockArc",
+          "adjustments": {
+            "adj1": "val 16192069",
+            "adj2": "val 0",
+            "adj3": "val 32250"
+          },
+          "image_relationship_id": "rId3"
+        },
+        {
+          "identity": {
+            "id": "7",
+            "name": "空心弧 6"
+          },
+          "rotation_ooxml": 16200000,
+          "geometry": "blockArc",
+          "adjustments": {
+            "adj1": "val 16192069",
+            "adj2": "val 0",
+            "adj3": "val 32250"
+          },
+          "image_relationship_id": "rId4"
+        }
+      ],
+      "slide_background": "3822A0",
+      "morph": {
+        "option": "byObject",
+        "duration_ms": 2000,
+        "fallback": "fade"
+      },
+      "single_slide_timing_present": false,
+      "automatic_advance_configured": false
+    }
+  ]
+}

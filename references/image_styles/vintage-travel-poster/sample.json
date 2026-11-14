@@ -1,0 +1,16 @@
+{
+  "template_id": "vintage-travel-poster",
+  "mode": "image-transform",
+  "template": "templates/image_styles/vintage-travel-poster/template.json",
+  "preview": "preview.jpg",
+  "preview_kind": "style-reference",
+  "note": "四城系列中的东京一张；城市、地标与色盘可换",
+  "source": {
+    "platform": "X",
+    "post_type": "文生图",
+    "author": "Taaruk",
+    "url": "https://x.com/Taaruk_/status/2058464433698168983",
+    "published": "2026-05-24",
+    "collected": "2026-11-12"
+  }
+}

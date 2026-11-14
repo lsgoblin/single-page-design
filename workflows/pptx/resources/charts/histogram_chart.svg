@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Segoe UI, Arial, sans-serif" font-size="12" lang="en-US">
+    <desc>Editable pseudo-3D SVG. Decorative extrusion does not add a data dimension. Original source data embedded below.</desc>
+    <metadata id="source-data" type="application/json">{"source_payload": {"name": "histogram_chart", "x": 80, "y": 130, "width": 900, "height": 500, "type": "histogram", "values": [12, 15, 18, 19, 22, 24, 25, 28, 29, 31, 33, 35, 37, 38, 41, 44, 46, 48, 52, 55, 58, 61, 66, 72, 80], "style": {"colors": ["#2563EB"]}}, "rendering": {"type": "pseudo-3d", "editable": "independent SVG faces and text", "extrusion_encodes_extra_data": false}, "derived_geometry": {"bins": [10, 20, 30, 40, 50, 60, 70, 80], "counts": [4, 5, 5, 4, 3, 2, 2], "median": 37.0, "closed_last_bin": true}, "default_palette": {"id": "lavender-spring", "name": "科研配色｜薰紫春庭", "colors": ["#8F86B4", "#B7ACCD", "#DBCCE2", "#D6A3B1", "#E8CCAB", "#A8C3B5"], "roles": {"primary": "#8F86B4", "secondary": "#B7ACCD", "surface_accent": "#DBCCE2", "emphasis": "#D6A3B1", "warm": "#E8CCAB", "positive": "#A8C3B5", "negative": "#D6A3B1", "neutral_data": "#B7ACCD", "text": "#241F30", "secondary_text": "#655E75", "background": "#FFFFFF", "surface": "#F8F5FA", "divider": "#D8D2E0", "connector": "#8F86B4", "mark_outline": "#716684"}, "core_values_exact": true, "category_base_mapping": {"#2563EB": "#8F86B4"}, "shading": {"space": "linear-sRGB", "front_and_top": "Use the exact assigned core color.", "light_cap_white_mix": 0.1, "outer_wall_light_multiplier": 0.5, "inner_wall_light_multiplier": 0.29, "radial_cut_light_multiplier": 0.39, "lighter_cut_light_multiplier": 0.6}}}</metadata>
+    <rect width="1280" height="720" fill="#FFFFFF" />
+    <g id="header" data-pptx-bounds="40 15 1200 100">
+        <text x="60" y="70" font-size="34" font-weight="800" fill="#241F30">Order Value Distribution</text>
+        <text x="60" y="100" font-size="14" font-weight="700" fill="#241F30" letter-spacing="1">SAMPLE ORDERS · USD THOUSANDS</text>
+    </g>
+    <g id="visualization" data-pptx-bounds="20 120 1240 590">
+        <g id="histogram_chart">
+            <g id="chartArea">
+                <rect x="80" y="130" width="900" height="500" rx="12" fill="#FFFFFF" stroke="#D8D2E0" stroke-width="1.5" />
+                <line x1="150" y1="560" x2="920" y2="560" stroke="#8F86B4" stroke-width="2" />
+                <line x1="150" y1="170" x2="150" y2="560" stroke="#8F86B4" stroke-width="2" />
+                <line x1="150" y1="500" x2="920" y2="500" stroke="#D8D2E0" stroke-dasharray="4 4" />
+                <line x1="150" y1="440" x2="920" y2="440" stroke="#D8D2E0" stroke-dasharray="4 4" />
+                <line x1="150" y1="380" x2="920" y2="380" stroke="#D8D2E0" stroke-dasharray="4 4" />
+                <line x1="150" y1="320" x2="920" y2="320" stroke="#D8D2E0" stroke-dasharray="4 4" />
+                <line x1="150" y1="260" x2="920" y2="260" stroke="#D8D2E0" stroke-dasharray="4 4" />
+                <line x1="150" y1="200" x2="920" y2="200" stroke="#D8D2E0" stroke-dasharray="4 4" />
+                <g id="bin-1" data-front-x="180" data-front-y="320" data-front-width="100" data-front-height="240">
+                    <path d="M 280.00,320.00 L 290.00,312.00 L 290.00,552.00 L 280.00,560.00 Z" fill="#686183" id="bin-1-side" />
+                    <path d="M 180.00,320.00 L 190.00,312.00 L 290.00,312.00 L 280.00,320.00 Z" fill="#9F98BD" id="bin-1-top" />
+                    <path d="M 180.00,320.00 L 280.00,320.00 L 280.00,560.00 L 180.00,560.00 Z" fill="#8F86B4" id="bin-1-front" stroke="#FFFFFF" stroke-width="0.5" />
+                </g>
+                <text x="230" y="300" font-size="17" text-anchor="middle" fill="#241F30" font-weight="600">4</text>
+                <text x="230" y="590" font-size="14" text-anchor="middle" fill="#241F30" font-weight="400">10–20</text>
+                <g id="bin-2" data-front-x="280" data-front-y="260" data-front-width="100" data-front-height="300">
+                    <path d="M 380.00,260.00 L 390.00,252.00 L 390.00,552.00 L 380.00,560.00 Z" fill="#686183" id="bin-2-side" />
+                    <path d="M 280.00,260.00 L 290.00,252.00 L 390.00,252.00 L 380.00,260.00 Z" fill="#9F98BD" id="bin-2-top" />
+                    <path d="M 280.00,260.00 L 380.00,260.00 L 380.00,560.00 L 280.00,560.00 Z" fill="#8F86B4" id="bin-2-front" stroke="#FFFFFF" stroke-width="0.5" />
+                </g>
+                <text x="330" y="240" font-size="17" text-anchor="middle" fill="#241F30" font-weight="600">5</text>
+                <text x="330" y="590" font-size="14" text-anchor="middle" fill="#241F30" font-weight="400">20–30</text>
+                <g id="bin-3" data-front-x="380" data-front-y="260" data-front-width="100" data-front-height="300">
+                    <path d="M 480.00,260.00 L 490.00,252.00 L 490.00,552.00 L 480.00,560.00 Z" fill="#686183" id="bin-3-side" />
+                    <path d="M 380.00,260.00 L 390.00,252.00 L 490.00,252.00 L 480.00,260.00 Z" fill="#9F98BD" id="bin-3-top" />
+                    <path d="M 380.00,260.00 L 480.00,260.00 L 480.00,560.00 L 380.00,560.00 Z" fill="#8F86B4" id="bin-3-front" stroke="#FFFFFF" stroke-width="0.5" />
+                </g>
+                <text x="430" y="240" font-size="17" text-anchor="middle" fill="#241F30" font-weight="600">5</text>
+                <text x="430" y="590" font-size="14" text-anchor="middle" fill="#241F30" font-weight="400">30–40</text>
+                <g id="bin-4" data-front-x="480" data-front-y="320" data-front-width="100" data-front-height="240">
+                    <path d="M 580.00,320.00 L 590.00,312.00 L 590.00,552.00 L 580.00,560.00 Z" fill="#686183" id="bin-4-side" />
+                    <path d="M 480.00,320.00 L 490.00,312.00 L 590.00,312.00 L 580.00,320.00 Z" fill="#9F98BD" id="bin-4-top" />
+                    <path d="M 480.00,320.00 L 580.00,320.00 L 580.00,560.00 L 480.00,560.00 Z" fill="#8F86B4" id="bin-4-front" stroke="#FFFFFF" stroke-width="0.5" />
+                </g>
+                <text x="530" y="300" font-size="17" text-anchor="middle" fill="#241F30" font-weight="600">4</text>
+                <text x="530" y="590" font-size="14" text-anchor="middle" fill="#241F30" font-weight="400">40–50</text>
+                <g id="bin-5" data-front-x="580" data-front-y="380" data-front-width="100" data-front-height="180">
+                    <path d="M 680.00,380.00 L 690.00,372.00 L 690.00,552.00 L 680.00,560.00 Z" fill="#686183" id="bin-5-side" />
+                    <path d="M 580.00,380.00 L 590.00,372.00 L 690.00,372.00 L 680.00,380.00 Z" fill="#9F98BD" id="bin-5-top" />
+                    <path d="M 580.00,380.00 L 680.00,380.00 L 680.00,560.00 L 580.00,560.00 Z" fill="#8F86B4" id="bin-5-front" stroke="#FFFFFF" stroke-width="0.5" />
+                </g>
+                <text x="630" y="360" font-size="17" text-anchor="middle" fill="#241F30" font-weight="600">3</text>
+                <text x="630" y="590" font-size="14" text-anchor="middle" fill="#241F30" font-weight="400">50–60</text>
+                <g id="bin-6" data-front-x="680" data-front-y="440" data-front-width="100" data-front-height="120">
+                    <path d="M 780.00,440.00 L 790.00,432.00 L 790.00,552.00 L 780.00,560.00 Z" fill="#686183" id="bin-6-side" />
+                    <path d="M 680.00,440.00 L 690.00,432.00 L 790.00,432.00 L 780.00,440.00 Z" fill="#9F98BD" id="bin-6-top" />
+                    <path d="M 680.00,440.00 L 780.00,440.00 L 780.00,560.00 L 680.00,560.00 Z" fill="#8F86B4" id="bin-6-front" stroke="#FFFFFF" stroke-width="0.5" />
+                </g>
+                <text x="730" y="420" font-size="17" text-anchor="middle" fill="#241F30" font-weight="600">2</text>
+                <text x="730" y="590" font-size="14" text-anchor="middle" fill="#241F30" font-weight="400">60–70</text>
+                <g id="bin-7" data-front-x="780" data-front-y="440" data-front-width="100" data-front-height="120">
+                    <path d="M 880.00,440.00 L 890.00,432.00 L 890.00,552.00 L 880.00,560.00 Z" fill="#686183" id="bin-7-side" />
+                    <path d="M 780.00,440.00 L 790.00,432.00 L 890.00,432.00 L 880.00,440.00 Z" fill="#9F98BD" id="bin-7-top" />
+                    <path d="M 780.00,440.00 L 880.00,440.00 L 880.00,560.00 L 780.00,560.00 Z" fill="#8F86B4" id="bin-7-front" stroke="#FFFFFF" stroke-width="0.5" />
+                </g>
+                <text x="830" y="420" font-size="17" text-anchor="middle" fill="#241F30" font-weight="600">2</text>
+                <text x="830" y="590" font-size="14" text-anchor="middle" fill="#241F30" font-weight="400">70–80</text>
+                <text x="135" y="565" font-size="13" text-anchor="end" fill="#241F30" font-weight="400">0</text>
+                <text x="135" y="505" font-size="13" text-anchor="end" fill="#241F30" font-weight="400">1</text>
+                <text x="135" y="445" font-size="13" text-anchor="end" fill="#241F30" font-weight="400">2</text>
+                <text x="135" y="385" font-size="13" text-anchor="end" fill="#241F30" font-weight="400">3</text>
+                <text x="135" y="325" font-size="13" text-anchor="end" fill="#241F30" font-weight="400">4</text>
+                <text x="135" y="265" font-size="13" text-anchor="end" fill="#241F30" font-weight="400">5</text>
+                <text x="135" y="205" font-size="13" text-anchor="end" fill="#241F30" font-weight="400">6</text>
+                <line x1="450.0" y1="180" x2="450.0" y2="560" stroke="#8F86B4" stroke-width="2" stroke-dasharray="5 5" />
+                <text x="450.0" y="165" font-size="15" text-anchor="middle" fill="#241F30" font-weight="600">Median · 37K</text>
+                <text x="170" y="155" font-size="13" text-anchor="start" fill="#241F30" font-weight="400">Frequency</text>
+            </g>
+        </g>
+        <g id="insightPanel" transform="translate(1010, 170)">
+            <rect x="0" y="0" width="220" height="360" rx="12" fill="#FFFFFF" stroke="#D8D2E0" stroke-width="1.5" />
+            <text x="24" y="38" font-size="16" font-weight="800" fill="#241F30">Distribution Notes</text>
+            <line x1="24" y1="58" x2="196" y2="58" stroke="#D8D2E0" />
+            <text x="24" y="95" font-size="13" font-weight="700" fill="#241F30">Peak bins (tied)</text>
+            <text x="24" y="124" font-size="17" font-weight="800" fill="#241F30">20–30 / 30–40K</text>
+            <text x="24" y="165" font-size="13" font-weight="700" fill="#241F30">Observation count</text>
+            <text x="24" y="194" font-size="28" font-weight="800" fill="#241F30">25</text>
+            <rect x="24" y="235" width="172" height="72" rx="8" fill="#F8F5FA" stroke="#8F86B4" />
+            <text x="42" y="263" font-size="13" font-weight="800" fill="#241F30">Right tail exists</text>
+            <text x="42" y="280" font-weight="600" fill="#241F30">Large orders remain<tspan x="42" dy="17">sparse.</tspan>
+            </text>
+        </g>
+        <g id="source">
+            <text x="60" y="690" font-size="14" font-weight="600" fill="#241F30">Data Source: Commerce Analytics</text>
+        </g>
+    </g>
+</svg>

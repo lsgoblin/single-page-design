@@ -1,0 +1,16 @@
+{
+  "template_id": "minimal-studio-portrait",
+  "mode": "image-transform",
+  "template": "templates/image_styles/minimal-studio-portrait/template.json",
+  "preview": "preview.jpg",
+  "preview_kind": "style-reference",
+  "note": "人物、服装与姿态按任务替换；棚拍布光与材质保留",
+  "source": {
+    "platform": "X",
+    "post_type": "文生图",
+    "author": "ToroJushiAi",
+    "url": "https://x.com/ToroJushiAi/status/2083855331713749465",
+    "published": "2026-08-02",
+    "collected": "2026-11-12"
+  }
+}

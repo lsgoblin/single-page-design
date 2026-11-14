@@ -1,0 +1,31 @@
+{
+  "id": "magazine-collage-cover",
+  "name": "杂志封面拼贴",
+  "use_when": "人物、品牌、城市或产品主题，需要奢华编辑感的封面主视觉",
+  "composition": "主体占画面 60–70%，电影感 3/4 侧身；周围 5–8 个非对称拼贴窗放地标、物件、动作与材质；大刊头压顶，配说明、坐标、条码、印章与多语种小字。",
+  "material": "暖象牙纸、深黑字、焦橙与深红、棕褐调、做旧纸纹；复古丝网海报气质叠瑞士编辑网格；85mm 浅景深、Portra 式调色。",
+  "identity": "主体身份与造型细节保留，拼贴窗服务于主题，不抢主体。",
+  "text": "大刊头加编辑小字；刊头词可替换（TOKYO、LEGACY、FUTURE 之类）。",
+  "avoid": "拼贴窗抢主体、廉价杂志模板、文字压脸、色调过艳、水印与真实品牌。",
+  "aspect": "4:5",
+  "slots": [
+    "人物或主体",
+    "刊头词",
+    "拼贴窗内容"
+  ],
+  "tags": [
+    "杂志封面",
+    "拼贴",
+    "编辑设计",
+    "人像"
+  ],
+  "prompt_language": "en",
+  "prompt_assembly": "源提示词为英文；[SUBJECT] 换成用户图片主体，刊头词与拼贴窗按主题重写；60–70% 占比与 5–8 个拼贴窗保持。",
+  "source_prompt": "Ultra-premium editorial magazine cover featuring [SUBJECT] as the main focus (60–70% of the frame) in a cinematic three-quarter pose with detailed styling. \n\nSurround with 5–8 asymmetrical collage panels of theme-related visuals (landmarks, objects, action shots, textures, etc.) in a layered magazine layout. Add a bold masthead (e.g., TOKYO, LEGACY, FUTURE) with elegant editorial typography, captions, coordinates, barcode, stamps, and multilingual text elements.\n\nStyle: Luxury magazine cover + vintage screen-printed poster aesthetic. \n\nWarm ivory paper background, deep black typography, burnt orange/crimson accents, sepia tones, distressed paper texture, and Swiss-inspired editorial design.\nLighting: Soft cinematic lighting with realistic skin tones and Kodak Portra-style color grading.\n\nPhotography: Ultra-photorealistic 85mm fashion/editorial shot with shallow depth of field and crisp details.\n\nRender: 8K, print-ready, museum-quality, Vogue × National Geographic × Monocle-inspired luxury editorial masterpiece.",
+  "origin": "X @MissDelulu9 · 2026-07-21 · https://x.com/MissDelulu9/status/2079516100568682772",
+  "mode": "image-transform",
+  "input": "user-image-required",
+  "variant": "poster-layout",
+  "reference": "references/image_styles/magazine-collage-cover/sample.json",
+  "image_policy": "先查看用户输入图片，再按本模板改造；主体、空间关系与允许重绘范围按当前用户要求确定。"
+}

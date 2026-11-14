@@ -1,0 +1,30 @@
+{
+  "id": "hand-torn-collage",
+  "name": "手撕纸拼贴",
+  "use_when": "人像、宠物、日常场景，想要明显手工痕迹的拼贴插画",
+  "composition": "沿用原图主体、视角与物件关系，用大块纸片按明暗与局部轮廓组织，纸片随机角度、方向错落。",
+  "material": "手撕纤维边、纸皱、重叠、胶痕；真实纸片搭接形成的细节；整体像真人手工拼贴，不做照片滤镜。",
+  "identity": "保留身份特征与主要姿态，只保留语义细节，不逐像素复制照片纹理。",
+  "text": "默认无文字；需要时加少量短字，不照搬参考图文案。",
+  "avoid": "照片加纸纹滤镜、光滑矢量块、剪刀切割感、纸片过碎、主体变成另一对象。",
+  "aspect": "3:2（横）",
+  "slots": [
+    "照片",
+    "纸片尺度"
+  ],
+  "tags": [
+    "撕纸",
+    "拼贴",
+    "手工感",
+    "人像"
+  ],
+  "prompt_language": "en",
+  "prompt_assembly": "源提示词为英文；把 attached image 指认为用户图片，纸片尺度按主体大小调整，撕裂边、褶皱、胶痕与随机角度这组材质描述保持原样。",
+  "source_prompt": "Transform the attached image into a collage artwork. Make it appear as if hand-torn from newspapers, magazines, and flyers and pasted. Every single expression should be completed using large, torn pieces of paper. Represent in detail the torn edges, wrinkles, overlaps, and glue marks on the paper. Use relatively large pieces of paper, not too small, and place them randomly at different angles and directions, with the paper orientation rotated haphazardly. Create it to look like an actual collage roughly hand-pasted by a person.",
+  "origin": "X @realsigridjin · 2026-05-13 · https://x.com/realsigridjin/status/2054368795121361249",
+  "mode": "image-transform",
+  "input": "user-image-required",
+  "variant": "image-restyle",
+  "reference": "references/image_styles/hand-torn-collage/sample.json",
+  "image_policy": "先查看用户输入图片，再按本模板改造；主体、空间关系与允许重绘范围按当前用户要求确定。"
+}

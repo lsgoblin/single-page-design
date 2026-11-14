@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Segoe UI, Arial, sans-serif" font-size="12" lang="en-US">
+    <desc>Editable pseudo-3D SVG. Decorative extrusion does not add a data dimension. Original source data embedded below.</desc>
+    <metadata id="source-data" type="application/json">{"source_payload": {"name": "horizontal_bar_chart", "x": 290, "y": 140, "width": 940.8, "height": 513.5, "type": "bar", "categories": ["Brand A (Market Leader)", "Brand B (Emerging Challenger)", "Brand C (Legacy Brand)", "Brand D (Regional Player)", "Brand E (Value Choice)", "Brand F (Premium Tier)", "Brand G (New Entrant)", "Other Brands"], "series": [{"name": "Awareness", "values": [92, 78, 65, 52, 45, 38, 25, 12]}], "style": {"colors": ["#3B82F6", "#10B981", "#F59E0B"]}}, "rendering": {"type": "pseudo-3d", "editable": "independent SVG faces and text", "extrusion_encodes_extra_data": false}, "derived_geometry": {}, "default_palette": {"id": "lavender-spring", "name": "科研配色｜薰紫春庭", "colors": ["#8F86B4", "#B7ACCD", "#DBCCE2", "#D6A3B1", "#E8CCAB", "#A8C3B5"], "roles": {"primary": "#8F86B4", "secondary": "#B7ACCD", "surface_accent": "#DBCCE2", "emphasis": "#D6A3B1", "warm": "#E8CCAB", "positive": "#A8C3B5", "negative": "#D6A3B1", "neutral_data": "#B7ACCD", "text": "#241F30", "secondary_text": "#655E75", "background": "#FFFFFF", "surface": "#F8F5FA", "divider": "#D8D2E0", "connector": "#8F86B4", "mark_outline": "#716684"}, "core_values_exact": true, "category_base_mapping": {"#2563EB": "#8F86B4", "#059669": "#A8C3B5", "#D97706": "#E8CCAB"}, "shading": {"space": "linear-sRGB", "front_and_top": "Use the exact assigned core color.", "light_cap_white_mix": 0.1, "outer_wall_light_multiplier": 0.5, "inner_wall_light_multiplier": 0.29, "radial_cut_light_multiplier": 0.39, "lighter_cut_light_multiplier": 0.6}}}</metadata>
+    <rect width="1280" height="720" fill="#FFFFFF" />
+    <g id="header" data-pptx-bounds="40 15 1200 100">
+        <text x="60" y="70" font-size="32" font-weight="700" fill="#241F30">Brand Awareness Rankings</text>
+        <text x="60" y="105" font-size="18" fill="#241F30">2025 Consumer Survey Report · Sample Size N=5,000</text>
+    </g>
+    <g id="visualization" data-pptx-bounds="20 120 1240 590">
+        <g id="horizontal_bar_chart">
+            <g id="chartArea">
+                <line x1="300" y1="140" x2="300" y2="620" stroke="#D8D2E0" stroke-width="1" stroke-dasharray="4,4" />
+                <line x1="480" y1="140" x2="480" y2="620" stroke="#D8D2E0" stroke-width="1" stroke-dasharray="4,4" />
+                <line x1="660" y1="140" x2="660" y2="620" stroke="#D8D2E0" stroke-width="1" stroke-dasharray="4,4" />
+                <line x1="840" y1="140" x2="840" y2="620" stroke="#D8D2E0" stroke-width="1" stroke-dasharray="4,4" />
+                <line x1="1020" y1="140" x2="1020" y2="620" stroke="#D8D2E0" stroke-width="1" stroke-dasharray="4,4" />
+                <line x1="1200" y1="140" x2="1200" y2="620" stroke="#D8D2E0" stroke-width="1" stroke-dasharray="4,4" />
+                <text x="300" y="650" font-size="14" fill="#241F30" text-anchor="middle">0%</text>
+                <text x="480" y="650" font-size="14" fill="#241F30" text-anchor="middle">20%</text>
+                <text x="660" y="650" font-size="14" fill="#241F30" text-anchor="middle">40%</text>
+                <text x="840" y="650" font-size="14" fill="#241F30" text-anchor="middle">60%</text>
+                <text x="1020" y="650" font-size="14" fill="#241F30" text-anchor="middle">80%</text>
+                <text x="1200" y="650" font-size="14" fill="#241F30" text-anchor="middle">100%</text>
+                <line x1="300" y1="140" x2="300" y2="620" stroke="#8F86B4" stroke-width="2" />
+                <line x1="300" y1="620" x2="1200" y2="620" stroke="#8F86B4" stroke-width="2" />
+                <text x="290" y="178" font-size="15" font-weight="500" fill="#241F30" text-anchor="end">Brand A (Market Leader)</text>
+                <g id="data-bar-1" data-front-x="300.0" data-front-y="155.0" data-front-width="828.0" data-front-height="36.0" data-value="92">
+                    <path d="M 1128.00,155.00 L 1142.00,146.00 L 1142.00,182.00 L 1128.00,191.00 Z" fill="#686183" id="data-bar-1-side" />
+                    <path d="M 300.00,155.00 L 314.00,146.00 L 1142.00,146.00 L 1128.00,155.00 Z" fill="#9F98BD" id="data-bar-1-top" />
+                    <path d="M 300.00,155.00 L 1128.00,155.00 L 1128.00,191.00 L 300.00,191.00 Z" fill="#8F86B4" id="data-bar-1-front" />
+                </g>
+                <text x="1156.0" y="179" font-size="16" font-weight="700" fill="#241F30">92%</text>
+                <text x="290" y="238" font-size="15" font-weight="500" fill="#241F30" text-anchor="end">Brand B (Emerging Challenger)</text>
+                <g id="data-bar-2" data-front-x="300.0" data-front-y="215.0" data-front-width="702.0" data-front-height="36.0" data-value="78">
+                    <path d="M 1002.00,215.00 L 1016.00,206.00 L 1016.00,242.00 L 1002.00,251.00 Z" fill="#686183" id="data-bar-2-side" />
+                    <path d="M 300.00,215.00 L 314.00,206.00 L 1016.00,206.00 L 1002.00,215.00 Z" fill="#9F98BD" id="data-bar-2-top" />
+                    <path d="M 300.00,215.00 L 1002.00,215.00 L 1002.00,251.00 L 300.00,251.00 Z" fill="#8F86B4" id="data-bar-2-front" />
+                </g>
+                <text x="1030.0" y="239" font-size="16" font-weight="700" fill="#241F30">78%</text>
+                <text x="290" y="298" font-size="15" font-weight="500" fill="#241F30" text-anchor="end">Brand C (Legacy Brand)</text>
+                <g id="data-bar-3" data-front-x="300.0" data-front-y="275.0" data-front-width="585.0" data-front-height="36.0" data-value="65">
+                    <path d="M 885.00,275.00 L 899.00,266.00 L 899.00,302.00 L 885.00,311.00 Z" fill="#686183" id="data-bar-3-side" />
+                    <path d="M 300.00,275.00 L 314.00,266.00 L 899.00,266.00 L 885.00,275.00 Z" fill="#9F98BD" id="data-bar-3-top" />
+                    <path d="M 300.00,275.00 L 885.00,275.00 L 885.00,311.00 L 300.00,311.00 Z" fill="#8F86B4" id="data-bar-3-front" />
+                </g>
+                <text x="913.0" y="299" font-size="16" font-weight="700" fill="#241F30">65%</text>
+                <text x="290" y="358" font-size="15" font-weight="500" fill="#241F30" text-anchor="end">Brand D (Regional Player)</text>
+                <g id="data-bar-4" data-front-x="300.0" data-front-y="335.0" data-front-width="468.0" data-front-height="36.0" data-value="52">
+                    <path d="M 768.00,335.00 L 782.00,326.00 L 782.00,362.00 L 768.00,371.00 Z" fill="#686183" id="data-bar-4-side" />
+                    <path d="M 300.00,335.00 L 314.00,326.00 L 782.00,326.00 L 768.00,335.00 Z" fill="#9F98BD" id="data-bar-4-top" />
+                    <path d="M 300.00,335.00 L 768.00,335.00 L 768.00,371.00 L 300.00,371.00 Z" fill="#8F86B4" id="data-bar-4-front" />
+                </g>
+                <text x="796.0" y="359" font-size="16" font-weight="700" fill="#241F30">52%</text>
+                <text x="290" y="418" font-size="15" font-weight="500" fill="#241F30" text-anchor="end">Brand E (Value Choice)</text>
+                <g id="data-bar-5" data-front-x="300.0" data-front-y="395.0" data-front-width="405.0" data-front-height="36.0" data-value="45">
+                    <path d="M 705.00,395.00 L 719.00,386.00 L 719.00,422.00 L 705.00,431.00 Z" fill="#7A8F84" id="data-bar-5-side" />
+                    <path d="M 300.00,395.00 L 314.00,386.00 L 719.00,386.00 L 705.00,395.00 Z" fill="#B3CABE" id="data-bar-5-top" />
+                    <path d="M 300.00,395.00 L 705.00,395.00 L 705.00,431.00 L 300.00,431.00 Z" fill="#A8C3B5" id="data-bar-5-front" />
+                </g>
+                <text x="733.0" y="419" font-size="16" font-weight="700" fill="#241F30">45%</text>
+                <text x="290" y="478" font-size="15" font-weight="500" fill="#241F30" text-anchor="end">Brand F (Premium Tier)</text>
+                <g id="data-bar-6" data-front-x="300.0" data-front-y="455.0" data-front-width="342.0" data-front-height="36.0" data-value="38">
+                    <path d="M 642.00,455.00 L 656.00,446.00 L 656.00,482.00 L 642.00,491.00 Z" fill="#7A8F84" id="data-bar-6-side" />
+                    <path d="M 300.00,455.00 L 314.00,446.00 L 656.00,446.00 L 642.00,455.00 Z" fill="#B3CABE" id="data-bar-6-top" />
+                    <path d="M 300.00,455.00 L 642.00,455.00 L 642.00,491.00 L 300.00,491.00 Z" fill="#A8C3B5" id="data-bar-6-front" />
+                </g>
+                <text x="670.0" y="479" font-size="16" font-weight="700" fill="#241F30">38%</text>
+                <text x="290" y="538" font-size="15" font-weight="500" fill="#241F30" text-anchor="end">Brand G (New Entrant)</text>
+                <g id="data-bar-7" data-front-x="300.0" data-front-y="515.0" data-front-width="225.0" data-front-height="36.0" data-value="25">
+                    <path d="M 525.00,515.00 L 539.00,506.00 L 539.00,542.00 L 525.00,551.00 Z" fill="#AA957D" id="data-bar-7-side" />
+                    <path d="M 300.00,515.00 L 314.00,506.00 L 539.00,506.00 L 525.00,515.00 Z" fill="#EAD2B6" id="data-bar-7-top" />
+                    <path d="M 300.00,515.00 L 525.00,515.00 L 525.00,551.00 L 300.00,551.00 Z" fill="#E8CCAB" id="data-bar-7-front" />
+                </g>
+                <text x="553.0" y="539" font-size="16" font-weight="700" fill="#241F30">25%</text>
+                <text x="290" y="598" font-size="15" font-weight="500" fill="#241F30" text-anchor="end">Other Brands</text>
+                <g id="data-bar-8" data-front-x="300.0" data-front-y="575.0" data-front-width="108.0" data-front-height="36.0" data-value="12">
+                    <path d="M 408.00,575.00 L 422.00,566.00 L 422.00,602.00 L 408.00,611.00 Z" fill="#AA957D" id="data-bar-8-side" />
+                    <path d="M 300.00,575.00 L 314.00,566.00 L 422.00,566.00 L 408.00,575.00 Z" fill="#EAD2B6" id="data-bar-8-top" />
+                    <path d="M 300.00,575.00 L 408.00,575.00 L 408.00,611.00 L 300.00,611.00 Z" fill="#E8CCAB" id="data-bar-8-front" />
+                </g>
+                <text x="436.0" y="599" font-size="16" font-weight="700" fill="#241F30">12%</text>
+            </g>
+        </g>
+        <g id="legend">
+            <rect x="60" y="660" width="16" height="16" rx="2" fill="#8F86B4" />
+            <text x="85" y="673" font-size="14" fill="#241F30">High Awareness (≥50%)</text>
+            <rect x="270" y="660" width="16" height="16" rx="2" fill="#A8C3B5" />
+            <text x="295" y="673" font-size="14" fill="#241F30">Moderate Awareness (30-50%)</text>
+            <rect x="520" y="660" width="16" height="16" rx="2" fill="#E8CCAB" />
+            <text x="545" y="673" font-size="14" fill="#241F30">Low Awareness (&lt;30%)</text>
+        </g>
+        <g id="source">
+            <text x="1220" y="695" font-size="14" fill="#241F30" text-anchor="end">Source: Market Research Department</text>
+        </g>
+    </g>
+</svg>

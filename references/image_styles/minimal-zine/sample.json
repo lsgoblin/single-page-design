@@ -1,8 +1,0 @@
-{
-  "template_id": "minimal-zine",
-  "mode": "image-transform",
-  "template": "templates/image_styles/minimal-zine/template.json",
-  "preview": "preview.jpeg",
-  "preview_kind": "style-reference",
-  "note": "包内风格参考；主体与文案可替换"
-}

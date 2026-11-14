@@ -72,18 +72,18 @@ except ImportError:
 TOOLS_DIR = SCRIPTS_DIR
 
 _CUSTOM_REFERENCE_CATALOGS = (
-    ("mode", "mode", "mode_references", SKILL_DIR / "references" / "modes"),
+    ("mode", "mode", "mode_references", SKILL_DIR / "workflows" / "pptx" / "guides" / "modes"),
     (
         "visual_style",
         "visual_style",
         "visual_style_references",
-        SKILL_DIR / "references" / "visual-styles",
+        SKILL_DIR / "workflows" / "pptx" / "guides" / "visual-styles",
     ),
     (
         "colors",
         "image_rendering",
         "image_rendering_references",
-        SKILL_DIR / "references" / "image-renderings",
+        SKILL_DIR / "workflows" / "pptx" / "guides" / "image-renderings",
     ),
 )
 

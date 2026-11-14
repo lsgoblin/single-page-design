@@ -1,8 +1,0 @@
-{
-  "template_id": "vintage-travel",
-  "mode": "image-transform",
-  "template": "templates/image_styles/vintage-travel/template.json",
-  "preview": "preview.webp",
-  "preview_kind": "style-reference",
-  "note": "包内风格参考；主体与文案可替换"
-}

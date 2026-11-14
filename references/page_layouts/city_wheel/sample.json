@@ -1,0 +1,29 @@
+{
+  "template_id": "city_wheel",
+  "mode": "ppt-layout",
+  "template": "templates/page_layouts/city_wheel",
+  "preview": "preview.png",
+  "preview_kind": "powerpoint-render",
+  "pptx": "sample.pptx",
+  "page_count": 4,
+  "template_page_count": 1,
+  "state_overview": "states.png",
+  "state_previews": [
+    "state-01.png",
+    "state-02.png",
+    "state-03.png",
+    "state-04.png"
+  ],
+  "motion_reference": "motion_reference.json",
+  "source": {
+    "type": "user-provided-local-pptx",
+    "filename": "四城转盘-PPT动画手记No.05.pptx",
+    "sha256": "39d274048e6050e2fc580a16e48dd63e5fef1660d8f709e2c6fc48af9ab9f7e3",
+    "imported_on": "2026-11-13"
+  },
+  "sha256": {
+    "pptx": "39d274048e6050e2fc580a16e48dd63e5fef1660d8f709e2c6fc48af9ab9f7e3",
+    "preview": "4da445c0f4b14b187e8839621bb9423cad408e4061313d968befb8de94c4367d"
+  },
+  "note": "样张PPT为源文件的逐字节副本，保留四页原生组合、图片填充、文字、署名和Morph转场。模板只有一个基础静态布局，不限制下游题材；动画复用应复制完整原生转盘并保留全部画外象限。未独立核验示例城市数据及图片授权。"
+}

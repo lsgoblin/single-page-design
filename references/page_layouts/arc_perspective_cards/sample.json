@@ -1,0 +1,20 @@
+{
+  "template_id": "arc_perspective_cards",
+  "mode": "ppt-layout",
+  "template": "templates/page_layouts/arc_perspective_cards",
+  "preview": "preview.png",
+  "preview_kind": "powerpoint-render",
+  "pptx": "sample.pptx",
+  "page_count": 1,
+  "source": {
+    "type": "user-provided-local-materials",
+    "material": "跟练素材（内部学习，请勿外传）.pptx",
+    "reference": "用户提供的对比图下半部分，经用户确认作为最终版式",
+    "created_on": "2026-11-13"
+  },
+  "sha256": {
+    "pptx": "ac8d5a873937be02d6bb77768fb34761066cae50f45a19960f43da486a2f6cef",
+    "preview": "7e1aab9ca1589795d2f99d3b2491b2e9331890d66daa4edcff2a537ff49ad84e"
+  },
+  "note": "本次用户作品的 PowerPoint 实际渲染；样张 PPT 保留五张原生三维图片填充形状、倒影、独立轨道与文字。SVG 是二维结构化槽位原型，原生三维参数见 design_spec.md。素材仅限内部学习，不作为公开可分发素材。"
+}

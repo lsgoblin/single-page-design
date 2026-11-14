@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Segoe UI, Arial, sans-serif" font-size="14" lang="en-US">
+    <title>Project Timeline &amp; Milestone Tracking</title>
+    <metadata id="chart-evidence" type="application/json">{"original_payload": null, "data": {"tasks": [{"name": "1. Requirements Analysis", "start_week": 0.0, "end_week": 3.0, "duration_weeks": 3.0, "phase": "Planning", "color": "#8F86B4", "progress": null}, {"name": "2. Architecture Design", "start_week": 1.0, "end_week": 6.0, "duration_weeks": 5.0, "phase": "Planning", "color": "#8F86B4", "progress": null}, {"name": "3. UI/UX Implementation", "start_week": 4.0, "end_week": 9.0, "duration_weeks": 5.0, "phase": "Design", "color": "#A8C3B5", "progress": null}, {"name": "4. Frontend Development", "start_week": 6.0, "end_week": 14.0, "duration_weeks": 8.0, "phase": "Execution", "color": "#E8CCAB", "progress": null}, {"name": "5. Backend Integration", "start_week": 5.0, "end_week": 15.0, "duration_weeks": 10.0, "phase": "Execution", "color": "#E8CCAB", "progress": null}, {"name": "6. QA &amp; User Testing", "start_week": 12.0, "end_week": 18.0, "duration_weeks": 6.0, "phase": "Launch", "color": "#D6A3B1", "progress": null}, {"name": "7. Deployment", "start_week": 18.0, "end_week": 20.0, "duration_weeks": 2.0, "phase": "Launch", "color": "#D6A3B1", "progress": null}, {"name": "8. Go-to-Market", "start_week": 19.0, "end_week": 24.0, "duration_weeks": 5.0, "phase": "Design", "color": "#A8C3B5", "progress": null}], "milestones": [["PRD sign-off", 3.25, 0], ["Design review", 9.25, 2], ["Launch", 20, 6]], "snapshot_week": 10, "calendar_start": null}, "method": "Start, duration and milestone centers recovered from original x = 280 + 40 × week; relative blocks replace misleading calendar months. No invented dependency or progress fields.", "validation": {"tasks": 8, "weeks": 24, "durations": [3.0, 5.0, 5.0, 8.0, 10.0, 6.0, 2.0, 5.0], "all_within_horizon": true}, "palette": {"id": "lavender-spring", "name": "科研配色｜薰紫春庭", "description": "Low-saturation lavender, dusty rose, cream apricot and sage default chart palette.", "colors": ["#8F86B4", "#B7ACCD", "#DBCCE2", "#D6A3B1", "#E8CCAB", "#A8C3B5"], "roles": {"primary": "#8F86B4", "secondary": "#B7ACCD", "surface_accent": "#DBCCE2", "emphasis": "#D6A3B1", "warm": "#E8CCAB", "positive": "#A8C3B5", "negative": "#D6A3B1", "neutral_data": "#B7ACCD", "text": "#241F30", "secondary_text": "#655E75", "background": "#FFFFFF", "surface": "#F8F5FA", "divider": "#D8D2E0", "connector": "#8F86B4", "mark_outline": "#716684"}, "shading": {"space": "linear-sRGB", "front_and_top": "Use the exact assigned core color.", "light_cap_white_mix": 0.1, "outer_wall_light_multiplier": 0.5, "inner_wall_light_multiplier": 0.29, "radial_cut_light_multiplier": 0.39, "lighter_cut_light_multiplier": 0.6}, "rules": ["The six core HEX values are authoritative and keep their listed order for categorical series.", "Use named semantic roles for increase/decrease and threshold states; preserve their labels and signs.", "Use the same category assignment in faces, legend swatches and anchor dots.", "Use dark text on pastel data marks; small text contrast must be at least 4.5:1.", "Use explicit labels or outlines as well as color; do not claim universal color-vision safety.", "Hierarchies with more than six leaves use parent-family tints; do not invent unrelated accent hues.", "Project-specified palettes may override this default. Keep native metadata synchronized where native replacement is used."]}, "source_svg": "gantt_chart.svg"}</metadata>
+    <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+    <g id="header" data-pptx-bounds="40 24 1200 105">
+        <text x="56" y="61" font-size="32" fill="#241F30" font-weight="700" text-anchor="start">Project Timeline &amp; Milestone Tracking</text>
+        <text x="56" y="94" font-size="15" fill="#655E75" font-weight="400" text-anchor="start">Relative 24-week plan · Six four-week blocks · Snapshot at week 10; no calendar dates implied</text>
+        <rect x="646" y="112" width="8" height="8" fill="#8F86B4" stroke="#716684" stroke-width="0.8" />
+        <text x="663" y="120" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">Planning</text>
+        <rect x="791" y="112" width="8" height="8" fill="#A8C3B5" stroke="#716684" stroke-width="0.8" />
+        <text x="808" y="120" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">Design</text>
+        <rect x="936" y="112" width="8" height="8" fill="#E8CCAB" stroke="#716684" stroke-width="0.8" />
+        <text x="953" y="120" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">Execution</text>
+        <rect x="1081" y="112" width="8" height="8" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" />
+        <text x="1098" y="120" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">Launch</text>
+    </g>
+    <g id="chart-module" data-pptx-bounds="40 132 1200 500">
+        <g id="chart">
+            <line x1="330.0" y1="180" x2="330.0" y2="570" stroke="#D8D2E0" stroke-width="1" />
+            <text x="330.0" y="163" font-size="13" fill="#655E75" font-weight="400" text-anchor="middle">W0</text>
+            <line x1="365.8333333333333" y1="180" x2="365.8333333333333" y2="570" stroke="#D8D2E0" stroke-width="0.6" stroke-dasharray="2 4" />
+            <line x1="401.6666666666667" y1="180" x2="401.6666666666667" y2="570" stroke="#D8D2E0" stroke-width="0.6" stroke-dasharray="2 4" />
+            <line x1="437.5" y1="180" x2="437.5" y2="570" stroke="#D8D2E0" stroke-width="0.6" stroke-dasharray="2 4" />
+            <line x1="473.33333333333337" y1="180" x2="473.33333333333337" y2="570" stroke="#D8D2E0" stroke-width="1" />
+            <text x="473.33333333333337" y="163" font-size="13" fill="#655E75" font-weight="400" text-anchor="middle">W4</text>
+            <line x1="509.16666666666663" y1="180" x2="509.16666666666663" y2="570" stroke="#D8D2E0" stroke-width="0.6" stroke-dasharray="2 4" />
+            <line x1="545.0" y1="180" x2="545.0" y2="570" stroke="#D8D2E0" stroke-width="0.6" stroke-dasharray="2 4" />
+            <line x1="580.8333333333334" y1="180" x2="580.8333333333334" y2="570" stroke="#D8D2E0" stroke-width="0.6" stroke-dasharray="2 4" />
+            <line x1="616.6666666666667" y1="180" x2="616.6666666666667" y2="570" stroke="#D8D2E0" stroke-width="1" />
+            <text x="616.6666666666667" y="163" font-size="13" fill="#655E75" font-weight="400" text-anchor="middle">W8</text>
+            <line x1="652.5" y1="180" x2="652.5" y2="570" stroke="#D8D2E0" stroke-width="0.6" stroke-dasharray="2 4" />
+            <line x1="688.3333333333333" y1="180" x2="688.3333333333333" y2="570" stroke="#D8D2E0" stroke-width="0.6" stroke-dasharray="2 4" />
+            <line x1="724.1666666666667" y1="180" x2="724.1666666666667" y2="570" stroke="#D8D2E0" stroke-width="0.6" stroke-dasharray="2 4" />
+            <line x1="760.0" y1="180" x2="760.0" y2="570" stroke="#D8D2E0" stroke-width="1" />
+            <text x="760.0" y="163" font-size="13" fill="#655E75" font-weight="400" text-anchor="middle">W12</text>
+            <line x1="795.8333333333333" y1="180" x2="795.8333333333333" y2="570" stroke="#D8D2E0" stroke-width="0.6" stroke-dasharray="2 4" />
+            <line x1="831.6666666666667" y1="180" x2="831.6666666666667" y2="570" stroke="#D8D2E0" stroke-width="0.6" stroke-dasharray="2 4" />
+            <line x1="867.5" y1="180" x2="867.5" y2="570" stroke="#D8D2E0" stroke-width="0.6" stroke-dasharray="2 4" />
+            <line x1="903.3333333333334" y1="180" x2="903.3333333333334" y2="570" stroke="#D8D2E0" stroke-width="1" />
+            <text x="903.3333333333334" y="163" font-size="13" fill="#655E75" font-weight="400" text-anchor="middle">W16</text>
+            <line x1="939.1666666666666" y1="180" x2="939.1666666666666" y2="570" stroke="#D8D2E0" stroke-width="0.6" stroke-dasharray="2 4" />
+            <line x1="975.0" y1="180" x2="975.0" y2="570" stroke="#D8D2E0" stroke-width="0.6" stroke-dasharray="2 4" />
+            <line x1="1010.8333333333334" y1="180" x2="1010.8333333333334" y2="570" stroke="#D8D2E0" stroke-width="0.6" stroke-dasharray="2 4" />
+            <line x1="1046.6666666666665" y1="180" x2="1046.6666666666665" y2="570" stroke="#D8D2E0" stroke-width="1" />
+            <text x="1046.6666666666665" y="163" font-size="13" fill="#655E75" font-weight="400" text-anchor="middle">W20</text>
+            <line x1="1082.5" y1="180" x2="1082.5" y2="570" stroke="#D8D2E0" stroke-width="0.6" stroke-dasharray="2 4" />
+            <line x1="1118.3333333333335" y1="180" x2="1118.3333333333335" y2="570" stroke="#D8D2E0" stroke-width="0.6" stroke-dasharray="2 4" />
+            <line x1="1154.1666666666665" y1="180" x2="1154.1666666666665" y2="570" stroke="#D8D2E0" stroke-width="0.6" stroke-dasharray="2 4" />
+            <line x1="1190.0" y1="180" x2="1190.0" y2="570" stroke="#D8D2E0" stroke-width="1" />
+            <text x="1190.0" y="163" font-size="13" fill="#655E75" font-weight="400" text-anchor="middle">W24</text>
+            <text x="62" y="215" font-size="15" fill="#241F30" font-weight="600" text-anchor="start">1. Requirements Analysis</text>
+            <rect x="330.0" y="195" width="107.5" height="27" fill="#8F86B4" rx="3" stroke="#716684" stroke-width="0.8" data-start="0.0" data-duration="3.0" />
+            <text x="383.75" y="214" font-size="14" fill="#241F30" font-weight="600" text-anchor="middle">3W</text>
+            <text x="62" y="261" font-size="15" fill="#241F30" font-weight="600" text-anchor="start">2. Architecture Design</text>
+            <rect x="365.8333333333333" y="241" width="179.16666666666666" height="27" fill="#8F86B4" rx="3" stroke="#716684" stroke-width="0.8" data-start="1.0" data-duration="5.0" />
+            <text x="455.41666666666663" y="260" font-size="14" fill="#241F30" font-weight="600" text-anchor="middle">5W</text>
+            <text x="62" y="307" font-size="15" fill="#241F30" font-weight="600" text-anchor="start">3. UI/UX Implementation</text>
+            <rect x="473.33333333333337" y="287" width="179.16666666666666" height="27" fill="#A8C3B5" rx="3" stroke="#716684" stroke-width="0.8" data-start="4.0" data-duration="5.0" />
+            <text x="562.9166666666667" y="306" font-size="14" fill="#241F30" font-weight="600" text-anchor="middle">5W</text>
+            <text x="62" y="353" font-size="15" fill="#241F30" font-weight="600" text-anchor="start">4. Frontend Development</text>
+            <rect x="545.0" y="333" width="286.6666666666667" height="27" fill="#E8CCAB" rx="3" stroke="#716684" stroke-width="0.8" data-start="6.0" data-duration="8.0" />
+            <text x="688.3333333333334" y="352" font-size="14" fill="#241F30" font-weight="600" text-anchor="middle">8W</text>
+            <text x="62" y="399" font-size="15" fill="#241F30" font-weight="600" text-anchor="start">5. Backend Integration</text>
+            <rect x="509.16666666666663" y="379" width="358.3333333333333" height="27" fill="#E8CCAB" rx="3" stroke="#716684" stroke-width="0.8" data-start="5.0" data-duration="10.0" />
+            <text x="688.3333333333333" y="398" font-size="14" fill="#241F30" font-weight="600" text-anchor="middle">10W</text>
+            <text x="62" y="445" font-size="15" fill="#241F30" font-weight="600" text-anchor="start">6. QA &amp; User Testing</text>
+            <rect x="760.0" y="425" width="215.0" height="27" fill="#D6A3B1" rx="3" stroke="#716684" stroke-width="0.8" data-start="12.0" data-duration="6.0" />
+            <text x="867.5" y="444" font-size="14" fill="#241F30" font-weight="600" text-anchor="middle">6W</text>
+            <text x="62" y="491" font-size="15" fill="#241F30" font-weight="600" text-anchor="start">7. Deployment</text>
+            <rect x="975.0" y="471" width="71.66666666666667" height="27" fill="#D6A3B1" rx="3" stroke="#716684" stroke-width="0.8" data-start="18.0" data-duration="2.0" />
+            <text x="1010.8333333333334" y="490" font-size="14" fill="#241F30" font-weight="600" text-anchor="middle">2W</text>
+            <text x="62" y="537" font-size="15" fill="#241F30" font-weight="600" text-anchor="start">8. Go-to-Market</text>
+            <rect x="1010.8333333333334" y="517" width="179.16666666666666" height="27" fill="#A8C3B5" rx="3" stroke="#716684" stroke-width="0.8" data-start="19.0" data-duration="5.0" />
+            <text x="1100.4166666666667" y="536" font-size="14" fill="#241F30" font-weight="600" text-anchor="middle">5W</text>
+            <line x1="688.3333333333333" y1="178" x2="688.3333333333333" y2="572" stroke="#716684" stroke-width="2" stroke-dasharray="5 4" />
+            <text x="688.3333333333333" y="596" font-size="13" fill="#655E75" font-weight="400" text-anchor="middle">Snapshot W10</text>
+            <path d="M 446.4583,202.0000 L 452.4583,208.0000 L 446.4583,214.0000 L 440.4583,208.0000 Z" fill="#241F30" stroke="#716684" stroke-width="0.8" />
+            <path d="M 661.4583,294.0000 L 667.4583,300.0000 L 661.4583,306.0000 L 655.4583,300.0000 Z" fill="#241F30" stroke="#716684" stroke-width="0.8" />
+            <path d="M 1046.6667,478.0000 L 1052.6667,484.0000 L 1046.6667,490.0000 L 1040.6667,484.0000 Z" fill="#241F30" stroke="#716684" stroke-width="0.8" />
+            <text x="340" y="621" font-size="12" fill="#655E75" font-weight="400" text-anchor="start">PRD sign-off · W3.25</text>
+            <text x="615" y="621" font-size="12" fill="#655E75" font-weight="400" text-anchor="start">Design review · W9.25</text>
+            <text x="890" y="621" font-size="12" fill="#655E75" font-weight="400" text-anchor="start">Launch · W20</text>
+        </g>
+    </g>
+    <g id="source" data-pptx-bounds="40 685 1200 28">
+        <text x="56" y="705" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Owner: PMO · Relative example schedule; no project start date or progress data supplied</text>
+    </g>
+    <g id="statistics" data-pptx-bounds="40 636 1200 44">
+        <text x="56.0" y="650" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Planning horizon</text>
+        <text x="56.0" y="674" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">24 weeks</text>
+        <text x="348.0" y="650" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Tasks</text>
+        <text x="348.0" y="674" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">8</text>
+        <text x="640.0" y="650" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Duration range</text>
+        <text x="640.0" y="674" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">2–10 weeks</text>
+        <text x="932.0" y="650" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Snapshot</text>
+        <text x="932.0" y="674" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">Week 10 · Fixed example</text>
+    </g>
+</svg>

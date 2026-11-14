@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Segoe UI, Arial, sans-serif" font-size="14" lang="en-US">
+    <title>Ad Spend vs. Sales Revenue Correlation</title>
+    <metadata id="chart-evidence" type="application/json">{"original_payload": {"name": "scatter_chart", "x": 30, "y": 151, "width": 1013.1, "height": 477.75, "type": "scatter", "scatter_style": "marker", "series": [{"name": "Online", "x": [10, 15, 22, 28, 35, 42, 48, 55, 60, 68, 75, 82, 88, 95], "y": [130, 160, 240, 270, 340, 390, 420, 480, 550, 580, 660, 690, 770, 820]}, {"name": "Offline", "x": [12, 18, 25, 30, 38, 45, 52, 58, 65, 72, 78, 85, 92, 98], "y": [210, 250, 280, 290, 340, 370, 410, 430, 470, 510, 550, 580, 620, 630]}], "style": {"colors": ["#4F46E5", "#E11D48"]}}, "data": {"name": "scatter_chart", "x": 30, "y": 151, "width": 1013.1, "height": 477.75, "type": "scatter", "scatter_style": "marker", "series": [{"name": "Online", "x": [10, 15, 22, 28, 35, 42, 48, 55, 60, 68, 75, 82, 88, 95], "y": [130, 160, 240, 270, 340, 390, 420, 480, 550, 580, 660, 690, 770, 820]}, {"name": "Offline", "x": [12, 18, 25, 30, 38, 45, 52, 58, 65, 72, 78, 85, 92, 98], "y": [210, 250, 280, 290, 340, 370, 410, 430, 470, 510, 550, 580, 620, 630]}], "style": {"colors": ["#4F46E5", "#E11D48"]}}, "method": "Unweighted one-variable OLS with an intercept; fits are separate editable overlays, not extra raw observations. No invented confidence band.", "validation": {"original_points": 28, "models": [{"series": "Online", "n": 14, "intercept": 48.22761556914702, "slope": 8.056450044304206, "r_squared": 0.9969295324585252}, {"series": "Offline", "n": 14, "intercept": 149.89228611500704, "slope": 5.001963534361851, "r_squared": 0.9972608871281365}], "confidence_band_added": false}, "palette": {"id": "lavender-spring", "name": "科研配色｜薰紫春庭", "description": "Low-saturation lavender, dusty rose, cream apricot and sage default chart palette.", "colors": ["#8F86B4", "#B7ACCD", "#DBCCE2", "#D6A3B1", "#E8CCAB", "#A8C3B5"], "roles": {"primary": "#8F86B4", "secondary": "#B7ACCD", "surface_accent": "#DBCCE2", "emphasis": "#D6A3B1", "warm": "#E8CCAB", "positive": "#A8C3B5", "negative": "#D6A3B1", "neutral_data": "#B7ACCD", "text": "#241F30", "secondary_text": "#655E75", "background": "#FFFFFF", "surface": "#F8F5FA", "divider": "#D8D2E0", "connector": "#8F86B4", "mark_outline": "#716684"}, "shading": {"space": "linear-sRGB", "front_and_top": "Use the exact assigned core color.", "light_cap_white_mix": 0.1, "outer_wall_light_multiplier": 0.5, "inner_wall_light_multiplier": 0.29, "radial_cut_light_multiplier": 0.39, "lighter_cut_light_multiplier": 0.6}, "rules": ["The six core HEX values are authoritative and keep their listed order for categorical series.", "Use named semantic roles for increase/decrease and threshold states; preserve their labels and signs.", "Use the same category assignment in faces, legend swatches and anchor dots.", "Use dark text on pastel data marks; small text contrast must be at least 4.5:1.", "Use explicit labels or outlines as well as color; do not claim universal color-vision safety.", "Hierarchies with more than six leaves use parent-family tints; do not invent unrelated accent hues.", "Project-specified palettes may override this default. Keep native metadata synchronized where native replacement is used."]}, "source_svg": "scatter_chart.svg"}</metadata>
+    <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+    <g id="header" data-pptx-bounds="40 24 1200 105">
+        <text x="56" y="61" font-size="32" fill="#241F30" font-weight="700" text-anchor="start">Ad Spend vs. Sales Revenue Correlation</text>
+        <text x="56" y="94" font-size="15" fill="#655E75" font-weight="400" text-anchor="start">2025 regional example data · 28 observations · OLS fit with an intercept</text>
+    </g>
+    <g id="chart-module" data-pptx-bounds="40 132 1200 500">
+        <g id="chart" data-pptx-replace-with="chart" data-pptx-fallback-sha256="c67a5554fa48aec752dab8431f80f2bc64864eeacf2aca8855adb50292a342da">
+            <metadata type="application/json">{"name": "scatter_chart", "x": 40, "y": 132, "width": 1200, "height": 500, "type": "scatter", "scatter_style": "marker", "series": [{"name": "Online", "x": [10, 15, 22, 28, 35, 42, 48, 55, 60, 68, 75, 82, 88, 95], "y": [130, 160, 240, 270, 340, 390, 420, 480, 550, 580, 660, 690, 770, 820]}, {"name": "Offline", "x": [12, 18, 25, 30, 38, 45, 52, 58, 65, 72, 78, 85, 92, 98], "y": [210, 250, 280, 290, 340, 370, 410, 430, 470, 510, 550, 580, 620, 630]}], "style": {"colors": ["#8F86B4", "#D6A3B1"], "text_color": "#655E75", "axis_color": "#716684", "grid_color": "#D8D2E0", "font_family": "Segoe UI", "axis_font_size": 14, "chart_area_fill": "none", "plot_area_fill": "none"}, "axes": {"x": {"minimum": 0, "maximum": 100, "major_unit": 20}, "y": {"minimum": 0, "maximum": 1000, "major_unit": 200, "number_format": "#,##0"}}, "axis_titles": {"x": "Ad Spend ($K)", "y": "Sales Revenue ($K)"}, "plot_area": {"x": 110, "y": 190, "width": 770, "height": 355}}</metadata>
+            <line x1="110" y1="545.0" x2="880" y2="545.0" stroke="#D8D2E0" stroke-width="1" id="grid-0" />
+            <text x="96" y="550.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">0</text>
+            <line x1="110" y1="474.0" x2="880" y2="474.0" stroke="#D8D2E0" stroke-width="1" id="grid-200" />
+            <text x="96" y="479.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">200</text>
+            <line x1="110" y1="403.0" x2="880" y2="403.0" stroke="#D8D2E0" stroke-width="1" id="grid-400" />
+            <text x="96" y="408.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">400</text>
+            <line x1="110" y1="332.0" x2="880" y2="332.0" stroke="#D8D2E0" stroke-width="1" id="grid-600" />
+            <text x="96" y="337.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">600</text>
+            <line x1="110" y1="261.0" x2="880" y2="261.0" stroke="#D8D2E0" stroke-width="1" id="grid-800" />
+            <text x="96" y="266.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">800</text>
+            <line x1="110" y1="190.0" x2="880" y2="190.0" stroke="#D8D2E0" stroke-width="1" id="grid-1000" />
+            <text x="96" y="195.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">1,000</text>
+            <line x1="110" y1="190" x2="110" y2="545" stroke="#716684" stroke-width="1.2" id="axis-y" />
+            <line x1="110" y1="545" x2="880" y2="545" stroke="#716684" stroke-width="1.2" id="axis-x" />
+            <text x="110" y="172" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">Sales Revenue ($K)</text>
+            <text x="110.0" y="573" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">0</text>
+            <text x="264.0" y="573" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">20</text>
+            <text x="418.0" y="573" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">40</text>
+            <text x="572.0" y="573" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">60</text>
+            <text x="726.0" y="573" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">80</text>
+            <text x="880.0" y="573" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">100</text>
+            <text x="495.0" y="608" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Ad Spend ($K)</text>
+            <circle cx="187.0" cy="498.85" r="5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-x="10" data-y="130" data-series="0" data-index="0" />
+            <circle cx="225.5" cy="488.2" r="5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-x="15" data-y="160" data-series="0" data-index="1" />
+            <circle cx="279.4" cy="459.8" r="5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-x="22" data-y="240" data-series="0" data-index="2" />
+            <circle cx="325.6" cy="449.15" r="5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-x="28" data-y="270" data-series="0" data-index="3" />
+            <circle cx="379.5" cy="424.3" r="5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-x="35" data-y="340" data-series="0" data-index="4" />
+            <circle cx="433.4" cy="406.55" r="5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-x="42" data-y="390" data-series="0" data-index="5" />
+            <circle cx="479.6" cy="395.9" r="5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-x="48" data-y="420" data-series="0" data-index="6" />
+            <circle cx="533.5" cy="374.6" r="5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-x="55" data-y="480" data-series="0" data-index="7" />
+            <circle cx="572.0" cy="349.75" r="5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-x="60" data-y="550" data-series="0" data-index="8" />
+            <circle cx="633.6" cy="339.1" r="5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-x="68" data-y="580" data-series="0" data-index="9" />
+            <circle cx="687.5" cy="310.7" r="5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-x="75" data-y="660" data-series="0" data-index="10" />
+            <circle cx="741.4" cy="300.05" r="5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-x="82" data-y="690" data-series="0" data-index="11" />
+            <circle cx="787.6" cy="271.65" r="5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-x="88" data-y="770" data-series="0" data-index="12" />
+            <circle cx="841.5" cy="253.89999999999998" r="5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-x="95" data-y="820" data-series="0" data-index="13" />
+            <circle cx="202.4" cy="470.45" r="5" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-x="12" data-y="210" data-series="1" data-index="0" />
+            <circle cx="248.6" cy="456.25" r="5" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-x="18" data-y="250" data-series="1" data-index="1" />
+            <circle cx="302.5" cy="445.6" r="5" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-x="25" data-y="280" data-series="1" data-index="2" />
+            <circle cx="341.0" cy="442.05" r="5" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-x="30" data-y="290" data-series="1" data-index="3" />
+            <circle cx="402.6" cy="424.3" r="5" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-x="38" data-y="340" data-series="1" data-index="4" />
+            <circle cx="456.5" cy="413.65" r="5" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-x="45" data-y="370" data-series="1" data-index="5" />
+            <circle cx="510.4" cy="399.45" r="5" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-x="52" data-y="410" data-series="1" data-index="6" />
+            <circle cx="556.6" cy="392.35" r="5" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-x="58" data-y="430" data-series="1" data-index="7" />
+            <circle cx="610.5" cy="378.15" r="5" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-x="65" data-y="470" data-series="1" data-index="8" />
+            <circle cx="664.4" cy="363.95" r="5" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-x="72" data-y="510" data-series="1" data-index="9" />
+            <circle cx="710.6" cy="349.75" r="5" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-x="78" data-y="550" data-series="1" data-index="10" />
+            <circle cx="764.5" cy="339.1" r="5" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-x="85" data-y="580" data-series="1" data-index="11" />
+            <circle cx="818.4" cy="324.9" r="5" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-x="92" data-y="620" data-series="1" data-index="12" />
+            <circle cx="864.6" cy="321.35" r="5" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-x="98" data-y="630" data-series="1" data-index="13" />
+        </g>
+        <g id="regression-overlay">
+            <path d="M 187.0000,499.2788 L 841.5000,256.1754" fill="none" stroke="#8F86B4" stroke-width="2" />
+            <path d="M 202.4000,470.4799 L 864.6000,317.7699" fill="none" stroke="#D6A3B1" stroke-width="2" stroke-dasharray="8 4" />
+        </g>
+        <g id="regression-summary">
+            <text x="940" y="185" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">Online · n=14</text>
+            <text x="940" y="223" font-size="23" fill="#241F30" font-weight="600" text-anchor="start">R² = 0.9969</text>
+            <text x="940" y="258" font-size="16" fill="#655E75" font-weight="400" text-anchor="start">Slope = 8.056</text>
+            <text x="940" y="286" font-size="16" fill="#655E75" font-weight="400" text-anchor="start">Intercept = 48.228</text>
+            <text x="940" y="345" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">Offline · n=14</text>
+            <text x="940" y="383" font-size="23" fill="#241F30" font-weight="600" text-anchor="start">R² = 0.9973</text>
+            <text x="940" y="418" font-size="16" fill="#655E75" font-weight="400" text-anchor="start">Slope = 5.002</text>
+            <text x="940" y="446" font-size="16" fill="#655E75" font-weight="400" text-anchor="start">Intercept = 149.892</text>
+            <text x="940" y="535" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">Slope units: $K / $K</text>
+            <text x="940" y="563" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Association does not establish</text>
+            <text x="940" y="584" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">causation or investment ROI.</text>
+        </g>
+    </g>
+    <g id="source" data-pptx-bounds="40 685 1200 28">
+        <text x="56" y="705" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Data Source: Marketing Analytics Department</text>
+    </g>
+</svg>

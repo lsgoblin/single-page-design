@@ -1,0 +1,258 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Segoe UI, Arial, sans-serif" font-size="14" lang="en-US">
+    <title>User Activity Heatmap Analysis</title>
+    <metadata id="chart-evidence" type="application/json">{"original_payload": null, "data": {"days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"], "times": ["06:00 - 09:00", "09:00 - 12:00", "12:00 - 14:00", "14:00 - 17:00", "17:00 - 19:00", "19:00 - 21:00", "21:00 - 23:00", "23:00 - 06:00"], "values": [[35, 42, 40, 38, 28, 15, 10], [58, 65, 72, 68, 55, 45, 38], [75, 82, 88, 80, 70, 60, 65], [55, 62, 68, 60, 48, 72, 78], [32, 35, 38, 35, 28, 65, 70], [78, 85, 88, 86, 80, 95, 98], [62, 70, 72, 68, 65, 85, 82], [18, 15, 12, 15, 22, 35, 28]]}, "method": "Monotone lavender sequential scale; unweighted arithmetic cell mean, not a time-weighted daily mean.", "validation": {"original_values": 56, "mean": 55.964285714285715, "min": 10, "max": 98, "minimum_cell_text_contrast": 4.517860553195653, "monotone_luminance": true}, "palette": {"id": "lavender-spring", "name": "科研配色｜薰紫春庭", "description": "Low-saturation lavender, dusty rose, cream apricot and sage default chart palette.", "colors": ["#8F86B4", "#B7ACCD", "#DBCCE2", "#D6A3B1", "#E8CCAB", "#A8C3B5"], "roles": {"primary": "#8F86B4", "secondary": "#B7ACCD", "surface_accent": "#DBCCE2", "emphasis": "#D6A3B1", "warm": "#E8CCAB", "positive": "#A8C3B5", "negative": "#D6A3B1", "neutral_data": "#B7ACCD", "text": "#241F30", "secondary_text": "#655E75", "background": "#FFFFFF", "surface": "#F8F5FA", "divider": "#D8D2E0", "connector": "#8F86B4", "mark_outline": "#716684"}, "shading": {"space": "linear-sRGB", "front_and_top": "Use the exact assigned core color.", "light_cap_white_mix": 0.1, "outer_wall_light_multiplier": 0.5, "inner_wall_light_multiplier": 0.29, "radial_cut_light_multiplier": 0.39, "lighter_cut_light_multiplier": 0.6}, "rules": ["The six core HEX values are authoritative and keep their listed order for categorical series.", "Use named semantic roles for increase/decrease and threshold states; preserve their labels and signs.", "Use the same category assignment in faces, legend swatches and anchor dots.", "Use dark text on pastel data marks; small text contrast must be at least 4.5:1.", "Use explicit labels or outlines as well as color; do not claim universal color-vision safety.", "Hierarchies with more than six leaves use parent-family tints; do not invent unrelated accent hues.", "Project-specified palettes may override this default. Keep native metadata synchronized where native replacement is used."]}, "source_svg": "heatmap_chart.svg"}</metadata>
+    <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+    <g id="header" data-pptx-bounds="40 24 1200 105">
+        <text x="56" y="61" font-size="32" fill="#241F30" font-weight="700" text-anchor="start">User Activity Heatmap Analysis</text>
+        <text x="56" y="94" font-size="15" fill="#655E75" font-weight="400" text-anchor="start">Active users by day and time · Values in thousands (K) · Fixed domain 0–100K</text>
+    </g>
+    <g id="chart-module" data-pptx-bounds="40 132 1200 500">
+        <g id="chart">
+            <text x="262.5" y="166" font-size="16" fill="#655E75" font-weight="400" text-anchor="middle">Mon</text>
+            <text x="367.5" y="166" font-size="16" fill="#655E75" font-weight="400" text-anchor="middle">Tue</text>
+            <text x="472.5" y="166" font-size="16" fill="#655E75" font-weight="400" text-anchor="middle">Wed</text>
+            <text x="577.5" y="166" font-size="16" fill="#655E75" font-weight="400" text-anchor="middle">Thu</text>
+            <text x="682.5" y="166" font-size="16" fill="#655E75" font-weight="400" text-anchor="middle">Fri</text>
+            <text x="787.5" y="166" font-size="16" fill="#655E75" font-weight="400" text-anchor="middle">Sat</text>
+            <text x="892.5" y="166" font-size="16" fill="#655E75" font-weight="400" text-anchor="middle">Sun</text>
+            <text x="192" y="213" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">06:00 - 09:00</text>
+            <rect x="210" y="184" width="102" height="44" fill="#BBB4D1" data-value="35" data-row="0" data-column="0" />
+            <text x="261.0" y="213" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">35</text>
+            <rect x="315" y="184" width="102" height="44" fill="#AEA7C9" data-value="42" data-row="0" data-column="1" />
+            <text x="366.0" y="213" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">42</text>
+            <rect x="420" y="184" width="102" height="44" fill="#B2ABCB" data-value="40" data-row="0" data-column="2" />
+            <text x="471.0" y="213" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">40</text>
+            <rect x="525" y="184" width="102" height="44" fill="#B6AFCE" data-value="38" data-row="0" data-column="3" />
+            <text x="576.0" y="213" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">38</text>
+            <rect x="630" y="184" width="102" height="44" fill="#C7C1D9" data-value="28" data-row="0" data-column="4" />
+            <text x="681.0" y="213" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">28</text>
+            <rect x="735" y="184" width="102" height="44" fill="#DED9E8" data-value="15" data-row="0" data-column="5" />
+            <text x="786.0" y="213" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">15</text>
+            <rect x="840" y="184" width="102" height="44" fill="#E7E3EE" data-value="10" data-row="0" data-column="6" />
+            <text x="891.0" y="213" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">10</text>
+            <text x="192" y="260" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">09:00 - 12:00</text>
+            <rect x="210" y="231" width="102" height="44" fill="#928AB6" data-value="58" data-row="1" data-column="0" />
+            <text x="261.0" y="260" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">58</text>
+            <rect x="315" y="231" width="102" height="44" fill="#867DA9" data-value="65" data-row="1" data-column="1" />
+            <text x="366.0" y="260" font-size="16" fill="#000000" font-weight="600" text-anchor="middle">65</text>
+            <rect x="420" y="231" width="102" height="44" fill="#7B719A" data-value="72" data-row="1" data-column="2" />
+            <text x="471.0" y="260" font-size="16" fill="#000000" font-weight="600" text-anchor="middle">72</text>
+            <rect x="525" y="231" width="102" height="44" fill="#8178A3" data-value="68" data-row="1" data-column="3" />
+            <text x="576.0" y="260" font-size="16" fill="#000000" font-weight="600" text-anchor="middle">68</text>
+            <rect x="630" y="231" width="102" height="44" fill="#988FBA" data-value="55" data-row="1" data-column="4" />
+            <text x="681.0" y="260" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">55</text>
+            <rect x="735" y="231" width="102" height="44" fill="#A9A2C6" data-value="45" data-row="1" data-column="5" />
+            <text x="786.0" y="260" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">45</text>
+            <rect x="840" y="231" width="102" height="44" fill="#B6AFCE" data-value="38" data-row="1" data-column="6" />
+            <text x="891.0" y="260" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">38</text>
+            <text x="192" y="307" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">12:00 - 14:00</text>
+            <rect x="210" y="278" width="102" height="44" fill="#766C94" data-value="75" data-row="2" data-column="0" />
+            <text x="261.0" y="307" font-size="16" fill="#FFFFFF" font-weight="600" text-anchor="middle">75</text>
+            <rect x="315" y="278" width="102" height="44" fill="#6A6085" data-value="82" data-row="2" data-column="1" />
+            <text x="366.0" y="307" font-size="16" fill="#FFFFFF" font-weight="600" text-anchor="middle">82</text>
+            <rect x="420" y="278" width="102" height="44" fill="#5F5578" data-value="88" data-row="2" data-column="2" />
+            <text x="471.0" y="307" font-size="16" fill="#FFFFFF" font-weight="600" text-anchor="middle">88</text>
+            <rect x="525" y="278" width="102" height="44" fill="#6D638A" data-value="80" data-row="2" data-column="3" />
+            <text x="576.0" y="307" font-size="16" fill="#FFFFFF" font-weight="600" text-anchor="middle">80</text>
+            <rect x="630" y="278" width="102" height="44" fill="#7E749F" data-value="70" data-row="2" data-column="4" />
+            <text x="681.0" y="307" font-size="16" fill="#000000" font-weight="600" text-anchor="middle">70</text>
+            <rect x="735" y="278" width="102" height="44" fill="#8F86B4" data-value="60" data-row="2" data-column="5" />
+            <text x="786.0" y="307" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">60</text>
+            <rect x="840" y="278" width="102" height="44" fill="#867DA9" data-value="65" data-row="2" data-column="6" />
+            <text x="891.0" y="307" font-size="16" fill="#000000" font-weight="600" text-anchor="middle">65</text>
+            <text x="192" y="354" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">14:00 - 17:00</text>
+            <rect x="210" y="325" width="102" height="44" fill="#988FBA" data-value="55" data-row="3" data-column="0" />
+            <text x="261.0" y="354" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">55</text>
+            <rect x="315" y="325" width="102" height="44" fill="#8C82B0" data-value="62" data-row="3" data-column="1" />
+            <text x="366.0" y="354" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">62</text>
+            <rect x="420" y="325" width="102" height="44" fill="#8178A3" data-value="68" data-row="3" data-column="2" />
+            <text x="471.0" y="354" font-size="16" fill="#000000" font-weight="600" text-anchor="middle">68</text>
+            <rect x="525" y="325" width="102" height="44" fill="#8F86B4" data-value="60" data-row="3" data-column="3" />
+            <text x="576.0" y="354" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">60</text>
+            <rect x="630" y="325" width="102" height="44" fill="#A49CC2" data-value="48" data-row="3" data-column="4" />
+            <text x="681.0" y="354" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">48</text>
+            <rect x="735" y="325" width="102" height="44" fill="#7B719A" data-value="72" data-row="3" data-column="5" />
+            <text x="786.0" y="354" font-size="16" fill="#000000" font-weight="600" text-anchor="middle">72</text>
+            <rect x="840" y="325" width="102" height="44" fill="#70668E" data-value="78" data-row="3" data-column="6" />
+            <text x="891.0" y="354" font-size="16" fill="#FFFFFF" font-weight="600" text-anchor="middle">78</text>
+            <text x="192" y="401" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">17:00 - 19:00</text>
+            <rect x="210" y="372" width="102" height="44" fill="#C0BAD5" data-value="32" data-row="4" data-column="0" />
+            <text x="261.0" y="401" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">32</text>
+            <rect x="315" y="372" width="102" height="44" fill="#BBB4D1" data-value="35" data-row="4" data-column="1" />
+            <text x="366.0" y="401" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">35</text>
+            <rect x="420" y="372" width="102" height="44" fill="#B6AFCE" data-value="38" data-row="4" data-column="2" />
+            <text x="471.0" y="401" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">38</text>
+            <rect x="525" y="372" width="102" height="44" fill="#BBB4D1" data-value="35" data-row="4" data-column="3" />
+            <text x="576.0" y="401" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">35</text>
+            <rect x="630" y="372" width="102" height="44" fill="#C7C1D9" data-value="28" data-row="4" data-column="4" />
+            <text x="681.0" y="401" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">28</text>
+            <rect x="735" y="372" width="102" height="44" fill="#867DA9" data-value="65" data-row="4" data-column="5" />
+            <text x="786.0" y="401" font-size="16" fill="#000000" font-weight="600" text-anchor="middle">65</text>
+            <rect x="840" y="372" width="102" height="44" fill="#7E749F" data-value="70" data-row="4" data-column="6" />
+            <text x="891.0" y="401" font-size="16" fill="#000000" font-weight="600" text-anchor="middle">70</text>
+            <text x="192" y="448" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">19:00 - 21:00</text>
+            <rect x="210" y="419" width="102" height="44" fill="#70668E" data-value="78" data-row="5" data-column="0" />
+            <text x="261.0" y="448" font-size="16" fill="#FFFFFF" font-weight="600" text-anchor="middle">78</text>
+            <rect x="315" y="419" width="102" height="44" fill="#645A7F" data-value="85" data-row="5" data-column="1" />
+            <text x="366.0" y="448" font-size="16" fill="#FFFFFF" font-weight="600" text-anchor="middle">85</text>
+            <rect x="420" y="419" width="102" height="44" fill="#5F5578" data-value="88" data-row="5" data-column="2" />
+            <text x="471.0" y="448" font-size="16" fill="#FFFFFF" font-weight="600" text-anchor="middle">88</text>
+            <rect x="525" y="419" width="102" height="44" fill="#63587D" data-value="86" data-row="5" data-column="3" />
+            <text x="576.0" y="448" font-size="16" fill="#FFFFFF" font-weight="600" text-anchor="middle">86</text>
+            <rect x="630" y="419" width="102" height="44" fill="#6D638A" data-value="80" data-row="5" data-column="4" />
+            <text x="681.0" y="448" font-size="16" fill="#FFFFFF" font-weight="600" text-anchor="middle">80</text>
+            <rect x="735" y="419" width="102" height="44" fill="#54496A" data-value="95" data-row="5" data-column="5" />
+            <text x="786.0" y="448" font-size="16" fill="#FFFFFF" font-weight="600" text-anchor="middle">95</text>
+            <rect x="840" y="419" width="102" height="44" fill="#4E4463" data-value="98" data-row="5" data-column="6" />
+            <text x="891.0" y="448" font-size="16" fill="#FFFFFF" font-weight="600" text-anchor="middle">98</text>
+            <text x="192" y="495" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">21:00 - 23:00</text>
+            <rect x="210" y="466" width="102" height="44" fill="#8C82B0" data-value="62" data-row="6" data-column="0" />
+            <text x="261.0" y="495" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">62</text>
+            <rect x="315" y="466" width="102" height="44" fill="#7E749F" data-value="70" data-row="6" data-column="1" />
+            <text x="366.0" y="495" font-size="16" fill="#000000" font-weight="600" text-anchor="middle">70</text>
+            <rect x="420" y="466" width="102" height="44" fill="#7B719A" data-value="72" data-row="6" data-column="2" />
+            <text x="471.0" y="495" font-size="16" fill="#000000" font-weight="600" text-anchor="middle">72</text>
+            <rect x="525" y="466" width="102" height="44" fill="#8178A3" data-value="68" data-row="6" data-column="3" />
+            <text x="576.0" y="495" font-size="16" fill="#000000" font-weight="600" text-anchor="middle">68</text>
+            <rect x="630" y="466" width="102" height="44" fill="#867DA9" data-value="65" data-row="6" data-column="4" />
+            <text x="681.0" y="495" font-size="16" fill="#000000" font-weight="600" text-anchor="middle">65</text>
+            <rect x="735" y="466" width="102" height="44" fill="#645A7F" data-value="85" data-row="6" data-column="5" />
+            <text x="786.0" y="495" font-size="16" fill="#FFFFFF" font-weight="600" text-anchor="middle">85</text>
+            <rect x="840" y="466" width="102" height="44" fill="#6A6085" data-value="82" data-row="6" data-column="6" />
+            <text x="891.0" y="495" font-size="16" fill="#FFFFFF" font-weight="600" text-anchor="middle">82</text>
+            <text x="192" y="542" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">23:00 - 06:00</text>
+            <rect x="210" y="513" width="102" height="44" fill="#D8D4E5" data-value="18" data-row="7" data-column="0" />
+            <text x="261.0" y="542" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">18</text>
+            <rect x="315" y="513" width="102" height="44" fill="#DED9E8" data-value="15" data-row="7" data-column="1" />
+            <text x="366.0" y="542" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">15</text>
+            <rect x="420" y="513" width="102" height="44" fill="#E3DFEC" data-value="12" data-row="7" data-column="2" />
+            <text x="471.0" y="542" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">12</text>
+            <rect x="525" y="513" width="102" height="44" fill="#DED9E8" data-value="15" data-row="7" data-column="3" />
+            <text x="576.0" y="542" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">15</text>
+            <rect x="630" y="513" width="102" height="44" fill="#D2CCE0" data-value="22" data-row="7" data-column="4" />
+            <text x="681.0" y="542" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">22</text>
+            <rect x="735" y="513" width="102" height="44" fill="#BBB4D1" data-value="35" data-row="7" data-column="5" />
+            <text x="786.0" y="542" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">35</text>
+            <rect x="840" y="513" width="102" height="44" fill="#C7C1D9" data-value="28" data-row="7" data-column="6" />
+            <text x="891.0" y="542" font-size="16" fill="#241F30" font-weight="600" text-anchor="middle">28</text>
+            <text x="1000" y="185" font-size="16" fill="#241F30" font-weight="600" text-anchor="start">Activity (K)</text>
+            <rect x="1000" y="215.0" width="28" height="3.2" fill="#4B405F" />
+            <rect x="1000" y="217.9" width="28" height="3.2" fill="#4D4261" />
+            <rect x="1000" y="220.8" width="28" height="3.2" fill="#4E4463" />
+            <rect x="1000" y="223.7" width="28" height="3.2" fill="#504565" />
+            <rect x="1000" y="226.6" width="28" height="3.2" fill="#524768" />
+            <rect x="1000" y="229.5" width="28" height="3.2" fill="#54496A" />
+            <rect x="1000" y="232.4" width="28" height="3.2" fill="#554A6C" />
+            <rect x="1000" y="235.3" width="28" height="3.2" fill="#574C6E" />
+            <rect x="1000" y="238.2" width="28" height="3.2" fill="#594E70" />
+            <rect x="1000" y="241.1" width="28" height="3.2" fill="#5A5072" />
+            <rect x="1000" y="244.0" width="28" height="3.2" fill="#5C5274" />
+            <rect x="1000" y="246.9" width="28" height="3.2" fill="#5E5376" />
+            <rect x="1000" y="249.8" width="28" height="3.2" fill="#5F5578" />
+            <rect x="1000" y="252.7" width="28" height="3.2" fill="#61577B" />
+            <rect x="1000" y="255.6" width="28" height="3.2" fill="#63587D" />
+            <rect x="1000" y="258.5" width="28" height="3.2" fill="#645A7F" />
+            <rect x="1000" y="261.4" width="28" height="3.2" fill="#665C81" />
+            <rect x="1000" y="264.3" width="28" height="3.2" fill="#685E83" />
+            <rect x="1000" y="267.2" width="28" height="3.2" fill="#6A6085" />
+            <rect x="1000" y="270.1" width="28" height="3.2" fill="#6B6187" />
+            <rect x="1000" y="273.0" width="28" height="3.2" fill="#6D638A" />
+            <rect x="1000" y="275.9" width="28" height="3.2" fill="#6F658C" />
+            <rect x="1000" y="278.8" width="28" height="3.2" fill="#70668E" />
+            <rect x="1000" y="281.7" width="28" height="3.2" fill="#726890" />
+            <rect x="1000" y="284.6" width="28" height="3.2" fill="#746A92" />
+            <rect x="1000" y="287.5" width="28" height="3.2" fill="#766C94" />
+            <rect x="1000" y="290.4" width="28" height="3.2" fill="#776E96" />
+            <rect x="1000" y="293.3" width="28" height="3.2" fill="#796F98" />
+            <rect x="1000" y="296.2" width="28" height="3.2" fill="#7B719A" />
+            <rect x="1000" y="299.1" width="28" height="3.2" fill="#7C739D" />
+            <rect x="1000" y="302.0" width="28" height="3.2" fill="#7E749F" />
+            <rect x="1000" y="304.9" width="28" height="3.2" fill="#8076A1" />
+            <rect x="1000" y="307.8" width="28" height="3.2" fill="#8178A3" />
+            <rect x="1000" y="310.7" width="28" height="3.2" fill="#837AA5" />
+            <rect x="1000" y="313.6" width="28" height="3.2" fill="#857BA7" />
+            <rect x="1000" y="316.5" width="28" height="3.2" fill="#867DA9" />
+            <rect x="1000" y="319.4" width="28" height="3.2" fill="#887FAC" />
+            <rect x="1000" y="322.3" width="28" height="3.2" fill="#8A81AE" />
+            <rect x="1000" y="325.2" width="28" height="3.2" fill="#8C82B0" />
+            <rect x="1000" y="328.1" width="28" height="3.2" fill="#8D84B2" />
+            <rect x="1000" y="331.0" width="28" height="3.2" fill="#8F86B4" />
+            <rect x="1000" y="333.9" width="28" height="3.2" fill="#9188B5" />
+            <rect x="1000" y="336.8" width="28" height="3.2" fill="#928AB6" />
+            <rect x="1000" y="339.7" width="28" height="3.2" fill="#948CB8" />
+            <rect x="1000" y="342.6" width="28" height="3.2" fill="#968DB9" />
+            <rect x="1000" y="345.5" width="28" height="3.2" fill="#988FBA" />
+            <rect x="1000" y="348.4" width="28" height="3.2" fill="#9A91BB" />
+            <rect x="1000" y="351.29999999999995" width="28" height="3.2" fill="#9B93BC" />
+            <rect x="1000" y="354.2" width="28" height="3.2" fill="#9D95BD" />
+            <rect x="1000" y="357.1" width="28" height="3.2" fill="#9F97BE" />
+            <rect x="1000" y="360.0" width="28" height="3.2" fill="#A098C0" />
+            <rect x="1000" y="362.9" width="28" height="3.2" fill="#A29AC1" />
+            <rect x="1000" y="365.79999999999995" width="28" height="3.2" fill="#A49CC2" />
+            <rect x="1000" y="368.7" width="28" height="3.2" fill="#A69EC3" />
+            <rect x="1000" y="371.6" width="28" height="3.2" fill="#A8A0C4" />
+            <rect x="1000" y="374.5" width="28" height="3.2" fill="#A9A2C6" />
+            <rect x="1000" y="377.4" width="28" height="3.2" fill="#ABA4C7" />
+            <rect x="1000" y="380.29999999999995" width="28" height="3.2" fill="#ADA5C8" />
+            <rect x="1000" y="383.2" width="28" height="3.2" fill="#AEA7C9" />
+            <rect x="1000" y="386.1" width="28" height="3.2" fill="#B0A9CA" />
+            <rect x="1000" y="389.0" width="28" height="3.2" fill="#B2ABCB" />
+            <rect x="1000" y="391.9" width="28" height="3.2" fill="#B4ADCC" />
+            <rect x="1000" y="394.79999999999995" width="28" height="3.2" fill="#B6AFCE" />
+            <rect x="1000" y="397.7" width="28" height="3.2" fill="#B7B1CF" />
+            <rect x="1000" y="400.6" width="28" height="3.2" fill="#B9B2D0" />
+            <rect x="1000" y="403.5" width="28" height="3.2" fill="#BBB4D1" />
+            <rect x="1000" y="406.4" width="28" height="3.2" fill="#BCB6D2" />
+            <rect x="1000" y="409.29999999999995" width="28" height="3.2" fill="#BEB8D4" />
+            <rect x="1000" y="412.2" width="28" height="3.2" fill="#C0BAD5" />
+            <rect x="1000" y="415.1" width="28" height="3.2" fill="#C2BCD6" />
+            <rect x="1000" y="418.0" width="28" height="3.2" fill="#C4BED7" />
+            <rect x="1000" y="420.9" width="28" height="3.2" fill="#C5BFD8" />
+            <rect x="1000" y="423.79999999999995" width="28" height="3.2" fill="#C7C1D9" />
+            <rect x="1000" y="426.7" width="28" height="3.2" fill="#C9C3DA" />
+            <rect x="1000" y="429.6" width="28" height="3.2" fill="#CAC5DC" />
+            <rect x="1000" y="432.5" width="28" height="3.2" fill="#CCC7DD" />
+            <rect x="1000" y="435.4" width="28" height="3.2" fill="#CEC9DE" />
+            <rect x="1000" y="438.29999999999995" width="28" height="3.2" fill="#D0CADF" />
+            <rect x="1000" y="441.2" width="28" height="3.2" fill="#D2CCE0" />
+            <rect x="1000" y="444.1" width="28" height="3.2" fill="#D3CEE2" />
+            <rect x="1000" y="447.0" width="28" height="3.2" fill="#D5D0E3" />
+            <rect x="1000" y="449.9" width="28" height="3.2" fill="#D7D2E4" />
+            <rect x="1000" y="452.79999999999995" width="28" height="3.2" fill="#D8D4E5" />
+            <rect x="1000" y="455.7" width="28" height="3.2" fill="#DAD6E6" />
+            <rect x="1000" y="458.6" width="28" height="3.2" fill="#DCD7E7" />
+            <rect x="1000" y="461.5" width="28" height="3.2" fill="#DED9E8" />
+            <rect x="1000" y="464.4" width="28" height="3.2" fill="#E0DBEA" />
+            <rect x="1000" y="467.29999999999995" width="28" height="3.2" fill="#E1DDEB" />
+            <rect x="1000" y="470.2" width="28" height="3.2" fill="#E3DFEC" />
+            <rect x="1000" y="473.09999999999997" width="28" height="3.2" fill="#E5E1ED" />
+            <rect x="1000" y="476.0" width="28" height="3.2" fill="#E7E3EE" />
+            <rect x="1000" y="478.9" width="28" height="3.2" fill="#E8E4F0" />
+            <rect x="1000" y="481.8" width="28" height="3.2" fill="#EAE6F1" />
+            <rect x="1000" y="484.7" width="28" height="3.2" fill="#ECE8F2" />
+            <rect x="1000" y="487.59999999999997" width="28" height="3.2" fill="#EEEAF3" />
+            <rect x="1000" y="490.5" width="28" height="3.2" fill="#EFECF4" />
+            <rect x="1000" y="493.4" width="28" height="3.2" fill="#F1EEF5" />
+            <rect x="1000" y="496.3" width="28" height="3.2" fill="#F3EFF6" />
+            <rect x="1000" y="499.2" width="28" height="3.2" fill="#F5F1F8" />
+            <rect x="1000" y="502.09999999999997" width="28" height="3.2" fill="#F6F3F9" />
+            <text x="1042" y="510.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">0</text>
+            <text x="1042" y="437.5" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">25</text>
+            <text x="1042" y="365.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">50</text>
+            <text x="1042" y="292.5" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">75</text>
+            <text x="1042" y="220.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">100</text>
+            <text x="210" y="604" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Cells cover unequal time spans; the displayed mean is unweighted across all 56 cells.</text>
+        </g>
+    </g>
+    <g id="source" data-pptx-bounds="40 685 1200 28">
+        <text x="56" y="705" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Source: User Behavior Analytics Platform</text>
+    </g>
+    <g id="statistics" data-pptx-bounds="40 636 1200 44">
+        <text x="56.0" y="650" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Peak</text>
+        <text x="56.0" y="674" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">Sun 19:00–21:00 · 98K</text>
+        <text x="445.3333333333333" y="650" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Lowest</text>
+        <text x="445.3333333333333" y="674" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">Sun 06:00–09:00 · 10K</text>
+        <text x="834.6666666666666" y="650" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">56-cell arithmetic mean</text>
+        <text x="834.6666666666666" y="674" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">56.0K</text>
+    </g>
+</svg>

@@ -1,0 +1,30 @@
+{
+  "id": "texture-zones-diptych",
+  "name": "实验纹理双联",
+  "use_when": "人像、街景、建筑等细节丰富的照片，需要编辑部式的材质实验页",
+  "composition": "3:4 双联，上下等分、无缝拼接。上半原片只做轻微调色；下半把同一张照片原样重复，压 7 个不对称矩形纹理区，避开关键细节。",
+  "material": "七种工艺：长虹玻璃、黑白铜版线刻、美式点彩、复古半调、像素马赛克、透明叠层、双色丝网；区外保持摄影质感；细线边框、角标、引线、编号与英文工艺名。",
+  "identity": "不裁切、不缩放、不位移、不复制、不重绘；重点特征始终可见，区内外保持视觉连续。",
+  "text": "只标编号与工艺名，hairline 标注；不加大标题。",
+  "avoid": "分割线或画框、拼贴感、区内外断裂、纹理盖住脸或主体、无标注、品牌与水印。",
+  "aspect": "3:4",
+  "slots": [
+    "照片",
+    "纹理区数量与位置"
+  ],
+  "tags": [
+    "纹理实验",
+    "双联",
+    "编辑设计",
+    "半调"
+  ],
+  "prompt_language": "en",
+  "prompt_assembly": "源提示词为英文；上传照片即 the uploaded photo，7 个纹理区的位置与数量可按版式调整，区外照片完整这一条不改。",
+  "source_prompt": "Create one vertical 3:4 diptych for each uploaded photo, divided into equal top and bottom halves with a seamless join. No divider, frame, or collage. Swiss editorial design, experimental photography, and vintage print aesthetics.\n\nTOP HALF — ORIGINAL PHOTOGRAPH\nPreserve the original identity, pose, scene, composition, perspective, lighting, and colors. Allow only subtle color grading and background extension. No text.\n\nBOTTOM HALF — SEVEN EXPERIMENTAL TEXTURE ZONES\nRepeat the entire original photo. Overlay seven asymmetrical rectangular zones of different sizes directly onto the image pixels, crossing non-critical details. Maintain visual continuity inside and outside every zone. Never crop, zoom, shift, duplicate, or redraw the image. Keep all important focal features visible.\n\nSEVEN NUMBERED TECHNIQUES\n\n01. Reeded Glass: Vertical optical refraction.\n\n02. Black-and-White Engraving: Fine etched lines and crosshatching.\n\n03. American Stipple: Black-and-white microdot texture.\n\n04. Vintage Halftone: CMYK printing dots.\n\n05. Pixel Mosaic: Square pixel blocks.\n\n06. Transparent Overlay: 2–4 translucent overlapping layers.\n\n07. Duotone Screen Print: Two-color screen-printing effect.\n\nDESIGN DETAILS\nAdd hairline borders, tiny corner squares, and fine leader lines to identify each rectangular zone. Label every technique with its corresponding number and English name. Keep all areas outside the seven zones photographic and realistic.\n\nSTRICT REQUIREMENTS\nNo logos, watermarks, extra images, or unnecessary decorative elements. Preserve the original photograph's integrity and maintain a clean, sophisticated editorial layout.\n\nOUTPUT: One high-definition 3:4 vertical poster with equal top and bottom halves.",
+  "origin": "X @Sairah_0 · 2026-10-21 · https://x.com/Sairah_0/status/2112779843251376490",
+  "mode": "image-transform",
+  "input": "user-image-required",
+  "variant": "poster-layout",
+  "reference": "references/image_styles/texture-zones-diptych/sample.json",
+  "image_policy": "先查看用户输入图片，再按本模板改造；主体、空间关系与允许重绘范围按当前用户要求确定。"
+}

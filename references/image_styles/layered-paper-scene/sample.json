@@ -1,0 +1,16 @@
+{
+  "template_id": "layered-paper-scene",
+  "mode": "image-transform",
+  "template": "templates/image_styles/layered-paper-scene/template.json",
+  "preview": "preview.jpg",
+  "preview_kind": "style-reference",
+  "note": "灯塔、海岸线可换成其他场景，分层与切边保留",
+  "source": {
+    "platform": "X",
+    "post_type": "文生图",
+    "author": "Beanie Blossom",
+    "url": "https://x.com/BeanieBlossom/status/1960975711877128367",
+    "published": "2025-08-28",
+    "collected": "2026-11-12"
+  }
+}

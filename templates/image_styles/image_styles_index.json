@@ -1,86 +1,114 @@
 {
-  "minimal-zine": {
-    "name": "留白纸感杂志海报",
-    "summary": "安静、日常、诗意主题；少量标题与一张主体图",
+  "retro-flat-poster": {
+    "name": "复古照片 × 扁平插画",
+    "summary": "照片与几何扁平插画上下对照的复古编辑海报",
     "mode": "image-transform",
-    "template": "templates/image_styles/minimal-zine/template.json",
-    "reference": "references/image_styles/minimal-zine/sample.json"
+    "template": "templates/image_styles/retro-flat-poster/template.json",
+    "reference": "references/image_styles/retro-flat-poster/sample.json"
   },
-  "swiss-typographic": {
-    "name": "瑞士网格字体海报",
-    "summary": "展览、设计活动、强信息层级和有力度的标题",
+  "watercolor-diptych": {
+    "name": "照片转水彩对照",
+    "summary": "原片加水彩彩铅重画的温柔对照海报",
     "mode": "image-transform",
-    "template": "templates/image_styles/swiss-typographic/template.json",
-    "reference": "references/image_styles/swiss-typographic/sample.json"
+    "template": "templates/image_styles/watercolor-diptych/template.json",
+    "reference": "references/image_styles/watercolor-diptych/sample.json"
   },
-  "vintage-travel": {
-    "name": "复古旅行印刷海报",
-    "summary": "地点、旅行、文化活动、复古品牌故事",
+  "texture-zones-diptych": {
+    "name": "实验纹理双联",
+    "summary": "原片叠加七种实验纹理区的瑞士编辑页",
     "mode": "image-transform",
-    "template": "templates/image_styles/vintage-travel/template.json",
-    "reference": "references/image_styles/vintage-travel/sample.json"
+    "template": "templates/image_styles/texture-zones-diptych/template.json",
+    "reference": "references/image_styles/texture-zones-diptych/sample.json"
   },
-  "cinematic-poster": {
-    "name": "叙事电影感海报",
-    "summary": "一个人物、产品或场景承载明确情绪和故事",
+  "magazine-collage-cover": {
+    "name": "杂志封面拼贴",
+    "summary": "人物主视觉配拼贴窗与大刊头的杂志封面",
     "mode": "image-transform",
-    "template": "templates/image_styles/cinematic-poster/template.json",
-    "reference": "references/image_styles/cinematic-poster/sample.json"
+    "template": "templates/image_styles/magazine-collage-cover/template.json",
+    "reference": "references/image_styles/magazine-collage-cover/sample.json"
   },
-  "editorial-photo": {
-    "name": "摄影编辑海报",
-    "summary": "人物、生活方式、餐饮、产品及文化主题的摄影主视觉",
+  "hand-torn-collage": {
+    "name": "手撕纸拼贴",
+    "summary": "大块手撕纸片拼成的手工拼贴",
     "mode": "image-transform",
-    "template": "templates/image_styles/editorial-photo/template.json",
-    "reference": "references/image_styles/editorial-photo/sample.json"
+    "template": "templates/image_styles/hand-torn-collage/template.json",
+    "reference": "references/image_styles/hand-torn-collage/sample.json"
   },
-  "screen-print-poster": {
-    "name": "丝网套色海报",
-    "summary": "音乐、文化、展览或适合高辨识轮廓的主题",
+  "layered-paper-scene": {
+    "name": "层叠剪纸场景",
+    "summary": "分层剪纸与切边阴影构成的纸艺场景",
     "mode": "image-transform",
-    "template": "templates/image_styles/screen-print-poster/template.json",
-    "reference": "references/image_styles/screen-print-poster/sample.json"
+    "template": "templates/image_styles/layered-paper-scene/template.json",
+    "reference": "references/image_styles/layered-paper-scene/sample.json"
   },
-  "torn-paper-collage": {
-    "name": "原图转手工撕纸拼贴",
-    "summary": "把人物、宠物、食物或日常场景重构为有纸片搭接感的插画",
+  "ink-wash-illustration": {
+    "name": "写意水墨插画",
+    "summary": "写意水墨叠透明水彩的留白插画",
     "mode": "image-transform",
-    "template": "templates/image_styles/torn-paper-collage/template.json",
-    "reference": "references/image_styles/torn-paper-collage/sample.json"
+    "template": "templates/image_styles/ink-wash-illustration/template.json",
+    "reference": "references/image_styles/ink-wash-illustration/sample.json"
   },
-  "layered-paper-cut": {
-    "name": "层叠剪纸立体化",
-    "summary": "把主体轮廓简化为层次清楚、有浅浮雕感的纸艺",
+  "risograph-poster": {
+    "name": "孔版丝网海报",
+    "summary": "新闻纸底、半调网点与有限霓虹的孔版海报",
     "mode": "image-transform",
-    "template": "templates/image_styles/layered-paper-cut/template.json",
-    "reference": "references/image_styles/layered-paper-cut/sample.json"
+    "template": "templates/image_styles/risograph-poster/template.json",
+    "reference": "references/image_styles/risograph-poster/sample.json"
   },
-  "watercolor-restyle": {
-    "name": "原图转透明水彩",
-    "summary": "柔和、轻盈的场景记忆、植物、食物与生活插画",
+  "halftone-editorial": {
+    "name": "半调编辑海报",
+    "summary": "粗半调黑白场与彩色碎片的编辑拼贴",
     "mode": "image-transform",
-    "template": "templates/image_styles/watercolor-restyle/template.json",
-    "reference": "references/image_styles/watercolor-restyle/sample.json"
+    "template": "templates/image_styles/halftone-editorial/template.json",
+    "reference": "references/image_styles/halftone-editorial/sample.json"
   },
-  "ink-wash-restyle": {
-    "name": "原图转水墨写意",
-    "summary": "希望用笔触、墨色浓淡和留白表达主体",
+  "isometric-miniature": {
+    "name": "等距微缩场景",
+    "summary": "45° 等距微缩城市放在奶油蛋糕上的 3D 海报",
     "mode": "image-transform",
-    "template": "templates/image_styles/ink-wash-restyle/template.json",
-    "reference": "references/image_styles/ink-wash-restyle/sample.json"
+    "template": "templates/image_styles/isometric-miniature/template.json",
+    "reference": "references/image_styles/isometric-miniature/sample.json"
   },
-  "halftone-duotone": {
-    "name": "双色网点印刷改造",
-    "summary": "从原图提取强轮廓和明暗，用于杂志、音乐与复古印刷图像",
+  "showa-film-portrait": {
+    "name": "昭和胶片人像",
+    "summary": "昭和街景与褪色胶片颗粒的人像",
     "mode": "image-transform",
-    "template": "templates/image_styles/halftone-duotone/template.json",
-    "reference": "references/image_styles/halftone-duotone/sample.json"
+    "template": "templates/image_styles/showa-film-portrait/template.json",
+    "reference": "references/image_styles/showa-film-portrait/sample.json"
   },
-  "photo-abstract-memory": {
-    "name": "原片加抽象记忆面板",
-    "summary": "保留原始照片，同时用色块、材质与形状表达照片的视觉记忆",
+  "swiss-editorial-poster": {
+    "name": "瑞士字体海报",
+    "summary": "巨型字母内嵌扁平城市插画的瑞士网格海报",
     "mode": "image-transform",
-    "template": "templates/image_styles/photo-abstract-memory/template.json",
-    "reference": "references/image_styles/photo-abstract-memory/sample.json"
+    "template": "templates/image_styles/swiss-editorial-poster/template.json",
+    "reference": "references/image_styles/swiss-editorial-poster/sample.json"
+  },
+  "newspaper-collage": {
+    "name": "报纸拼贴",
+    "summary": "撕报纸拼出主体、铅笔细节收口的混合媒介",
+    "mode": "image-transform",
+    "template": "templates/image_styles/newspaper-collage/template.json",
+    "reference": "references/image_styles/newspaper-collage/sample.json"
+  },
+  "vintage-travel-poster": {
+    "name": "复古旅行海报",
+    "summary": "60 年代旅游广告式的几何地标海报",
+    "mode": "image-transform",
+    "template": "templates/image_styles/vintage-travel-poster/template.json",
+    "reference": "references/image_styles/vintage-travel-poster/sample.json"
+  },
+  "minimal-studio-portrait": {
+    "name": "极简棚拍人像",
+    "summary": "纯白棚拍、柔光与丝缎质感的人像",
+    "mode": "image-transform",
+    "template": "templates/image_styles/minimal-studio-portrait/template.json",
+    "reference": "references/image_styles/minimal-studio-portrait/sample.json"
+  },
+  "double-exposure-poster": {
+    "name": "双重曝光海报",
+    "summary": "高调剪影、内嵌叙事带与超大衬线标题的海报",
+    "mode": "image-transform",
+    "template": "templates/image_styles/double-exposure-poster/template.json",
+    "reference": "references/image_styles/double-exposure-poster/sample.json"
   }
 }

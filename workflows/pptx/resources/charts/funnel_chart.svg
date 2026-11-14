@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Segoe UI, Arial, sans-serif" font-size="12" lang="en-US">
+    <desc>Editable pseudo-3D SVG. Original values determine front dimensions, top areas or pre-projection angles; depth is decorative.</desc>
+    <metadata id="source-data" type="application/json">{"source_payload": {"name": "funnel_chart", "x": 340, "y": 160, "width": 630, "height": 410, "type": "funnel", "categories": ["Awareness", "Interest", "Consideration", "Conversion"], "values": [10000, 4500, 1800, 650], "style": {"colors": ["#3B82F6", "#0EA5E9", "#14B8A6", "#F97316"]}}, "rendering": {"type": "pseudo-3d", "native_replacement": false, "depth_encodes_extra_data": false}, "derived_geometry": {"front_areas": [45600.0, 20520.0, 8208.0, 2964.0], "relative_areas": [1.0, 0.45, 0.18, 0.065], "stage_retention": [0.45, 0.4, 0.3611111111111111]}, "default_palette": {"id": "lavender-spring", "name": "科研配色｜薰紫春庭", "colors": ["#8F86B4", "#B7ACCD", "#DBCCE2", "#D6A3B1", "#E8CCAB", "#A8C3B5"], "roles": {"primary": "#8F86B4", "secondary": "#B7ACCD", "surface_accent": "#DBCCE2", "emphasis": "#D6A3B1", "warm": "#E8CCAB", "positive": "#A8C3B5", "negative": "#D6A3B1", "neutral_data": "#B7ACCD", "text": "#241F30", "secondary_text": "#655E75", "background": "#FFFFFF", "surface": "#F8F5FA", "divider": "#D8D2E0", "connector": "#8F86B4", "mark_outline": "#716684"}, "core_values_exact": true, "category_base_mapping": {"#2563EB": "#8F86B4", "#0284C7": "#B7ACCD", "#0D9488": "#D6A3B1", "#EA580C": "#A8C3B5"}, "shading": {"space": "linear-sRGB", "front_and_top": "Use the exact assigned core color.", "light_cap_white_mix": 0.1, "outer_wall_light_multiplier": 0.5, "inner_wall_light_multiplier": 0.29, "radial_cut_light_multiplier": 0.39, "lighter_cut_light_multiplier": 0.6}}}</metadata>
+    <defs>
+        <marker id="arrowLoss" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+            <path d="M0,0 L0,6 L9,3 z" fill="#F8F5FA" />
+        </marker>
+    </defs>
+    <rect width="1280" height="720" fill="#FFFFFF" />
+    <g id="header" data-pptx-bounds="40 15 1200 110">
+        <text x="60" y="80" font-size="32" font-weight="700" fill="#241F30">Conversion Funnel Analysis</text>
+        <text x="60" y="115" font-size="18" fill="#241F30">Quarterly Performance · Total Volume: 10,000</text>
+    </g>
+    <g id="visualization" data-pptx-bounds="20 130 1240 585">
+        <g id="funnel-3d">
+            <g id="funnel-stage-1" data-value="10000" data-front-area="45600.0">
+                <path d="M 970.00,170.00 L 980.00,162.00 L 920.00,238.00 L 910.00,246.00 Z" fill="#686183" />
+                <path d="M 310.00,170.00 L 320.00,162.00 L 980.00,162.00 L 970.00,170.00 Z" fill="#9F98BD" />
+                <path d="M 310.00,170.00 L 970.00,170.00 L 910.00,246.00 L 370.00,246.00 Z" fill="#8F86B4" />
+                <text x="640" y="213" font-size="16" text-anchor="middle" fill="#241F30" font-weight="600">100%</text>
+                <path d="M 945.0,202 L 974,202" stroke="#8F86B4" stroke-width="1.2" fill="none" />
+                <text x="990" y="208" font-size="16" text-anchor="start" fill="#241F30" font-weight="600">Stage 01: Awareness: 10,000</text>
+            </g>
+            <path d="M 950,260 L 1010,260" stroke="#8F86B4" stroke-width="1.5" fill="none" />
+            <text x="1030" y="255" font-size="16" text-anchor="start" fill="#241F30" font-weight="600">Drop-off: 5,500</text>
+            <text x="1030" y="275" font-size="14" text-anchor="start" fill="#241F30" font-weight="400">Conversion: 45%</text>
+            <g id="funnel-stage-2" data-value="4500" data-front-area="20520.0">
+                <path d="M 790.00,280.00 L 800.00,272.00 L 770.00,348.00 L 760.00,356.00 Z" fill="#867D96" />
+                <path d="M 490.00,280.00 L 500.00,272.00 L 800.00,272.00 L 790.00,280.00 Z" fill="#C0B7D3" />
+                <path d="M 490.00,280.00 L 790.00,280.00 L 760.00,356.00 L 520.00,356.00 Z" fill="#B7ACCD" />
+                <text x="640" y="323" font-size="16" text-anchor="middle" fill="#241F30" font-weight="600">45%</text>
+                <path d="M 780.0,312 L 934,312" stroke="#8F86B4" stroke-width="1.2" fill="none" />
+                <text x="950" y="318" font-size="17" text-anchor="start" fill="#241F30" font-weight="600">Stage 02: Interest: 4,500</text>
+            </g>
+            <path d="M 950,370 L 1010,370" stroke="#8F86B4" stroke-width="1.5" fill="none" />
+            <text x="1030" y="365" font-size="16" text-anchor="start" fill="#241F30" font-weight="600">Drop-off: 2,700</text>
+            <text x="1030" y="385" font-size="14" text-anchor="start" fill="#241F30" font-weight="400">Conversion: 40%</text>
+            <g id="funnel-stage-3" data-value="1800" data-front-area="8208.0">
+                <path d="M 703.00,390.00 L 713.00,382.00 L 695.00,458.00 L 685.00,466.00 Z" fill="#9D7781" />
+                <path d="M 577.00,390.00 L 587.00,382.00 L 713.00,382.00 L 703.00,390.00 Z" fill="#DBAFBB" />
+                <path d="M 577.00,390.00 L 703.00,390.00 L 685.00,466.00 L 595.00,466.00 Z" fill="#D6A3B1" />
+                <text x="640" y="433" font-size="16" text-anchor="middle" fill="#241F30" font-weight="600">18%</text>
+                <path d="M 699.0,422 L 934,422" stroke="#8F86B4" stroke-width="1.2" fill="none" />
+                <text x="950" y="428" font-size="17" text-anchor="start" fill="#241F30" font-weight="600">Stage 03: Consideration: 1,800</text>
+            </g>
+            <path d="M 950,480 L 1010,480" stroke="#8F86B4" stroke-width="1.5" fill="none" />
+            <text x="1030" y="475" font-size="16" text-anchor="start" fill="#241F30" font-weight="600">Drop-off: 1,150</text>
+            <text x="1030" y="495" font-size="14" text-anchor="start" fill="#241F30" font-weight="400">Conversion: 36%</text>
+            <g id="funnel-stage-4" data-value="650" data-front-area="2964.0">
+                <path d="M 664.00,500.00 L 674.00,492.00 L 665.00,568.00 L 655.00,576.00 Z" fill="#7A8F84" />
+                <path d="M 616.00,500.00 L 626.00,492.00 L 674.00,492.00 L 664.00,500.00 Z" fill="#B3CABE" />
+                <path d="M 616.00,500.00 L 664.00,500.00 L 655.00,576.00 L 625.00,576.00 Z" fill="#A8C3B5" />
+                <text x="640" y="543" font-size="12" text-anchor="middle" fill="#241F30" font-weight="600">6.5%</text>
+                <path d="M 664.5,532 L 934,532" stroke="#8F86B4" stroke-width="1.2" fill="none" />
+                <text x="950" y="538" font-size="17" text-anchor="start" fill="#241F30" font-weight="600">Stage 04: Conversion: 650</text>
+            </g>
+            <text x="640" y="594" font-size="12" text-anchor="middle" fill="#241F30" font-weight="400">Front area encodes volume; depth is decorative.</text>
+        </g>
+        <g id="keyMetrics">
+            <rect x="60" y="180" width="220" height="380" rx="8" fill="#FFFFFF" stroke="#D8D2E0" />
+            <text x="170" y="215" font-size="18" font-weight="700" fill="#241F30" text-anchor="middle">Key Metrics</text>
+            <rect x="80" y="245" width="4" height="50" rx="2" fill="#F8F5FA" />
+            <text x="95" y="260" font-size="14" fill="#241F30">Total Conversion</text>
+            <text x="95" y="285" font-size="32" font-weight="700" fill="#241F30">6.5%</text>
+            <rect x="80" y="320" width="4" height="50" rx="2" fill="#F8F5FA" />
+            <text x="95" y="335" font-size="14" fill="#241F30">Avg. Deal Size</text>
+            <text x="95" y="360" font-size="28" font-weight="700" fill="#241F30">$125K</text>
+            <rect x="80" y="395" width="4" height="50" rx="2" fill="#8F86B4" />
+            <text x="95" y="410" font-size="14" fill="#241F30">Total Revenue</text>
+            <text x="95" y="435" font-size="28" font-weight="700" fill="#241F30">$81.3M</text>
+            <rect x="80" y="470" width="4" height="50" rx="2" fill="#F8F5FA" />
+            <text x="95" y="485" font-size="14" fill="#241F30">Sales Cycle</text>
+            <text x="95" y="510" font-size="28" font-weight="700" fill="#241F30">42 Days</text>
+        </g>
+        <g id="insight">
+            <rect x="320" y="610" width="880" height="60" rx="6" fill="#F8F5FA" stroke="#8F86B4" stroke-width="2" />
+            <text x="352" y="635" font-size="16" font-weight="700" fill="#241F30">Key Insight:</text>
+            <text x="460" y="635" font-size="15" fill="#241F30">Significant drop-off between Interest and Consideration stages (40% conversion).</text>
+            <text x="340" y="655" font-size="15" fill="#241F30">Recommend optimizing follow-up cadence and improving proposal quality to boost retention.</text>
+            <g fill="none" stroke="#D8D2E0" stroke-width="1.2">
+                <circle cx="339" cy="628" r="3.5" />
+                <path d="M 337,631 L 337,634 L 341,634 L 341,631 M 337,636 L 341,636" />
+            </g>
+        </g>
+        <g id="source">
+            <text x="60" y="695" font-size="14" fill="#241F30">Source: Internal CRM Performance Data</text>
+        </g>
+    </g>
+</svg>

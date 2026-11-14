@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Segoe UI, Arial, sans-serif" font-size="14" lang="en-US">
+    <title>Action Priority Matrix</title>
+    <metadata id="chart-evidence" type="application/json">{"original_payload": null, "data": {"features": [{"id": "A", "name": "Feature A", "effort": 82.70833333333333, "impact": 83.95833333333333, "original_radius": 55.0, "display_weight": 3025.0, "priority_score": 92, "cost": null}, {"id": "B", "name": "Feature B", "effort": 88.54166666666666, "impact": 22.083333333333332, "original_radius": 70.0, "display_weight": 4900.0, "priority_score": 35, "cost": null}, {"id": "C", "name": "Feature C", "effort": 19.166666666666668, "impact": 87.91666666666667, "original_radius": 42.0, "display_weight": 1764.0, "priority_score": 88, "cost": null}, {"id": "D", "name": "Feature D", "effort": 25.0, "impact": 71.04166666666667, "original_radius": 38.0, "display_weight": 1444.0, "priority_score": 75, "cost": null}, {"id": "E", "name": "Feature E", "effort": 11.458333333333332, "impact": 16.041666666666668, "original_radius": 30.0, "display_weight": 900.0, "priority_score": 40, "cost": null}, {"id": "F", "name": "Feature F", "effort": 68.33333333333333, "impact": 30.0, "original_radius": 45.0, "display_weight": 2025.0, "priority_score": 28, "cost": null}, {"id": "G", "name": "Feature G", "effort": 63.541666666666664, "impact": 76.04166666666666, "original_radius": 40.0, "display_weight": 1600.0, "priority_score": 82, "cost": null}], "thresholds": {"effort": 50, "impact": 50}}, "method": "Original positions normalized to their documented plot bounds; radius uniformly scaled by 0.58, so area ratios are unchanged. Supplied priority score is distinct from demonstration size. Unsubstantiated migration arrow removed.", "validation": {"features": 7, "original_positions_preserved": true, "area_ratios_preserved": true, "real_cost_invented": false, "migration_relation_supplied": false}, "palette": {"id": "lavender-spring", "name": "科研配色｜薰紫春庭", "description": "Low-saturation lavender, dusty rose, cream apricot and sage default chart palette.", "colors": ["#8F86B4", "#B7ACCD", "#DBCCE2", "#D6A3B1", "#E8CCAB", "#A8C3B5"], "roles": {"primary": "#8F86B4", "secondary": "#B7ACCD", "surface_accent": "#DBCCE2", "emphasis": "#D6A3B1", "warm": "#E8CCAB", "positive": "#A8C3B5", "negative": "#D6A3B1", "neutral_data": "#B7ACCD", "text": "#241F30", "secondary_text": "#655E75", "background": "#FFFFFF", "surface": "#F8F5FA", "divider": "#D8D2E0", "connector": "#8F86B4", "mark_outline": "#716684"}, "shading": {"space": "linear-sRGB", "front_and_top": "Use the exact assigned core color.", "light_cap_white_mix": 0.1, "outer_wall_light_multiplier": 0.5, "inner_wall_light_multiplier": 0.29, "radial_cut_light_multiplier": 0.39, "lighter_cut_light_multiplier": 0.6}, "rules": ["The six core HEX values are authoritative and keep their listed order for categorical series.", "Use named semantic roles for increase/decrease and threshold states; preserve their labels and signs.", "Use the same category assignment in faces, legend swatches and anchor dots.", "Use dark text on pastel data marks; small text contrast must be at least 4.5:1.", "Use explicit labels or outlines as well as color; do not claim universal color-vision safety.", "Hierarchies with more than six leaves use parent-family tints; do not invent unrelated accent hues.", "Project-specified palettes may override this default. Keep native metadata synchronized where native replacement is used."]}, "source_svg": "matrix_2x2.svg"}</metadata>
+    <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+    <g id="header" data-pptx-bounds="40 24 1200 105">
+        <text x="56" y="61" font-size="32" fill="#241F30" font-weight="700" text-anchor="start">Action Priority Matrix</text>
+        <text x="56" y="94" font-size="15" fill="#655E75" font-weight="400" text-anchor="start">Relative demonstration coordinates · Bubble AREA preserves original display weight; it does not quantify cost</text>
+    </g>
+    <g id="chart-module" data-pptx-bounds="40 132 1200 500">
+        <g id="chart">
+            <rect x="110" y="190" width="390.0" height="182.5" fill="#A8C3B5" fill-opacity="0.16" />
+            <rect x="500.0" y="190" width="390.0" height="182.5" fill="#B7ACCD" fill-opacity="0.16" />
+            <rect x="110" y="372.5" width="390.0" height="182.5" fill="#E8CCAB" fill-opacity="0.16" />
+            <rect x="500.0" y="372.5" width="390.0" height="182.5" fill="#D6A3B1" fill-opacity="0.16" />
+            <line x1="110.0" y1="190" x2="110.0" y2="555" stroke="#D8D2E0" stroke-width="0.7" />
+            <line x1="110" y1="555.0" x2="890" y2="555.0" stroke="#D8D2E0" stroke-width="0.7" />
+            <text x="110.0" y="578" font-size="13" fill="#655E75" font-weight="400" text-anchor="middle">0</text>
+            <text x="96" y="560.0" font-size="13" fill="#655E75" font-weight="400" text-anchor="end">0</text>
+            <line x1="305.0" y1="190" x2="305.0" y2="555" stroke="#D8D2E0" stroke-width="0.7" />
+            <line x1="110" y1="463.75" x2="890" y2="463.75" stroke="#D8D2E0" stroke-width="0.7" />
+            <text x="305.0" y="578" font-size="13" fill="#655E75" font-weight="400" text-anchor="middle">25</text>
+            <text x="96" y="468.75" font-size="13" fill="#655E75" font-weight="400" text-anchor="end">25</text>
+            <line x1="500.0" y1="190" x2="500.0" y2="555" stroke="#716684" stroke-width="1.5" />
+            <line x1="110" y1="372.5" x2="890" y2="372.5" stroke="#716684" stroke-width="1.5" />
+            <text x="500.0" y="578" font-size="13" fill="#655E75" font-weight="400" text-anchor="middle">50</text>
+            <text x="96" y="377.5" font-size="13" fill="#655E75" font-weight="400" text-anchor="end">50</text>
+            <line x1="695.0" y1="190" x2="695.0" y2="555" stroke="#D8D2E0" stroke-width="0.7" />
+            <line x1="110" y1="281.25" x2="890" y2="281.25" stroke="#D8D2E0" stroke-width="0.7" />
+            <text x="695.0" y="578" font-size="13" fill="#655E75" font-weight="400" text-anchor="middle">75</text>
+            <text x="96" y="286.25" font-size="13" fill="#655E75" font-weight="400" text-anchor="end">75</text>
+            <line x1="890.0" y1="190" x2="890.0" y2="555" stroke="#D8D2E0" stroke-width="0.7" />
+            <line x1="110" y1="190.0" x2="890" y2="190.0" stroke="#D8D2E0" stroke-width="0.7" />
+            <text x="890.0" y="578" font-size="13" fill="#655E75" font-weight="400" text-anchor="middle">100</text>
+            <text x="96" y="195.0" font-size="13" fill="#655E75" font-weight="400" text-anchor="end">100</text>
+            <text x="500.0" y="611" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Implementation effort · Relative 0–100</text>
+            <text x="110" y="145" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">Business impact · Relative 0–100</text>
+            <text x="120" y="177" font-size="15" fill="#241F30" font-weight="600" text-anchor="start">Quick wins · DO</text>
+            <text x="510.0" y="177" font-size="15" fill="#241F30" font-weight="600" text-anchor="start">Major projects · PLAN</text>
+            <text x="120" y="592" font-size="14" fill="#241F30" font-weight="600" text-anchor="start">Fill ins · DELEGATE</text>
+            <text x="510.0" y="592" font-size="14" fill="#241F30" font-weight="600" text-anchor="start">Thankless tasks · DROP</text>
+            <circle cx="800.6249999999999" cy="474.39583333333337" r="40.599999999999994" fill="#D6A3B1" fill-opacity="0.9" stroke="#716684" stroke-width="1.2" data-effort="88.54166666666666" data-impact="22.083333333333332" data-weight="4900.0" />
+            <text x="800.6249999999999" y="479.39583333333337" font-size="17" fill="#241F30" font-weight="700" text-anchor="middle">B</text>
+            <circle cx="755.1249999999999" cy="248.55208333333337" r="31.9" fill="#B7ACCD" fill-opacity="0.9" stroke="#716684" stroke-width="1.2" data-effort="82.70833333333333" data-impact="83.95833333333333" data-weight="3025.0" />
+            <text x="755.1249999999999" y="253.55208333333337" font-size="17" fill="#241F30" font-weight="700" text-anchor="middle">A</text>
+            <circle cx="642.9999999999999" cy="445.5" r="26.099999999999998" fill="#D6A3B1" fill-opacity="0.9" stroke="#716684" stroke-width="1.2" data-effort="68.33333333333333" data-impact="30.0" data-weight="2025.0" />
+            <text x="642.9999999999999" y="450.5" font-size="17" fill="#241F30" font-weight="700" text-anchor="middle">F</text>
+            <circle cx="259.5" cy="234.10416666666663" r="24.36" fill="#A8C3B5" fill-opacity="0.9" stroke="#716684" stroke-width="1.2" data-effort="19.166666666666668" data-impact="87.91666666666667" data-weight="1764.0" />
+            <text x="259.5" y="239.10416666666663" font-size="17" fill="#241F30" font-weight="700" text-anchor="middle">C</text>
+            <circle cx="605.625" cy="277.44791666666674" r="23.2" fill="#B7ACCD" fill-opacity="0.9" stroke="#716684" stroke-width="1.2" data-effort="63.541666666666664" data-impact="76.04166666666666" data-weight="1600.0" />
+            <text x="605.625" y="282.44791666666674" font-size="17" fill="#241F30" font-weight="700" text-anchor="middle">G</text>
+            <circle cx="305.0" cy="295.69791666666663" r="22.04" fill="#A8C3B5" fill-opacity="0.9" stroke="#716684" stroke-width="1.2" data-effort="25.0" data-impact="71.04166666666667" data-weight="1444.0" />
+            <text x="305.0" y="300.69791666666663" font-size="17" fill="#241F30" font-weight="700" text-anchor="middle">D</text>
+            <circle cx="199.375" cy="496.44791666666663" r="17.4" fill="#E8CCAB" fill-opacity="0.9" stroke="#716684" stroke-width="1.2" data-effort="11.458333333333332" data-impact="16.041666666666668" data-weight="900.0" />
+            <text x="199.375" y="501.44791666666663" font-size="17" fill="#241F30" font-weight="700" text-anchor="middle">E</text>
+            <text x="950" y="171" font-size="16" fill="#241F30" font-weight="600" text-anchor="start">Feature</text>
+            <text x="1160" y="171" font-size="16" fill="#241F30" font-weight="600" text-anchor="end">Score</text>
+            <text x="950" y="211" font-size="16" fill="#241F30" font-weight="400" text-anchor="start">Feature A</text>
+            <text x="1160" y="211" font-size="18" fill="#241F30" font-weight="600" text-anchor="end">92</text>
+            <line x1="950" y1="225" x2="1170" y2="225" stroke="#D8D2E0" stroke-width="1" />
+            <text x="950" y="254" font-size="16" fill="#241F30" font-weight="400" text-anchor="start">Feature B</text>
+            <text x="1160" y="254" font-size="18" fill="#241F30" font-weight="600" text-anchor="end">35</text>
+            <line x1="950" y1="268" x2="1170" y2="268" stroke="#D8D2E0" stroke-width="1" />
+            <text x="950" y="297" font-size="16" fill="#241F30" font-weight="400" text-anchor="start">Feature C</text>
+            <text x="1160" y="297" font-size="18" fill="#241F30" font-weight="600" text-anchor="end">88</text>
+            <line x1="950" y1="311" x2="1170" y2="311" stroke="#D8D2E0" stroke-width="1" />
+            <text x="950" y="340" font-size="16" fill="#241F30" font-weight="400" text-anchor="start">Feature D</text>
+            <text x="1160" y="340" font-size="18" fill="#241F30" font-weight="600" text-anchor="end">75</text>
+            <line x1="950" y1="354" x2="1170" y2="354" stroke="#D8D2E0" stroke-width="1" />
+            <text x="950" y="383" font-size="16" fill="#241F30" font-weight="400" text-anchor="start">Feature E</text>
+            <text x="1160" y="383" font-size="18" fill="#241F30" font-weight="600" text-anchor="end">40</text>
+            <line x1="950" y1="397" x2="1170" y2="397" stroke="#D8D2E0" stroke-width="1" />
+            <text x="950" y="426" font-size="16" fill="#241F30" font-weight="400" text-anchor="start">Feature F</text>
+            <text x="1160" y="426" font-size="18" fill="#241F30" font-weight="600" text-anchor="end">28</text>
+            <line x1="950" y1="440" x2="1170" y2="440" stroke="#D8D2E0" stroke-width="1" />
+            <text x="950" y="469" font-size="16" fill="#241F30" font-weight="400" text-anchor="start">Feature G</text>
+            <text x="1160" y="469" font-size="18" fill="#241F30" font-weight="600" text-anchor="end">82</text>
+            <line x1="950" y1="483" x2="1170" y2="483" stroke="#D8D2E0" stroke-width="1" />
+            <text x="950" y="549" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Score and display size are</text>
+            <text x="950" y="571" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">separate supplied quantities.</text>
+            <text x="950" y="607" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">No real cost data provided.</text>
+        </g>
+    </g>
+    <g id="source" data-pptx-bounds="40 685 1200 28">
+        <text x="56" y="705" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Source: Market Research Department</text>
+    </g>
+</svg>

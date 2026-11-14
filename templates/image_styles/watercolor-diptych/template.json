@@ -1,0 +1,30 @@
+{
+  "id": "watercolor-diptych",
+  "name": "照片转水彩对照",
+  "use_when": "人像、宠物、旅行与生活场景，需要手绘温度和上下对照的海报",
+  "composition": "3:4 竖版，上下各半。上半原片完全不动；下半按同一构图重画为水彩与彩铅，50/50 分割干净平衡。",
+  "material": "透明水彩晕染、细墨线、可见铅笔笔触、水彩纸纹理、暖粉彩；韩日生活手帐气质；手写标题与心形、星形、箭头、皇冠、下划线、闪光等小涂鸦。",
+  "identity": "下半必须清楚是同一时刻、同一人物或动物，保留五官、发型、表情、服装、姿态与比例；不新增人或物。",
+  "text": "手写感短句，不用数字字体；文案按主体气质生成或按用户指定。",
+  "avoid": "上下不一致、增加人物或物件、数码字体、过度写实或过度卡通、分割线明显。",
+  "aspect": "3:4",
+  "slots": [
+    "照片",
+    "手写短句"
+  ],
+  "tags": [
+    "水彩",
+    "彩铅",
+    "对照海报",
+    "手帐"
+  ],
+  "prompt_language": "en",
+  "prompt_assembly": "源提示词为英文；把 the uploaded photograph 指认为用户图片，需要固定文案时替换 Generate a short, creative phrase；上下各半与手绘材质不要改。",
+  "source_prompt": "Transform the uploaded photograph into a beautiful, hand-drawn watercolor illustration comparison poster.\n\nLAYOUT & COMPOSITION:\nCreate a vertical 3:4 poster divided into two equal horizontal sections.\n\nTOP HALF — ORIGINAL PHOTO:\nDisplay the original uploaded photograph exactly as it is. Preserve the original subject, pose, clothing, background, lighting, colors, and composition without alterations.\n\nBOTTOM HALF — WATERCOLOR ILLUSTRATION:\nRecreate the exact same photograph as a delicate, hand-painted watercolor and colored-pencil illustration. Preserve the subject's identity, facial features, hairstyle, expression, clothing, pose, proportions, and surroundings.\n\nUse soft watercolor washes, delicate ink outlines, visible pencil strokes, subtle paper texture, warm pastel tones, gentle shading, and beautifully imperfect hand-drawn details. Give the illustration a charming Korean/Japanese lifestyle sketchbook aesthetic.\n\nDECORATIVE DETAILS:\nAdd handwritten playful typography that complements the subject and scene. Include small hand-drawn doodles such as hearts, stars, arrows, crowns, underlines, or sparkles. Generate a short, creative phrase that matches the subject's personality or mood.\n\nBACKGROUND:\nMaintain the original environment but reinterpret it with loose watercolor brushstrokes, simplified scenery, and soft artistic details.\n\nOVERALL STYLE:\nDreamy, cozy, youthful, elegant, artistic, and slightly whimsical. Use warm off-white textured watercolor paper as the illustration background.\n\nIMPORTANT:\n- Keep the original photograph completely unchanged in the top section.\n- The bottom illustration must clearly depict the exact same moment.\n- Do not invent additional people or objects.\n- Maintain strong visual similarity to the original photograph.\n- Make the typography look naturally handwritten, not digitally typeset.\n- Ensure a clean 50/50 split with balanced composition.\n\nHigh-quality editorial art poster, 3:4 vertical aspect ratio.",
+  "origin": "X @Sairah_0 · 2026-11-06 · https://x.com/Sairah_0/status/2118575860303462469",
+  "mode": "image-transform",
+  "input": "user-image-required",
+  "variant": "poster-layout",
+  "reference": "references/image_styles/watercolor-diptych/sample.json",
+  "image_policy": "先查看用户输入图片，再按本模板改造；主体、空间关系与允许重绘范围按当前用户要求确定。"
+}

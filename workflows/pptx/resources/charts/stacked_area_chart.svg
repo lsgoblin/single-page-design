@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Segoe UI, Arial, sans-serif" font-size="14" lang="en-US">
+    <title>Revenue Composition Trend</title>
+    <metadata id="chart-evidence" type="application/json">{"original_payload": {"name": "stacked_area_chart", "x": 85, "y": 150, "width": 1095, "height": 433.25, "type": "area", "grouping": "stacked", "categories": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "series": [{"name": "Subscription", "values": [45, 48, 52, 55, 58, 62, 68, 72, 70, 68, 75, 82]}, {"name": "Advertising", "values": [25, 28, 30, 32, 35, 38, 42, 45, 43, 40, 45, 50]}, {"name": "Value-Added", "values": [15, 16, 18, 20, 22, 25, 28, 30, 28, 26, 30, 35]}, {"name": "Other", "values": [8, 8, 10, 10, 12, 12, 15, 15, 14, 14, 15, 18]}], "style": {"colors": ["#6366F1", "#0EA5E9", "#10B981", "#F59E0B"]}}, "data": {"name": "stacked_area_chart", "x": 85, "y": 150, "width": 1095, "height": 433.25, "type": "area", "grouping": "stacked", "categories": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "series": [{"name": "Subscription", "values": [45, 48, 52, 55, 58, 62, 68, 72, 70, 68, 75, 82]}, {"name": "Advertising", "values": [25, 28, 30, 32, 35, 38, 42, 45, 43, 40, 45, 50]}, {"name": "Value-Added", "values": [15, 16, 18, 20, 22, 25, 28, 30, 28, 26, 30, 35]}, {"name": "Other", "values": [8, 8, 10, 10, 12, 12, 15, 15, 14, 14, 15, 18]}], "style": {"colors": ["#6366F1", "#0EA5E9", "#10B981", "#F59E0B"]}}, "method": "Cumulative monthly boundaries; annual shares use exact amounts; external YoY not recomputed.", "validation": {"original_values": 48, "series_totals": [755, 453, 293, 151], "annual_total": 1652, "monthly_totals": [93, 100, 110, 117, 127, 137, 153, 162, 155, 148, 165, 185], "noncrossing_boundaries": true}, "palette": {"id": "lavender-spring", "name": "科研配色｜薰紫春庭", "description": "Low-saturation lavender, dusty rose, cream apricot and sage default chart palette.", "colors": ["#8F86B4", "#B7ACCD", "#DBCCE2", "#D6A3B1", "#E8CCAB", "#A8C3B5"], "roles": {"primary": "#8F86B4", "secondary": "#B7ACCD", "surface_accent": "#DBCCE2", "emphasis": "#D6A3B1", "warm": "#E8CCAB", "positive": "#A8C3B5", "negative": "#D6A3B1", "neutral_data": "#B7ACCD", "text": "#241F30", "secondary_text": "#655E75", "background": "#FFFFFF", "surface": "#F8F5FA", "divider": "#D8D2E0", "connector": "#8F86B4", "mark_outline": "#716684"}, "shading": {"space": "linear-sRGB", "front_and_top": "Use the exact assigned core color.", "light_cap_white_mix": 0.1, "outer_wall_light_multiplier": 0.5, "inner_wall_light_multiplier": 0.29, "radial_cut_light_multiplier": 0.39, "lighter_cut_light_multiplier": 0.6}, "rules": ["The six core HEX values are authoritative and keep their listed order for categorical series.", "Use named semantic roles for increase/decrease and threshold states; preserve their labels and signs.", "Use the same category assignment in faces, legend swatches and anchor dots.", "Use dark text on pastel data marks; small text contrast must be at least 4.5:1.", "Use explicit labels or outlines as well as color; do not claim universal color-vision safety.", "Hierarchies with more than six leaves use parent-family tints; do not invent unrelated accent hues.", "Project-specified palettes may override this default. Keep native metadata synchronized where native replacement is used."]}, "source_svg": "stacked_area_chart.svg"}</metadata>
+    <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+    <g id="header" data-pptx-bounds="40 24 1200 105">
+        <text x="56" y="61" font-size="32" fill="#241F30" font-weight="700" text-anchor="start">Revenue Composition Trend</text>
+        <text x="56" y="94" font-size="15" fill="#655E75" font-weight="400" text-anchor="start">2025 monthly data · Unit: $M · Each layer shows its own contribution</text>
+        <rect x="546" y="113" width="8" height="8" fill="#8F86B4" stroke="#716684" stroke-width="0.8" />
+        <text x="563" y="121" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">Subscription</text>
+        <rect x="721" y="113" width="8" height="8" fill="#B7ACCD" stroke="#716684" stroke-width="0.8" />
+        <text x="738" y="121" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">Advertising</text>
+        <rect x="896" y="113" width="8" height="8" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" />
+        <text x="913" y="121" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">Value-Added</text>
+        <rect x="1071" y="113" width="8" height="8" fill="#A8C3B5" stroke="#716684" stroke-width="0.8" />
+        <text x="1088" y="121" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">Other</text>
+    </g>
+    <g id="chart-module" data-pptx-bounds="40 132 1200 500">
+        <g id="chart" data-pptx-replace-with="chart" data-pptx-fallback-sha256="2df11f98f8a30194c3fa0de7ae8483536be7b38d7c12e29a3f29574323537784">
+            <metadata type="application/json">{"name": "stacked_area_chart", "x": 40, "y": 132, "width": 1200, "height": 500, "type": "area", "grouping": "stacked", "categories": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "series": [{"name": "Subscription", "values": [45, 48, 52, 55, 58, 62, 68, 72, 70, 68, 75, 82], "line_width": 0.8}, {"name": "Advertising", "values": [25, 28, 30, 32, 35, 38, 42, 45, 43, 40, 45, 50], "line_width": 0.8}, {"name": "Value-Added", "values": [15, 16, 18, 20, 22, 25, 28, 30, 28, 26, 30, 35], "line_width": 0.8}, {"name": "Other", "values": [8, 8, 10, 10, 12, 12, 15, 15, 14, 14, 15, 18], "line_width": 0.8}], "style": {"colors": ["#8F86B4", "#B7ACCD", "#D6A3B1", "#A8C3B5"], "text_color": "#655E75", "axis_color": "#716684", "grid_color": "#D8D2E0", "font_family": "Segoe UI", "axis_font_size": 14, "chart_area_fill": "none", "plot_area_fill": "none"}, "axes": {"value": {"minimum": 0, "maximum": 200, "major_unit": 50}, "category": {"kind": "text"}}, "axis_titles": {"value": "Revenue ($M)"}, "plot_area": {"x": 110, "y": 185, "width": 1060, "height": 340}}</metadata>
+            <line x1="110" y1="525.0" x2="1170" y2="525.0" stroke="#D8D2E0" stroke-width="1" id="grid-0" />
+            <text x="96" y="530.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">0</text>
+            <line x1="110" y1="440.0" x2="1170" y2="440.0" stroke="#D8D2E0" stroke-width="1" id="grid-50" />
+            <text x="96" y="445.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">50</text>
+            <line x1="110" y1="355.0" x2="1170" y2="355.0" stroke="#D8D2E0" stroke-width="1" id="grid-100" />
+            <text x="96" y="360.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">100</text>
+            <line x1="110" y1="270.0" x2="1170" y2="270.0" stroke="#D8D2E0" stroke-width="1" id="grid-150" />
+            <text x="96" y="275.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">150</text>
+            <line x1="110" y1="185.0" x2="1170" y2="185.0" stroke="#D8D2E0" stroke-width="1" id="grid-200" />
+            <text x="96" y="190.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">200</text>
+            <line x1="110" y1="185" x2="110" y2="525" stroke="#716684" stroke-width="1.2" id="axis-y" />
+            <line x1="110" y1="525" x2="1170" y2="525" stroke="#716684" stroke-width="1.2" id="axis-x" />
+            <text x="110" y="167" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">Revenue ($M)</text>
+            <text x="110.0" y="553" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Jan</text>
+            <text x="206.36363636363637" y="553" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Feb</text>
+            <text x="302.72727272727275" y="553" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Mar</text>
+            <text x="399.09090909090907" y="553" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Apr</text>
+            <text x="495.45454545454544" y="553" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">May</text>
+            <text x="591.8181818181818" y="553" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Jun</text>
+            <text x="688.1818181818181" y="553" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Jul</text>
+            <text x="784.5454545454545" y="553" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Aug</text>
+            <text x="880.9090909090909" y="553" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Sep</text>
+            <text x="977.2727272727273" y="553" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Oct</text>
+            <text x="1073.6363636363635" y="553" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Nov</text>
+            <text x="1170.0" y="553" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Dec</text>
+            <path d="M 110.0000,448.5000 L 206.3636,443.4000 L 302.7273,436.6000 L 399.0909,431.5000 L 495.4545,426.4000 L 591.8182,419.6000 L 688.1818,409.4000 L 784.5455,402.6000 L 880.9091,406.0000 L 977.2727,409.4000 L 1073.6364,397.5000 L 1170.0000,385.6000 L 1170.0000,525.0000 L 1073.6364,525.0000 L 977.2727,525.0000 L 880.9091,525.0000 L 784.5455,525.0000 L 688.1818,525.0000 L 591.8182,525.0000 L 495.4545,525.0000 L 399.0909,525.0000 L 302.7273,525.0000 L 206.3636,525.0000 L 110.0000,525.0000 Z" fill="#8F86B4" stroke="#716684" stroke-width="0.8" id="layer-0" />
+            <path d="M 110.0000,406.0000 L 206.3636,395.8000 L 302.7273,385.6000 L 399.0909,377.1000 L 495.4545,366.9000 L 591.8182,355.0000 L 688.1818,338.0000 L 784.5455,326.1000 L 880.9091,332.9000 L 977.2727,341.4000 L 1073.6364,321.0000 L 1170.0000,300.6000 L 1170.0000,385.6000 L 1073.6364,397.5000 L 977.2727,409.4000 L 880.9091,406.0000 L 784.5455,402.6000 L 688.1818,409.4000 L 591.8182,419.6000 L 495.4545,426.4000 L 399.0909,431.5000 L 302.7273,436.6000 L 206.3636,443.4000 L 110.0000,448.5000 Z" fill="#B7ACCD" stroke="#716684" stroke-width="0.8" id="layer-1" />
+            <path d="M 110.0000,380.5000 L 206.3636,368.6000 L 302.7273,355.0000 L 399.0909,343.1000 L 495.4545,329.5000 L 591.8182,312.5000 L 688.1818,290.4000 L 784.5455,275.1000 L 880.9091,285.3000 L 977.2727,297.2000 L 1073.6364,270.0000 L 1170.0000,241.1000 L 1170.0000,300.6000 L 1073.6364,321.0000 L 977.2727,341.4000 L 880.9091,332.9000 L 784.5455,326.1000 L 688.1818,338.0000 L 591.8182,355.0000 L 495.4545,366.9000 L 399.0909,377.1000 L 302.7273,385.6000 L 206.3636,395.8000 L 110.0000,406.0000 Z" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" id="layer-2" />
+            <path d="M 110.0000,366.9000 L 206.3636,355.0000 L 302.7273,338.0000 L 399.0909,326.1000 L 495.4545,309.1000 L 591.8182,292.1000 L 688.1818,264.9000 L 784.5455,249.6000 L 880.9091,261.5000 L 977.2727,273.4000 L 1073.6364,244.5000 L 1170.0000,210.5000 L 1170.0000,241.1000 L 1073.6364,270.0000 L 977.2727,297.2000 L 880.9091,285.3000 L 784.5455,275.1000 L 688.1818,290.4000 L 591.8182,312.5000 L 495.4545,329.5000 L 399.0909,343.1000 L 302.7273,355.0000 L 206.3636,368.6000 L 110.0000,380.5000 Z" fill="#A8C3B5" stroke="#716684" stroke-width="0.8" id="layer-3" />
+        </g>
+        <g id="context">
+            <text x="56" y="603" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">Peak month: Dec · $185M</text>
+            <text x="440" y="603" font-size="12" fill="#655E75" font-weight="400" text-anchor="start">Original template YoY: +11.2% · Prior-year base not supplied</text>
+        </g>
+    </g>
+    <g id="source" data-pptx-bounds="40 685 1200 28">
+        <text x="56" y="705" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Data Source: Finance Department</text>
+    </g>
+    <g id="statistics" data-pptx-bounds="40 636 1200 44">
+        <text x="56.0" y="650" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Subscription</text>
+        <text x="56.0" y="674" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">755M · 45.7%</text>
+        <text x="289.6" y="650" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Advertising</text>
+        <text x="289.6" y="674" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">453M · 27.4%</text>
+        <text x="523.2" y="650" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Value-Added</text>
+        <text x="523.2" y="674" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">293M · 17.7%</text>
+        <text x="756.8" y="650" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Other</text>
+        <text x="756.8" y="674" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">151M · 9.1%</text>
+        <text x="990.4" y="650" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Total revenue</text>
+        <text x="990.4" y="674" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">1,652M</text>
+    </g>
+</svg>

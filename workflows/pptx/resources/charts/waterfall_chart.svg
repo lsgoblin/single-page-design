@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Segoe UI, Arial, sans-serif" font-size="12" lang="en-US">
+    <desc>Editable pseudo-3D SVG. Original values determine front dimensions, top areas or pre-projection angles; depth is decorative.</desc>
+    <metadata id="source-data" type="application/json">{"source_payload": {"name": "waterfall_chart", "x": 120, "y": 130, "width": 1080, "height": 483.25, "type": "waterfall", "categories": ["2024 Profit", "Revenue Growth", "New Products", "Material Costs", "Labor Costs", "Marketing Spend", "Ops Efficiency", "2025 Profit"], "values": [280, 120, 65, -45, -35, -25, 40, 400], "subtotals": [0, 7], "style": {"colors": ["#1E293B", "#10B981", "#F43F5E"]}}, "rendering": {"type": "pseudo-3d", "native_replacement": false, "depth_encodes_extra_data": false}, "derived_geometry": {"steps": [{"start": 0, "end": 280, "value": 280}, {"start": 280, "end": 400, "value": 120}, {"start": 400, "end": 465, "value": 65}, {"start": 465, "end": 420, "value": -45}, {"start": 420, "end": 385, "value": -35}, {"start": 385, "end": 360, "value": -25}, {"start": 360, "end": 400, "value": 40}, {"start": 0, "end": 400, "value": 400}], "pixels_per_unit": 0.8, "final_total": 400}, "default_palette": {"id": "lavender-spring", "name": "科研配色｜薰紫春庭", "colors": ["#8F86B4", "#B7ACCD", "#DBCCE2", "#D6A3B1", "#E8CCAB", "#A8C3B5"], "roles": {"primary": "#8F86B4", "secondary": "#B7ACCD", "surface_accent": "#DBCCE2", "emphasis": "#D6A3B1", "warm": "#E8CCAB", "positive": "#A8C3B5", "negative": "#D6A3B1", "neutral_data": "#B7ACCD", "text": "#241F30", "secondary_text": "#655E75", "background": "#FFFFFF", "surface": "#F8F5FA", "divider": "#D8D2E0", "connector": "#8F86B4", "mark_outline": "#716684"}, "core_values_exact": true, "category_base_mapping": {"#334155": "#B7ACCD", "#1E293B": "#B7ACCD", "#10B981": "#A8C3B5", "#F43F5E": "#D6A3B1", "#059669": "#A8C3B5", "#BE123C": "#D6A3B1"}, "shading": {"space": "linear-sRGB", "front_and_top": "Use the exact assigned core color.", "light_cap_white_mix": 0.1, "outer_wall_light_multiplier": 0.5, "inner_wall_light_multiplier": 0.29, "radial_cut_light_multiplier": 0.39, "lighter_cut_light_multiplier": 0.6}}}</metadata>
+    <rect width="1280" height="720" fill="#FFFFFF" />
+    <g id="header" data-pptx-bounds="40 15 1200 110">
+        <text x="60" y="70" font-size="32" font-weight="800" fill="#241F30">Annual Profit Waterfall Analysis</text>
+        <text x="60" y="100" font-size="14" font-weight="700" fill="#241F30" letter-spacing="1">2024 VS 2025 · IN MILLIONS (USD)</text>
+        <g id="legend" transform="translate(860, 60)">
+            <rect x="0" y="0" width="340" height="40" rx="20" fill="#FFFFFF" stroke="#D8D2E0" stroke-width="1.5" />
+            <circle cx="30" cy="20" r="6" fill="#B7ACCD" />
+            <text x="44" y="25" font-size="14" font-weight="700" fill="#241F30">Start / End</text>
+            <circle cx="140" cy="20" r="6" fill="#A8C3B5" />
+            <text x="154" y="25" font-size="14" font-weight="700" fill="#241F30">Increase</text>
+            <circle cx="240" cy="20" r="6" fill="#D6A3B1" />
+            <text x="254" y="25" font-size="14" font-weight="700" fill="#241F30">Decrease</text>
+        </g>
+    </g>
+    <g id="visualization" data-pptx-bounds="20 130 1240 585">
+        <g id="waterfall_chart">
+            <g id="chartArea">
+                <line x1="140" y1="560" x2="1200" y2="560" stroke="#D8D2E0" stroke-width="2" />
+                <line x1="140" y1="480" x2="1200" y2="480" stroke="#D8D2E0" stroke-width="2" stroke-dasharray="6,6" />
+                <line x1="140" y1="400" x2="1200" y2="400" stroke="#D8D2E0" stroke-width="2" stroke-dasharray="6,6" />
+                <line x1="140" y1="320" x2="1200" y2="320" stroke="#D8D2E0" stroke-width="2" stroke-dasharray="6,6" />
+                <line x1="140" y1="240" x2="1200" y2="240" stroke="#D8D2E0" stroke-width="2" stroke-dasharray="6,6" />
+                <line x1="140" y1="160" x2="1200" y2="160" stroke="#D8D2E0" stroke-width="2" stroke-dasharray="6,6" />
+                <text x="120" y="565" font-size="14" font-weight="600" fill="#241F30" text-anchor="end">0</text>
+                <text x="120" y="485" font-size="14" font-weight="600" fill="#241F30" text-anchor="end">100</text>
+                <text x="120" y="405" font-size="14" font-weight="600" fill="#241F30" text-anchor="end">200</text>
+                <text x="120" y="325" font-size="14" font-weight="600" fill="#241F30" text-anchor="end">300</text>
+                <text x="120" y="245" font-size="14" font-weight="600" fill="#241F30" text-anchor="end">400</text>
+                <text x="120" y="165" font-size="14" font-weight="600" fill="#241F30" text-anchor="end">500</text>
+                <line x1="140" y1="130" x2="140" y2="560" stroke="#D8D2E0" stroke-width="2" />
+                <line x1="265" y1="336" x2="305" y2="336" stroke="#8F86B4" stroke-width="2" stroke-dasharray="4,4" />
+                <line x1="395" y1="240" x2="435" y2="240" stroke="#8F86B4" stroke-width="2" stroke-dasharray="4,4" />
+                <line x1="525" y1="188" x2="565" y2="188" stroke="#8F86B4" stroke-width="2" stroke-dasharray="4,4" />
+                <line x1="655" y1="224" x2="695" y2="224" stroke="#8F86B4" stroke-width="2" stroke-dasharray="4,4" />
+                <line x1="785" y1="252" x2="825" y2="252" stroke="#8F86B4" stroke-width="2" stroke-dasharray="4,4" />
+                <line x1="915" y1="272" x2="955" y2="272" stroke="#8F86B4" stroke-width="2" stroke-dasharray="4,4" />
+                <line x1="1045" y1="240" x2="1085" y2="240" stroke="#8F86B4" stroke-width="2" stroke-dasharray="4,4" />
+                <g id="data-bar-1" data-front-x="175.0" data-front-y="336.0" data-front-width="90.0" data-front-height="224.0" data-value="280">
+                    <path d="M 265.00,336.00 L 277.00,328.00 L 277.00,552.00 L 265.00,560.00 Z" fill="#867D96" id="data-bar-1-side" />
+                    <path d="M 175.00,336.00 L 187.00,328.00 L 277.00,328.00 L 265.00,336.00 Z" fill="#C0B7D3" id="data-bar-1-top" />
+                    <path d="M 175.00,336.00 L 265.00,336.00 L 265.00,560.00 L 175.00,560.00 Z" fill="#B7ACCD" id="data-bar-1-front" />
+                </g>
+                <text x="220" y="320" font-size="16" font-weight="800" fill="#241F30" text-anchor="middle">280</text>
+                <text x="220" y="590" font-size="13" font-weight="700" fill="#241F30" text-anchor="middle">2024</text>
+                <text x="220" y="610" font-size="13" font-weight="600" fill="#241F30" text-anchor="middle">Profit</text>
+                <g id="data-bar-2" data-front-x="305.0" data-front-y="240.0" data-front-width="90.0" data-front-height="96.0" data-value="120">
+                    <path d="M 395.00,240.00 L 407.00,232.00 L 407.00,328.00 L 395.00,336.00 Z" fill="#7A8F84" id="data-bar-2-side" />
+                    <path d="M 305.00,240.00 L 317.00,232.00 L 407.00,232.00 L 395.00,240.00 Z" fill="#B3CABE" id="data-bar-2-top" />
+                    <path d="M 305.00,240.00 L 395.00,240.00 L 395.00,336.00 L 305.00,336.00 Z" fill="#A8C3B5" id="data-bar-2-front" />
+                </g>
+                <text x="350" y="224" font-size="16" font-weight="800" fill="#241F30" text-anchor="middle">+120</text>
+                <text x="350" y="590" font-size="13" font-weight="700" fill="#241F30" text-anchor="middle">Revenue</text>
+                <text x="350" y="610" font-size="13" font-weight="600" fill="#241F30" text-anchor="middle">Growth</text>
+                <g id="data-bar-3" data-front-x="435.0" data-front-y="188.0" data-front-width="90.0" data-front-height="52.0" data-value="65">
+                    <path d="M 525.00,188.00 L 537.00,180.00 L 537.00,232.00 L 525.00,240.00 Z" fill="#7A8F84" id="data-bar-3-side" />
+                    <path d="M 435.00,188.00 L 447.00,180.00 L 537.00,180.00 L 525.00,188.00 Z" fill="#B3CABE" id="data-bar-3-top" />
+                    <path d="M 435.00,188.00 L 525.00,188.00 L 525.00,240.00 L 435.00,240.00 Z" fill="#A8C3B5" id="data-bar-3-front" />
+                </g>
+                <text x="480" y="172" font-size="16" font-weight="800" fill="#241F30" text-anchor="middle">+65</text>
+                <text x="480" y="590" font-size="13" font-weight="700" fill="#241F30" text-anchor="middle">New</text>
+                <text x="480" y="610" font-size="13" font-weight="600" fill="#241F30" text-anchor="middle">Products</text>
+                <g id="data-bar-4" data-front-x="565.0" data-front-y="188.0" data-front-width="90.0" data-front-height="36.0" data-value="-45">
+                    <path d="M 655.00,188.00 L 667.00,180.00 L 667.00,216.00 L 655.00,224.00 Z" fill="#9D7781" id="data-bar-4-side" />
+                    <path d="M 565.00,188.00 L 577.00,180.00 L 667.00,180.00 L 655.00,188.00 Z" fill="#DBAFBB" id="data-bar-4-top" />
+                    <path d="M 565.00,188.00 L 655.00,188.00 L 655.00,224.00 L 565.00,224.00 Z" fill="#D6A3B1" id="data-bar-4-front" />
+                </g>
+                <text x="610" y="244" font-size="16" font-weight="800" fill="#241F30" text-anchor="middle">-45</text>
+                <text x="610" y="590" font-size="13" font-weight="700" fill="#241F30" text-anchor="middle">Material</text>
+                <text x="610" y="610" font-size="13" font-weight="600" fill="#241F30" text-anchor="middle">Costs</text>
+                <g id="data-bar-5" data-front-x="695.0" data-front-y="224.0" data-front-width="90.0" data-front-height="28.0" data-value="-35">
+                    <path d="M 785.00,224.00 L 797.00,216.00 L 797.00,244.00 L 785.00,252.00 Z" fill="#9D7781" id="data-bar-5-side" />
+                    <path d="M 695.00,224.00 L 707.00,216.00 L 797.00,216.00 L 785.00,224.00 Z" fill="#DBAFBB" id="data-bar-5-top" />
+                    <path d="M 695.00,224.00 L 785.00,224.00 L 785.00,252.00 L 695.00,252.00 Z" fill="#D6A3B1" id="data-bar-5-front" />
+                </g>
+                <text x="740" y="272" font-size="16" font-weight="800" fill="#241F30" text-anchor="middle">-35</text>
+                <text x="740" y="590" font-size="13" font-weight="700" fill="#241F30" text-anchor="middle">Labor</text>
+                <text x="740" y="610" font-size="13" font-weight="600" fill="#241F30" text-anchor="middle">Costs</text>
+                <g id="data-bar-6" data-front-x="825.0" data-front-y="252.0" data-front-width="90.0" data-front-height="20.0" data-value="-25">
+                    <path d="M 915.00,252.00 L 927.00,244.00 L 927.00,264.00 L 915.00,272.00 Z" fill="#9D7781" id="data-bar-6-side" />
+                    <path d="M 825.00,252.00 L 837.00,244.00 L 927.00,244.00 L 915.00,252.00 Z" fill="#DBAFBB" id="data-bar-6-top" />
+                    <path d="M 825.00,252.00 L 915.00,252.00 L 915.00,272.00 L 825.00,272.00 Z" fill="#D6A3B1" id="data-bar-6-front" />
+                </g>
+                <text x="870" y="292" font-size="16" font-weight="800" fill="#241F30" text-anchor="middle">-25</text>
+                <text x="870" y="590" font-size="13" font-weight="700" fill="#241F30" text-anchor="middle">Marketing</text>
+                <text x="870" y="610" font-size="13" font-weight="600" fill="#241F30" text-anchor="middle">Spend</text>
+                <g id="data-bar-7" data-front-x="955.0" data-front-y="240.0" data-front-width="90.0" data-front-height="32.0" data-value="40">
+                    <path d="M 1045.00,240.00 L 1057.00,232.00 L 1057.00,264.00 L 1045.00,272.00 Z" fill="#7A8F84" id="data-bar-7-side" />
+                    <path d="M 955.00,240.00 L 967.00,232.00 L 1057.00,232.00 L 1045.00,240.00 Z" fill="#B3CABE" id="data-bar-7-top" />
+                    <path d="M 955.00,240.00 L 1045.00,240.00 L 1045.00,272.00 L 955.00,272.00 Z" fill="#A8C3B5" id="data-bar-7-front" />
+                </g>
+                <text x="1000" y="224" font-size="16" font-weight="800" fill="#241F30" text-anchor="middle">+40</text>
+                <text x="1000" y="590" font-size="13" font-weight="700" fill="#241F30" text-anchor="middle">Ops</text>
+                <text x="1000" y="610" font-size="13" font-weight="600" fill="#241F30" text-anchor="middle">Efficiency</text>
+                <g id="data-bar-8" data-front-x="1085.0" data-front-y="240.0" data-front-width="90.0" data-front-height="320.0" data-value="400">
+                    <path d="M 1175.00,240.00 L 1187.00,232.00 L 1187.00,552.00 L 1175.00,560.00 Z" fill="#867D96" id="data-bar-8-side" />
+                    <path d="M 1085.00,240.00 L 1097.00,232.00 L 1187.00,232.00 L 1175.00,240.00 Z" fill="#C0B7D3" id="data-bar-8-top" />
+                    <path d="M 1085.00,240.00 L 1175.00,240.00 L 1175.00,560.00 L 1085.00,560.00 Z" fill="#B7ACCD" id="data-bar-8-front" />
+                </g>
+                <text x="1130" y="224" font-size="16" font-weight="800" fill="#241F30" text-anchor="middle">400</text>
+                <text x="1130" y="590" font-size="13" font-weight="700" fill="#241F30" text-anchor="middle">2025</text>
+                <text x="1130" y="610" font-size="13" font-weight="600" fill="#241F30" text-anchor="middle">Profit</text>
+            </g>
+        </g>
+        <g id="summaryCard" transform="translate(140, 630)">
+            <rect x="0" y="0" width="1060" height="60" rx="12" fill="#FFFFFF" stroke="#D8D2E0" stroke-width="1.5" />
+            <rect x="20" y="15" width="4" height="30" rx="2" fill="#A8C3B5" />
+            <text x="40" y="36" font-size="15" font-weight="800" fill="#241F30">ANNUAL PROFIT GROWTH</text>
+            <rect x="260" y="12" width="100" height="36" rx="18" fill="#F8F5FA" />
+            <text x="310" y="36" font-size="16" font-weight="800" fill="#241F30" text-anchor="middle">+$120M</text>
+            <text x="400" y="35" font-size="14" font-weight="600" fill="#241F30">
+            Total Increases: +$225M    ·    Total Decreases: -$105M    ·    Net Growth: +$120M (+42.9%)
+        </text>
+        </g>
+        <g id="source">
+            <text x="1200" y="710" font-size="13" font-weight="600" fill="#241F30" text-anchor="end">Data Source: Finance Department</text>
+        </g>
+    </g>
+</svg>

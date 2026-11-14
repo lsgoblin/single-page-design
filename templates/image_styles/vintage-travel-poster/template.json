@@ -1,0 +1,31 @@
+{
+  "id": "vintage-travel-poster",
+  "name": "复古旅行海报",
+  "use_when": "城市、地标、旅行主题，需要 60 年代旅游广告的印刷感",
+  "composition": "竖版单城单张；地标剪影与几何构成占主体，天空留大面积色块，底部城市名排字；可扩展成多城系列。",
+  "material": "中世纪现代旅行海报、几何剪影、褪色丝网印、做旧纸纹与磨损边；米黄、青绿、朱红与金色。",
+  "identity": "地标识别特征保留，可换城市；不把地标画成写实照片。",
+  "text": "底部优雅字体城市名，可加极简副标。",
+  "avoid": "照片、3D、复杂细节、旅游 App 感的渐变与图标。",
+  "aspect": "2:3",
+  "slots": [
+    "城市",
+    "地标",
+    "主色"
+  ],
+  "tags": [
+    "旅行海报",
+    "复古",
+    "几何",
+    "丝网印"
+  ],
+  "prompt_language": "en",
+  "prompt_assembly": "源提示词为英文；四城并列可拆成单城，替换城市与地标，保留丝网印、做旧边与底部排字。",
+  "source_prompt": "Vintage retro travel poster series featuring iconic world cities and landmarks, Tokyo skyline with Tokyo Skytree and giant red sun, Paris Eiffel Tower at golden sunset beside reflective river, New York skyline with Statue of Liberty and retro red sun backdrop, Rio de Janeiro coastline with Christ the Redeemer overlooking mountains and ocean, mid-century modern travel poster aesthetic, bold geometric composition, faded screen-print texture, distressed paper grain, muted teal red cream and golden color palette, cinematic lighting, minimalistic shapes, classic tourism advertisement style from the 1960s, high contrast shadows, textured vintage ink print effect, atmospheric skies, elegant typography at bottom with city names, retro futurism, art deco inspired layout, clean symmetrical framing, nostalgic postcard vibe, ultra detailed illustration, handcrafted poster texture, grainy worn edges, timeless travel art aesthetic, vertical poster composition, museum-quality graphic design, 8k",
+  "origin": "X @Taaruk_ · 2026-05-24 · https://x.com/Taaruk_/status/2058464433698168983",
+  "mode": "image-transform",
+  "input": "user-image-required",
+  "variant": "poster-layout",
+  "reference": "references/image_styles/vintage-travel-poster/sample.json",
+  "image_policy": "先查看用户输入图片，再按本模板改造；主体、空间关系与允许重绘范围按当前用户要求确定。"
+}

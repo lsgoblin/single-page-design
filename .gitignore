@@ -8,3 +8,10 @@ __pycache__/
 .env.*
 !.env.example
 .Work/
+
+# Local task workspace and raw reference drafts (never published)
+/drafts/
+/reference-drafts/
+
+# Local run outputs
+/output/

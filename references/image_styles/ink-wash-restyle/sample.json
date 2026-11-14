@@ -1,8 +1,0 @@
-{
-  "template_id": "ink-wash-restyle",
-  "mode": "image-transform",
-  "template": "templates/image_styles/ink-wash-restyle/template.json",
-  "preview": "preview.png",
-  "preview_kind": "style-reference",
-  "note": "为展厅生成的风格示例"
-}

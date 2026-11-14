@@ -1,0 +1,16 @@
+{
+  "template_id": "ink-wash-illustration",
+  "mode": "image-transform",
+  "template": "templates/image_styles/ink-wash-illustration/template.json",
+  "preview": "preview.jpg",
+  "preview_kind": "style-reference",
+  "note": "示例主体为人物与动物；【主体】【动作与神态】按任务替换",
+  "source": {
+    "platform": "X",
+    "post_type": "文生图",
+    "author": "Zhang Jiajia | AI Creator",
+    "url": "https://x.com/zhangjiajia1314/status/2114288398978719987",
+    "published": "2026-10-25",
+    "collected": "2026-11-12"
+  }
+}

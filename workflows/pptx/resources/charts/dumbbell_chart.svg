@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Segoe UI, Arial, sans-serif" font-size="14" lang="en-US">
+    <title>Comprehensive Evaluation Score Rankings</title>
+    <metadata id="chart-evidence" type="application/json">{"original_payload": null, "data": [{"division": "Division A", "scores": [68.0, 75.0, 80.0, 78.0]}, {"division": "Division B", "scores": [55.0, 68.0, 75.0, 72.0]}, {"division": "Division C", "scores": [52.0, 65.0, 78.0, 70.0]}, {"division": "Division D", "scores": [50.0, 62.0, 76.0, 68.0]}, {"division": "Division E", "scores": [45.0, 58.0, 78.0, 65.0]}, {"division": "Division F", "scores": [48.0, 55.0, 65.0, 62.0]}, {"division": "Division G", "scores": [42.0, 52.0, 68.0, 58.0]}, {"division": "Division H", "scores": [38.0, 45.0, 55.0, 52.0]}, {"division": "Division I", "scores": [18.0, 28.0, 38.0, 35.0]}, {"division": "Division J", "scores": [12.0, 22.0, 32.0, 28.0]}], "method": "Original scores decoded from the explicitly declared x = 200 + 9 × score mapping. Positions stay exact; connector spans min/max across four metrics.", "validation": {"original_points": 40, "rows": 10, "metric_order": ["Metric A", "Metric B", "Metric C", "Overall Score"], "overall_scores": [78.0, 72.0, 70.0, 68.0, 65.0, 62.0, 58.0, 52.0, 35.0, 28.0]}, "palette": {"id": "lavender-spring", "name": "科研配色｜薰紫春庭", "description": "Low-saturation lavender, dusty rose, cream apricot and sage default chart palette.", "colors": ["#8F86B4", "#B7ACCD", "#DBCCE2", "#D6A3B1", "#E8CCAB", "#A8C3B5"], "roles": {"primary": "#8F86B4", "secondary": "#B7ACCD", "surface_accent": "#DBCCE2", "emphasis": "#D6A3B1", "warm": "#E8CCAB", "positive": "#A8C3B5", "negative": "#D6A3B1", "neutral_data": "#B7ACCD", "text": "#241F30", "secondary_text": "#655E75", "background": "#FFFFFF", "surface": "#F8F5FA", "divider": "#D8D2E0", "connector": "#8F86B4", "mark_outline": "#716684"}, "shading": {"space": "linear-sRGB", "front_and_top": "Use the exact assigned core color.", "light_cap_white_mix": 0.1, "outer_wall_light_multiplier": 0.5, "inner_wall_light_multiplier": 0.29, "radial_cut_light_multiplier": 0.39, "lighter_cut_light_multiplier": 0.6}, "rules": ["The six core HEX values are authoritative and keep their listed order for categorical series.", "Use named semantic roles for increase/decrease and threshold states; preserve their labels and signs.", "Use the same category assignment in faces, legend swatches and anchor dots.", "Use dark text on pastel data marks; small text contrast must be at least 4.5:1.", "Use explicit labels or outlines as well as color; do not claim universal color-vision safety.", "Hierarchies with more than six leaves use parent-family tints; do not invent unrelated accent hues.", "Project-specified palettes may override this default. Keep native metadata synchronized where native replacement is used."]}, "source_svg": "dumbbell_chart.svg"}</metadata>
+    <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+    <g id="header" data-pptx-bounds="40 24 1200 105">
+        <text x="56" y="61" font-size="32" fill="#241F30" font-weight="700" text-anchor="start">Comprehensive Evaluation Score Rankings</text>
+        <text x="56" y="94" font-size="15" fill="#655E75" font-weight="400" text-anchor="start">Extended dumbbell / multi-metric dot plot · Four scores per division · Original overall-score order</text>
+        <circle cx="570" cy="117" r="4" fill="#8F86B4" stroke="#716684" stroke-width="0.8" />
+        <text x="583" y="121" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">Overall Score</text>
+        <rect x="726" y="113" width="8" height="8" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" />
+        <text x="743" y="121" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">Metric A</text>
+        <path d="M 890.0000,112.0000 L 895.0000,117.0000 L 890.0000,122.0000 L 885.0000,117.0000 Z" fill="#A8C3B5" stroke="#716684" stroke-width="0.8" />
+        <text x="903" y="121" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">Metric B</text>
+        <path d="M 1050.0000,112.0000 L 1055.0000,121.0000 L 1045.0000,121.0000 Z" fill="#E8CCAB" stroke="#716684" stroke-width="0.8" />
+        <text x="1063" y="121" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">Metric C</text>
+    </g>
+    <g id="chart-module" data-pptx-bounds="40 132 1200 500">
+        <g id="chart">
+            <line x1="220.0" y1="172" x2="220.0" y2="580" stroke="#D8D2E0" stroke-width="1" />
+            <text x="220.0" y="610" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">0</text>
+            <line x1="390.0" y1="172" x2="390.0" y2="580" stroke="#D8D2E0" stroke-width="1" />
+            <text x="390.0" y="610" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">20</text>
+            <line x1="560.0" y1="172" x2="560.0" y2="580" stroke="#D8D2E0" stroke-width="1" />
+            <text x="560.0" y="610" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">40</text>
+            <line x1="730.0" y1="172" x2="730.0" y2="580" stroke="#D8D2E0" stroke-width="1" />
+            <text x="730.0" y="610" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">60</text>
+            <line x1="900.0" y1="172" x2="900.0" y2="580" stroke="#D8D2E0" stroke-width="1" />
+            <text x="900.0" y="610" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">80</text>
+            <line x1="1070.0" y1="172" x2="1070.0" y2="580" stroke="#D8D2E0" stroke-width="1" />
+            <text x="1070.0" y="610" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">100</text>
+            <text x="195" y="200" font-size="16" fill="#241F30" font-weight="400" text-anchor="end">Division A</text>
+            <line x1="798.0" y1="195" x2="900.0" y2="195" stroke="#D8D2E0" stroke-width="2" />
+            <rect x="793.0" y="190" width="10" height="10" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-value="68.0" data-metric="0" data-division="0" />
+            <path d="M 857.5000,189.0000 L 863.5000,195.0000 L 857.5000,201.0000 L 851.5000,195.0000 Z" fill="#A8C3B5" stroke="#716684" stroke-width="0.8" data-value="75.0" data-metric="1" data-division="0" />
+            <path d="M 900.0000,189.0000 L 906.0000,200.0000 L 894.0000,200.0000 Z" fill="#E8CCAB" stroke="#716684" stroke-width="0.8" data-value="80.0" data-metric="2" data-division="0" />
+            <circle cx="883.0" cy="195" r="5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-value="78.0" data-metric="3" data-division="0" />
+            <text x="1120" y="200" font-size="16" fill="#241F30" font-weight="600" text-anchor="start">78</text>
+            <text x="195" y="241" font-size="16" fill="#241F30" font-weight="400" text-anchor="end">Division B</text>
+            <line x1="687.5" y1="236" x2="857.5" y2="236" stroke="#D8D2E0" stroke-width="2" />
+            <rect x="682.5" y="231" width="10" height="10" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-value="55.0" data-metric="0" data-division="1" />
+            <path d="M 798.0000,230.0000 L 804.0000,236.0000 L 798.0000,242.0000 L 792.0000,236.0000 Z" fill="#A8C3B5" stroke="#716684" stroke-width="0.8" data-value="68.0" data-metric="1" data-division="1" />
+            <path d="M 857.5000,230.0000 L 863.5000,241.0000 L 851.5000,241.0000 Z" fill="#E8CCAB" stroke="#716684" stroke-width="0.8" data-value="75.0" data-metric="2" data-division="1" />
+            <circle cx="832.0" cy="236" r="5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-value="72.0" data-metric="3" data-division="1" />
+            <text x="1120" y="241" font-size="16" fill="#241F30" font-weight="600" text-anchor="start">72</text>
+            <text x="195" y="282" font-size="16" fill="#241F30" font-weight="400" text-anchor="end">Division C</text>
+            <line x1="662.0" y1="277" x2="883.0" y2="277" stroke="#D8D2E0" stroke-width="2" />
+            <rect x="657.0" y="272" width="10" height="10" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-value="52.0" data-metric="0" data-division="2" />
+            <path d="M 772.5000,271.0000 L 778.5000,277.0000 L 772.5000,283.0000 L 766.5000,277.0000 Z" fill="#A8C3B5" stroke="#716684" stroke-width="0.8" data-value="65.0" data-metric="1" data-division="2" />
+            <path d="M 883.0000,271.0000 L 889.0000,282.0000 L 877.0000,282.0000 Z" fill="#E8CCAB" stroke="#716684" stroke-width="0.8" data-value="78.0" data-metric="2" data-division="2" />
+            <circle cx="815.0" cy="277" r="5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-value="70.0" data-metric="3" data-division="2" />
+            <text x="1120" y="282" font-size="16" fill="#241F30" font-weight="600" text-anchor="start">70</text>
+            <text x="195" y="323" font-size="16" fill="#241F30" font-weight="400" text-anchor="end">Division D</text>
+            <line x1="645.0" y1="318" x2="866.0" y2="318" stroke="#D8D2E0" stroke-width="2" />
+            <rect x="640.0" y="313" width="10" height="10" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-value="50.0" data-metric="0" data-division="3" />
+            <path d="M 747.0000,312.0000 L 753.0000,318.0000 L 747.0000,324.0000 L 741.0000,318.0000 Z" fill="#A8C3B5" stroke="#716684" stroke-width="0.8" data-value="62.0" data-metric="1" data-division="3" />
+            <path d="M 866.0000,312.0000 L 872.0000,323.0000 L 860.0000,323.0000 Z" fill="#E8CCAB" stroke="#716684" stroke-width="0.8" data-value="76.0" data-metric="2" data-division="3" />
+            <circle cx="798.0" cy="318" r="5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-value="68.0" data-metric="3" data-division="3" />
+            <text x="1120" y="323" font-size="16" fill="#241F30" font-weight="600" text-anchor="start">68</text>
+            <text x="195" y="364" font-size="16" fill="#241F30" font-weight="400" text-anchor="end">Division E</text>
+            <line x1="602.5" y1="359" x2="883.0" y2="359" stroke="#D8D2E0" stroke-width="2" />
+            <rect x="597.5" y="354" width="10" height="10" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-value="45.0" data-metric="0" data-division="4" />
+            <path d="M 713.0000,353.0000 L 719.0000,359.0000 L 713.0000,365.0000 L 707.0000,359.0000 Z" fill="#A8C3B5" stroke="#716684" stroke-width="0.8" data-value="58.0" data-metric="1" data-division="4" />
+            <path d="M 883.0000,353.0000 L 889.0000,364.0000 L 877.0000,364.0000 Z" fill="#E8CCAB" stroke="#716684" stroke-width="0.8" data-value="78.0" data-metric="2" data-division="4" />
+            <circle cx="772.5" cy="359" r="5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-value="65.0" data-metric="3" data-division="4" />
+            <text x="1120" y="364" font-size="16" fill="#241F30" font-weight="600" text-anchor="start">65</text>
+            <text x="195" y="405" font-size="16" fill="#241F30" font-weight="400" text-anchor="end">Division F</text>
+            <line x1="628.0" y1="400" x2="772.5" y2="400" stroke="#D8D2E0" stroke-width="2" />
+            <rect x="623.0" y="395" width="10" height="10" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-value="48.0" data-metric="0" data-division="5" />
+            <path d="M 687.5000,394.0000 L 693.5000,400.0000 L 687.5000,406.0000 L 681.5000,400.0000 Z" fill="#A8C3B5" stroke="#716684" stroke-width="0.8" data-value="55.0" data-metric="1" data-division="5" />
+            <path d="M 772.5000,394.0000 L 778.5000,405.0000 L 766.5000,405.0000 Z" fill="#E8CCAB" stroke="#716684" stroke-width="0.8" data-value="65.0" data-metric="2" data-division="5" />
+            <circle cx="747.0" cy="400" r="5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-value="62.0" data-metric="3" data-division="5" />
+            <text x="1120" y="405" font-size="16" fill="#241F30" font-weight="600" text-anchor="start">62</text>
+            <text x="195" y="446" font-size="16" fill="#241F30" font-weight="400" text-anchor="end">Division G</text>
+            <line x1="577.0" y1="441" x2="798.0" y2="441" stroke="#D8D2E0" stroke-width="2" />
+            <rect x="572.0" y="436" width="10" height="10" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-value="42.0" data-metric="0" data-division="6" />
+            <path d="M 662.0000,435.0000 L 668.0000,441.0000 L 662.0000,447.0000 L 656.0000,441.0000 Z" fill="#A8C3B5" stroke="#716684" stroke-width="0.8" data-value="52.0" data-metric="1" data-division="6" />
+            <path d="M 798.0000,435.0000 L 804.0000,446.0000 L 792.0000,446.0000 Z" fill="#E8CCAB" stroke="#716684" stroke-width="0.8" data-value="68.0" data-metric="2" data-division="6" />
+            <circle cx="713.0" cy="441" r="5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-value="58.0" data-metric="3" data-division="6" />
+            <text x="1120" y="446" font-size="16" fill="#241F30" font-weight="600" text-anchor="start">58</text>
+            <text x="195" y="487" font-size="16" fill="#241F30" font-weight="400" text-anchor="end">Division H</text>
+            <line x1="543.0" y1="482" x2="687.5" y2="482" stroke="#D8D2E0" stroke-width="2" />
+            <rect x="538.0" y="477" width="10" height="10" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-value="38.0" data-metric="0" data-division="7" />
+            <path d="M 602.5000,476.0000 L 608.5000,482.0000 L 602.5000,488.0000 L 596.5000,482.0000 Z" fill="#A8C3B5" stroke="#716684" stroke-width="0.8" data-value="45.0" data-metric="1" data-division="7" />
+            <path d="M 687.5000,476.0000 L 693.5000,487.0000 L 681.5000,487.0000 Z" fill="#E8CCAB" stroke="#716684" stroke-width="0.8" data-value="55.0" data-metric="2" data-division="7" />
+            <circle cx="662.0" cy="482" r="5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-value="52.0" data-metric="3" data-division="7" />
+            <text x="1120" y="487" font-size="16" fill="#241F30" font-weight="600" text-anchor="start">52</text>
+            <text x="195" y="528" font-size="16" fill="#241F30" font-weight="400" text-anchor="end">Division I</text>
+            <line x1="373.0" y1="523" x2="543.0" y2="523" stroke="#D8D2E0" stroke-width="2" />
+            <rect x="368.0" y="518" width="10" height="10" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-value="18.0" data-metric="0" data-division="8" />
+            <path d="M 458.0000,517.0000 L 464.0000,523.0000 L 458.0000,529.0000 L 452.0000,523.0000 Z" fill="#A8C3B5" stroke="#716684" stroke-width="0.8" data-value="28.0" data-metric="1" data-division="8" />
+            <path d="M 543.0000,517.0000 L 549.0000,528.0000 L 537.0000,528.0000 Z" fill="#E8CCAB" stroke="#716684" stroke-width="0.8" data-value="38.0" data-metric="2" data-division="8" />
+            <circle cx="517.5" cy="523" r="5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-value="35.0" data-metric="3" data-division="8" />
+            <text x="1120" y="528" font-size="16" fill="#241F30" font-weight="600" text-anchor="start">35</text>
+            <text x="195" y="569" font-size="16" fill="#241F30" font-weight="400" text-anchor="end">Division J</text>
+            <line x1="322.0" y1="564" x2="492.0" y2="564" stroke="#D8D2E0" stroke-width="2" />
+            <rect x="317.0" y="559" width="10" height="10" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-value="12.0" data-metric="0" data-division="9" />
+            <path d="M 407.0000,558.0000 L 413.0000,564.0000 L 407.0000,570.0000 L 401.0000,564.0000 Z" fill="#A8C3B5" stroke="#716684" stroke-width="0.8" data-value="22.0" data-metric="1" data-division="9" />
+            <path d="M 492.0000,558.0000 L 498.0000,569.0000 L 486.0000,569.0000 Z" fill="#E8CCAB" stroke="#716684" stroke-width="0.8" data-value="32.0" data-metric="2" data-division="9" />
+            <circle cx="458.0" cy="564" r="5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-value="28.0" data-metric="3" data-division="9" />
+            <text x="1120" y="569" font-size="16" fill="#241F30" font-weight="600" text-anchor="start">28</text>
+            <text x="1120" y="164" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Overall</text>
+        </g>
+    </g>
+    <g id="source" data-pptx-bounds="40 685 1200 28">
+        <text x="56" y="705" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Source: Internal Annual Performance Review Data</text>
+    </g>
+</svg>

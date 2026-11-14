@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Segoe UI, Arial, sans-serif" font-size="14" lang="en-US">
+    <title>Annual Budget Allocation Flow</title>
+    <metadata id="chart-evidence" type="application/json">{"original_payload": null, "data": {"columns": [[["Product Sales", 60], ["Service Revenue", 30], ["Investment", 10]], [["R&amp;D", 35], ["Sales &amp; Marketing", 30], ["Operations", 25], ["Admin", 10]], [["Personnel", 50], ["Marketing", 20], ["Infrastructure", 20], ["Other", 10]]], "links_source_department": [[0, 0, 25], [0, 1, 15], [0, 2, 15], [0, 3, 5], [1, 0, 10], [1, 1, 10], [1, 2, 10], [2, 1, 5], [2, 3, 5]], "links_department_expense": [[0, 0, 28], [0, 2, 7], [1, 0, 10], [1, 1, 20], [2, 0, 10], [2, 2, 13], [2, 3, 2], [3, 0, 2], [3, 3, 8]], "scale_px_per_million": 3.4}, "method": "Closed ribbon paths generated from explicit recovered links; node slots and all stages share one px/$M scale.", "validation": {"original_links": 18, "input": 100, "middle": 100, "output": 100, "every_node_balanced": true, "source_geometry_px_per_million": 4.5}, "palette": {"id": "lavender-spring", "name": "科研配色｜薰紫春庭", "description": "Low-saturation lavender, dusty rose, cream apricot and sage default chart palette.", "colors": ["#8F86B4", "#B7ACCD", "#DBCCE2", "#D6A3B1", "#E8CCAB", "#A8C3B5"], "roles": {"primary": "#8F86B4", "secondary": "#B7ACCD", "surface_accent": "#DBCCE2", "emphasis": "#D6A3B1", "warm": "#E8CCAB", "positive": "#A8C3B5", "negative": "#D6A3B1", "neutral_data": "#B7ACCD", "text": "#241F30", "secondary_text": "#655E75", "background": "#FFFFFF", "surface": "#F8F5FA", "divider": "#D8D2E0", "connector": "#8F86B4", "mark_outline": "#716684"}, "shading": {"space": "linear-sRGB", "front_and_top": "Use the exact assigned core color.", "light_cap_white_mix": 0.1, "outer_wall_light_multiplier": 0.5, "inner_wall_light_multiplier": 0.29, "radial_cut_light_multiplier": 0.39, "lighter_cut_light_multiplier": 0.6}, "rules": ["The six core HEX values are authoritative and keep their listed order for categorical series.", "Use named semantic roles for increase/decrease and threshold states; preserve their labels and signs.", "Use the same category assignment in faces, legend swatches and anchor dots.", "Use dark text on pastel data marks; small text contrast must be at least 4.5:1.", "Use explicit labels or outlines as well as color; do not claim universal color-vision safety.", "Hierarchies with more than six leaves use parent-family tints; do not invent unrelated accent hues.", "Project-specified palettes may override this default. Keep native metadata synchronized where native replacement is used."]}, "source_svg": "sankey_chart.svg"}</metadata>
+    <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+    <g id="header" data-pptx-bounds="40 24 1200 105">
+        <text x="56" y="61" font-size="32" fill="#241F30" font-weight="700" text-anchor="start">Annual Budget Allocation Flow</text>
+        <text x="56" y="94" font-size="15" fill="#655E75" font-weight="400" text-anchor="start">FY2025 · $100M input = $100M output · Uniform band width per $1M</text>
+    </g>
+    <g id="chart-module" data-pptx-bounds="40 132 1200 500">
+        <g id="chart">
+            <path d="M 220,190.0 C 379.79999999999995,190.0 400.20000000000005,190.0 560,190.0 L 560,275.0 C 400.20000000000005,275.0 379.79999999999995,275.0 220,275.0 Z" fill="#8F86B4" fill-opacity="0.38" data-value="25" data-stage="0" data-source="0" data-target="0" />
+            <path d="M 220,275.0 C 379.79999999999995,275.0 400.20000000000005,334.0 560,334.0 L 560,385.0 C 400.20000000000005,385.0 379.79999999999995,326.0 220,326.0 Z" fill="#8F86B4" fill-opacity="0.38" data-value="15" data-stage="0" data-source="0" data-target="1" />
+            <path d="M 220,326.0 C 379.79999999999995,326.0 400.20000000000005,461.0 560,461.0 L 560,512.0 C 400.20000000000005,512.0 379.79999999999995,377.0 220,377.0 Z" fill="#8F86B4" fill-opacity="0.38" data-value="15" data-stage="0" data-source="0" data-target="2" />
+            <path d="M 220,377.0 C 379.79999999999995,377.0 400.20000000000005,571.0 560,571.0 L 560,588.0 C 400.20000000000005,588.0 379.79999999999995,394.0 220,394.0 Z" fill="#8F86B4" fill-opacity="0.38" data-value="5" data-stage="0" data-source="0" data-target="3" />
+            <path d="M 220,419.0 C 379.79999999999995,419.0 400.20000000000005,275.0 560,275.0 L 560,309.0 C 400.20000000000005,309.0 379.79999999999995,453.0 220,453.0 Z" fill="#A8C3B5" fill-opacity="0.38" data-value="10" data-stage="0" data-source="1" data-target="0" />
+            <path d="M 220,453.0 C 379.79999999999995,453.0 400.20000000000005,385.0 560,385.0 L 560,419.0 C 400.20000000000005,419.0 379.79999999999995,487.0 220,487.0 Z" fill="#A8C3B5" fill-opacity="0.38" data-value="10" data-stage="0" data-source="1" data-target="1" />
+            <path d="M 220,487.0 C 379.79999999999995,487.0 400.20000000000005,512.0 560,512.0 L 560,546.0 C 400.20000000000005,546.0 379.79999999999995,521.0 220,521.0 Z" fill="#A8C3B5" fill-opacity="0.38" data-value="10" data-stage="0" data-source="1" data-target="2" />
+            <path d="M 220,546.0 C 379.79999999999995,546.0 400.20000000000005,419.0 560,419.0 L 560,436.0 C 400.20000000000005,436.0 379.79999999999995,563.0 220,563.0 Z" fill="#B7ACCD" fill-opacity="0.38" data-value="5" data-stage="0" data-source="2" data-target="1" />
+            <path d="M 220,563.0 C 379.79999999999995,563.0 400.20000000000005,588.0 560,588.0 L 560,605.0 C 400.20000000000005,605.0 379.79999999999995,580.0 220,580.0 Z" fill="#B7ACCD" fill-opacity="0.38" data-value="5" data-stage="0" data-source="2" data-target="3" />
+            <path d="M 720,190.0 C 879.8,190.0 900.2,190.0 1060,190.0 L 1060,285.2 C 900.2,285.2 879.8,285.2 720,285.2 Z" fill="#8F86B4" fill-opacity="0.38" data-value="28" data-stage="1" data-source="0" data-target="0" />
+            <path d="M 720,285.2 C 879.8,285.2 900.2,478.0 1060,478.0 L 1060,501.8 C 900.2,501.8 879.8,309.0 720,309.0 Z" fill="#8F86B4" fill-opacity="0.38" data-value="7" data-stage="1" data-source="0" data-target="2" />
+            <path d="M 720,334.0 C 879.8,334.0 900.2,285.2 1060,285.2 L 1060,319.2 C 900.2,319.2 879.8,368.0 720,368.0 Z" fill="#A8C3B5" fill-opacity="0.38" data-value="10" data-stage="1" data-source="1" data-target="0" />
+            <path d="M 720,368.0 C 879.8,368.0 900.2,385.0 1060,385.0 L 1060,453.0 C 900.2,453.0 879.8,436.0 720,436.0 Z" fill="#A8C3B5" fill-opacity="0.38" data-value="20" data-stage="1" data-source="1" data-target="1" />
+            <path d="M 720,461.0 C 879.8,461.0 900.2,319.2 1060,319.2 L 1060,353.2 C 900.2,353.2 879.8,495.0 720,495.0 Z" fill="#B7ACCD" fill-opacity="0.38" data-value="10" data-stage="1" data-source="2" data-target="0" />
+            <path d="M 720,495.0 C 879.8,495.0 900.2,501.8 1060,501.8 L 1060,546.0 C 900.2,546.0 879.8,539.2 720,539.2 Z" fill="#B7ACCD" fill-opacity="0.38" data-value="13" data-stage="1" data-source="2" data-target="2" />
+            <path d="M 720,539.2 C 879.8,539.2 900.2,571.0 1060,571.0 L 1060,577.8 C 900.2,577.8 879.8,546.0 720,546.0 Z" fill="#B7ACCD" fill-opacity="0.38" data-value="2" data-stage="1" data-source="2" data-target="3" />
+            <path d="M 720,571.0 C 879.8,571.0 900.2,353.2 1060,353.2 L 1060,360.0 C 900.2,360.0 879.8,577.8 720,577.8 Z" fill="#D6A3B1" fill-opacity="0.38" data-value="2" data-stage="1" data-source="3" data-target="0" />
+            <path d="M 720,577.8 C 879.8,577.8 900.2,577.8 1060,577.8 L 1060,605.0 C 900.2,605.0 879.8,605.0 720,605.0 Z" fill="#D6A3B1" fill-opacity="0.38" data-value="8" data-stage="1" data-source="3" data-target="3" />
+            <text x="140" y="163" font-size="15" fill="#655E75" font-weight="600" text-anchor="middle">Revenue source</text>
+            <rect x="60" y="190" width="160" height="204.0" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-node-value="60" />
+            <text x="140" y="288.0" font-size="14" fill="#241F30" font-weight="600" text-anchor="middle">Product Sales</text>
+            <text x="140" y="316.0" font-size="20" fill="#241F30" font-weight="700" text-anchor="middle">$60M</text>
+            <rect x="60" y="419.0" width="160" height="102.0" fill="#A8C3B5" stroke="#716684" stroke-width="0.8" data-node-value="30" />
+            <text x="140" y="466.0" font-size="14" fill="#241F30" font-weight="600" text-anchor="middle">Service Revenue</text>
+            <text x="140" y="494.0" font-size="20" fill="#241F30" font-weight="700" text-anchor="middle">$30M</text>
+            <rect x="60" y="546.0" width="160" height="34.0" fill="#B7ACCD" stroke="#716684" stroke-width="0.8" data-node-value="10" />
+            <text x="140" y="568.0" font-size="13" fill="#241F30" font-weight="600" text-anchor="middle">Investment · $10M</text>
+            <text x="640" y="163" font-size="15" fill="#655E75" font-weight="600" text-anchor="middle">Department</text>
+            <rect x="560" y="190" width="160" height="119.0" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-node-value="35" />
+            <text x="640" y="245.5" font-size="14" fill="#241F30" font-weight="600" text-anchor="middle">R&amp;D</text>
+            <text x="640" y="273.5" font-size="20" fill="#241F30" font-weight="700" text-anchor="middle">$35M</text>
+            <rect x="560" y="334.0" width="160" height="102.0" fill="#A8C3B5" stroke="#716684" stroke-width="0.8" data-node-value="30" />
+            <text x="640" y="381.0" font-size="14" fill="#241F30" font-weight="600" text-anchor="middle">Sales &amp; Marketing</text>
+            <text x="640" y="409.0" font-size="20" fill="#241F30" font-weight="700" text-anchor="middle">$30M</text>
+            <rect x="560" y="461.0" width="160" height="85.0" fill="#B7ACCD" stroke="#716684" stroke-width="0.8" data-node-value="25" />
+            <text x="640" y="499.5" font-size="14" fill="#241F30" font-weight="600" text-anchor="middle">Operations</text>
+            <text x="640" y="527.5" font-size="20" fill="#241F30" font-weight="700" text-anchor="middle">$25M</text>
+            <rect x="560" y="571.0" width="160" height="34.0" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-node-value="10" />
+            <text x="640" y="593.0" font-size="13" fill="#241F30" font-weight="600" text-anchor="middle">Admin · $10M</text>
+            <text x="1140" y="163" font-size="15" fill="#655E75" font-weight="600" text-anchor="middle">Expense type</text>
+            <rect x="1060" y="190" width="160" height="170.0" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-node-value="50" />
+            <text x="1140" y="271.0" font-size="14" fill="#241F30" font-weight="600" text-anchor="middle">Personnel</text>
+            <text x="1140" y="299.0" font-size="20" fill="#241F30" font-weight="700" text-anchor="middle">$50M</text>
+            <rect x="1060" y="385.0" width="160" height="68.0" fill="#A8C3B5" stroke="#716684" stroke-width="0.8" data-node-value="20" />
+            <text x="1140" y="415.0" font-size="14" fill="#241F30" font-weight="600" text-anchor="middle">Marketing</text>
+            <text x="1140" y="443.0" font-size="20" fill="#241F30" font-weight="700" text-anchor="middle">$20M</text>
+            <rect x="1060" y="478.0" width="160" height="68.0" fill="#B7ACCD" stroke="#716684" stroke-width="0.8" data-node-value="20" />
+            <text x="1140" y="508.0" font-size="14" fill="#241F30" font-weight="600" text-anchor="middle">Infrastructure</text>
+            <text x="1140" y="536.0" font-size="20" fill="#241F30" font-weight="700" text-anchor="middle">$20M</text>
+            <rect x="1060" y="571.0" width="160" height="34.0" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-node-value="10" />
+            <text x="1140" y="593.0" font-size="13" fill="#241F30" font-weight="600" text-anchor="middle">Other · $10M</text>
+        </g>
+    </g>
+    <g id="source" data-pptx-bounds="40 685 1200 28">
+        <text x="56" y="705" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Source: Original budget template · Flow values recovered from its declared uniform scale</text>
+    </g>
+    <g id="statistics" data-pptx-bounds="40 636 1200 44">
+        <text x="56.0" y="650" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Total budget</text>
+        <text x="56.0" y="674" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">$100M</text>
+        <text x="348.0" y="650" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Largest department</text>
+        <text x="348.0" y="674" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">R&amp;D · 35%</text>
+        <text x="640.0" y="650" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Largest expense</text>
+        <text x="640.0" y="674" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">Personnel · 50%</text>
+        <text x="932.0" y="650" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Flow balance</text>
+        <text x="932.0" y="674" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">100 → 100 → 100</text>
+    </g>
+</svg>

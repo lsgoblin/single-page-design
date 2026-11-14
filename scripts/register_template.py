@@ -72,7 +72,7 @@ configure_utf8_stdio()
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 SKILL_DIR = SCRIPT_DIR.parent
-TEMPLATES_DIR = SKILL_DIR / "templates"
+TEMPLATES_DIR = SKILL_DIR / "workflows" / "pptx" / "resources"
 
 KIND_CONFIG = {
     "brand": {
@@ -103,8 +103,8 @@ KIND_CONFIG = {
 
 PAGE_LAYOUT_CONFIG = {
     **KIND_CONFIG["layout"],
-    "dir": TEMPLATES_DIR / "page_layouts",
-    "index": TEMPLATES_DIR / "page_layouts" / "page_layouts_index.json",
+    "dir": SKILL_DIR / "templates" / "page_layouts",
+    "index": SKILL_DIR / "templates" / "page_layouts" / "page_layouts_index.json",
 }
 
 
@@ -204,21 +204,21 @@ _STYLE_CUSTOM_FIELDS = (
         "Preferred Mode",
         "Mode Behavior",
         "Mode References",
-        SKILL_DIR / "references" / "modes",
+        SKILL_DIR / "workflows" / "pptx" / "guides" / "modes",
     ),
     (
         "V. Visual System Defaults",
         "Preferred Visual Style",
         "Visual Style Behavior",
         "Visual Style References",
-        SKILL_DIR / "references" / "visual-styles",
+        SKILL_DIR / "workflows" / "pptx" / "guides" / "visual-styles",
     ),
     (
         "VI. Image & Icon Direction",
         "Preferred Image Rendering",
         "Image Rendering Behavior",
         "Image Rendering References",
-        SKILL_DIR / "references" / "image-renderings",
+        SKILL_DIR / "workflows" / "pptx" / "guides" / "image-renderings",
     ),
 )
 _STYLE_FORBIDDEN_FIELDS = (

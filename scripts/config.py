@@ -34,16 +34,16 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 # Core directories
 SCRIPTS_DIR = PROJECT_ROOT / 'scripts'
-REFERENCES_DIR = PROJECT_ROOT / 'references'
-TEMPLATES_DIR = PROJECT_ROOT / 'templates'
-WORKFLOWS_DIR = PROJECT_ROOT / 'workflows'
+REFERENCES_DIR = PROJECT_ROOT / 'workflows' / 'pptx' / 'guides'
+TEMPLATES_DIR = PROJECT_ROOT / 'workflows' / 'pptx' / 'resources'
+WORKFLOWS_DIR = PROJECT_ROOT / 'workflows' / 'pptx'
 
 # Nearest enclosing checkout; a standalone package needs no external repository.
 REPO_ROOT = next(
     (root for root in (PROJECT_ROOT, *PROJECT_ROOT.parents) if (root / '.git').exists()),
     PROJECT_ROOT,
 )
-PROJECTS_DIR = REPO_ROOT / 'projects'
+PROJECTS_DIR = PROJECT_ROOT.parent / f'{PROJECT_ROOT.name}-projects'
 
 # Template subdirectories
 CHART_TEMPLATES_DIR = TEMPLATES_DIR / 'charts'

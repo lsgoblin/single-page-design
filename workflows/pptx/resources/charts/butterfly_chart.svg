@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Segoe UI, Arial, sans-serif" font-size="12" lang="en-US">
+    <desc>Editable pseudo-3D SVG. Original values determine front dimensions, top areas or pre-projection angles; depth is decorative.</desc>
+    <metadata id="source-data" type="application/json">{"source_payload": {"type": "butterfly", "categories": ["60+", "50-59", "40-49", "30-39", "25-29", "20-24", "18-19", "&lt;18"], "series": [{"name": "Male Users", "values": [3.0, 8.0, 15.0, 18.0, 16.0, 12.0, 6.0, 2.0]}, {"name": "Female Users", "values": [4.0, 10.0, 17.0, 15.0, 14.0, 10.0, 5.0, 3.0]}], "evidence": "Values read from original labelled bars (24px per percentage point), not renormalized."}, "rendering": {"type": "pseudo-3d", "native_replacement": false, "depth_encodes_extra_data": false}, "derived_geometry": {"pixels_per_percentage_point": 24, "mirrored_depth": true, "left_total": 80.0, "right_total": 78.0, "normalization": "none; original example percentages preserved"}, "default_palette": {"id": "lavender-spring", "name": "科研配色｜薰紫春庭", "colors": ["#8F86B4", "#B7ACCD", "#DBCCE2", "#D6A3B1", "#E8CCAB", "#A8C3B5"], "roles": {"primary": "#8F86B4", "secondary": "#B7ACCD", "surface_accent": "#DBCCE2", "emphasis": "#D6A3B1", "warm": "#E8CCAB", "positive": "#A8C3B5", "negative": "#D6A3B1", "neutral_data": "#B7ACCD", "text": "#241F30", "secondary_text": "#655E75", "background": "#FFFFFF", "surface": "#F8F5FA", "divider": "#D8D2E0", "connector": "#8F86B4", "mark_outline": "#716684"}, "core_values_exact": true, "category_base_mapping": {"#2563EB": "#8F86B4", "#DB2777": "#D6A3B1"}, "shading": {"space": "linear-sRGB", "front_and_top": "Use the exact assigned core color.", "light_cap_white_mix": 0.1, "outer_wall_light_multiplier": 0.5, "inner_wall_light_multiplier": 0.29, "radial_cut_light_multiplier": 0.39, "lighter_cut_light_multiplier": 0.6}}}</metadata>
+    <rect width="1280" height="720" fill="#FFFFFF" />
+    <g id="header" data-pptx-bounds="40 15 1200 125">
+        <text x="640" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="34" font-weight="bold" fill="#241F30" text-anchor="middle">User Age Distribution Comparison</text>
+        <text x="640" y="90" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#241F30" text-anchor="middle">2025 User Persona Analysis · Sample Size N=50,000</text>
+        <g id="legend" transform="translate(510, 115)">
+            <rect x="0" y="0" width="20" height="20" rx="3" fill="#8F86B4" />
+            <text x="28" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#241F30">Male Users</text>
+            <rect x="140" y="0" width="20" height="20" rx="3" fill="#D6A3B1" />
+            <text x="168" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#241F30">Female Users</text>
+        </g>
+    </g>
+    <g id="visualization" data-pptx-bounds="20 145 1240 570">
+        <g id="chartArea">
+            <rect x="580" y="160" width="120" height="460" fill="#F8F5FA" rx="4" />
+            <text x="120" y="645" font-size="13" fill="#241F30" text-anchor="middle">20%</text>
+            <text x="240" y="645" font-size="13" fill="#241F30" text-anchor="middle">15%</text>
+            <text x="360" y="645" font-size="13" fill="#241F30" text-anchor="middle">10%</text>
+            <text x="480" y="645" font-size="13" fill="#241F30" text-anchor="middle">5%</text>
+            <text x="800" y="645" font-size="13" fill="#241F30" text-anchor="middle">5%</text>
+            <text x="920" y="645" font-size="13" fill="#241F30" text-anchor="middle">10%</text>
+            <text x="1040" y="645" font-size="13" fill="#241F30" text-anchor="middle">15%</text>
+            <text x="1160" y="645" font-size="13" fill="#241F30" text-anchor="middle">20%</text>
+            <line x1="120" y1="160" x2="120" y2="620" stroke="#D8D2E0" stroke-width="1" stroke-dasharray="4,4" />
+            <line x1="240" y1="160" x2="240" y2="620" stroke="#D8D2E0" stroke-width="1" stroke-dasharray="4,4" />
+            <line x1="360" y1="160" x2="360" y2="620" stroke="#D8D2E0" stroke-width="1" stroke-dasharray="4,4" />
+            <line x1="480" y1="160" x2="480" y2="620" stroke="#D8D2E0" stroke-width="1" stroke-dasharray="4,4" />
+            <line x1="800" y1="160" x2="800" y2="620" stroke="#D8D2E0" stroke-width="1" stroke-dasharray="4,4" />
+            <line x1="920" y1="160" x2="920" y2="620" stroke="#D8D2E0" stroke-width="1" stroke-dasharray="4,4" />
+            <line x1="1040" y1="160" x2="1040" y2="620" stroke="#D8D2E0" stroke-width="1" stroke-dasharray="4,4" />
+            <line x1="1160" y1="160" x2="1160" y2="620" stroke="#D8D2E0" stroke-width="1" stroke-dasharray="4,4" />
+            <g id="row-1" transform="translate(0, 168)">
+                <g id="row-1-side-1" data-value="3.0" data-front-width="72.0" data-front-height="50.0">
+                    <path d="M 528.00,0.00 L 518.00,-4.00 L 518.00,46.00 L 528.00,50.00 Z" fill="#686183" />
+                    <path d="M 528.00,0.00 L 518.00,-4.00 L 590.00,-4.00 L 600.00,0.00 Z" fill="#9F98BD" />
+                    <path d="M 528.00,0.00 L 600.00,0.00 L 600.00,50.00 L 528.00,50.00 Z" fill="#8F86B4" />
+                </g>
+                <text x="504.0" y="32" font-size="14" font-weight="600" fill="#241F30" text-anchor="end">3%</text>
+                <text x="640" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="600" fill="#241F30" text-anchor="middle">60+</text>
+                <g id="row-1-side-2" data-value="4.0" data-front-width="96.0" data-front-height="50.0">
+                    <path d="M 776.00,0.00 L 786.00,-4.00 L 786.00,46.00 L 776.00,50.00 Z" fill="#9D7781" />
+                    <path d="M 680.00,0.00 L 690.00,-4.00 L 786.00,-4.00 L 776.00,0.00 Z" fill="#DBAFBB" />
+                    <path d="M 680.00,0.00 L 776.00,0.00 L 776.00,50.00 L 680.00,50.00 Z" fill="#D6A3B1" />
+                </g>
+                <text x="800.0" y="32" font-size="14" font-weight="600" fill="#241F30">4%</text>
+            </g>
+            <g id="row-2" transform="translate(0, 224)">
+                <g id="row-2-side-1" data-value="8.0" data-front-width="192.0" data-front-height="50.0">
+                    <path d="M 408.00,0.00 L 398.00,-4.00 L 398.00,46.00 L 408.00,50.00 Z" fill="#686183" />
+                    <path d="M 408.00,0.00 L 398.00,-4.00 L 590.00,-4.00 L 600.00,0.00 Z" fill="#9F98BD" />
+                    <path d="M 408.00,0.00 L 600.00,0.00 L 600.00,50.00 L 408.00,50.00 Z" fill="#8F86B4" />
+                </g>
+                <text x="384.0" y="32" font-size="14" font-weight="600" fill="#241F30" text-anchor="end">8%</text>
+                <text x="640" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="600" fill="#241F30" text-anchor="middle">50-59</text>
+                <g id="row-2-side-2" data-value="10.0" data-front-width="240.0" data-front-height="50.0">
+                    <path d="M 920.00,0.00 L 930.00,-4.00 L 930.00,46.00 L 920.00,50.00 Z" fill="#9D7781" />
+                    <path d="M 680.00,0.00 L 690.00,-4.00 L 930.00,-4.00 L 920.00,0.00 Z" fill="#DBAFBB" />
+                    <path d="M 680.00,0.00 L 920.00,0.00 L 920.00,50.00 L 680.00,50.00 Z" fill="#D6A3B1" />
+                </g>
+                <text x="944.0" y="32" font-size="14" font-weight="600" fill="#241F30">10%</text>
+            </g>
+            <g id="row-3" transform="translate(0, 280)">
+                <g id="row-3-side-1" data-value="15.0" data-front-width="360.0" data-front-height="50.0">
+                    <path d="M 240.00,0.00 L 230.00,-4.00 L 230.00,46.00 L 240.00,50.00 Z" fill="#686183" />
+                    <path d="M 240.00,0.00 L 230.00,-4.00 L 590.00,-4.00 L 600.00,0.00 Z" fill="#9F98BD" />
+                    <path d="M 240.00,0.00 L 600.00,0.00 L 600.00,50.00 L 240.00,50.00 Z" fill="#8F86B4" />
+                </g>
+                <text x="216.0" y="32" font-size="14" font-weight="600" fill="#241F30" text-anchor="end">15%</text>
+                <text x="640" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="600" fill="#241F30" text-anchor="middle">40-49</text>
+                <g id="row-3-side-2" data-value="17.0" data-front-width="408.0" data-front-height="50.0">
+                    <path d="M 1088.00,0.00 L 1098.00,-4.00 L 1098.00,46.00 L 1088.00,50.00 Z" fill="#9D7781" />
+                    <path d="M 680.00,0.00 L 690.00,-4.00 L 1098.00,-4.00 L 1088.00,0.00 Z" fill="#DBAFBB" />
+                    <path d="M 680.00,0.00 L 1088.00,0.00 L 1088.00,50.00 L 680.00,50.00 Z" fill="#D6A3B1" />
+                </g>
+                <text x="1112.0" y="32" font-size="14" font-weight="600" fill="#241F30">17%</text>
+            </g>
+            <g id="row-4" transform="translate(0, 336)">
+                <g id="row-4-side-1" data-value="18.0" data-front-width="432.0" data-front-height="50.0">
+                    <path d="M 168.00,0.00 L 158.00,-4.00 L 158.00,46.00 L 168.00,50.00 Z" fill="#686183" />
+                    <path d="M 168.00,0.00 L 158.00,-4.00 L 590.00,-4.00 L 600.00,0.00 Z" fill="#9F98BD" />
+                    <path d="M 168.00,0.00 L 600.00,0.00 L 600.00,50.00 L 168.00,50.00 Z" fill="#8F86B4" />
+                </g>
+                <text x="144.0" y="32" font-size="14" font-weight="bold" fill="#241F30" text-anchor="end">18%</text>
+                <text x="640" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="600" fill="#241F30" text-anchor="middle">30-39</text>
+                <g id="row-4-side-2" data-value="15.0" data-front-width="360.0" data-front-height="50.0">
+                    <path d="M 1040.00,0.00 L 1050.00,-4.00 L 1050.00,46.00 L 1040.00,50.00 Z" fill="#9D7781" />
+                    <path d="M 680.00,0.00 L 690.00,-4.00 L 1050.00,-4.00 L 1040.00,0.00 Z" fill="#DBAFBB" />
+                    <path d="M 680.00,0.00 L 1040.00,0.00 L 1040.00,50.00 L 680.00,50.00 Z" fill="#D6A3B1" />
+                </g>
+                <text x="1064.0" y="32" font-size="14" font-weight="bold" fill="#241F30">15%</text>
+            </g>
+            <g id="row-5" transform="translate(0, 392)">
+                <g id="row-5-side-1" data-value="16.0" data-front-width="384.0" data-front-height="50.0">
+                    <path d="M 216.00,0.00 L 206.00,-4.00 L 206.00,46.00 L 216.00,50.00 Z" fill="#686183" />
+                    <path d="M 216.00,0.00 L 206.00,-4.00 L 590.00,-4.00 L 600.00,0.00 Z" fill="#9F98BD" />
+                    <path d="M 216.00,0.00 L 600.00,0.00 L 600.00,50.00 L 216.00,50.00 Z" fill="#8F86B4" />
+                </g>
+                <text x="192.0" y="32" font-size="14" font-weight="600" fill="#241F30" text-anchor="end">16%</text>
+                <text x="640" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="600" fill="#241F30" text-anchor="middle">25-29</text>
+                <g id="row-5-side-2" data-value="14.0" data-front-width="336.0" data-front-height="50.0">
+                    <path d="M 1016.00,0.00 L 1026.00,-4.00 L 1026.00,46.00 L 1016.00,50.00 Z" fill="#9D7781" />
+                    <path d="M 680.00,0.00 L 690.00,-4.00 L 1026.00,-4.00 L 1016.00,0.00 Z" fill="#DBAFBB" />
+                    <path d="M 680.00,0.00 L 1016.00,0.00 L 1016.00,50.00 L 680.00,50.00 Z" fill="#D6A3B1" />
+                </g>
+                <text x="1040.0" y="32" font-size="14" font-weight="600" fill="#241F30">14%</text>
+            </g>
+            <g id="row-6" transform="translate(0, 448)">
+                <g id="row-6-side-1" data-value="12.0" data-front-width="288.0" data-front-height="50.0">
+                    <path d="M 312.00,0.00 L 302.00,-4.00 L 302.00,46.00 L 312.00,50.00 Z" fill="#686183" />
+                    <path d="M 312.00,0.00 L 302.00,-4.00 L 590.00,-4.00 L 600.00,0.00 Z" fill="#9F98BD" />
+                    <path d="M 312.00,0.00 L 600.00,0.00 L 600.00,50.00 L 312.00,50.00 Z" fill="#8F86B4" />
+                </g>
+                <text x="288.0" y="32" font-size="14" font-weight="600" fill="#241F30" text-anchor="end">12%</text>
+                <text x="640" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="600" fill="#241F30" text-anchor="middle">20-24</text>
+                <g id="row-6-side-2" data-value="10.0" data-front-width="240.0" data-front-height="50.0">
+                    <path d="M 920.00,0.00 L 930.00,-4.00 L 930.00,46.00 L 920.00,50.00 Z" fill="#9D7781" />
+                    <path d="M 680.00,0.00 L 690.00,-4.00 L 930.00,-4.00 L 920.00,0.00 Z" fill="#DBAFBB" />
+                    <path d="M 680.00,0.00 L 920.00,0.00 L 920.00,50.00 L 680.00,50.00 Z" fill="#D6A3B1" />
+                </g>
+                <text x="944.0" y="32" font-size="14" font-weight="600" fill="#241F30">10%</text>
+            </g>
+            <g id="row-7" transform="translate(0, 504)">
+                <g id="row-7-side-1" data-value="6.0" data-front-width="144.0" data-front-height="50.0">
+                    <path d="M 456.00,0.00 L 446.00,-4.00 L 446.00,46.00 L 456.00,50.00 Z" fill="#686183" />
+                    <path d="M 456.00,0.00 L 446.00,-4.00 L 590.00,-4.00 L 600.00,0.00 Z" fill="#9F98BD" />
+                    <path d="M 456.00,0.00 L 600.00,0.00 L 600.00,50.00 L 456.00,50.00 Z" fill="#8F86B4" />
+                </g>
+                <text x="432.0" y="32" font-size="14" font-weight="600" fill="#241F30" text-anchor="end">6%</text>
+                <text x="640" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="600" fill="#241F30" text-anchor="middle">18-19</text>
+                <g id="row-7-side-2" data-value="5.0" data-front-width="120.0" data-front-height="50.0">
+                    <path d="M 800.00,0.00 L 810.00,-4.00 L 810.00,46.00 L 800.00,50.00 Z" fill="#9D7781" />
+                    <path d="M 680.00,0.00 L 690.00,-4.00 L 810.00,-4.00 L 800.00,0.00 Z" fill="#DBAFBB" />
+                    <path d="M 680.00,0.00 L 800.00,0.00 L 800.00,50.00 L 680.00,50.00 Z" fill="#D6A3B1" />
+                </g>
+                <text x="824.0" y="32" font-size="14" font-weight="600" fill="#241F30">5%</text>
+            </g>
+            <g id="row-8" transform="translate(0, 560)">
+                <g id="row-8-side-1" data-value="2.0" data-front-width="48.0" data-front-height="50.0">
+                    <path d="M 552.00,0.00 L 542.00,-4.00 L 542.00,46.00 L 552.00,50.00 Z" fill="#686183" />
+                    <path d="M 552.00,0.00 L 542.00,-4.00 L 590.00,-4.00 L 600.00,0.00 Z" fill="#9F98BD" />
+                    <path d="M 552.00,0.00 L 600.00,0.00 L 600.00,50.00 L 552.00,50.00 Z" fill="#8F86B4" />
+                </g>
+                <text x="528.0" y="32" font-size="14" font-weight="600" fill="#241F30" text-anchor="end">2%</text>
+                <text x="640" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" font-weight="600" fill="#241F30" text-anchor="middle">&lt;18</text>
+                <g id="row-8-side-2" data-value="3.0" data-front-width="72.0" data-front-height="50.0">
+                    <path d="M 752.00,0.00 L 762.00,-4.00 L 762.00,46.00 L 752.00,50.00 Z" fill="#9D7781" />
+                    <path d="M 680.00,0.00 L 690.00,-4.00 L 762.00,-4.00 L 752.00,0.00 Z" fill="#DBAFBB" />
+                    <path d="M 680.00,0.00 L 752.00,0.00 L 752.00,50.00 L 680.00,50.00 Z" fill="#D6A3B1" />
+                </g>
+                <text x="776.0" y="32" font-size="14" font-weight="600" fill="#241F30">3%</text>
+            </g>
+        </g>
+        <g id="summary" transform="translate(60, 665)">
+            <g id="summary-male">
+                <rect x="0" y="0" width="280" height="40" rx="8" fill="#F8F5FA" stroke="#8F86B4" stroke-width="1" />
+                <text x="20" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#241F30">Male Users: 52% | Avg Age: 34</text>
+            </g>
+            <g id="summary-female" transform="translate(300, 0)">
+                <rect x="0" y="0" width="280" height="40" rx="8" fill="#F8F5FA" stroke="#8F86B4" stroke-width="1" />
+                <text x="20" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" fill="#241F30">Female Users: 48% | Avg Age: 32</text>
+            </g>
+        </g>
+        <g id="source">
+            <text x="1215" y="704" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="12" fill="#241F30" text-anchor="end">Data Source: User Data Analytics Platform</text>
+        </g>
+    </g>
+</svg>

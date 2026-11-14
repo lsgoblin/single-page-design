@@ -1,0 +1,16 @@
+{
+  "template_id": "watercolor-diptych",
+  "mode": "image-transform",
+  "template": "templates/image_styles/watercolor-diptych/template.json",
+  "preview": "preview.jpg",
+  "preview_kind": "style-reference",
+  "note": "上半原片、下半水彩重画；本例主体是猫，人物同理",
+  "source": {
+    "platform": "X",
+    "post_type": "图生图",
+    "author": "Sairah",
+    "url": "https://x.com/Sairah_0/status/2118575860303462469",
+    "published": "2026-11-06",
+    "collected": "2026-11-12"
+  }
+}

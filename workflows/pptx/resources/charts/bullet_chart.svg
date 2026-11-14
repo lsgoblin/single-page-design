@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Segoe UI, Arial, sans-serif" font-size="14" lang="en-US">
+    <title>2025 Annual KPI Achievement Status</title>
+    <metadata id="chart-evidence" type="application/json">{"original_payload": null, "data": [["Sales Revenue", 92, 100, "$M", "higher"], ["New Customers", 485, 500, "accounts", "higher"], ["Customer Satisfaction", 98, 90, "%", "higher"], ["Market Share", 18, 25, "%", "higher"], ["Cost Control", 95, 80, "$M", "lower"]], "method": "Actual / target; budget usage is evaluated in the opposite direction from business attainment.", "validation": {"ratios": [92.0, 97.0, 108.88888888888889, 72.0, 118.75], "business_above": 1, "business_below": 3, "budget_overrun_pct": 18.75}, "palette": {"id": "lavender-spring", "name": "科研配色｜薰紫春庭", "description": "Low-saturation lavender, dusty rose, cream apricot and sage default chart palette.", "colors": ["#8F86B4", "#B7ACCD", "#DBCCE2", "#D6A3B1", "#E8CCAB", "#A8C3B5"], "roles": {"primary": "#8F86B4", "secondary": "#B7ACCD", "surface_accent": "#DBCCE2", "emphasis": "#D6A3B1", "warm": "#E8CCAB", "positive": "#A8C3B5", "negative": "#D6A3B1", "neutral_data": "#B7ACCD", "text": "#241F30", "secondary_text": "#655E75", "background": "#FFFFFF", "surface": "#F8F5FA", "divider": "#D8D2E0", "connector": "#8F86B4", "mark_outline": "#716684"}, "shading": {"space": "linear-sRGB", "front_and_top": "Use the exact assigned core color.", "light_cap_white_mix": 0.1, "outer_wall_light_multiplier": 0.5, "inner_wall_light_multiplier": 0.29, "radial_cut_light_multiplier": 0.39, "lighter_cut_light_multiplier": 0.6}, "rules": ["The six core HEX values are authoritative and keep their listed order for categorical series.", "Use named semantic roles for increase/decrease and threshold states; preserve their labels and signs.", "Use the same category assignment in faces, legend swatches and anchor dots.", "Use dark text on pastel data marks; small text contrast must be at least 4.5:1.", "Use explicit labels or outlines as well as color; do not claim universal color-vision safety.", "Hierarchies with more than six leaves use parent-family tints; do not invent unrelated accent hues.", "Project-specified palettes may override this default. Keep native metadata synchronized where native replacement is used."]}, "source_svg": "bullet_chart.svg"}</metadata>
+    <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+    <g id="header" data-pptx-bounds="40 24 1200 105">
+        <text x="56" y="61" font-size="32" fill="#241F30" font-weight="700" text-anchor="start">2025 Annual KPI Achievement Status</text>
+        <text x="56" y="94" font-size="15" fill="#655E75" font-weight="400" text-anchor="start">Target vs actual · Common ratio scale includes overachievement and budget overruns</text>
+    </g>
+    <g id="chart-module" data-pptx-bounds="40 132 1200 500">
+        <g id="chart">
+            <text x="420.0" y="168" font-size="13" fill="#655E75" font-weight="400" text-anchor="middle">0%</text>
+            <text x="620.0" y="168" font-size="13" fill="#655E75" font-weight="400" text-anchor="middle">50%</text>
+            <text x="820.0" y="168" font-size="13" fill="#655E75" font-weight="400" text-anchor="middle">100%</text>
+            <text x="1020.0" y="168" font-size="13" fill="#655E75" font-weight="400" text-anchor="middle">150%</text>
+            <line x1="820.0" y1="180" x2="820.0" y2="571" stroke="#716684" stroke-width="1.5" stroke-dasharray="4 4" />
+            <text x="60" y="205" font-size="18" fill="#241F30" font-weight="600" text-anchor="start">Sales Revenue</text>
+            <text x="60" y="230" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Actual 92 $M · Target 100 $M</text>
+            <rect x="420.0" y="190" width="240.0" height="30" fill="#DBCCE2" />
+            <rect x="660.0" y="190" width="80.0" height="30" fill="#B7ACCD" />
+            <rect x="740.0" y="190" width="80.0" height="30" fill="#A8C3B5" />
+            <rect x="820.0" y="190" width="200.0" height="30" fill="#F8F5FA" />
+            <rect x="420" y="197" width="368.0" height="16" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-actual="92" data-target="100" data-ratio="92.0" />
+            <text x="1060" y="210" font-size="21" fill="#241F30" font-weight="600" text-anchor="start">92.0%</text>
+            <text x="1060" y="230" font-size="12" fill="#655E75" font-weight="400" text-anchor="start">Attainment</text>
+            <text x="60" y="281" font-size="18" fill="#241F30" font-weight="600" text-anchor="start">New Customers</text>
+            <text x="60" y="306" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Actual 485 accounts · Target 500 accounts</text>
+            <rect x="420.0" y="266" width="240.0" height="30" fill="#DBCCE2" />
+            <rect x="660.0" y="266" width="80.0" height="30" fill="#B7ACCD" />
+            <rect x="740.0" y="266" width="80.0" height="30" fill="#A8C3B5" />
+            <rect x="820.0" y="266" width="200.0" height="30" fill="#F8F5FA" />
+            <rect x="420" y="273" width="388.0" height="16" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-actual="485" data-target="500" data-ratio="97.0" />
+            <text x="1060" y="286" font-size="21" fill="#241F30" font-weight="600" text-anchor="start">97.0%</text>
+            <text x="1060" y="306" font-size="12" fill="#655E75" font-weight="400" text-anchor="start">Attainment</text>
+            <text x="60" y="357" font-size="18" fill="#241F30" font-weight="600" text-anchor="start">Customer Satisfaction</text>
+            <text x="60" y="382" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Actual 98% · Target 90%</text>
+            <rect x="420.0" y="342" width="240.0" height="30" fill="#DBCCE2" />
+            <rect x="660.0" y="342" width="80.0" height="30" fill="#B7ACCD" />
+            <rect x="740.0" y="342" width="80.0" height="30" fill="#A8C3B5" />
+            <rect x="820.0" y="342" width="200.0" height="30" fill="#F8F5FA" />
+            <rect x="420" y="349" width="435.55555555555554" height="16" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-actual="98" data-target="90" data-ratio="108.88888888888889" />
+            <text x="1060" y="362" font-size="21" fill="#241F30" font-weight="600" text-anchor="start">108.9%</text>
+            <text x="1060" y="382" font-size="12" fill="#655E75" font-weight="400" text-anchor="start">Attainment</text>
+            <text x="60" y="433" font-size="18" fill="#241F30" font-weight="600" text-anchor="start">Market Share</text>
+            <text x="60" y="458" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Actual 18% · Target 25%</text>
+            <rect x="420.0" y="418" width="240.0" height="30" fill="#DBCCE2" />
+            <rect x="660.0" y="418" width="80.0" height="30" fill="#B7ACCD" />
+            <rect x="740.0" y="418" width="80.0" height="30" fill="#A8C3B5" />
+            <rect x="820.0" y="418" width="200.0" height="30" fill="#F8F5FA" />
+            <rect x="420" y="425" width="288.0" height="16" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-actual="18" data-target="25" data-ratio="72.0" />
+            <text x="1060" y="438" font-size="21" fill="#241F30" font-weight="600" text-anchor="start">72.0%</text>
+            <text x="1060" y="458" font-size="12" fill="#655E75" font-weight="400" text-anchor="start">Attainment</text>
+            <text x="60" y="509" font-size="18" fill="#241F30" font-weight="600" text-anchor="start">Cost Control</text>
+            <text x="60" y="534" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Actual 95 $M · Budget 80 $M</text>
+            <rect x="420.0" y="494" width="240.0" height="30" fill="#DBCCE2" />
+            <rect x="660.0" y="494" width="80.0" height="30" fill="#B7ACCD" />
+            <rect x="740.0" y="494" width="80.0" height="30" fill="#A8C3B5" />
+            <rect x="820.0" y="494" width="200.0" height="30" fill="#F8F5FA" />
+            <rect x="420" y="501" width="475.0" height="16" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-actual="95" data-target="80" data-ratio="118.75" />
+            <text x="1060" y="514" font-size="21" fill="#241F30" font-weight="600" text-anchor="start">118.8%</text>
+            <text x="1060" y="534" font-size="12" fill="#655E75" font-weight="400" text-anchor="start">Budget used</text>
+            <text x="420" y="608" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">100% = target / budget · Higher is favorable for business KPIs; lower is favorable for cost.</text>
+        </g>
+    </g>
+    <g id="source" data-pptx-bounds="40 685 1200 28">
+        <text x="56" y="705" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Source: Original KPI template example · As of Q4 2025</text>
+    </g>
+    <g id="statistics" data-pptx-bounds="40 636 1200 44">
+        <text x="56.0" y="650" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Business KPIs above target</text>
+        <text x="56.0" y="674" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">1 of 4</text>
+        <text x="445.3333333333333" y="650" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Business KPIs below target</text>
+        <text x="445.3333333333333" y="674" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">3 of 4</text>
+        <text x="834.6666666666666" y="650" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Cost budget overrun</text>
+        <text x="834.6666666666666" y="674" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">18.8%</text>
+    </g>
+</svg>

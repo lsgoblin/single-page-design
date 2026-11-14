@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Segoe UI, Arial, sans-serif" font-size="14" lang="en-US">
+    <title>Revenue &amp; Profit Margin Trend Analysis</title>
+    <metadata id="chart-evidence" type="application/json">{"original_payload": {"name": "dual_axis_line_chart", "x": 14, "y": 181, "width": 1252, "height": 463, "type": "combo", "categories": ["Jan", "Mar", "Jun", "Sep", "Nov", "Dec"], "plots": [{"type": "line", "line_style": "lineMarker", "axis": "primary", "series": [{"name": "Revenue ($M)", "values": [53, 96, 96, 13, 13, 53]}]}, {"type": "line", "line_style": "lineMarker", "axis": "secondary", "series": [{"name": "Profit Margin (%)", "values": [15, 35, 35, 8, 8, 15]}]}], "style": {"colors": ["#E17055", "#0984E3"]}}, "data": {"original": {"name": "dual_axis_line_chart", "x": 14, "y": 181, "width": 1252, "height": 463, "type": "combo", "categories": ["Jan", "Mar", "Jun", "Sep", "Nov", "Dec"], "plots": [{"type": "line", "line_style": "lineMarker", "axis": "primary", "series": [{"name": "Revenue ($M)", "values": [53, 96, 96, 13, 13, 53]}]}, {"type": "line", "line_style": "lineMarker", "axis": "secondary", "series": [{"name": "Profit Margin (%)", "values": [15, 35, 35, 8, 8, 15]}]}], "style": {"colors": ["#E17055", "#0984E3"]}}, "dates": ["2025-01-01", "2025-03-01", "2025-06-01", "2025-09-01", "2025-11-01", "2025-12-01"]}, "method": "Month-start date axis, exact elapsed-day spacing; no fill under either line; independent labeled 0–100 and 0–50 axes.", "validation": {"original_values": 12, "date_serials": [45658, 45717, 45809, 45901, 45962, 45992], "x_fractions": [0.0, 0.17664670658682635, 0.45209580838323354, 0.7275449101796407, 0.9101796407185628, 1.0], "months": [1, 3, 6, 9, 11, 12]}, "palette": {"id": "lavender-spring", "name": "科研配色｜薰紫春庭", "description": "Low-saturation lavender, dusty rose, cream apricot and sage default chart palette.", "colors": ["#8F86B4", "#B7ACCD", "#DBCCE2", "#D6A3B1", "#E8CCAB", "#A8C3B5"], "roles": {"primary": "#8F86B4", "secondary": "#B7ACCD", "surface_accent": "#DBCCE2", "emphasis": "#D6A3B1", "warm": "#E8CCAB", "positive": "#A8C3B5", "negative": "#D6A3B1", "neutral_data": "#B7ACCD", "text": "#241F30", "secondary_text": "#655E75", "background": "#FFFFFF", "surface": "#F8F5FA", "divider": "#D8D2E0", "connector": "#8F86B4", "mark_outline": "#716684"}, "shading": {"space": "linear-sRGB", "front_and_top": "Use the exact assigned core color.", "light_cap_white_mix": 0.1, "outer_wall_light_multiplier": 0.5, "inner_wall_light_multiplier": 0.29, "radial_cut_light_multiplier": 0.39, "lighter_cut_light_multiplier": 0.6}, "rules": ["The six core HEX values are authoritative and keep their listed order for categorical series.", "Use named semantic roles for increase/decrease and threshold states; preserve their labels and signs.", "Use the same category assignment in faces, legend swatches and anchor dots.", "Use dark text on pastel data marks; small text contrast must be at least 4.5:1.", "Use explicit labels or outlines as well as color; do not claim universal color-vision safety.", "Hierarchies with more than six leaves use parent-family tints; do not invent unrelated accent hues.", "Project-specified palettes may override this default. Keep native metadata synchronized where native replacement is used."]}, "source_svg": "dual_axis_line_chart.svg"}</metadata>
+    <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+    <g id="header" data-pptx-bounds="40 24 1200 105">
+        <text x="56" y="61" font-size="32" fill="#241F30" font-weight="700" text-anchor="start">Revenue &amp; Profit Margin Trend Analysis</text>
+        <text x="56" y="94" font-size="15" fill="#655E75" font-weight="400" text-anchor="start">FY2025 · Two explicitly labeled axes · Observations placed at their actual dates</text>
+        <circle cx="780" cy="116" r="4" fill="#8F86B4" stroke="#716684" stroke-width="0.8" />
+        <text x="793" y="120" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">Revenue ($M) · left</text>
+        <circle cx="1010" cy="116" r="4" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" />
+        <text x="1023" y="120" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">Margin (%) · right</text>
+    </g>
+    <g id="chart-module" data-pptx-bounds="40 132 1200 500">
+        <g id="chart" data-pptx-replace-with="chart" data-pptx-fallback-sha256="ac8f49cae06d2b8370aeff5ff71cfe9539aba3fba09498c8b1661e19d30fb003">
+            <metadata type="application/json">{"name": "dual_axis_line_chart", "x": 40, "y": 132, "width": 1200, "height": 500, "type": "combo", "categories": [45658, 45717, 45809, 45901, 45962, 45992], "plots": [{"type": "line", "line_style": "lineMarker", "axis": "primary", "series": [{"name": "Revenue ($M)", "values": [53, 96, 96, 13, 13, 53]}]}, {"type": "line", "line_style": "lineMarker", "axis": "secondary", "series": [{"name": "Profit Margin (%)", "values": [15, 35, 35, 8, 8, 15]}]}], "style": {"colors": ["#8F86B4", "#D6A3B1"], "text_color": "#655E75", "axis_color": "#716684", "grid_color": "#D8D2E0", "font_family": "Segoe UI", "axis_font_size": 14, "chart_area_fill": "none", "plot_area_fill": "none"}, "axes": {"category": {"kind": "date", "label_position": "none"}, "secondary_category": {"kind": "date", "label_position": "none", "visible": false}, "value": {"minimum": 0, "maximum": 100, "major_unit": 20}, "secondary_value": {"minimum": 0, "maximum": 50, "major_unit": 10, "number_format": "0\"%\""}}, "axis_titles": {"value": "Revenue ($M)", "secondary_value": "Profit Margin (%)"}, "plot_area": {"x": 115, "y": 215, "width": 1030, "height": 325}, "notes": ["Jan", "Mar", "Jun", "Sep", "Nov", "Dec", "Timeline (actual month-start dates)"]}</metadata>
+            <line x1="115" y1="540.0" x2="1145" y2="540.0" stroke="#D8D2E0" stroke-width="1" id="grid-0" />
+            <text x="101" y="545.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">0</text>
+            <line x1="115" y1="475.0" x2="1145" y2="475.0" stroke="#D8D2E0" stroke-width="1" id="grid-20" />
+            <text x="101" y="480.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">20</text>
+            <line x1="115" y1="410.0" x2="1145" y2="410.0" stroke="#D8D2E0" stroke-width="1" id="grid-40" />
+            <text x="101" y="415.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">40</text>
+            <line x1="115" y1="345.0" x2="1145" y2="345.0" stroke="#D8D2E0" stroke-width="1" id="grid-60" />
+            <text x="101" y="350.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">60</text>
+            <line x1="115" y1="280.0" x2="1145" y2="280.0" stroke="#D8D2E0" stroke-width="1" id="grid-80" />
+            <text x="101" y="285.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">80</text>
+            <line x1="115" y1="215.0" x2="1145" y2="215.0" stroke="#D8D2E0" stroke-width="1" id="grid-100" />
+            <text x="101" y="220.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">100</text>
+            <line x1="115" y1="215" x2="115" y2="540" stroke="#716684" stroke-width="1.2" id="axis-y" />
+            <line x1="115" y1="540" x2="1145" y2="540" stroke="#716684" stroke-width="1.2" id="axis-x" />
+            <text x="115" y="197" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">Revenue ($M)</text>
+            <text x="1167" y="545.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">0%</text>
+            <text x="1167" y="480.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">10%</text>
+            <text x="1167" y="415.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">20%</text>
+            <text x="1167" y="350.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">30%</text>
+            <text x="1167" y="285.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">40%</text>
+            <text x="1167" y="220.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">50%</text>
+            <text x="1145" y="197" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">Profit Margin (%)</text>
+            <text x="115.0" y="570" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Jan</text>
+            <text x="296.94610778443115" y="570" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Mar</text>
+            <text x="580.6586826347306" y="570" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Jun</text>
+            <text x="864.37125748503" y="570" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Sep</text>
+            <text x="1052.4850299401196" y="570" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Nov</text>
+            <text x="1145.0" y="570" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Dec</text>
+            <text x="630.0" y="610" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Timeline (actual month-start dates)</text>
+            <path d="M 115.0000,367.7500 L 296.9461,228.0000 L 580.6587,228.0000 L 864.3713,497.7500 L 1052.4850,497.7500 L 1145.0000,367.7500" fill="none" stroke="#8F86B4" stroke-width="3" />
+            <circle cx="115.0" cy="367.75" r="4" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="53" data-date="2025-01-01" data-series="0" />
+            <circle cx="296.94610778443115" cy="228.0" r="4" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="96" data-date="2025-03-01" data-series="0" />
+            <circle cx="580.6586826347306" cy="228.0" r="4" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="96" data-date="2025-06-01" data-series="0" />
+            <circle cx="864.37125748503" cy="497.75" r="4" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="13" data-date="2025-09-01" data-series="0" />
+            <circle cx="1052.4850299401196" cy="497.75" r="4" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="13" data-date="2025-11-01" data-series="0" />
+            <circle cx="1145.0" cy="367.75" r="4" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="53" data-date="2025-12-01" data-series="0" />
+            <path d="M 115.0000,442.5000 L 296.9461,312.5000 L 580.6587,312.5000 L 864.3713,488.0000 L 1052.4850,488.0000 L 1145.0000,442.5000" fill="none" stroke="#D6A3B1" stroke-width="3" stroke-dasharray="8 4" />
+            <circle cx="115.0" cy="442.5" r="4" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="15" data-date="2025-01-01" data-series="1" />
+            <circle cx="296.94610778443115" cy="312.5" r="4" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="35" data-date="2025-03-01" data-series="1" />
+            <circle cx="580.6586826347306" cy="312.5" r="4" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="35" data-date="2025-06-01" data-series="1" />
+            <circle cx="864.37125748503" cy="488.0" r="4" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="8" data-date="2025-09-01" data-series="1" />
+            <circle cx="1052.4850299401196" cy="488.0" r="4" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="8" data-date="2025-11-01" data-series="1" />
+            <circle cx="1145.0" cy="442.5" r="4" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="15" data-date="2025-12-01" data-series="1" />
+        </g>
+        <g id="phase-strip">
+            <rect x="115.0" y="145" width="179.94610778443115" height="30" fill="#8F86B4" fill-opacity="0.45" />
+            <text x="205.97305389221557" y="165" font-size="12" fill="#241F30" font-weight="400" text-anchor="middle">Product launch</text>
+            <rect x="296.94610778443115" y="145" width="281.7125748502994" height="30" fill="#B7ACCD" fill-opacity="0.45" />
+            <text x="438.8023952095808" y="165" font-size="12" fill="#241F30" font-weight="400" text-anchor="middle">Rapid growth</text>
+            <rect x="580.6586826347306" y="145" width="281.7125748502994" height="30" fill="#DBCCE2" fill-opacity="0.45" />
+            <text x="722.5149700598803" y="165" font-size="12" fill="#241F30" font-weight="400" text-anchor="middle">Correction</text>
+            <rect x="864.37125748503" y="145" width="186.11377245508976" height="30" fill="#D6A3B1" fill-opacity="0.45" />
+            <text x="958.4281437125749" y="165" font-size="12" fill="#241F30" font-weight="400" text-anchor="middle">Stabilization</text>
+            <rect x="1052.4850299401196" y="145" width="90.51497005988028" height="30" fill="#E8CCAB" fill-opacity="0.45" />
+            <text x="1098.7425149700598" y="165" font-size="12" fill="#241F30" font-weight="400" text-anchor="middle">Recovery</text>
+        </g>
+    </g>
+    <g id="source" data-pptx-bounds="40 685 1200 28">
+        <text x="56" y="705" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Template example data</text>
+    </g>
+</svg>

@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Segoe UI, Arial, sans-serif" font-size="12" lang="en-US">
+    <desc>Editable pseudo-3D SVG. Original values determine front dimensions, top areas or pre-projection angles; depth is decorative.</desc>
+    <metadata id="source-data" type="application/json">{"source_payload": {"name": "treemap_chart", "x": 60, "y": 130, "width": 1011.3, "height": 480, "type": "treemap", "levels": [["Human Resources", "Human Resources", "Human Resources", "Operations", "Operations", "Operations", "Marketing", "Marketing", "R&amp;D", "Other"], ["Salaries &amp; Benefits", "Training", "Recruitment", "Office Space", "Equipment", "Daily Ops", "Advertising", "Brand Events", "R&amp;D", "Other"]], "values": [3.36, 0.72, 0.72, 1.5, 0.9, 0.6, 1.44, 0.96, 1.2, 0.6], "parent_label_layout": "overlapping", "style": {"colors": ["#0284C7", "#0EA5E9", "#38BDF8", "#059669", "#10B981", "#34D399", "#D97706", "#F59E0B", "#7C3AED", "#64748B"]}}, "rendering": {"type": "pseudo-3d", "native_replacement": false, "depth_encodes_extra_data": false}, "derived_geometry": {"rectangles": [[60, 160, 380, 315], [60, 475, 190, 135], [250, 475, 190, 135], [440, 160, 285, 187.5], [725, 160, 171, 187.5], [896, 160, 114, 187.5], [440, 347.5, 342, 150], [782, 347.5, 228, 150], [440, 497.5, 380, 112.5], [820, 497.5, 190, 112.5]], "total_area": 427500, "top_areas": [119700, 25650, 25650, 53437.5, 32062.5, 21375.0, 51300, 34200, 42750.0, 21375.0], "group_totals": [4.8, 3, 2.4, 1.2, 0.6], "uniform_depth": [9, 10]}, "default_palette": {"id": "lavender-spring", "name": "科研配色｜薰紫春庭", "colors": ["#8F86B4", "#B7ACCD", "#DBCCE2", "#D6A3B1", "#E8CCAB", "#A8C3B5"], "roles": {"primary": "#8F86B4", "secondary": "#B7ACCD", "surface_accent": "#DBCCE2", "emphasis": "#D6A3B1", "warm": "#E8CCAB", "positive": "#A8C3B5", "negative": "#D6A3B1", "neutral_data": "#B7ACCD", "text": "#241F30", "secondary_text": "#655E75", "background": "#FFFFFF", "surface": "#F8F5FA", "divider": "#D8D2E0", "connector": "#8F86B4", "mark_outline": "#716684"}, "core_values_exact": true, "category_base_mapping": {"#0284C7": "#8F86B4", "#0EA5E9": "#B7ACCD", "#38BDF8": "#DBCCE2", "#059669": "#A8C3B5", "#10B981": "#B7C5C2", "#34D399": "#CCDAD3", "#D97706": "#D6A3B1", "#F59E0B": "#DFB9AE", "#7C3AED": "#B7ACCD", "#64748B": "#E8CCAB"}, "shading": {"space": "linear-sRGB", "front_and_top": "Use the exact assigned core color.", "light_cap_white_mix": 0.1, "outer_wall_light_multiplier": 0.5, "inner_wall_light_multiplier": 0.29, "radial_cut_light_multiplier": 0.39, "lighter_cut_light_multiplier": 0.6}}}</metadata>
+    <rect width="1280" height="720" fill="#FFFFFF" />
+    <g id="header" data-pptx-bounds="40 15 1200 110">
+        <text x="60" y="70" font-size="32" font-weight="800" fill="#241F30">Annual Budget Allocation</text>
+        <text x="60" y="100" font-size="14" font-weight="700" fill="#241F30" letter-spacing="1">2025 BUDGET · TOTAL $12.0M · AREA REPRESENTS ALLOCATION %</text>
+    </g>
+    <g id="visualization" data-pptx-bounds="20 130 1240 585">
+        <g id="treemap-3d">
+            <g id="treemap-visible-walls">
+                <path id="tile-2-right" d="M 259.000,620.000 L 259.000,610.000 L 250.000,610.000 Z" fill="#867D96" />
+                <path id="tile-2-front" d="M 69.000,620.000 L 259.000,620.000 L 250.000,610.000 L 60.000,610.000 Z" fill="#9188A3" />
+                <path id="tile-3-right" d="M 449.000,620.000 L 449.000,610.000 L 440.000,610.000 Z" fill="#A195A6" />
+                <path id="tile-3-front" d="M 259.000,620.000 L 449.000,620.000 L 440.000,610.000 L 250.000,610.000 Z" fill="#AEA2B4" />
+                <path id="tile-6-right" d="M 1019.000,357.500 L 1019.000,170.000 L 1010.000,160.000 L 1010.000,347.500 Z" fill="#95A09B" />
+                <path id="tile-6-front" d="M 1019.000,357.500 L 1010.000,347.500 L 1010.000,357.500 Z" fill="#A2AEA8" />
+                <path id="tile-8-right" d="M 1019.000,507.500 L 1019.000,357.500 L 1010.000,347.500 L 1010.000,497.500 Z" fill="#A4877F" />
+                <path id="tile-8-front" d="M 1019.000,507.500 L 1010.000,497.500 L 1010.000,507.500 Z" fill="#B2938A" />
+                <path id="tile-9-right" d="M 829.000,620.000 L 829.000,610.000 L 820.000,610.000 Z" fill="#867D96" />
+                <path id="tile-9-front" d="M 449.000,620.000 L 829.000,620.000 L 820.000,610.000 L 440.000,610.000 Z" fill="#9188A3" />
+                <path id="tile-10-right" d="M 1019.000,620.000 L 1019.000,507.500 L 1010.000,497.500 L 1010.000,610.000 Z" fill="#AA957D" />
+                <path id="tile-10-front" d="M 829.000,620.000 L 1019.000,620.000 L 1010.000,610.000 L 820.000,610.000 Z" fill="#B9A288" />
+            </g>
+            <g id="treemap-top-tiles">
+                <g id="tile-1" data-value="3.36" data-top-area="119700" data-top-rect="60 160 380 315">
+                    <path d="M 60.00,160.00 L 440.00,160.00 L 440.00,475.00 L 60.00,475.00 Z" fill="#8F86B4" stroke="#FFFFFF" stroke-width="1.4" />
+                    <text x="74" y="186" font-size="13" text-anchor="start" fill="#241F30" font-weight="700">HUMAN RESOURCES (40%)</text>
+                    <text x="250.0" y="302.5" font-size="24" text-anchor="middle" fill="#241F30" font-weight="700">Salaries &amp; Benefits</text>
+                    <text x="250.0" y="342.5" font-size="34" text-anchor="middle" fill="#241F30" font-weight="700">$3.36M</text>
+                    <text x="250.0" y="372.5" font-size="16" text-anchor="middle" fill="#241F30" font-weight="400">28% of total</text>
+                </g>
+                <g id="tile-2" data-value="0.72" data-top-area="25650" data-top-rect="60 475 190 135">
+                    <path d="M 60.00,475.00 L 250.00,475.00 L 250.00,610.00 L 60.00,610.00 Z" fill="#B7ACCD" stroke="#FFFFFF" stroke-width="1.4" />
+                    <text x="155.0" y="530.5" font-size="17" text-anchor="middle" fill="#241F30" font-weight="700">Training</text>
+                    <text x="155.0" y="560.5" font-size="23" text-anchor="middle" fill="#241F30" font-weight="700">$0.72M</text>
+                    <text x="155.0" y="585.5" font-size="13" text-anchor="middle" fill="#241F30" font-weight="400">6%</text>
+                </g>
+                <g id="tile-3" data-value="0.72" data-top-area="25650" data-top-rect="250 475 190 135">
+                    <path d="M 250.00,475.00 L 440.00,475.00 L 440.00,610.00 L 250.00,610.00 Z" fill="#DBCCE2" stroke="#FFFFFF" stroke-width="1.4" />
+                    <text x="345.0" y="530.5" font-size="17" text-anchor="middle" fill="#241F30" font-weight="700">Recruitment</text>
+                    <text x="345.0" y="560.5" font-size="23" text-anchor="middle" fill="#241F30" font-weight="700">$0.72M</text>
+                    <text x="345.0" y="585.5" font-size="13" text-anchor="middle" fill="#241F30" font-weight="400">6%</text>
+                </g>
+                <g id="tile-4" data-value="1.5" data-top-area="53437.5" data-top-rect="440 160 285 187.5">
+                    <path d="M 440.00,160.00 L 725.00,160.00 L 725.00,347.50 L 440.00,347.50 Z" fill="#A8C3B5" stroke="#FFFFFF" stroke-width="1.4" />
+                    <text x="452" y="186" font-size="13" text-anchor="start" fill="#241F30" font-weight="700">OPERATIONS (25%)</text>
+                    <text x="582.5" y="241.75" font-size="17" text-anchor="middle" fill="#241F30" font-weight="700">Office Space</text>
+                    <text x="582.5" y="271.75" font-size="23" text-anchor="middle" fill="#241F30" font-weight="700">$1.50M</text>
+                    <text x="582.5" y="296.75" font-size="13" text-anchor="middle" fill="#241F30" font-weight="400">12.5%</text>
+                </g>
+                <g id="tile-5" data-value="0.9" data-top-area="32062.5" data-top-rect="725 160 171 187.5">
+                    <path d="M 725.00,160.00 L 896.00,160.00 L 896.00,347.50 L 725.00,347.50 Z" fill="#B7C5C2" stroke="#FFFFFF" stroke-width="1.4" />
+                    <text x="810.5" y="241.75" font-size="17" text-anchor="middle" fill="#241F30" font-weight="700">Equipment</text>
+                    <text x="810.5" y="271.75" font-size="23" text-anchor="middle" fill="#241F30" font-weight="700">$0.90M</text>
+                    <text x="810.5" y="296.75" font-size="13" text-anchor="middle" fill="#241F30" font-weight="400">7.5%</text>
+                </g>
+                <g id="tile-6" data-value="0.6" data-top-area="21375.0" data-top-rect="896 160 114 187.5">
+                    <path d="M 896.00,160.00 L 1010.00,160.00 L 1010.00,347.50 L 896.00,347.50 Z" fill="#CCDAD3" stroke="#FFFFFF" stroke-width="1.4" />
+                    <text x="953.0" y="241.75" font-size="14" text-anchor="middle" fill="#241F30" font-weight="700">Daily Ops</text>
+                    <text x="953.0" y="271.75" font-size="20" text-anchor="middle" fill="#241F30" font-weight="700">$0.60M</text>
+                    <text x="953.0" y="296.75" font-size="13" text-anchor="middle" fill="#241F30" font-weight="400">5%</text>
+                </g>
+                <g id="tile-7" data-value="1.44" data-top-area="51300" data-top-rect="440 347.5 342 150">
+                    <path d="M 440.00,347.50 L 782.00,347.50 L 782.00,497.50 L 440.00,497.50 Z" fill="#D6A3B1" stroke="#FFFFFF" stroke-width="1.4" />
+                    <text x="452" y="372.5" font-size="13" text-anchor="start" fill="#241F30" font-weight="700">MARKETING (20%)</text>
+                    <text x="611.0" y="410.5" font-size="17" text-anchor="middle" fill="#241F30" font-weight="700">Advertising</text>
+                    <text x="611.0" y="440.5" font-size="23" text-anchor="middle" fill="#241F30" font-weight="700">$1.44M</text>
+                    <text x="611.0" y="465.5" font-size="13" text-anchor="middle" fill="#241F30" font-weight="400">12%</text>
+                </g>
+                <g id="tile-8" data-value="0.96" data-top-area="34200" data-top-rect="782 347.5 228 150">
+                    <path d="M 782.00,347.50 L 1010.00,347.50 L 1010.00,497.50 L 782.00,497.50 Z" fill="#DFB9AE" stroke="#FFFFFF" stroke-width="1.4" />
+                    <text x="896.0" y="410.5" font-size="17" text-anchor="middle" fill="#241F30" font-weight="700">Brand Events</text>
+                    <text x="896.0" y="440.5" font-size="23" text-anchor="middle" fill="#241F30" font-weight="700">$0.96M</text>
+                    <text x="896.0" y="465.5" font-size="13" text-anchor="middle" fill="#241F30" font-weight="400">8%</text>
+                </g>
+                <g id="tile-9" data-value="1.2" data-top-area="42750.0" data-top-rect="440 497.5 380 112.5">
+                    <path d="M 440.00,497.50 L 820.00,497.50 L 820.00,610.00 L 440.00,610.00 Z" fill="#B7ACCD" stroke="#FFFFFF" stroke-width="1.4" />
+                    <text x="630.0" y="541.75" font-size="15" text-anchor="middle" fill="#241F30" font-weight="700">R&amp;D (10%)</text>
+                    <text x="630.0" y="577.75" font-size="26" text-anchor="middle" fill="#241F30" font-weight="700">$1.20M</text>
+                </g>
+                <g id="tile-10" data-value="0.6" data-top-area="21375.0" data-top-rect="820 497.5 190 112.5">
+                    <path d="M 820.00,497.50 L 1010.00,497.50 L 1010.00,610.00 L 820.00,610.00 Z" fill="#E8CCAB" stroke="#FFFFFF" stroke-width="1.4" />
+                    <text x="915.0" y="541.75" font-size="15" text-anchor="middle" fill="#241F30" font-weight="700">OTHER (5%)</text>
+                    <text x="915.0" y="577.75" font-size="26" text-anchor="middle" fill="#241F30" font-weight="700">$0.60M</text>
+                </g>
+            </g>
+            <text x="535" y="647" font-size="13" text-anchor="middle" fill="#241F30" font-weight="400">Top areas encode budget share. All tiles have the same decorative thickness.</text>
+        </g>
+        <g id="legend" transform="translate(1080, 130)">
+            <rect x="0" y="0" width="160" height="260" rx="12" fill="#FFFFFF" stroke="#D8D2E0" stroke-width="1.5" />
+            <text x="80" y="32" font-size="13" font-weight="800" fill="#241F30" text-anchor="middle" letter-spacing="0.5">BUDGET SUMMARY</text>
+            <line x1="20" y1="50" x2="140" y2="50" stroke="#D8D2E0" stroke-width="2" />
+            <rect x="20" y="65" width="16" height="16" rx="4" fill="#8F86B4" />
+            <text x="46" y="78" font-weight="700" fill="#241F30">HR (40%)</text>
+            <rect x="20" y="95" width="16" height="16" rx="4" fill="#A8C3B5" />
+            <text x="46" y="108" font-weight="700" fill="#241F30">Ops (25%)</text>
+            <rect x="20" y="125" width="16" height="16" rx="4" fill="#D6A3B1" />
+            <text x="46" y="138" font-weight="700" fill="#241F30">Market (20%)</text>
+            <rect x="20" y="155" width="16" height="16" rx="4" fill="#B7ACCD" />
+            <text x="46" y="168" font-weight="700" fill="#241F30">R&amp;D (10%)</text>
+            <rect x="20" y="185" width="16" height="16" rx="4" fill="#E8CCAB" />
+            <text x="46" y="198" font-weight="700" fill="#241F30">Other (5%)</text>
+            <line x1="20" y1="215" x2="140" y2="215" stroke="#D8D2E0" stroke-width="2" />
+            <text x="80" y="240" font-size="15" font-weight="800" fill="#241F30" text-anchor="middle">Total: $12.0M</text>
+        </g>
+        <g id="note" transform="translate(1080, 410)">
+            <rect x="0" y="0" width="160" height="90" rx="12" fill="#F8F5FA" stroke="#8F86B4" stroke-width="1.5" />
+            <text x="16" y="28" font-weight="800" fill="#241F30" letter-spacing="0.5">HOW TO READ</text>
+            <text x="16" y="48" font-weight="600" fill="#241F30">Area size directly<tspan x="16" dy="16">represents the</tspan>
+                <tspan x="16" dy="16">budget allocation %</tspan>
+            </text>
+        </g>
+        <g id="source">
+            <text x="60" y="690" font-size="13" font-weight="600" fill="#241F30">Data Source: Finance Dept Annual Budget Report</text>
+        </g>
+    </g>
+</svg>

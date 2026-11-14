@@ -1,0 +1,16 @@
+{
+  "template_id": "isometric-miniature",
+  "mode": "image-transform",
+  "template": "templates/image_styles/isometric-miniature/template.json",
+  "preview": "preview.jpg",
+  "preview_kind": "style-reference",
+  "note": "城市地标、天气与标题都可替换；蛋糕底座与等距视角不变；作者仓库原图仅 575×575",
+  "source": {
+    "platform": "GitHub",
+    "post_type": "文生图",
+    "author": "@lxfater",
+    "url": "https://github.com/glidea/banana-prompt-quicker",
+    "published": "",
+    "collected": "2026-11-12"
+  }
+}

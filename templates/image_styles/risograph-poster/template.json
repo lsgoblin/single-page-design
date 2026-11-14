@@ -1,0 +1,30 @@
+{
+  "id": "risograph-poster",
+  "name": "孔版丝网海报",
+  "use_when": "文化、音乐、展览、科幻主题，想要旧印刷机抽出来一样的质感",
+  "composition": "2:3 到 3:4 竖幅；上沿留大号无衬线标题位（不写则空），中景放轨道弧线与行星色块，下半或一侧安放主体剪影。",
+  "material": "新闻纸米黄底、半调网点、套印错位、墨粉斑点、平涂色块边缘微毛；限量霓虹橙、钴蓝、柠檬黄与小面积青绿；柔和均匀的印刷品扫描光感。",
+  "identity": "主体可整体替换，保留场景剪影或半调人物；不复刻原帖办公室女性身份。",
+  "text": "只出现指定短词，否则全无字；禁真实品牌、网址、水印。",
+  "avoid": "矢量干净渐变、立体摄影阴影、彩虹乱炖、写实插画。",
+  "aspect": "2:3",
+  "slots": [
+    "New subject 场景",
+    "标题短词（可留空）"
+  ],
+  "tags": [
+    "孔版",
+    "丝网印刷",
+    "复古未来",
+    "海报"
+  ],
+  "prompt_language": "zh",
+  "prompt_assembly": "源提示词为中文；New subject 整段换成用户图片的场景，标题位保持可用可空；机位、网点、套印错位与限定配色不改。",
+  "source_prompt": "Create an image with the following visual system. Replace the subject as specified.\n\nVisual system (light, color, composition, medium, mood):\n一张竖幅约 2:3 到 3:4 的孔版/丝网实验海报：新闻纸米黄底上叠几何轨道、网点与有限霓虹色块，主体是可整体替换的场景剪影或半调插画人物/构筑物，不要复刻办公室制服女性身份。机位正面平视的平面版式，信息分层清晰：上沿可留大号无衬线标题位（若 New subject 未写字则留空不写字），中景放轨道弧线与行星色块，下半或一侧安放主体。纹理必须是孔版印刷感：细密新闻纸颗粒、半调网点、轻微套印错位与墨粉斑点，大面积平涂色块边缘略毛，不是矢量干净渐变。配色以米黄新闻纸为底，辅以黑墨线稿，点缀有限霓虹橙、钴蓝、柠檬黄与小块青绿；色块数量克制，不要彩虹乱炖。柔和均匀「印刷品扫描」光感，无立体摄影阴影。画面文字只出现 New subject 明确写出的短词，否则完全无字；禁止真实品牌、水印、网址。实验、复古未来、像刚从旧印刷机抽出来的轨道海报。\n\nNew subject:\n月面漫步者：一个穿简洁太空服的小人侧影走在环形坑洼的月面剪影上，身后大弧轨道线与一颗半调网点大行星。画面中没有文字。\n\n模型：GPT Image 2.5\n\n另外三张的提示词，评论区打 2 / 3 / 4 我发你。",
+  "origin": "X @static_stare · 2026-11-07 · GPT Image 2.5 · https://x.com/static_stare/status/2118973003367129344",
+  "mode": "image-transform",
+  "input": "user-image-required",
+  "variant": "poster-layout",
+  "reference": "references/image_styles/risograph-poster/sample.json",
+  "image_policy": "先查看用户输入图片，再按本模板改造；主体、空间关系与允许重绘范围按当前用户要求确定。"
+}

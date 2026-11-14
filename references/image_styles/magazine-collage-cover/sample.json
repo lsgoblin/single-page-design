@@ -1,0 +1,16 @@
+{
+  "template_id": "magazine-collage-cover",
+  "mode": "image-transform",
+  "template": "templates/image_styles/magazine-collage-cover/template.json",
+  "preview": "preview.jpg",
+  "preview_kind": "style-reference",
+  "note": "主体与拼贴窗内容可换；刊头词按主题重写",
+  "source": {
+    "platform": "X",
+    "post_type": "文生图",
+    "author": "Eesha",
+    "url": "https://x.com/MissDelulu9/status/2079516100568682772",
+    "published": "2026-07-21",
+    "collected": "2026-11-12"
+  }
+}

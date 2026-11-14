@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Segoe UI, Arial, sans-serif" font-size="12" lang="en-US">
+    <desc>Editable pseudo-3D SVG. Decorative extrusion does not add a data dimension. Original source data embedded below.</desc>
+    <metadata id="source-data" type="application/json">{"source_payload": {"name": "grouped_bar_chart", "x": 125, "y": 165, "width": 1055, "height": 439.5, "type": "column", "categories": ["Q1", "Q2", "Q3", "Q4"], "series": [{"name": "Division A", "values": [120, 145, 168, 185]}, {"name": "Division B", "values": [85, 98, 112, 125]}, {"name": "Division C", "values": [65, 78, 92, 108]}], "style": {"colors": ["#3B82F6", "#10B981", "#F59E0B"]}}, "rendering": {"type": "pseudo-3d", "editable": "independent SVG faces and text", "extrusion_encodes_extra_data": false}, "derived_geometry": {}, "default_palette": {"id": "lavender-spring", "name": "科研配色｜薰紫春庭", "colors": ["#8F86B4", "#B7ACCD", "#DBCCE2", "#D6A3B1", "#E8CCAB", "#A8C3B5"], "roles": {"primary": "#8F86B4", "secondary": "#B7ACCD", "surface_accent": "#DBCCE2", "emphasis": "#D6A3B1", "warm": "#E8CCAB", "positive": "#A8C3B5", "negative": "#D6A3B1", "neutral_data": "#B7ACCD", "text": "#241F30", "secondary_text": "#655E75", "background": "#FFFFFF", "surface": "#F8F5FA", "divider": "#D8D2E0", "connector": "#8F86B4", "mark_outline": "#716684"}, "core_values_exact": true, "category_base_mapping": {"#2563EB": "#8F86B4", "#059669": "#B7ACCD", "#D97706": "#DBCCE2"}, "shading": {"space": "linear-sRGB", "front_and_top": "Use the exact assigned core color.", "light_cap_white_mix": 0.1, "outer_wall_light_multiplier": 0.5, "inner_wall_light_multiplier": 0.29, "radial_cut_light_multiplier": 0.39, "lighter_cut_light_multiplier": 0.6}}}</metadata>
+    <rect width="1280" height="720" fill="#FFFFFF" />
+    <g id="header" data-pptx-bounds="40 15 1200 100">
+        <text x="60" y="70" font-size="32" font-weight="700" fill="#241F30">Quarterly Revenue by Division</text>
+        <text x="60" y="105" font-size="18" fill="#241F30">Fiscal Year 2025 · Unit: $M</text>
+        <g id="legend" transform="translate(900, 70)">
+            <rect x="0" y="0" width="20" height="20" rx="3" fill="#8F86B4" />
+            <text x="30" y="15" font-size="15" fill="#241F30">Division A</text>
+            <rect x="120" y="0" width="20" height="20" rx="3" fill="#B7ACCD" />
+            <text x="150" y="15" font-size="15" fill="#241F30">Division B</text>
+            <rect x="240" y="0" width="20" height="20" rx="3" fill="#DBCCE2" />
+            <text x="270" y="15" font-size="15" fill="#241F30">Division C</text>
+        </g>
+    </g>
+    <g id="visualization" data-pptx-bounds="20 120 1240 590">
+        <g id="grouped_bar_chart">
+            <g id="chartArea">
+                <line x1="140" y1="570" x2="1180" y2="570" stroke="#D8D2E0" stroke-width="1" stroke-dasharray="4,4" />
+                <line x1="140" y1="480" x2="1180" y2="480" stroke="#D8D2E0" stroke-width="1" stroke-dasharray="4,4" />
+                <line x1="140" y1="390" x2="1180" y2="390" stroke="#D8D2E0" stroke-width="1" stroke-dasharray="4,4" />
+                <line x1="140" y1="300" x2="1180" y2="300" stroke="#D8D2E0" stroke-width="1" stroke-dasharray="4,4" />
+                <line x1="140" y1="210" x2="1180" y2="210" stroke="#D8D2E0" stroke-width="1" stroke-dasharray="4,4" />
+                <text x="125" y="575" font-size="14" fill="#241F30" text-anchor="end">0</text>
+                <text x="125" y="485" font-size="14" fill="#241F30" text-anchor="end">50</text>
+                <text x="125" y="395" font-size="14" fill="#241F30" text-anchor="end">100</text>
+                <text x="125" y="305" font-size="14" fill="#241F30" text-anchor="end">150</text>
+                <text x="125" y="215" font-size="14" fill="#241F30" text-anchor="end">200</text>
+                <line x1="140" y1="165" x2="140" y2="570" stroke="#8F86B4" stroke-width="2" />
+                <line x1="140" y1="570" x2="1180" y2="570" stroke="#8F86B4" stroke-width="2" />
+                <g id="data-bar-1" data-front-x="170.0" data-front-y="354.0" data-front-width="60.0" data-front-height="216.0" data-value="120">
+                    <path d="M 230.00,354.00 L 238.00,345.00 L 238.00,561.00 L 230.00,570.00 Z" fill="#686183" id="data-bar-1-side" />
+                    <path d="M 170.00,354.00 L 178.00,345.00 L 238.00,345.00 L 230.00,354.00 Z" fill="#9F98BD" id="data-bar-1-top" />
+                    <path d="M 170.00,354.00 L 230.00,354.00 L 230.00,570.00 L 170.00,570.00 Z" fill="#8F86B4" id="data-bar-1-front" />
+                </g>
+                <text x="200" y="342" font-size="14" font-weight="600" fill="#241F30" text-anchor="middle">120</text>
+                <g id="data-bar-2" data-front-x="240.0" data-front-y="417.0" data-front-width="60.0" data-front-height="153.0" data-value="85">
+                    <path d="M 300.00,417.00 L 308.00,408.00 L 308.00,561.00 L 300.00,570.00 Z" fill="#867D96" id="data-bar-2-side" />
+                    <path d="M 240.00,417.00 L 248.00,408.00 L 308.00,408.00 L 300.00,417.00 Z" fill="#C0B7D3" id="data-bar-2-top" />
+                    <path d="M 240.00,417.00 L 300.00,417.00 L 300.00,570.00 L 240.00,570.00 Z" fill="#B7ACCD" id="data-bar-2-front" />
+                </g>
+                <text x="270" y="405" font-size="14" font-weight="600" fill="#241F30" text-anchor="middle">85</text>
+                <g id="data-bar-3" data-front-x="310.0" data-front-y="453.0" data-front-width="60.0" data-front-height="117.0" data-value="65">
+                    <path d="M 370.00,453.00 L 378.00,444.00 L 378.00,561.00 L 370.00,570.00 Z" fill="#A195A6" id="data-bar-3-side" />
+                    <path d="M 310.00,453.00 L 318.00,444.00 L 378.00,444.00 L 370.00,453.00 Z" fill="#DFD2E5" id="data-bar-3-top" />
+                    <path d="M 310.00,453.00 L 370.00,453.00 L 370.00,570.00 L 310.00,570.00 Z" fill="#DBCCE2" id="data-bar-3-front" />
+                </g>
+                <text x="340" y="441" font-size="14" font-weight="600" fill="#241F30" text-anchor="middle">65</text>
+                <text x="255" y="600" font-size="18" fill="#241F30" text-anchor="middle">Q1</text>
+                <g id="data-bar-4" data-front-x="430.0" data-front-y="309.0" data-front-width="60.0" data-front-height="261.0" data-value="145">
+                    <path d="M 490.00,309.00 L 498.00,300.00 L 498.00,561.00 L 490.00,570.00 Z" fill="#686183" id="data-bar-4-side" />
+                    <path d="M 430.00,309.00 L 438.00,300.00 L 498.00,300.00 L 490.00,309.00 Z" fill="#9F98BD" id="data-bar-4-top" />
+                    <path d="M 430.00,309.00 L 490.00,309.00 L 490.00,570.00 L 430.00,570.00 Z" fill="#8F86B4" id="data-bar-4-front" />
+                </g>
+                <text x="460" y="297" font-size="14" font-weight="600" fill="#241F30" text-anchor="middle">145</text>
+                <g id="data-bar-5" data-front-x="500.0" data-front-y="393.6" data-front-width="60.0" data-front-height="176.4" data-value="98">
+                    <path d="M 560.00,393.60 L 568.00,384.60 L 568.00,561.00 L 560.00,570.00 Z" fill="#867D96" id="data-bar-5-side" />
+                    <path d="M 500.00,393.60 L 508.00,384.60 L 568.00,384.60 L 560.00,393.60 Z" fill="#C0B7D3" id="data-bar-5-top" />
+                    <path d="M 500.00,393.60 L 560.00,393.60 L 560.00,570.00 L 500.00,570.00 Z" fill="#B7ACCD" id="data-bar-5-front" />
+                </g>
+                <text x="530" y="382" font-size="14" font-weight="600" fill="#241F30" text-anchor="middle">98</text>
+                <g id="data-bar-6" data-front-x="570.0" data-front-y="429.6" data-front-width="60.0" data-front-height="140.4" data-value="78">
+                    <path d="M 630.00,429.60 L 638.00,420.60 L 638.00,561.00 L 630.00,570.00 Z" fill="#A195A6" id="data-bar-6-side" />
+                    <path d="M 570.00,429.60 L 578.00,420.60 L 638.00,420.60 L 630.00,429.60 Z" fill="#DFD2E5" id="data-bar-6-top" />
+                    <path d="M 570.00,429.60 L 630.00,429.60 L 630.00,570.00 L 570.00,570.00 Z" fill="#DBCCE2" id="data-bar-6-front" />
+                </g>
+                <text x="600" y="418" font-size="14" font-weight="600" fill="#241F30" text-anchor="middle">78</text>
+                <text x="515" y="600" font-size="18" fill="#241F30" text-anchor="middle">Q2</text>
+                <g id="data-bar-7" data-front-x="690.0" data-front-y="267.59999999999997" data-front-width="60.0" data-front-height="302.40000000000003" data-value="168">
+                    <path d="M 750.00,267.60 L 758.00,258.60 L 758.00,561.00 L 750.00,570.00 Z" fill="#686183" id="data-bar-7-side" />
+                    <path d="M 690.00,267.60 L 698.00,258.60 L 758.00,258.60 L 750.00,267.60 Z" fill="#9F98BD" id="data-bar-7-top" />
+                    <path d="M 690.00,267.60 L 750.00,267.60 L 750.00,570.00 L 690.00,570.00 Z" fill="#8F86B4" id="data-bar-7-front" />
+                </g>
+                <text x="720" y="256" font-size="14" font-weight="600" fill="#241F30" text-anchor="middle">168</text>
+                <g id="data-bar-8" data-front-x="760.0" data-front-y="368.4" data-front-width="60.0" data-front-height="201.6" data-value="112">
+                    <path d="M 820.00,368.40 L 828.00,359.40 L 828.00,561.00 L 820.00,570.00 Z" fill="#867D96" id="data-bar-8-side" />
+                    <path d="M 760.00,368.40 L 768.00,359.40 L 828.00,359.40 L 820.00,368.40 Z" fill="#C0B7D3" id="data-bar-8-top" />
+                    <path d="M 760.00,368.40 L 820.00,368.40 L 820.00,570.00 L 760.00,570.00 Z" fill="#B7ACCD" id="data-bar-8-front" />
+                </g>
+                <text x="790" y="356" font-size="14" font-weight="600" fill="#241F30" text-anchor="middle">112</text>
+                <g id="data-bar-9" data-front-x="830.0" data-front-y="404.4" data-front-width="60.0" data-front-height="165.6" data-value="92">
+                    <path d="M 890.00,404.40 L 898.00,395.40 L 898.00,561.00 L 890.00,570.00 Z" fill="#A195A6" id="data-bar-9-side" />
+                    <path d="M 830.00,404.40 L 838.00,395.40 L 898.00,395.40 L 890.00,404.40 Z" fill="#DFD2E5" id="data-bar-9-top" />
+                    <path d="M 830.00,404.40 L 890.00,404.40 L 890.00,570.00 L 830.00,570.00 Z" fill="#DBCCE2" id="data-bar-9-front" />
+                </g>
+                <text x="860" y="392" font-size="14" font-weight="600" fill="#241F30" text-anchor="middle">92</text>
+                <text x="775" y="600" font-size="18" fill="#241F30" text-anchor="middle">Q3</text>
+                <g id="data-bar-10" data-front-x="950.0" data-front-y="237.0" data-front-width="60.0" data-front-height="333.0" data-value="185">
+                    <path d="M 1010.00,237.00 L 1018.00,228.00 L 1018.00,561.00 L 1010.00,570.00 Z" fill="#686183" id="data-bar-10-side" />
+                    <path d="M 950.00,237.00 L 958.00,228.00 L 1018.00,228.00 L 1010.00,237.00 Z" fill="#9F98BD" id="data-bar-10-top" />
+                    <path d="M 950.00,237.00 L 1010.00,237.00 L 1010.00,570.00 L 950.00,570.00 Z" fill="#8F86B4" id="data-bar-10-front" />
+                </g>
+                <text x="980" y="225" font-size="14" font-weight="600" fill="#241F30" text-anchor="middle">185</text>
+                <g id="data-bar-11" data-front-x="1020.0" data-front-y="345.0" data-front-width="60.0" data-front-height="225.0" data-value="125">
+                    <path d="M 1080.00,345.00 L 1088.00,336.00 L 1088.00,561.00 L 1080.00,570.00 Z" fill="#867D96" id="data-bar-11-side" />
+                    <path d="M 1020.00,345.00 L 1028.00,336.00 L 1088.00,336.00 L 1080.00,345.00 Z" fill="#C0B7D3" id="data-bar-11-top" />
+                    <path d="M 1020.00,345.00 L 1080.00,345.00 L 1080.00,570.00 L 1020.00,570.00 Z" fill="#B7ACCD" id="data-bar-11-front" />
+                </g>
+                <text x="1050" y="333" font-size="14" font-weight="600" fill="#241F30" text-anchor="middle">125</text>
+                <g id="data-bar-12" data-front-x="1090.0" data-front-y="375.6" data-front-width="60.0" data-front-height="194.4" data-value="108">
+                    <path d="M 1150.00,375.60 L 1158.00,366.60 L 1158.00,561.00 L 1150.00,570.00 Z" fill="#A195A6" id="data-bar-12-side" />
+                    <path d="M 1090.00,375.60 L 1098.00,366.60 L 1158.00,366.60 L 1150.00,375.60 Z" fill="#DFD2E5" id="data-bar-12-top" />
+                    <path d="M 1090.00,375.60 L 1150.00,375.60 L 1150.00,570.00 L 1090.00,570.00 Z" fill="#DBCCE2" id="data-bar-12-front" />
+                </g>
+                <text x="1120" y="364" font-size="14" font-weight="600" fill="#241F30" text-anchor="middle">108</text>
+                <text x="1035" y="600" font-size="18" fill="#241F30" text-anchor="middle">Q4</text>
+            </g>
+        </g>
+        <g id="summaryCard">
+            <rect x="60" y="630" width="400" height="60" rx="8" fill="#F8F5FA" stroke="#D8D2E0" stroke-width="1" />
+            <text x="80" y="665" font-size="14" font-weight="600" fill="#241F30">FY Total:</text>
+            <text x="150" y="665" font-size="16" font-weight="700" fill="#241F30">618M</text>
+            <text x="200" y="665" font-size="14" fill="#241F30">|</text>
+            <text x="220" y="665" font-size="16" font-weight="700" fill="#241F30">420M</text>
+            <text x="270" y="665" font-size="14" fill="#241F30">|</text>
+            <text x="290" y="665" font-size="16" font-weight="700" fill="#241F30">343M</text>
+            <text x="80" y="645" font-size="13" font-weight="600" fill="#241F30">YoY Growth: +15.2%</text>
+        </g>
+        <g id="source">
+            <text x="1220" y="695" font-size="14" fill="#241F30" text-anchor="end">Source: Internal Financials</text>
+        </g>
+    </g>
+</svg>

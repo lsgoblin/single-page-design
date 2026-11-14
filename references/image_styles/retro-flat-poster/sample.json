@@ -1,0 +1,16 @@
+{
+  "template_id": "retro-flat-poster",
+  "mode": "image-transform",
+  "template": "templates/image_styles/retro-flat-poster/template.json",
+  "preview": "preview.jpg",
+  "preview_kind": "style-reference",
+  "note": "原作者四张组图之一；人物、场景与标题语言均可替换",
+  "source": {
+    "platform": "X",
+    "post_type": "文生图",
+    "author": "小小东",
+    "url": "https://x.com/xiaoxiaodong01/status/2090144142366233008",
+    "published": "2026-08-20",
+    "collected": "2026-11-12"
+  }
+}

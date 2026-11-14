@@ -1,0 +1,16 @@
+{
+  "template_id": "showa-film-portrait",
+  "mode": "image-transform",
+  "template": "templates/image_styles/showa-film-portrait/template.json",
+  "preview": "preview.jpg",
+  "preview_kind": "style-reference",
+  "note": "人物与街景按任务替换；胶片颗粒与旧招牌保留",
+  "source": {
+    "platform": "X",
+    "post_type": "文生图",
+    "author": "いがぐりメタボ",
+    "url": "https://x.com/Kmsbdd0GXBOcrXQ/status/2120101937886745027",
+    "published": "2026-11-10",
+    "collected": "2026-11-12"
+  }
+}

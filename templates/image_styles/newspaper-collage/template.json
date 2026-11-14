@@ -1,0 +1,29 @@
+{
+  "id": "newspaper-collage",
+  "name": "报纸拼贴",
+  "use_when": "动物、人物、器物，想做有版面文字肌理的拼贴",
+  "composition": "主体轮廓完全由撕报纸剪贴拼成，背景干净极简，主体边缘与纸边形成层次。",
+  "material": "报纸碎片、可见报头文字与层叠纸边；眼睛、耳朵、爪子等关键部位用写实铅笔画出，与拼贴质感咬合。",
+  "identity": "主体形态与神态可辨；铅笔细节只用在关键部位，不画满全身。",
+  "text": "报纸文字是材质，不额外排版。",
+  "avoid": "整张照片贴报纸滤镜、乱码文字抢主体、背景杂乱。",
+  "aspect": "1:1",
+  "slots": [
+    "主体"
+  ],
+  "tags": [
+    "报纸拼贴",
+    "混合媒介",
+    "拼贴",
+    "动物"
+  ],
+  "prompt_language": "en",
+  "prompt_assembly": "源提示词为英文；把 a cat 换成当前主体，保留「撕报纸拼轮廓 + 铅笔画关键五官 + 干净背景」三层结构。",
+  "source_prompt": "A cat-shaped collage made entirely of torn newspaper clippings, forming the silhouette and body with visible text and layered paper edges. Realistic pencil-drawn eyes, ears, and paws blend seamlessly into the mixed media texture. The background is clean and minimal, highlighting the cat's form\n\nFeel free to join in :)",
+  "origin": "X @BeanieBlossom · 2025-05-17 · https://x.com/BeanieBlossom/status/1923651342758969613",
+  "mode": "image-transform",
+  "input": "user-image-required",
+  "variant": "image-restyle",
+  "reference": "references/image_styles/newspaper-collage/sample.json",
+  "image_policy": "先查看用户输入图片，再按本模板改造；主体、空间关系与允许重绘范围按当前用户要求确定。"
+}

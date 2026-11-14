@@ -1,0 +1,41 @@
+{
+  "id": "lavender-spring",
+  "name": "科研配色｜薰紫春庭",
+  "description": "Low-saturation lavender, dusty rose, cream apricot and sage default chart palette.",
+  "colors": ["#8F86B4", "#B7ACCD", "#DBCCE2", "#D6A3B1", "#E8CCAB", "#A8C3B5"],
+  "roles": {
+    "primary": "#8F86B4",
+    "secondary": "#B7ACCD",
+    "surface_accent": "#DBCCE2",
+    "emphasis": "#D6A3B1",
+    "warm": "#E8CCAB",
+    "positive": "#A8C3B5",
+    "negative": "#D6A3B1",
+    "neutral_data": "#B7ACCD",
+    "text": "#241F30",
+    "secondary_text": "#655E75",
+    "background": "#FFFFFF",
+    "surface": "#F8F5FA",
+    "divider": "#D8D2E0",
+    "connector": "#8F86B4",
+    "mark_outline": "#716684"
+  },
+  "shading": {
+    "space": "linear-sRGB",
+    "front_and_top": "Use the exact assigned core color.",
+    "light_cap_white_mix": 0.10,
+    "outer_wall_light_multiplier": 0.50,
+    "inner_wall_light_multiplier": 0.29,
+    "radial_cut_light_multiplier": 0.39,
+    "lighter_cut_light_multiplier": 0.60
+  },
+  "rules": [
+    "The six core HEX values are authoritative and keep their listed order for categorical series.",
+    "Use named semantic roles for increase/decrease and threshold states; preserve their labels and signs.",
+    "Use the same category assignment in faces, legend swatches and anchor dots.",
+    "Use dark text on pastel data marks; small text contrast must be at least 4.5:1.",
+    "Use explicit labels or outlines as well as color; do not claim universal color-vision safety.",
+    "Hierarchies with more than six leaves use parent-family tints; do not invent unrelated accent hues.",
+    "Project-specified palettes may override this default. Keep native metadata synchronized where native replacement is used."
+  ]
+}

@@ -1,4 +1,30 @@
 {
+  "arc_perspective_cards": {
+    "summary": "弧形轨道透视卡片：五张圆角图片由左下向右上逐级缩小，右下留出徽章、主题名与短说明，形成空间延伸的目录页。",
+    "canvas_format": "ppt169",
+    "page_count": 1,
+    "page_types": [
+      "toc"
+    ],
+    "layout_scope": "page",
+    "preview": "references/page_layouts/arc_perspective_cards/preview.png",
+    "mode": "ppt-layout",
+    "template": "templates/page_layouts/arc_perspective_cards",
+    "reference": "references/page_layouts/arc_perspective_cards/sample.json"
+  },
+  "city_wheel": {
+    "summary": "转盘式图文展示：左下画外圆心组织四象限图片圆环，沿外弧逐字排布大标题，右侧固定主题与两组数据；连续状态通过90度旋转和平滑转场切换。",
+    "canvas_format": "ppt169",
+    "page_count": 1,
+    "page_types": [
+      "content"
+    ],
+    "layout_scope": "page",
+    "preview": "references/page_layouts/city_wheel/preview.png",
+    "mode": "ppt-layout",
+    "template": "templates/page_layouts/city_wheel",
+    "reference": "references/page_layouts/city_wheel/sample.json"
+  },
   "image_fade_profile": {
     "summary": "图文渐隐信息页：右侧大图通过横向及底部遮罩融入信息区，左侧四项信息与下方说明独立编辑。",
     "canvas_format": "ppt169",
@@ -12,19 +38,6 @@
     "template": "templates/page_layouts/image_fade_profile",
     "reference": "references/page_layouts/image_fade_profile/sample.json"
   },
-  "type_foreground_cover": {
-    "summary": "大字与前景穿插封面：成对背景和透明前景夹住可编辑标题，利用遮挡建立空间层次。",
-    "canvas_format": "ppt169",
-    "page_count": 1,
-    "page_types": [
-      "cover"
-    ],
-    "layout_scope": "page",
-    "preview": "references/page_layouts/type_foreground_cover/preview.png",
-    "mode": "ppt-layout",
-    "template": "templates/page_layouts/type_foreground_cover",
-    "reference": "references/page_layouts/type_foreground_cover/sample.json"
-  },
   "torn_paper_diagonal": {
     "summary": "双纸层斜向开窗：左上标题与右下短说明分别位于独立撕纸上，中央斜向通道露出可替换场景。",
     "canvas_format": "ppt169",
@@ -37,5 +50,18 @@
     "mode": "ppt-layout",
     "template": "templates/page_layouts/torn_paper_diagonal",
     "reference": "references/page_layouts/torn_paper_diagonal/sample.json"
+  },
+  "type_foreground_cover": {
+    "summary": "大字与前景穿插封面：成对背景和透明前景夹住可编辑标题，利用遮挡建立空间层次。",
+    "canvas_format": "ppt169",
+    "page_count": 1,
+    "page_types": [
+      "cover"
+    ],
+    "layout_scope": "page",
+    "preview": "references/page_layouts/type_foreground_cover/preview.png",
+    "mode": "ppt-layout",
+    "template": "templates/page_layouts/type_foreground_cover",
+    "reference": "references/page_layouts/type_foreground_cover/sample.json"
   }
 }

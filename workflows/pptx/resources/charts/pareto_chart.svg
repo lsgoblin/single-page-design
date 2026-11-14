@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Segoe UI, Arial, sans-serif" font-size="12" lang="en-US">
+    <desc>Editable pseudo-3D SVG. Original values determine front dimensions, top areas or pre-projection angles; depth is decorative.</desc>
+    <metadata id="source-data" type="application/json">{"source_payload": {"name": "pareto_chart", "x": 56, "y": 100, "width": 1168, "height": 528, "type": "pareto", "categories": ["Function Error", "Appearance", "Missing Parts", "Ship Damage", "Manual Error", "Packaging", "Other"], "values": [350, 220, 150, 120, 70, 50, 40], "style": {"colors": ["#4F46E5", "#CBD5E1", "#F43F5E"]}}, "rendering": {"type": "pseudo-3d", "native_replacement": false, "depth_encodes_extra_data": false}, "derived_geometry": {"cumulative_percent": [35.0, 56.99999999999999, 72.0, 84.0, 91.0, 96.0, 100.0], "count_pixels_per_unit": 1, "threshold_percent": 80, "threshold_crossing_category": 3}, "default_palette": {"id": "lavender-spring", "name": "科研配色｜薰紫春庭", "colors": ["#8F86B4", "#B7ACCD", "#DBCCE2", "#D6A3B1", "#E8CCAB", "#A8C3B5"], "roles": {"primary": "#8F86B4", "secondary": "#B7ACCD", "surface_accent": "#DBCCE2", "emphasis": "#D6A3B1", "warm": "#E8CCAB", "positive": "#A8C3B5", "negative": "#D6A3B1", "neutral_data": "#B7ACCD", "text": "#241F30", "secondary_text": "#655E75", "background": "#FFFFFF", "surface": "#F8F5FA", "divider": "#D8D2E0", "connector": "#8F86B4", "mark_outline": "#716684"}, "core_values_exact": true, "category_base_mapping": {"#4F46E5": "#8F86B4", "#CBD5E1": "#DBCCE2", "#F43F5E": "#D6A3B1", "#E11D48": "#D6A3B1"}, "shading": {"space": "linear-sRGB", "front_and_top": "Use the exact assigned core color.", "light_cap_white_mix": 0.1, "outer_wall_light_multiplier": 0.5, "inner_wall_light_multiplier": 0.29, "radial_cut_light_multiplier": 0.39, "lighter_cut_light_multiplier": 0.6}}}</metadata>
+    <defs>
+        <linearGradient id="vitalGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#818CF8" />
+            <stop offset="100%" stop-color="#4F46E5" />
+        </linearGradient>
+    </defs>
+    <rect width="1280" height="720" fill="#FFFFFF" />
+    <g id="header" data-pptx-bounds="40 15 1200 85">
+        <text x="640" y="55" font-size="32" font-weight="800" fill="#241F30" text-anchor="middle">Product Quality Issue Pareto Analysis</text>
+        <text x="640" y="85" font-size="14" font-weight="700" fill="#241F30" letter-spacing="1" text-anchor="middle">2025 Q4 — CUSTOMER COMPLAINT ATTRIBUTION (TOTAL: 1,000 CASES)</text>
+    </g>
+    <g id="visualization" data-pptx-bounds="20 100 1240 615">
+        <g id="legend" transform="translate(150, 110)">
+            <rect x="0" y="0" width="24" height="12" fill="#8F86B4" rx="2" />
+            <text x="32" y="10" font-size="13" font-weight="600" fill="#241F30">Vital Few (84%)</text>
+            <rect x="150" y="0" width="24" height="12" fill="#DBCCE2" rx="2" />
+            <text x="182" y="10" font-size="13" font-weight="600" fill="#241F30">Trivial Many</text>
+            <line x1="290" y1="6" x2="320" y2="6" stroke="#A47C87" stroke-width="3" />
+            <circle cx="305" cy="6" r="4" fill="#FFFFFF" stroke="#A47C87" stroke-width="2" />
+            <text x="330" y="10" font-size="13" font-weight="600" fill="#241F30">Cumulative %</text>
+        </g>
+        <g id="pareto_chart">
+            <line x1="130" y1="580" x2="1150" y2="580" stroke="#D8D2E0" stroke-width="2" />
+            <line x1="130" y1="130" x2="130" y2="580" stroke="#D8D2E0" stroke-width="2" />
+            <text x="70" y="360" font-size="14" font-weight="700" fill="#241F30" text-anchor="middle" transform="rotate(-90, 70, 360)">Complaint Count</text>
+            <text x="115" y="584" font-size="13" font-weight="600" fill="#241F30" text-anchor="end">0</text>
+            <text x="115" y="484" font-size="13" font-weight="600" fill="#241F30" text-anchor="end">100</text>
+            <text x="115" y="384" font-size="13" font-weight="600" fill="#241F30" text-anchor="end">200</text>
+            <text x="115" y="284" font-size="13" font-weight="600" fill="#241F30" text-anchor="end">300</text>
+            <text x="115" y="184" font-size="13" font-weight="600" fill="#241F30" text-anchor="end">400</text>
+            <line x1="1150" y1="130" x2="1150" y2="580" stroke="#D8D2E0" stroke-width="2" />
+            <text x="1210" y="360" font-size="14" font-weight="700" fill="#241F30" text-anchor="middle" transform="rotate(90, 1210, 360)">Cumulative %</text>
+            <text x="1165" y="584" font-size="13" font-weight="700" fill="#241F30">0%</text>
+            <text x="1165" y="494" font-size="13" font-weight="700" fill="#241F30">20%</text>
+            <text x="1165" y="404" font-size="13" font-weight="700" fill="#241F30">40%</text>
+            <text x="1165" y="314" font-size="13" font-weight="700" fill="#241F30">60%</text>
+            <text x="1165" y="224" font-size="13" font-weight="700" fill="#241F30">80%</text>
+            <text x="1165" y="134" font-size="13" font-weight="700" fill="#241F30">100%</text>
+            <line x1="130" y1="490" x2="1150" y2="490" stroke="#D8D2E0" stroke-width="1" stroke-dasharray="4 4" />
+            <line x1="130" y1="400" x2="1150" y2="400" stroke="#D8D2E0" stroke-width="1" stroke-dasharray="4 4" />
+            <line x1="130" y1="310" x2="1150" y2="310" stroke="#D8D2E0" stroke-width="1" stroke-dasharray="4 4" />
+            <line x1="130" y1="220" x2="1150" y2="220" stroke="#A47C87" stroke-width="1.5" stroke-dasharray="6 4" stroke-opacity="0.6" />
+            <line x1="660" y1="130" x2="660" y2="580" stroke="#8F86B4" stroke-width="1.5" stroke-dasharray="6 4" stroke-opacity="0.8" />
+            <text x="645" y="150" font-size="13" font-weight="800" fill="#241F30" text-anchor="end">VITAL FEW (84%)</text>
+            <text x="1110" y="175" font-size="13" font-weight="800" fill="#241F30" text-anchor="end">TRIVIAL MANY (16%)</text>
+            <g id="data-bar-1" data-front-x="180.0" data-front-y="230.0" data-front-width="80.0" data-front-height="350.0" data-value="350">
+                <path d="M 260.00,230.00 L 272.00,222.00 L 272.00,572.00 L 260.00,580.00 Z" fill="#686183" id="data-bar-1-side" />
+                <path d="M 180.00,230.00 L 192.00,222.00 L 272.00,222.00 L 260.00,230.00 Z" fill="#9F98BD" id="data-bar-1-top" />
+                <path d="M 180.00,230.00 L 260.00,230.00 L 260.00,580.00 L 180.00,580.00 Z" fill="#8F86B4" id="data-bar-1-front" />
+            </g>
+            <text x="220" y="215" font-size="14" font-weight="800" fill="#241F30" text-anchor="middle">350</text>
+            <text x="220" y="605" font-size="13" font-weight="700" fill="#241F30" text-anchor="middle">Function Error</text>
+            <text x="220" y="625" font-weight="600" fill="#241F30" text-anchor="middle">35%</text>
+            <g id="data-bar-2" data-front-x="310.0" data-front-y="360.0" data-front-width="80.0" data-front-height="220.0" data-value="220">
+                <path d="M 390.00,360.00 L 402.00,352.00 L 402.00,572.00 L 390.00,580.00 Z" fill="#686183" id="data-bar-2-side" />
+                <path d="M 310.00,360.00 L 322.00,352.00 L 402.00,352.00 L 390.00,360.00 Z" fill="#9F98BD" id="data-bar-2-top" />
+                <path d="M 310.00,360.00 L 390.00,360.00 L 390.00,580.00 L 310.00,580.00 Z" fill="#8F86B4" id="data-bar-2-front" />
+            </g>
+            <text x="350" y="345" font-size="14" font-weight="800" fill="#241F30" text-anchor="middle">220</text>
+            <text x="350" y="605" font-size="13" font-weight="700" fill="#241F30" text-anchor="middle">Appearance</text>
+            <text x="350" y="625" font-weight="600" fill="#241F30" text-anchor="middle">22%</text>
+            <g id="data-bar-3" data-front-x="440.0" data-front-y="430.0" data-front-width="80.0" data-front-height="150.0" data-value="150">
+                <path d="M 520.00,430.00 L 532.00,422.00 L 532.00,572.00 L 520.00,580.00 Z" fill="#686183" id="data-bar-3-side" />
+                <path d="M 440.00,430.00 L 452.00,422.00 L 532.00,422.00 L 520.00,430.00 Z" fill="#9F98BD" id="data-bar-3-top" />
+                <path d="M 440.00,430.00 L 520.00,430.00 L 520.00,580.00 L 440.00,580.00 Z" fill="#8F86B4" id="data-bar-3-front" />
+            </g>
+            <text x="480" y="415" font-size="14" font-weight="800" fill="#241F30" text-anchor="middle">150</text>
+            <text x="480" y="605" font-size="13" font-weight="700" fill="#241F30" text-anchor="middle">Missing Parts</text>
+            <text x="480" y="625" font-weight="600" fill="#241F30" text-anchor="middle">15%</text>
+            <g id="data-bar-4" data-front-x="570.0" data-front-y="460.0" data-front-width="80.0" data-front-height="120.0" data-value="120">
+                <path d="M 650.00,460.00 L 662.00,452.00 L 662.00,572.00 L 650.00,580.00 Z" fill="#686183" id="data-bar-4-side" />
+                <path d="M 570.00,460.00 L 582.00,452.00 L 662.00,452.00 L 650.00,460.00 Z" fill="#9F98BD" id="data-bar-4-top" />
+                <path d="M 570.00,460.00 L 650.00,460.00 L 650.00,580.00 L 570.00,580.00 Z" fill="#8F86B4" id="data-bar-4-front" />
+            </g>
+            <text x="610" y="445" font-size="14" font-weight="800" fill="#241F30" text-anchor="middle">120</text>
+            <text x="610" y="605" font-size="13" font-weight="700" fill="#241F30" text-anchor="middle">Ship Damage</text>
+            <text x="610" y="625" font-weight="600" fill="#241F30" text-anchor="middle">12%</text>
+            <g id="data-bar-5" data-front-x="700.0" data-front-y="510.0" data-front-width="80.0" data-front-height="70.0" data-value="70">
+                <path d="M 780.00,510.00 L 792.00,502.00 L 792.00,572.00 L 780.00,580.00 Z" fill="#A195A6" id="data-bar-5-side" />
+                <path d="M 700.00,510.00 L 712.00,502.00 L 792.00,502.00 L 780.00,510.00 Z" fill="#DFD2E5" id="data-bar-5-top" />
+                <path d="M 700.00,510.00 L 780.00,510.00 L 780.00,580.00 L 700.00,580.00 Z" fill="#DBCCE2" id="data-bar-5-front" />
+            </g>
+            <text x="740" y="495" font-size="14" font-weight="800" fill="#241F30" text-anchor="middle">70</text>
+            <text x="740" y="605" font-size="13" font-weight="700" fill="#241F30" text-anchor="middle">Manual Error</text>
+            <text x="740" y="625" font-weight="600" fill="#241F30" text-anchor="middle">7%</text>
+            <g id="data-bar-6" data-front-x="830.0" data-front-y="530.0" data-front-width="80.0" data-front-height="50.0" data-value="50">
+                <path d="M 910.00,530.00 L 922.00,522.00 L 922.00,572.00 L 910.00,580.00 Z" fill="#A195A6" id="data-bar-6-side" />
+                <path d="M 830.00,530.00 L 842.00,522.00 L 922.00,522.00 L 910.00,530.00 Z" fill="#DFD2E5" id="data-bar-6-top" />
+                <path d="M 830.00,530.00 L 910.00,530.00 L 910.00,580.00 L 830.00,580.00 Z" fill="#DBCCE2" id="data-bar-6-front" />
+            </g>
+            <text x="870" y="515" font-size="14" font-weight="800" fill="#241F30" text-anchor="middle">50</text>
+            <text x="870" y="605" font-size="13" font-weight="700" fill="#241F30" text-anchor="middle">Packaging</text>
+            <text x="870" y="625" font-weight="600" fill="#241F30" text-anchor="middle">5%</text>
+            <g id="data-bar-7" data-front-x="960.0" data-front-y="540.0" data-front-width="80.0" data-front-height="40.0" data-value="40">
+                <path d="M 1040.00,540.00 L 1052.00,532.00 L 1052.00,572.00 L 1040.00,580.00 Z" fill="#A195A6" id="data-bar-7-side" />
+                <path d="M 960.00,540.00 L 972.00,532.00 L 1052.00,532.00 L 1040.00,540.00 Z" fill="#DFD2E5" id="data-bar-7-top" />
+                <path d="M 960.00,540.00 L 1040.00,540.00 L 1040.00,580.00 L 960.00,580.00 Z" fill="#DBCCE2" id="data-bar-7-front" />
+            </g>
+            <text x="1000" y="525" font-size="14" font-weight="800" fill="#241F30" text-anchor="middle">40</text>
+            <text x="1000" y="605" font-size="13" font-weight="700" fill="#241F30" text-anchor="middle">Other</text>
+            <text x="1000" y="625" font-weight="600" fill="#241F30" text-anchor="middle">4%</text>
+            <polyline points="220,422.5 350,323.5 480,256 610,202 740,170.5 870,148 1000,130" fill="none" stroke="#A47C87" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+            <g fill="#FFFFFF" stroke="#A47C87" stroke-width="2.5">
+                <circle cx="220" cy="422.5" r="5" />
+                <circle cx="350" cy="323.5" r="5" />
+                <circle cx="480" cy="256" r="5" />
+                <circle cx="610" cy="202" r="5" />
+                <circle cx="740" cy="170.5" r="5" />
+                <circle cx="870" cy="148" r="5" />
+                <circle cx="1000" cy="130" r="5" />
+            </g>
+            <rect x="200.0" y="393.0" width="40" height="16" rx="3" fill="#FFFFFF" fill-opacity="0.96" />
+            <text x="220" y="405" font-weight="800" fill="#241F30" text-anchor="middle">35%</text>
+            <rect x="330.0" y="294.0" width="40" height="16" rx="3" fill="#FFFFFF" fill-opacity="0.96" />
+            <text x="350" y="306" font-weight="800" fill="#241F30" text-anchor="middle">57%</text>
+            <rect x="460.0" y="226.0" width="40" height="16" rx="3" fill="#FFFFFF" fill-opacity="0.96" />
+            <text x="480" y="238" font-weight="800" fill="#241F30" text-anchor="middle">72%</text>
+            <rect x="590.0" y="172.0" width="40" height="16" rx="3" fill="#FFFFFF" fill-opacity="0.96" />
+            <text x="610" y="184" font-weight="800" fill="#241F30" text-anchor="middle">84%</text>
+            <rect x="720.0" y="140.0" width="40" height="16" rx="3" fill="#FFFFFF" fill-opacity="0.96" />
+            <text x="740" y="152" font-weight="800" fill="#241F30" text-anchor="middle">91%</text>
+            <rect x="850.0" y="118.0" width="40" height="16" rx="3" fill="#FFFFFF" fill-opacity="0.96" />
+            <text x="870" y="130" font-weight="800" fill="#241F30" text-anchor="middle">96%</text>
+            <rect x="980.0" y="100.0" width="40" height="16" rx="3" fill="#FFFFFF" fill-opacity="0.96" />
+            <text x="1000" y="112" font-weight="800" fill="#241F30" text-anchor="middle">100%</text>
+        </g>
+        <g id="insight">
+            <rect x="130" y="646" width="1020" height="58" rx="8" fill="#F8F5FA" stroke="#8F86B4" stroke-width="1.5" />
+            <text x="150" y="670" font-size="14" font-weight="800" fill="#241F30">Key Finding: Top 4 issues account for 84% of complaints — Prioritize resolution</text>
+            <text x="245" y="692" font-size="13" font-weight="500" fill="#241F30">| Action: Enhance QC process, optimize packaging, enforce part checks</text>
+        </g>
+    </g>
+</svg>

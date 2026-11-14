@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Segoe UI, Arial, sans-serif" font-size="14" lang="en-US">
+    <title>Website Traffic Trend Analysis</title>
+    <metadata id="chart-evidence" type="application/json">{"original_payload": {"name": "area_chart", "x": 105, "y": 160, "width": 1095, "height": 433.5, "type": "area", "categories": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "series": [{"name": "PC Visits", "values": [320, 280, 350, 420, 480, 520, 580, 620, 550, 490, 460, 520]}, {"name": "Mobile Visits", "values": [180, 160, 210, 280, 350, 420, 480, 540, 500, 460, 430, 490]}], "style": {"colors": ["#3B82F6", "#10B981"]}}, "data": {"name": "area_chart", "x": 105, "y": 160, "width": 1095, "height": 433.5, "type": "area", "categories": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "series": [{"name": "PC Visits", "values": [320, 280, 350, 420, 480, 520, 580, 620, 550, 490, 460, 520]}, {"name": "Mobile Visits", "values": [180, 160, 210, 280, 350, 420, 480, 540, 500, 460, 430, 490]}], "style": {"colors": ["#3B82F6", "#10B981"]}}, "method": "Overlapping zero-based areas; combo area + marker line; totals sum the 24 original values.", "validation": {"original_values": 24, "annual_10k": 10090, "annual_million": 100.9, "series_totals": [5590, 4500], "peak_month_total": 1160}, "palette": {"id": "lavender-spring", "name": "科研配色｜薰紫春庭", "description": "Low-saturation lavender, dusty rose, cream apricot and sage default chart palette.", "colors": ["#8F86B4", "#B7ACCD", "#DBCCE2", "#D6A3B1", "#E8CCAB", "#A8C3B5"], "roles": {"primary": "#8F86B4", "secondary": "#B7ACCD", "surface_accent": "#DBCCE2", "emphasis": "#D6A3B1", "warm": "#E8CCAB", "positive": "#A8C3B5", "negative": "#D6A3B1", "neutral_data": "#B7ACCD", "text": "#241F30", "secondary_text": "#655E75", "background": "#FFFFFF", "surface": "#F8F5FA", "divider": "#D8D2E0", "connector": "#8F86B4", "mark_outline": "#716684"}, "shading": {"space": "linear-sRGB", "front_and_top": "Use the exact assigned core color.", "light_cap_white_mix": 0.1, "outer_wall_light_multiplier": 0.5, "inner_wall_light_multiplier": 0.29, "radial_cut_light_multiplier": 0.39, "lighter_cut_light_multiplier": 0.6}, "rules": ["The six core HEX values are authoritative and keep their listed order for categorical series.", "Use named semantic roles for increase/decrease and threshold states; preserve their labels and signs.", "Use the same category assignment in faces, legend swatches and anchor dots.", "Use dark text on pastel data marks; small text contrast must be at least 4.5:1.", "Use explicit labels or outlines as well as color; do not claim universal color-vision safety.", "Hierarchies with more than six leaves use parent-family tints; do not invent unrelated accent hues.", "Project-specified palettes may override this default. Keep native metadata synchronized where native replacement is used."]}, "source_svg": "area_chart.svg"}</metadata>
+    <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+    <g id="header" data-pptx-bounds="40 24 1200 105">
+        <text x="56" y="61" font-size="32" fill="#241F30" font-weight="700" text-anchor="start">Website Traffic Trend Analysis</text>
+        <text x="56" y="94" font-size="15" fill="#655E75" font-weight="400" text-anchor="start">2025 monthly data · Unit: 10K visits · Two areas share the zero baseline</text>
+        <circle cx="820" cy="106" r="4" fill="#8F86B4" stroke="#716684" stroke-width="0.8" />
+        <text x="833" y="110" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">PC Visits</text>
+        <circle cx="1000" cy="106" r="4" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" />
+        <text x="1013" y="110" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">Mobile Visits</text>
+    </g>
+    <g id="chart-module" data-pptx-bounds="40 132 1200 500">
+        <g id="chart" data-pptx-replace-with="chart" data-pptx-fallback-sha256="c5077795dab15bccccd5a04252ebc386052d3101fc5b890afb1758e9dd6b4b5e">
+            <metadata type="application/json">{"type": "combo", "categories": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "plots": [{"type": "area", "series": [{"name": "PC Visits", "values": [320, 280, 350, 420, 480, 520, 580, 620, 550, 490, 460, 520], "fill_opacity": 0.28}, {"name": "Mobile Visits", "values": [180, 160, 210, 280, 350, 420, 480, 540, 500, 460, 430, 490], "fill_opacity": 0.28}]}, {"type": "line", "line_style": "lineMarker", "marker_size": 7, "series": [{"name": "PC Visits", "values": [320, 280, 350, 420, 480, 520, 580, 620, 550, 490, 460, 520], "line_width": 3}, {"name": "Mobile Visits", "values": [180, 160, 210, 280, 350, 420, 480, 540, 500, 460, 430, 490], "line_width": 3}]}], "axes": {"value": {"minimum": 0, "maximum": 800, "major_unit": 200}, "category": {"kind": "text"}}, "axis_titles": {"value": "Visits (10K)"}, "name": "area_chart", "x": 40, "y": 132, "width": 1200, "height": 500, "plot_area": {"x": 110, "y": 180, "width": 1060, "height": 350}, "style": {"colors": ["#8F86B4", "#D6A3B1", "#8F86B4", "#D6A3B1"], "text_color": "#655E75", "axis_color": "#716684", "grid_color": "#D8D2E0", "font_family": "Segoe UI", "axis_font_size": 14, "chart_area_fill": "none", "plot_area_fill": "none"}}</metadata>
+            <line x1="110" y1="530.0" x2="1170" y2="530.0" stroke="#D8D2E0" stroke-width="1" id="grid-0" />
+            <text x="96" y="535.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">0</text>
+            <line x1="110" y1="442.5" x2="1170" y2="442.5" stroke="#D8D2E0" stroke-width="1" id="grid-200" />
+            <text x="96" y="447.5" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">200</text>
+            <line x1="110" y1="355.0" x2="1170" y2="355.0" stroke="#D8D2E0" stroke-width="1" id="grid-400" />
+            <text x="96" y="360.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">400</text>
+            <line x1="110" y1="267.5" x2="1170" y2="267.5" stroke="#D8D2E0" stroke-width="1" id="grid-600" />
+            <text x="96" y="272.5" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">600</text>
+            <line x1="110" y1="180.0" x2="1170" y2="180.0" stroke="#D8D2E0" stroke-width="1" id="grid-800" />
+            <text x="96" y="185.0" font-size="14" fill="#655E75" font-weight="400" text-anchor="end">800</text>
+            <line x1="110" y1="180" x2="110" y2="530" stroke="#716684" stroke-width="1.2" id="axis-y" />
+            <line x1="110" y1="530" x2="1170" y2="530" stroke="#716684" stroke-width="1.2" id="axis-x" />
+            <text x="110" y="162" font-size="14" fill="#655E75" font-weight="400" text-anchor="start">Visits (10K)</text>
+            <text x="110.0" y="558" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Jan</text>
+            <text x="206.36363636363637" y="558" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Feb</text>
+            <text x="302.72727272727275" y="558" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Mar</text>
+            <text x="399.09090909090907" y="558" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Apr</text>
+            <text x="495.45454545454544" y="558" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">May</text>
+            <text x="591.8181818181818" y="558" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Jun</text>
+            <text x="688.1818181818181" y="558" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Jul</text>
+            <text x="784.5454545454545" y="558" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Aug</text>
+            <text x="880.9090909090909" y="558" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Sep</text>
+            <text x="977.2727272727273" y="558" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Oct</text>
+            <text x="1073.6363636363635" y="558" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Nov</text>
+            <text x="1170.0" y="558" font-size="14" fill="#655E75" font-weight="400" text-anchor="middle">Dec</text>
+            <path d="M 110.0000,530.0000 L 110.0000,390.0000 L 206.3636,407.5000 L 302.7273,376.8750 L 399.0909,346.2500 L 495.4545,320.0000 L 591.8182,302.5000 L 688.1818,276.2500 L 784.5455,258.7500 L 880.9091,289.3750 L 977.2727,315.6250 L 1073.6364,328.7500 L 1170.0000,302.5000 L 1170.0000,530.0000 Z" fill="#8F86B4" stroke-width="2" fill-opacity="0.28" />
+            <path d="M 110.0000,390.0000 L 206.3636,407.5000 L 302.7273,376.8750 L 399.0909,346.2500 L 495.4545,320.0000 L 591.8182,302.5000 L 688.1818,276.2500 L 784.5455,258.7500 L 880.9091,289.3750 L 977.2727,315.6250 L 1073.6364,328.7500 L 1170.0000,302.5000" fill="none" stroke="#8F86B4" stroke-width="3" />
+            <circle cx="110.0" cy="390.0" r="3.5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="320" data-series="0" data-index="0" />
+            <circle cx="206.36363636363637" cy="407.5" r="3.5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="280" data-series="0" data-index="1" />
+            <circle cx="302.72727272727275" cy="376.875" r="3.5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="350" data-series="0" data-index="2" />
+            <circle cx="399.09090909090907" cy="346.25" r="3.5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="420" data-series="0" data-index="3" />
+            <circle cx="495.45454545454544" cy="320.0" r="3.5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="480" data-series="0" data-index="4" />
+            <circle cx="591.8181818181818" cy="302.5" r="3.5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="520" data-series="0" data-index="5" />
+            <circle cx="688.1818181818181" cy="276.25" r="3.5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="580" data-series="0" data-index="6" />
+            <circle cx="784.5454545454545" cy="258.75" r="3.5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="620" data-series="0" data-index="7" />
+            <circle cx="880.9090909090909" cy="289.375" r="3.5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="550" data-series="0" data-index="8" />
+            <circle cx="977.2727272727273" cy="315.625" r="3.5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="490" data-series="0" data-index="9" />
+            <circle cx="1073.6363636363635" cy="328.75" r="3.5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="460" data-series="0" data-index="10" />
+            <circle cx="1170.0" cy="302.5" r="3.5" fill="#8F86B4" stroke="#716684" stroke-width="0.8" data-score="520" data-series="0" data-index="11" />
+            <path d="M 110.0000,530.0000 L 110.0000,451.2500 L 206.3636,460.0000 L 302.7273,438.1250 L 399.0909,407.5000 L 495.4545,376.8750 L 591.8182,346.2500 L 688.1818,320.0000 L 784.5455,293.7500 L 880.9091,311.2500 L 977.2727,328.7500 L 1073.6364,341.8750 L 1170.0000,315.6250 L 1170.0000,530.0000 Z" fill="#D6A3B1" stroke-width="2" fill-opacity="0.28" />
+            <path d="M 110.0000,451.2500 L 206.3636,460.0000 L 302.7273,438.1250 L 399.0909,407.5000 L 495.4545,376.8750 L 591.8182,346.2500 L 688.1818,320.0000 L 784.5455,293.7500 L 880.9091,311.2500 L 977.2727,328.7500 L 1073.6364,341.8750 L 1170.0000,315.6250" fill="none" stroke="#D6A3B1" stroke-width="3" stroke-dasharray="8 4" />
+            <circle cx="110.0" cy="451.25" r="3.5" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="180" data-series="1" data-index="0" />
+            <circle cx="206.36363636363637" cy="460.0" r="3.5" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="160" data-series="1" data-index="1" />
+            <circle cx="302.72727272727275" cy="438.125" r="3.5" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="210" data-series="1" data-index="2" />
+            <circle cx="399.09090909090907" cy="407.5" r="3.5" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="280" data-series="1" data-index="3" />
+            <circle cx="495.45454545454544" cy="376.875" r="3.5" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="350" data-series="1" data-index="4" />
+            <circle cx="591.8181818181818" cy="346.25" r="3.5" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="420" data-series="1" data-index="5" />
+            <circle cx="688.1818181818181" cy="320.0" r="3.5" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="480" data-series="1" data-index="6" />
+            <circle cx="784.5454545454545" cy="293.75" r="3.5" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="540" data-series="1" data-index="7" />
+            <circle cx="880.9090909090909" cy="311.25" r="3.5" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="500" data-series="1" data-index="8" />
+            <circle cx="977.2727272727273" cy="328.75" r="3.5" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="460" data-series="1" data-index="9" />
+            <circle cx="1073.6363636363635" cy="341.875" r="3.5" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="430" data-series="1" data-index="10" />
+            <circle cx="1170.0" cy="315.625" r="3.5" fill="#D6A3B1" stroke="#716684" stroke-width="0.8" data-score="490" data-series="1" data-index="11" />
+        </g>
+        <g id="external-context">
+            <text x="56" y="624" font-size="12" fill="#655E75" font-weight="400" text-anchor="start">Original template YoY: +23.5% · Prior-year base not supplied; not recalculated</text>
+        </g>
+    </g>
+    <g id="source" data-pptx-bounds="40 685 1200 28">
+        <text x="56" y="705" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Data Source: Website Analytics Platform</text>
+    </g>
+    <g id="statistics" data-pptx-bounds="40 636 1200 44">
+        <text x="56.0" y="650" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Annual visits</text>
+        <text x="56.0" y="674" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">100.9M</text>
+        <text x="348.0" y="650" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">PC share</text>
+        <text x="348.0" y="674" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">55.4%</text>
+        <text x="640.0" y="650" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Mobile share</text>
+        <text x="640.0" y="674" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">44.6%</text>
+        <text x="932.0" y="650" font-size="13" fill="#655E75" font-weight="400" text-anchor="start">Combined peak</text>
+        <text x="932.0" y="674" font-size="20" fill="#241F30" font-weight="600" text-anchor="start">Aug · 11.6M</text>
+    </g>
+</svg>

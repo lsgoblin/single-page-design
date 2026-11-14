@@ -1,0 +1,32 @@
+{
+  "id": "swiss-editorial-poster",
+  "name": "瑞士字体海报",
+  "use_when": "城市、文化、机构主题，需要强网格与字体结构",
+  "composition": "巨型无衬线字母作版式骨架，插画 97% 收在字母内，只允许树影或薄雾轻微出框；左对齐网格、大留白；标题加一段短正文。",
+  "material": "扁平矢量插画、干净剪影、极少线稿；暖象牙底、深藏青或炭黑字、混凝土灰、玻璃蓝、松绿、克里姆林红点缀；哑光纸纹。",
+  "identity": "字母必须清晰可读、不被插画遮挡；地标简化但可辨。",
+  "text": "标题 title case 左对齐，正文小号常规体；不加图标、徽章或装饰符号。",
+  "avoid": "照片写实、3D、光泽、过度拥挤、字母变形、复杂插画。",
+  "aspect": "1:1",
+  "slots": [
+    "城市或主题",
+    "字母",
+    "地标清单",
+    "正文段落"
+  ],
+  "tags": [
+    "瑞士风格",
+    "字体海报",
+    "网格",
+    "扁平插画"
+  ],
+  "prompt_language": "en",
+  "prompt_assembly": "源提示词为英文；城市名、首字母、地标清单与正文段落一起替换，97% 内嵌、左对齐网格与负向提示词保留。",
+  "source_prompt": "Swiss style edit\nMade on GPT IMAGE 2\nPrompt:\n\nDesign a contemporary Swiss Style editorial poster for Moscow, Russia. Use a large bold sans-serif capital letter “M” as the main typographic structure. The “M” must be very clear, clean, geometric, solid, and dominant, with no stroke outline, no border, no shadow outline, and no decorative treatment. The silhouette of the letter “M” must remain easy to read at first glance. Do not let the illustration obscure or distort the shape of the letter. The poster should follow a precise left-aligned Swiss grid system with generous negative space.\n\nInside the “M”, create a simple, logical, and restrained flat illustration of Moscow’s city landscape character. Use only a few essential visual elements: simplified modern skyscrapers inspired by Moscow City business district, the calm curve of the Moscow River, a subtle silhouette of the Kremlin walls and towers, onion domes of Saint Basil’s Cathedral in a simplified geometric form, a soft green park landscape inspired by Gorky Park or Zaryadye Park, and two pedestrians on a clean riverside walkway. Keep the composition minimal, spacious, and easy to understand. Do not add too many landmarks, people, signs, vehicles, monuments, statues, fountains, trains, buses, or small decorative objects.\n\nThe illustration should suggest Moscow’s identity as a capital city where imperial history, Soviet monumental scale, modern glass skyscrapers, riverfront public spaces, and vast urban rhythm coexist in a clean contemporary way. Use flat vector shapes, clean silhouettes, minimal linework, simplified architecture, and believable scale relationships. Keep the scene lightly lively but not busy. The illustration should support the letter “M”, not compete with it.\n\nAllow only extremely subtle overlap outside the “M” frame using simple organic or atmospheric elements only: a few leaves from riverside trees or soft atmospheric mist over the river may slightly extend beyond the letter edge. Keep 97% of the illustration inside the “M”. Do not let people, buildings, domes, towers, vehicles, faces, paths, signage, or complex objects overlap outside the letter. The “M” must remain clearly readable and visually dominant.\n\nPlace the headline “Moscow” below the letter in bold sans-serif type, title case, not all caps, left aligned to the same grid. Under the headline, add this short body paragraph in small regular sans-serif text, also left aligned, with clean spacing and refined editorial hierarchy:\n\n“Moscow moves through grand historic layers, monumental architecture, river bends, and a dense modern skyline. Between imperial heritage, Soviet scale, and contemporary urban energy, the city holds a character that is powerful, structured, and constantly evolving.”\n\nNo icons, no badges, no decorative symbols. The overall design should feel Swiss minimalist: strong grid, precise alignment, asymmetrical balance, clean typography, generous negative space, restrained composition, and modern cultural city poster aesthetics.\n\nColor palette: warm ivory background, deep navy or charcoal typography, concrete gray, glass blue, pine green, Kremlin red accents, river blue-gray, pale beige, and soft black accents. Matte paper finish, subtle paper grain, crisp edges, flat contemporary illustration, modern Moscow metropolitan mood, calm but strong, sophisticated, balanced, and print-ready.\n\nNegative prompt: photorealistic, 3D render, glossy, maximalist, overcrowded city, complex illustration, too many details, too many landmarks",
+  "origin": "X @im_shahid7 · 2026-06-25 · GPT Image 2 · https://x.com/im_shahid7/status/2069997575491756078",
+  "mode": "image-transform",
+  "input": "user-image-required",
+  "variant": "poster-layout",
+  "reference": "references/image_styles/swiss-editorial-poster/sample.json",
+  "image_policy": "先查看用户输入图片，再按本模板改造；主体、空间关系与允许重绘范围按当前用户要求确定。"
+}

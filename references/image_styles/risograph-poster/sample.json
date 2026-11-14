@@ -1,0 +1,16 @@
+{
+  "template_id": "risograph-poster",
+  "mode": "image-transform",
+  "template": "templates/image_styles/risograph-poster/template.json",
+  "preview": "preview.jpg",
+  "preview_kind": "style-reference",
+  "note": "月面漫步者只是当前 New subject；标题位可留空",
+  "source": {
+    "platform": "X",
+    "post_type": "文生图",
+    "author": "mo Ki",
+    "url": "https://x.com/static_stare/status/2118973003367129344",
+    "published": "2026-11-07",
+    "collected": "2026-11-12"
+  }
+}

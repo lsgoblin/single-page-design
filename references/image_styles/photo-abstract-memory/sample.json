@@ -1,8 +1,0 @@
-{
-  "template_id": "photo-abstract-memory",
-  "mode": "image-transform",
-  "template": "templates/image_styles/photo-abstract-memory/template.json",
-  "preview": "preview.svg",
-  "preview_kind": "style-reference",
-  "note": "原片与独立抽象面板的组合排版"
-}

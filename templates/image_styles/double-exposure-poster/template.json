@@ -1,0 +1,31 @@
+{
+  "id": "double-exposure-poster",
+  "name": "双重曝光海报",
+  "use_when": "物件、人物或主题叙事，需要高调柔光与文字压图的电影感",
+  "composition": "主题标志物放大成侧向剪影占满画面，边缘被高调柔光洗掉；剪影内部嵌一条横向叙事带；超大衬线标题压在下半部，字内可嵌符号；标题上下夹小字；底部留白放细线徽记。",
+  "material": "高调近白、低对比、柔和过渡、细胶片颗粒与轻微印刷柔化；剪影关键处保留写实细节；色从主题本身取，背景近白占最大面积。",
+  "identity": "剪影轮廓清晰可读；内部叙事与主题相关，不硬拼贴。",
+  "text": "超大衬线标题加 byline 小字，字号反差极大；标题与留白互相拉扯。",
+  "avoid": "两张图简单叠加、硬拼贴缝、脏污折痕、重褪色、过锐、双曝糊成一团。",
+  "aspect": "3:4",
+  "slots": [
+    "主题物件",
+    "内部叙事",
+    "标题词"
+  ],
+  "tags": [
+    "双重曝光",
+    "电影感",
+    "剪影",
+    "衬线标题"
+  ],
+  "prompt_language": "en",
+  "prompt_assembly": "源提示词以 any chosen subject object 开头；把主题物件换成用户图片里最有辨识度的物件，标题词与内部叙事按主题重写。",
+  "source_prompt": "```\nA restrained narrative poster built around any chosen subject object, with the most recognizable core object of the theme extremely enlarged so its clear lateral silhouette occupies most of the frame, the top edge and one side naturally cropped, and the gaze or directional orientation leading toward a wide, bright empty area; retain realistic detail and soft gradation in the key parts of the silhouette while the other side is gradually washed out by high-key diffused light so the object and background blend smoothly together. Place a second narrative derived from the theme inside the outer silhouette: a markedly smaller scene with movement and spatial progression sweeps horizontally across the lower portion, entering from an edge and passing through the neck or supporting zone, while a distant horizon, motion blur, and pale scenery together form a continuous, memory-like band; only the lower part of this narrative stays clear, and upward it merges into the core object through transparent haziness, a soft-edged mask, and fading brightness, giving the double exposure a definite silhouette without hard collage seams. Embed typography in the subject rather than floating it outside: place one oversized, high-contrast serif headline horizontally across the lower-middle area, with thin horizontals, thick verticals, sharp serifs, and expansive letterforms, using highlighted lettering pressed over the soft imagery; place two lines of small, narrow byline text above the headline and one line of tiny, widely tracked information below it, creating a strong scale jump between the monumental headline and minuscule text. A delicate symbolic element derived from the theme may be embedded inside the enclosed space of a letter or glyph, kept understated, complete, and legible. In the bright negative space at the bottom, place a few fine-line emblems and short texts arranged in horizontal groups with generous spacing as a light concluding device. Derive color from the theme's own meaning: a high-key near-white background takes up the largest area; the core object uses soft midtones at low to medium saturation; the narrative band uses slightly higher-saturation adjacent colors for gentle vitality; only a very small amount of deeper, cooler, or neutral color stabilizes local areas; text switches between bright white and restrained dark depending on where it sits. Maintain an overall high-key, low-contrast, clear and clean tonal register with soft wrapping light, shallow shadows, and an intimate, tender mood carrying a trace of nostalgia. Keep fine, even film grain and slight print softening on the surface, with texture mainly in the photographic midtones, clean large blank areas, delicate exposure transitions, and no stains, creases, heavy fading, or over-sharpening. Finally, preserve the mutual pull among the huge silhouette, inner dynamic narrative, bright negative space, and image-spanning large headline, and avoid the double exposure collapsing into an ordinary overlay of two images averaged together.\n```",
+  "origin": "X @xiaoxiaodong01 · 2026-09-02 · https://x.com/xiaoxiaodong01/status/2095139405979901958",
+  "mode": "image-transform",
+  "input": "user-image-required",
+  "variant": "poster-layout",
+  "reference": "references/image_styles/double-exposure-poster/sample.json",
+  "image_policy": "先查看用户输入图片，再按本模板改造；主体、空间关系与允许重绘范围按当前用户要求确定。"
+}

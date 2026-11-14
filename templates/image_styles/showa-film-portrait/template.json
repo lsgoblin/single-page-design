@@ -1,0 +1,31 @@
+{
+  "id": "showa-film-portrait",
+  "name": "昭和胶片人像",
+  "use_when": "人像、街拍、怀旧主题，需要褪色胶片与旧街景",
+  "composition": "半身或七分身，人物前倾托腮或自然站姿；街景做背景，招牌与年代道具入画。",
+  "material": "胶片颗粒、划痕、褪色暖调、低饱和；旧招牌（たばこ、雪印牛乳）式年代线索。",
+  "identity": "保留人物五官、发型与体态特征；服装与场景按主题替换。",
+  "text": "招牌文字作为环境元素，不额外加大标题。",
+  "avoid": "数码锐利感、过饱和、现代街景、磨皮。",
+  "aspect": "4:5",
+  "slots": [
+    "人物",
+    "服装",
+    "街景招牌"
+  ],
+  "tags": [
+    "胶片",
+    "昭和",
+    "复古",
+    "人像"
+  ],
+  "prompt_language": "en",
+  "prompt_assembly": "源提示词为英文；人物、服装与街景招牌换成当前主题，颗粒、划痕与褪色调色手路保留。",
+  "source_prompt": "A nostalgic, film-style portrait of a young Japanese woman with long dark hair and straight bangs, wearing a cream-colored knit sweater and a brown plaid skirt. She is leaning forward slightly, resting her chin on both hands in a contemplative pose. The background features a vintage Showa-era street scene with a red sign reading \"たばこ\" (tobacco) and a blue and white sign for \"雪印牛乳\" (Snow Brand Milk). The image has a warm, faded color palette with visible grain and scratches, mimicking the look of an old photograph.",
+  "origin": "X @Kmsbdd0GXBOcrXQ · 2026-11-10 · https://x.com/Kmsbdd0GXBOcrXQ/status/2120101937886745027",
+  "mode": "image-transform",
+  "input": "user-image-required",
+  "variant": "image-restyle",
+  "reference": "references/image_styles/showa-film-portrait/sample.json",
+  "image_policy": "先查看用户输入图片，再按本模板改造；主体、空间关系与允许重绘范围按当前用户要求确定。"
+}

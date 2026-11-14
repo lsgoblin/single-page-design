@@ -41,6 +41,8 @@ metadata:
 
 已有素材和用户指定样式优先。海报、杂志等是图片改造内部的排版形式，必须以用户输入图片为内容来源，不单独开设主题生图模式。浏览器负责浏览、选择、结果预览，修改通过对话驱动。
 
+图片风格索引已登记 16 个风格，定义在 `templates/image_styles/`，样张与来源记录在 `references/image_styles/`。图片改造以用户图片为内容来源；选中风格时只读对应 `template.json` 与 `sample.json`，样张里的主体、文案与配色不绑定到未来任务。
+
 ## 共用配色资源
 
 两种模式均可按需组合 [配色资源库](workflows/color-palette.md)。从 `templates/color_palettes/color_palettes_index.json` 发现 P01–P56 共 56 组五色配色，再读取选中条目的定义和样张；整体预览为 `references/color_palettes/overview.svg`。用户指定配色、品牌色和原片保留要求优先，具体映射与检查按配色说明执行。配色沿用原策划/确认节点，不增加制作模式。
@@ -49,7 +51,11 @@ metadata:
 
 单页 PPT 生成完全按照 `ppt-simplify` 对应流程执行，保留其路由、角色、策划确认、模板安装、素材准备、页面制作、检查和导出要求。只有一页或已选择 layout，均不构成进入 Quick 或跳过原步骤的依据。
 
-当前包完成了模板资源和样张的目录对齐，尚未完整迁入原生成流程及其依赖。正式生成前必须完成该迁移；不要以现有 `single_page.py init/export` 或未完成的展厅原型替代完整生成流程。它们目前仅是底层工具或历史原型，不代表新的生成路线。
+原单页生成流程及配套依赖已迁入 `workflows/pptx/` 和 `scripts/`。选择单页 PPT-layout 模式后，按 `workflows/single-page.md` 载入原入口纪律、路由与所选运行时，完整执行原流程。普通生成使用 Default，确认最终页数为 1；保留原条件分支，不把单页改为另一套生成流程。
+
+`workflows/pptx/guides/` 保存原角色、规则及设计能力目录，`workflows/pptx/resources/` 保存规格 schema、图表、表格、图标等运行依赖；二者是 PPT 流程内部能力，不增加展厅模式。正式单页模板继续从 `templates/page_layouts/` 发现，对应样张继续在 `references/page_layouts/`。
+
+`single_page.py init/export` 仅是底层验证工具，未完成的 `gallery.py` 仍是展厅历史原型，均不替代原生成流程。原 Confirm UI 与 Live Preview 随流程迁入，分别服务策划确认与页面预览；本次不开发样式展厅前端。
 
 ## 共同设计判断
 
