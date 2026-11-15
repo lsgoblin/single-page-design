@@ -1,0 +1,134 @@
+{
+  "kind": "type-hierarchy",
+  "mode": "image-layout",
+  "version": 1,
+  "updated": "2026-11-15",
+  "source": "User-supplied MODES.md draft, typography hierarchy section.",
+  "size_base": "主标题 = 100%",
+  "line_height": [
+    {
+      "spacing": "紧凑",
+      "multiplier": 1.1
+    },
+    {
+      "spacing": "标准",
+      "multiplier": 1.3
+    },
+    {
+      "spacing": "宽松舒展",
+      "multiplier": 1.5
+    },
+    {
+      "spacing": "极宽松诗化间距",
+      "multiplier": 1.8
+    }
+  ],
+  "strategies": [
+    {
+      "id": "strong",
+      "name": "大落差强对比",
+      "ratios": {
+        "title": 100,
+        "subtitle": 65,
+        "english": 50,
+        "body": 40,
+        "keywords": 32,
+        "params": 28,
+        "footnote": 20
+      }
+    },
+    {
+      "id": "medium",
+      "name": "中等落差",
+      "ratios": {
+        "title": 100,
+        "subtitle": 70,
+        "english": 55,
+        "body": 45,
+        "keywords": 38,
+        "params": 33,
+        "footnote": 25
+      }
+    },
+    {
+      "id": "soft",
+      "name": "弱对比柔和",
+      "ratios": {
+        "title": 100,
+        "subtitle": 80,
+        "english": 70,
+        "body": 62,
+        "keywords": 55,
+        "params": 50,
+        "footnote": 42
+      }
+    }
+  ],
+  "levels": [
+    {
+      "id": "title",
+      "name": "主标题",
+      "weight": "{文字排版-字重选择}",
+      "tracking": "宽",
+      "align": "{文字排版-文字对齐方式}",
+      "color": "{色彩-文本主色}"
+    },
+    {
+      "id": "subtitle",
+      "name": "副标题",
+      "weight": "半粗",
+      "tracking": "中",
+      "align": "同主标题",
+      "color": "同主标题"
+    },
+    {
+      "id": "english",
+      "name": "英文标注",
+      "weight": "常规",
+      "tracking": "轻微拉开",
+      "align": "同主标题",
+      "color": "同主标题"
+    },
+    {
+      "id": "body",
+      "name": "描述正文",
+      "weight": "常规 / 轻量",
+      "tracking": "标准",
+      "align": "同主标题",
+      "color": "同主标题"
+    },
+    {
+      "id": "keywords",
+      "name": "关键词标签",
+      "weight": "半粗",
+      "tracking": "0",
+      "align": "居中",
+      "color": "强调色 / 文本主色"
+    },
+    {
+      "id": "params",
+      "name": "参数标注",
+      "weight": "常规",
+      "tracking": "0",
+      "align": "左对齐",
+      "color": "文本主色 / 强调色"
+    },
+    {
+      "id": "footnote",
+      "name": "脚注来源",
+      "weight": "轻量 / 超细",
+      "tracking": "0",
+      "align": "同主标题",
+      "color": "浅灰"
+    }
+  ],
+  "constraints": [
+    "文字分层未勾选的层级直接删掉本条，不占位。",
+    "瘦金体 / 兰亭行书只准上主标题；正文与参数标注禁用，并提示一句小字可读性风险。",
+    "等宽等线优先套用到英文标注与参数标注（编号、标尺、坐标一律用它）。"
+  ],
+  "exception": {
+    "conflict": "「全程只用一款字体」与「瘦金 / 兰亭只能上标题」冲突。",
+    "rule": "默认单字体；当主标题选瘦金体或兰亭行书时，其余层级自动降级为思源宋体，并在方案里显式注明这是唯一允许的例外。"
+  }
+}

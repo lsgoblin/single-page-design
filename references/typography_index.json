@@ -1,0 +1,300 @@
+{
+  "kind": "typography-catalog",
+  "mode": "image-layout",
+  "version": 1,
+  "updated": "2026-11-15",
+  "source": "User-supplied MODES.md draft; extracted for the single-page-design skill. The draft is not a runtime dependency.",
+  "fallback_font": {
+    "id": "source-han-serif",
+    "name": "思源宋体"
+  },
+  "groups": [
+    {
+      "id": "core",
+      "name": "基础字库",
+      "note": "技能默认字体池。family 是渲染时使用的族名，stack 已给出回退顺序；中文名用于向用户说明。字体是否可用以交付目标机器为准。",
+      "fonts": [
+        {
+          "id": "source-han-serif",
+          "name": "思源宋体",
+          "family": "Source Han Serif SC",
+          "stack": "Source Han Serif SC, Noto Serif SC, SimSun, serif",
+          "character": "笔画柔和、衬线雅致",
+          "use": "图鉴 / 科研 / 诗意图文通用，百搭首选",
+          "avoid": ""
+        },
+        {
+          "id": "source-han-sans",
+          "name": "思源黑体",
+          "family": "Source Han Sans SC",
+          "stack": "Source Han Sans SC, Noto Sans SC, Microsoft YaHei, sans-serif",
+          "character": "无衬线、均匀清晰",
+          "use": "简约科普、科技、大段正文",
+          "avoid": ""
+        },
+        {
+          "id": "mincho",
+          "name": "明朝体（Mincho）",
+          "family": "Yu Mincho",
+          "stack": "Yu Mincho, MS Mincho, Noto Serif JP, serif",
+          "character": "粗细对比强、锐利清冷",
+          "use": "日系文艺、纵向排版、安静克制",
+          "avoid": ""
+        },
+        {
+          "id": "helvetica",
+          "name": "Helvetica",
+          "family": "Helvetica",
+          "stack": "Helvetica, Arial, sans-serif",
+          "character": "经典西文无衬线",
+          "use": "极简高级、英文标注出色",
+          "avoid": "中文须回退"
+        },
+        {
+          "id": "noto-serif",
+          "name": "Noto Serif",
+          "family": "Noto Serif",
+          "stack": "Noto Serif, Noto Serif SC, serif",
+          "character": "中西文平衡",
+          "use": "大量英文 / 拉丁学名的生物图鉴",
+          "avoid": ""
+        },
+        {
+          "id": "noto-sans",
+          "name": "Noto Sans",
+          "family": "Noto Sans",
+          "stack": "Noto Sans, Noto Sans SC, sans-serif",
+          "character": "轻量化国际化",
+          "use": "图鉴、轻量版式",
+          "avoid": ""
+        },
+        {
+          "id": "fangsong",
+          "name": "仿宋",
+          "family": "FangSong",
+          "stack": "FangSong, STFangsong, 仿宋, serif",
+          "character": "工整挺拔、纤细",
+          "use": "标本记录、说明文档、正式注解",
+          "avoid": ""
+        },
+        {
+          "id": "qingke-ben-song",
+          "name": "清刻本宋体",
+          "family": "清刻本宋体",
+          "stack": "清刻本宋体, Source Han Serif SC, Noto Serif SC, serif",
+          "character": "雕版顿挫、复古人文",
+          "use": "古籍主题、博物标本、低密度氛围",
+          "avoid": "密集参数"
+        },
+        {
+          "id": "shoujin",
+          "name": "瘦金体",
+          "family": "瘦金体",
+          "stack": "瘦金体, Source Han Serif SC, serif",
+          "character": "锋芒锐利、提按明显",
+          "use": "仅限主标题",
+          "avoid": "正文 / 密集参数 / 小字"
+        },
+        {
+          "id": "lanting-xingshu",
+          "name": "兰亭行书",
+          "family": "兰亭行书",
+          "stack": "兰亭行书, Source Han Serif SC, serif",
+          "character": "行书流动、温润诗意",
+          "use": "仅限短标题、一句文案",
+          "avoid": "大段正文 / 编号参数"
+        },
+        {
+          "id": "mono-consolas",
+          "name": "等宽等线（Consolas 风格）",
+          "family": "Consolas",
+          "stack": "Consolas, Courier New, monospace",
+          "character": "字符等宽、对齐整齐",
+          "use": "参数、标尺、编号、公式、电镜标注；环形图鉴优先",
+          "avoid": "长句正文"
+        }
+      ]
+    },
+    {
+      "id": "extended",
+      "name": "扩展字库（本机安装）",
+      "note": "原参考机器的本地字体，不随技能包发布。覆盖率为 111 字样本的实测值，覆盖率不等于可用率；正文使用前必须在该机器上实排样张。族名按参考机器记录，交付前需核对本机实际族名。",
+      "fonts": [
+        {
+          "id": "huiwen-mincho",
+          "name": "汇文明朝体",
+          "family": "Huiwen-mincho",
+          "stack": "Huiwen-mincho, Source Han Serif SC, Noto Serif SC, serif",
+          "coverage": "111/111",
+          "coverage_ratio": 1.0,
+          "position": "中文明朝体首选",
+          "usage": "标题 + 正文都可，气质最像「书」",
+          "title_only": false,
+          "box_risk": false,
+          "latin_only": false
+        },
+        {
+          "id": "huiwen-tsukiji-5",
+          "name": "汇文筑地五号明朝体",
+          "family": "Huiwen-Tsukiji-5",
+          "stack": "Huiwen-Tsukiji-5, Source Han Serif SC, Noto Serif SC, serif",
+          "coverage": "83/111",
+          "coverage_ratio": 0.748,
+          "position": "日文金属活字味",
+          "usage": "只做短标题，正文会掉字",
+          "title_only": true,
+          "box_risk": false,
+          "latin_only": false
+        },
+        {
+          "id": "oradano-mincho",
+          "name": "Oradano 明朝体",
+          "family": "Oradano-mincho",
+          "stack": "Oradano-mincho, Source Han Serif SC, Noto Serif SC, serif",
+          "coverage": "108/111",
+          "coverage_ratio": 0.973,
+          "position": "装饰性明朝",
+          "usage": "短标题、编号",
+          "title_only": false,
+          "box_risk": false,
+          "latin_only": false
+        },
+        {
+          "id": "taisho-katsuji",
+          "name": "大正活字明朝体",
+          "family": "taisyokatujippoi7",
+          "stack": "taisyokatujippoi7, Source Han Serif SC, Noto Serif SC, serif",
+          "coverage": "86/111",
+          "coverage_ratio": 0.775,
+          "position": "大正复古",
+          "usage": "短句、标签",
+          "title_only": true,
+          "box_risk": false,
+          "latin_only": false
+        },
+        {
+          "id": "nzgr-kangxi",
+          "name": "润植家康熙字典美化体",
+          "family": "nzgrKangxi",
+          "stack": "nzgrKangxi, Source Han Serif SC, Noto Serif SC, serif",
+          "coverage": "111/111",
+          "coverage_ratio": 1.0,
+          "position": "康熙字典字形",
+          "usage": "古籍标题、藏书票感",
+          "title_only": false,
+          "box_risk": true,
+          "latin_only": false
+        },
+        {
+          "id": "nzgr-kangxi-thin",
+          "name": "润植家康熙字典细体",
+          "family": "nzgrKXZDMHTQSK",
+          "stack": "nzgrKXZDMHTQSK, Source Han Serif SC, Noto Serif SC, serif",
+          "coverage": "111/111",
+          "coverage_ratio": 1.0,
+          "position": "同上的细字重",
+          "usage": "小字注解、书卷感",
+          "title_only": false,
+          "box_risk": true,
+          "latin_only": false
+        },
+        {
+          "id": "kinghwa-old-song",
+          "name": "京华老宋体",
+          "family": "KingHwa_OldSong",
+          "stack": "KingHwa_OldSong, Source Han Serif SC, Noto Serif SC, serif",
+          "coverage": "111/111",
+          "coverage_ratio": 1.0,
+          "position": "老宋",
+          "usage": "标题 + 正文",
+          "title_only": false,
+          "box_risk": false,
+          "latin_only": false
+        },
+        {
+          "id": "qijic",
+          "name": "令东齐伋体",
+          "family": "QIJIC",
+          "stack": "QIJIC, Source Han Serif SC, Noto Serif SC, serif",
+          "coverage": "111/111",
+          "coverage_ratio": 1.0,
+          "position": "雕版活字",
+          "usage": "标题、大字号",
+          "title_only": false,
+          "box_risk": false,
+          "latin_only": false
+        },
+        {
+          "id": "new-tegomin",
+          "name": "特高明朝",
+          "family": "New Tegomin",
+          "stack": "New Tegomin, Source Han Serif SC, Noto Serif SC, serif",
+          "coverage": "86/111",
+          "coverage_ratio": 0.775,
+          "position": "窄高日文明朝",
+          "usage": "竖向短标题",
+          "title_only": true,
+          "box_risk": true,
+          "latin_only": false
+        },
+        {
+          "id": "maboroshino-nijimi",
+          "name": "幻影明朝",
+          "family": "MaboroshinoNijimi",
+          "stack": "MaboroshinoNijimi, Source Han Serif SC, Noto Serif SC, serif",
+          "coverage": "86/111",
+          "coverage_ratio": 0.775,
+          "position": "特殊肌理",
+          "usage": "短标题",
+          "title_only": true,
+          "box_risk": false,
+          "latin_only": false
+        },
+        {
+          "id": "xinyugong-zhengrong",
+          "name": "新愚公峥嵘体",
+          "family": "XinYuGongZhengRongTi",
+          "stack": "XinYuGongZhengRongTi, Source Han Serif SC, Noto Serif SC, serif",
+          "coverage": "111/111",
+          "coverage_ratio": 1.0,
+          "position": "粗重书写感",
+          "usage": "大标题专用",
+          "title_only": true,
+          "box_risk": false,
+          "latin_only": false
+        },
+        {
+          "id": "special-elite",
+          "name": "Special Elite",
+          "family": "Special Elite",
+          "stack": "Special Elite, Consolas, monospace",
+          "coverage": "0/111",
+          "coverage_ratio": 0.0,
+          "position": "打字机（仅拉丁）",
+          "usage": "编号、参数、英文标注",
+          "title_only": false,
+          "box_risk": false,
+          "latin_only": true
+        }
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "coverage-is-not-usability",
+      "text": "覆盖率不等于可用率：程序只能判断有没有字形，判断不了是不是方框。润植家康熙字典美化体、润植家康熙字典细体与特高明朝（box_risk 为 true）实排会出现自带方框占位，凡上正文必须先实排样张。"
+    },
+    {
+      "id": "low-coverage-title-only",
+      "text": "coverage_ratio 低于 0.95 的条目（汇文筑地五号明朝体、大正活字明朝体、特高明朝、幻影明朝）只准上标题、短句、数字；正文字数多必然露馅。"
+    },
+    {
+      "id": "fallback",
+      "text": "缺字一律回退思源宋体，并在方案里注明哪几个字做了回退。"
+    },
+    {
+      "id": "availability",
+      "text": "以交付目标机器为准检查字体是否安装；未安装按 stack 回退，不得声称方案使用了未安装字体。扩展字库不随包发布。"
+    }
+  ]
+}

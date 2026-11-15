@@ -1,11 +1,13 @@
 # 可复用模板资源
 
-本目录保存两种模式下可复用、可选择、可应用的模板资源。`references/` 中同 ID 的目录保存对应样板样张。
+本目录保存单页 PPT-layout 与图片改造两种模板模式的可复用、可选择、可应用资源。`references/` 中同 ID 的目录保存对应样板样张。图片排版没有整页模板，其字体与字号规范放在 `references/` 下，不占用模板目录。
 
 | 模式 | 模板位置 | 发现索引 | 对应样张 |
 |---|---|---|---|
 | 单页 PPT-layout | `page_layouts/<id>/` | `page_layouts/page_layouts_index.json` | `references/page_layouts/<id>/` |
 | 图片改造 | `image_styles/<id>/template.json` | `image_styles/image_styles_index.json` | `references/image_styles/<id>/` |
+
+图片排版的字体池与字号体系不在本目录：读取 `references/typography_index.json` 与 `references/type_hierarchy.json`，使用方式见 [字体与字号规范](../workflows/typography.md)。
 
 表中的 `references/` 路径相对技能根目录。索引的 `template`、`reference`、`preview` 字段也均为技能根目录相对路径，不依赖技能安装位置。
 
@@ -25,7 +27,7 @@
 
 - `id` 与索引键、样张的 `template_id` 一致。
 - `mode` 固定为 `image-transform`；`input` 为 `user-image-required`。
-- `variant` 仅区分内部处理形式，例如 `poster-layout`、`image-restyle`，不增加第三种模式。
+- `variant` 仅区分内部处理形式，例如 `poster-layout`、`image-restyle`，不把图片改造拆成新模式。图片排版是独立的第三种模式，由 `workflows/image-layout.md` 定义，字体资源放在 `references/`。
 - `aspect`、`slots`、`tags` 记录画面比例、可替换槽位和筛选词，供组织提示词时参考。
 - `source_prompt` 保存原始风格的完整提示词，`prompt_assembly` 说明如何把主体与槽位替换成当前任务。
 - `reference` 指向同 ID 的 `references/image_styles/<id>/sample.json`。
@@ -35,6 +37,6 @@
 
 新增模板与样张后，同时更新本模式索引。资源发现只读索引，读取选中条目后再载入其规则与样张。
 
-## 两种模式共用的配色
+## 各模式共用的配色
 
 `color_palettes/color_palettes_index.json` 发现 56 组配色；每组定义位于 `color_palettes/<id>/palette.json`，对应样张位于技能根目录的 `references/color_palettes/<id>/`。每组保留五色顺序、HEX/RGB 以及原标注和采样记录，不预设颜色角色。按需读取 [配色应用说明](../workflows/color-palette.md)，与版式和图片风格独立组合。
