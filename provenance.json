@@ -243,15 +243,27 @@
     "runtime_policy": "Data is self-contained and has no template samples. The extended font library is installed locally and is not distributed; coverage figures are the draft's 111-glyph sample measurements and must be re-proofed on the delivery machine."
   },
   "image_layout_mode": {
-    "date": "2026-11-15",
-    "origin": "M3 image-text typography mode from the same MODES.md draft.",
+    "date": "2026-11-16",
+    "origin": "M3 image-text typography mode from the same MODES.md draft, reduced to a one-image/one-sentence flow.",
     "entry": "workflows/image-layout.md",
-    "dimensions": 8,
-    "master_layouts": [
-      "纵向诗式排版",
-      "环形焦点排版"
+    "default_flow": "image + one sentence -> final image; 3 layout rules, 4-level scale, 3 font groups (serif/sans/mono)",
+    "layout_rules": [
+      "纵向诗式（默认）",
+      "全出血",
+      "左图右文"
     ],
-    "selection_rules": "Fixed skeleton follows the master layout; dynamic items are judged per image; readability risks are derived last; no invented option vocabulary.",
+    "keyword_overrides": [
+      "环形",
+      "竖排",
+      "黑白",
+      "全出血",
+      "左图右文"
+    ],
+    "optional_overrides": [
+      "色卡 P01–P56 / HEX / 黑白",
+      "字体池里的字体"
+    ],
+    "questions": "0-1: missing image or copy only",
     "excluded": "M1 free-form and M2 web-guide branches were not imported. This skill delivers images and single-page PPT, not interactive web pages."
   }
 }
