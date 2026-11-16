@@ -36,7 +36,7 @@ single-page-design/
 │   ├── color_palettes/          对应配色色块样张与整体预览
 │   ├── typography_index.json    图片排版字体池（基础 11 款 + 本机扩展 12 款）
 │   └── type_hierarchy.json      图片排版的 4 级字阶、1 档行距与弱对比覆盖
-├── workflows/                   三种模式的入口及 pptx/ 原生成流程与依赖
+├── workflows/                   三种模式入口、image-layout/ 图片排版包及 pptx/ 原生成流程
 ├── scripts/                     工具与运行代码
 └── provenance.json              来源与提取记录
 ```
@@ -103,7 +103,7 @@ single-page-design/
 4. 可选覆盖：`色卡 P01` / `#RRGGBB` / `黑白`、`字体 黑体/宋体/明朝/...`、`环形/竖排/全出血`；用户没说就不问。
 5. 输出成图 + 3 行说明（版式 / 配色 / 字体）；不给 8 维方案或 ASCII，除非用户要。
 
-边界：不产出可交互网页；需要可编辑 PPT 时走单页 PPT-layout。关键文字优先原生排版，不把文字准确性交给生成模型。完整执行说明见 [图片排版模式](workflows/image-layout.md)。
+边界：不产出可交互网页；需要可编辑 PPT 时走单页 PPT-layout。关键文字优先原生排版，不把文字准确性交给生成模型。完整执行说明见 [图片排版模式](workflows/image-layout/README.md)。
 
 ## 共用配色库
 
@@ -113,7 +113,7 @@ single-page-design/
 
 ## 当前状态与实施边界
 
-当前保留三个单页 PPT 模板、16 个图片改造风格、23 款字体登记（默认宋 / 黑 / 等宽，11 基础 + 12 本机扩展）、4 级默认字阶和 56 组共用配色。图片风格定义在 `templates/image_styles/`，样张与作者来源在 `references/image_styles/`；图片排版流程在 `workflows/image-layout.md`，字体数据在 `references/` 的两个 JSON 中。图片改造与图片排版都以用户输入为内容来源，样张只用于风格比较。
+当前保留三个单页 PPT 模板、16 个图片改造风格、23 款字体登记（默认宋 / 黑 / 等宽，11 基础 + 12 本机扩展）、4 级默认字阶和 56 组共用配色。图片风格定义在 `templates/image_styles/`，样张与作者来源在 `references/image_styles/`；图片排版流程在 `workflows/image-layout/README.md`，字体数据在 `references/` 的两个 JSON 中。图片改造与图片排版都以用户输入为内容来源，样张只用于风格比较。
 
 单页 PPT 原生成工作流、原 Confirm UI 与 Live Preview 已迁入；普通生成完整保留策划、两阶段确认、模板安装、素材准备、质量检查与原生导出。原整套演示模板集合未迁入，注册的单页库保持现有三个模板。条件分支按原规则触发，外部服务的凭据与依赖仍需使用环境提供。
 

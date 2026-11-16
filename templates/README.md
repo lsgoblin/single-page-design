@@ -7,7 +7,7 @@
 | 单页 PPT-layout | `page_layouts/<id>/` | `page_layouts/page_layouts_index.json` | `references/page_layouts/<id>/` |
 | 图片改造 | `image_styles/<id>/template.json` | `image_styles/image_styles_index.json` | `references/image_styles/<id>/` |
 
-图片排版的字体池与字号体系不在本目录：读取 `references/typography_index.json` 与 `references/type_hierarchy.json`，使用方式见 [字体与字号规范](../workflows/typography.md)。
+图片排版的字体池与字号体系不在本目录：读取 `references/typography_index.json` 与 `references/type_hierarchy.json`，使用方式见 [字体与字号规范](../workflows/image-layout/typography.md)。
 
 表中的 `references/` 路径相对技能根目录。索引的 `template`、`reference`、`preview` 字段也均为技能根目录相对路径，不依赖技能安装位置。
 
@@ -27,7 +27,7 @@
 
 - `id` 与索引键、样张的 `template_id` 一致。
 - `mode` 固定为 `image-transform`；`input` 为 `user-image-required`。
-- `variant` 仅区分内部处理形式，例如 `poster-layout`、`image-restyle`，不把图片改造拆成新模式。图片排版是独立的第三种模式，由 `workflows/image-layout.md` 定义，字体资源放在 `references/`。
+- `variant` 仅区分内部处理形式，例如 `poster-layout`、`image-restyle`，不把图片改造拆成新模式。图片排版是独立的第三种模式，由 `workflows/image-layout/README.md` 定义，字体资源放在 `references/`。
 - `aspect`、`slots`、`tags` 记录画面比例、可替换槽位和筛选词，供组织提示词时参考。
 - `source_prompt` 保存原始风格的完整提示词，`prompt_assembly` 说明如何把主体与槽位替换成当前任务。
 - `reference` 指向同 ID 的 `references/image_styles/<id>/sample.json`。
