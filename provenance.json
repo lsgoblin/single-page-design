@@ -212,7 +212,7 @@
     "date": "2026-11-12",
     "origin": "User-supplied reference color cards, extracted and visually checked in the drafts workspace.",
     "index": "templates/color_palettes/color_palettes_index.json",
-    "guide": "workflows/color-palette.md",
+    "guide": "references/color_palettes/README.md",
     "palette_count": 56,
     "color_position_count": 280,
     "source_records": "references/color_palettes/<id>/sample.json",
@@ -236,7 +236,7 @@
     "origin": "User-supplied MODES.md draft: core font table, extended local font table (reference machine path E:\\字体; font files were not copied), and type hierarchy section.",
     "fonts": "references/typography_index.json",
     "hierarchy": "references/type_hierarchy.json",
-    "guide": "workflows/image-layout/typography.md",
+    "guide": "references/typography.md",
     "font_count": 23,
     "core_font_count": 11,
     "extended_font_count": 12,
@@ -245,7 +245,7 @@
   "image_layout_mode": {
     "date": "2026-11-16",
     "origin": "M3 image-text typography mode from the same MODES.md draft, reduced to a one-image/one-sentence flow.",
-    "entry": "workflows/image-layout/README.md",
+    "entry": "workflows/image-layout.md",
     "default_flow": "image + one sentence -> final image; 3 layout rules, 4-level scale, 3 font groups (serif/sans/mono)",
     "layout_rules": [
       "纵向诗式（默认）",

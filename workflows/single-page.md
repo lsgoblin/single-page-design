@@ -35,4 +35,4 @@
 
 ## 可选配色
 
-需要从色卡库选色时，读取 [共用配色说明](color-palette.md)，从 `templates/color_palettes/color_palettes_index.json` 选择配色。保留配色编号与实际色值，按当前模式应用；用户既有品牌色、原片保留要求及原确认流程优先。
+需要从色卡库选色时，读取 [共用配色说明](../references/color_palettes/README.md)，从 `templates/color_palettes/color_palettes_index.json` 选择配色。保留配色编号与实际色值，按当前模式应用；用户既有品牌色、原片保留要求及原确认流程优先。

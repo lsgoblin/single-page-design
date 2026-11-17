@@ -32,8 +32,8 @@ references/
 - 字体池：23 款。默认只读宋 / 黑 / 等宽，用户可点名其他字体；基础 11 款记录族名、回退链、气质、适用、禁区，扩展 12 款为本机安装字体，记录实测覆盖率、定位与用法限制。覆盖率来自原参考草稿的 111 字样本，交付目标机器需重新实排核对。
 - 字号体系：4 级字阶（100 / 40 / 32 / 20）、1 档行高 1.3、弱对比覆盖（55 / 38 / 25）；没有 7 级 / 3 档 / 4 档。
 
-使用方式见 [字体与字号规范](../workflows/image-layout/typography.md)。扩展字库不随包发布，运行时不依赖原机器字体目录。
+使用方式见 [字体与字号规范](typography.md)。扩展字库不随包发布，运行时不依赖原机器字体目录。
 
 ## 共用配色样张
 
-`color_palettes/<id>/sample.json` 对应同 ID 配色定义，`preview.svg` 展示其五个正式色值；`color_palettes/overview.svg` 展示全部 56 组。样张记录源图片文件名、SHA-256 与可见署名，预览仅重绘色块和色值，不复制原图插画，也不依赖 `drafts/` 或 `reference-drafts/`。定义入口为 `templates/color_palettes/color_palettes_index.json`；应用方式见 [配色说明](../workflows/color-palette.md)。
+`color_palettes/<id>/sample.json` 对应同 ID 配色定义，`preview.svg` 展示其五个正式色值；`color_palettes/overview.svg` 展示全部 56 组。样张记录源图片文件名、SHA-256 与可见署名，预览仅重绘色块和色值，不复制原图插画，也不依赖 `drafts/` 或 `reference-drafts/`。定义入口为 `templates/color_palettes/color_palettes_index.json`；应用方式见 [配色说明](color_palettes/README.md)。

@@ -38,7 +38,7 @@ metadata:
 |---|---|---|
 | 单页 PPT-layout | [workflows/single-page.md](workflows/single-page.md) | `templates/page_layouts/page_layouts_index.json` |
 | 图片改造（视觉风格） | [workflows/image-transform.md](workflows/image-transform.md) | `templates/image_styles/image_styles_index.json` |
-| 图片排版（一图一句） | [workflows/image-layout/README.md](workflows/image-layout/README.md) | `references/typography_index.json`、`references/type_hierarchy.json` |
+| 图片排版（一图一句） | [workflows/image-layout.md](workflows/image-layout.md) | `references/typography_index.json`、`references/type_hierarchy.json` |
 
 `templates/` 保存可复用、可选择、可应用的模板；`references/` 保存对应的样板样张，以及图片排版共用的字体与字号规范。同一模式下模板与样张使用相同 ID。执行说明放在 `workflows/`；来源记录在根目录 `provenance.json`。具体资源合约见 [templates/README.md](templates/README.md) 与 [references/README.md](references/README.md)。
 
@@ -50,11 +50,11 @@ metadata:
 
 ## 共用配色资源
 
-三种模式均可按需组合 [配色资源库](workflows/color-palette.md)。从 `templates/color_palettes/color_palettes_index.json` 发现 P01–P56 共 56 组五色配色，再读取选中条目的定义和样张；整体预览为 `references/color_palettes/overview.svg`。用户指定配色、品牌色和原片保留要求优先，具体映射与检查按配色说明执行。配色是共用资源，不改变模式；PPT 沿用原策划/确认节点，图片类任务在方案里记录色值与用途。
+三种模式均可按需组合 [配色资源库](references/color_palettes/README.md)。从 `templates/color_palettes/color_palettes_index.json` 发现 P01–P56 共 56 组五色配色，再读取选中条目的定义和样张；整体预览为 `references/color_palettes/overview.svg`。用户指定配色、品牌色和原片保留要求优先，具体映射与检查按配色说明执行。配色是共用资源，不改变模式；PPT 沿用原策划/确认节点，图片类任务在方案里记录色值与用途。
 
 ## 共用字体与字号规范
 
-图片排版默认 4 级字阶、3 个字体组（宋 / 黑 / 等宽）；用户可点名 [字体池](references/typography_index.json) 里的字体，书法只上标题，未安装按 `stack` 回退。字阶与规则见 [字体与字号规范](workflows/image-layout/typography.md)；单页 PPT 的字体与字号仍按原 PPT 流程执行，不套用本规范。
+图片排版默认 4 级字阶、3 个字体组（宋 / 黑 / 等宽）；用户可点名 [字体池](references/typography_index.json) 里的字体，书法只上标题，未安装按 `stack` 回退。字阶与规则见 [字体与字号规范](references/typography.md)；单页 PPT 的字体与字号仍按原 PPT 流程执行，不套用本规范。
 
 ## PPT 流程边界
 
@@ -91,6 +91,6 @@ metadata:
 
 新增图片改造模板放在 `templates/image_styles/<id>/template.json`，记录应用规则和用户图片要求；样板样张放在 `references/image_styles/<id>/`。在 `templates/image_styles/image_styles_index.json` 登记二者，不将样张作为实际制作输入。具体任务的成品提示词仍在聊天框动态组织。
 
-新增或调整字体与字号规则时，同步更新 `references/typography_index.json`、`references/type_hierarchy.json` 与 `workflows/image-layout/typography.md`；覆盖率必须注明实测样本，扩展字库不写入随包资源。图片排版的色卡与字体是可选覆盖；默认不问，用户点名才读。
+新增或调整字体与字号规则时，同步更新 `references/typography_index.json`、`references/type_hierarchy.json` 与 `references/typography.md`；覆盖率必须注明实测样本，扩展字库不写入随包资源。图片排版的色卡与字体是可选覆盖；默认不问，用户点名才读。
 
 `scripts/` 中包括提取的上游依赖和本项目工具/未完成原型。工具私有的 `scripts/assets/` 不属于展厅模板库。Sponsor 文件仅保留上游归属信息，不在正常设计中主动推介。模板发现使用 `templates/` 的两份模式索引；可选配色另读 `templates/color_palettes/color_palettes_index.json`，不回退到旧路径。

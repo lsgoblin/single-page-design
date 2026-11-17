@@ -4,7 +4,7 @@
 
 ## 发现与读取
 
-从 `templates/color_palettes/color_palettes_index.json` 查看编号与五色组合，再读取选中条目的 `template` 和 `reference`。这些索引路径相对技能根目录；`sample.json` 的 `preview` 相对该样张目录。整体预览为 `references/color_palettes/overview.svg`。只加载选中的配色详情。
+从 `templates/color_palettes/color_palettes_index.json` 查看编号与五色组合，再读取选中条目的 `template` 和 `reference`。这些索引路径相对技能根目录；`sample.json` 的 `preview` 相对该样张目录。整体预览为同目录的 `overview.svg`。只加载选中的配色详情。
 
 每组 `palette.json` 提供 `id`、`kind: color-palette`、`color_space: sRGB`、`applies_to` 和按原图从左到右排列的五个 `colors`。色位顺序不预设背景、标题等语义角色。每色保存正式采用的 `hex` / `rgb`，以及 `label_hex`、`sampled_hex` / `sampled_rgb`、`method` 和 `note`，便于追溯取值依据。
 
@@ -24,4 +24,4 @@
 
 ## 维护
 
-新增配色保留既有编号，使用新 ID；定义置于 `templates/color_palettes/<id>/palette.json`，对应样张和来源说明置于 `references/color_palettes/<id>/`，更新索引和整体预览。校验 HEX/RGB 一致、ID 对应及包内相对引用。任务中的临时配色放在任务工作区，只有用户要求入库时才登记。
+新增配色保留既有编号，使用新 ID；定义置于技能根目录的 `templates/color_palettes/<id>/palette.json`，对应样张和来源说明置于同目录的 `<id>/`，更新索引和整体预览。校验 HEX/RGB 一致、ID 对应及包内相对引用。任务中的临时配色放在任务工作区，只有用户要求入库时才登记。

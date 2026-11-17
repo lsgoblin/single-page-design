@@ -2,7 +2,7 @@
 
 图片排版只用一个 **4 级字阶**；默认 2 类字体（宋 / 黑二选一 + 等宽），用户可点名覆盖。
 
-字阶数据：[type_hierarchy.json](../../references/type_hierarchy.json)。字体池：[typography_index.json](../../references/typography_index.json)。
+字阶数据：[type_hierarchy.json](type_hierarchy.json)。字体池：[typography_index.json](typography_index.json)。
 
 ## 默认 4 级
 
@@ -25,7 +25,7 @@
 | **黑** | 思源黑体 | Noto Sans SC / Microsoft YaHei | 照片、现代、正文 |
 | **等宽** | Consolas | Courier New | 数字、英文、标注 |
 
-- 默认只读这 3 组；用户点名时从 [字体池](../../references/typography_index.json) 的 23 款里选。
+- 默认只读这 3 组；用户点名时从 [字体池](typography_index.json) 的 23 款里选。
 - 可选：明朝、仿宋、清刻本；瘦金 / 兰亭只上标题，其余层级回退思源宋体。
 - 用户给未登记的本机字体名时，先确认安装并实排；缺字回退思源宋体。
 - 未安装按 `stack` 回退；缺字回退思源宋体，并在说明里注明。
