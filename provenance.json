@@ -201,6 +201,16 @@
     "references": "Sample imagery and sample metadata linked by matching template id.",
     "old_paths": "Twenty obsolete files removed after explicit user approval; canonical resources reside under templates/ and references/."
   },
+  "page_layout_library": {
+    "date": "2026-11-13",
+    "index": "templates/page_layouts/page_layouts_index.json",
+    "template_count": 5,
+    "source_records": "references/page_layouts/<id>/sample.json",
+    "origin": "Three templates migrated from the PPT Simplify / PPT Master v6.7.2 single-page library; arc_perspective_cards was built from user-provided local practice material marked internal study; city_wheel was imported from the user-provided 四城转盘-PPT动画手记No.05.pptx.",
+    "sample_assets": "Every sample keeps preview.png and sample.json; arc_perspective_cards and city_wheel also keep their native sample.pptx, and city_wheel adds four animation-state previews plus motion_reference.json.",
+    "runtime_policy": "Samples are for browsing and comparison only and never replace user input. Template images stay package-local; reuse must substitute the user's own images.",
+    "licensing": "arc_perspective_cards images are internal-study material and must not be redistributed; city_wheel sample images and city data were not independently licensed. Resolve both before public distribution."
+  },
   "ppt_workflow_migration": {
     "date": "2026-11-11",
     "entry": "workflows/single-page.md",

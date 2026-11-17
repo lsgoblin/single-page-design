@@ -6,22 +6,29 @@
 references/
 ├── page_layouts/<id>/
 │   ├── sample.json
-│   └── preview.png
+│   ├── preview.png
+│   └── sample.pptx            （部分样张：原生成品；city_wheel 另带 state-*.png 与 motion_reference.json）
 ├── image_styles/<id>/
 │   ├── sample.json
 │   └── preview.<png|webp|jpeg|svg>
+├── color_palettes/<id>/
+│   ├── sample.json
+│   └── preview.svg
+├── typography.md
 ├── typography_index.json
 └── type_hierarchy.json
 ```
 
-有效样张的 `<id>` 与对应模板 ID 相同。`sample.json` 的 `template` 指向技能根目录相对的模板路径，`preview` 指向当前样张目录内的效果图；`source` 记录平台、作者、原帖与发布日期。
+有效样张的 `<id>` 与对应模板 ID 相同。`sample.json` 的 `template` 指向技能根目录相对的模板路径，`preview` 指向当前样张目录内的效果图。`source` 记录可追溯来源：图片改造样张记平台、作者、原帖与发布日期；单页样张在可追溯时记来源类型、原始文件或材料与导入日期。包内自建的演示样张没有外部来源，用 `note` 说明其演示属性。
 
 - 单页 PPT 样张采用已有 PowerPoint 实际渲染，演示文案与素材不绑定未来作品。
+- 单页样张当前共 5 组：`image_fade_profile`、`torn_paper_diagonal`、`type_foreground_cover` 为单页渲染样张；`arc_perspective_cards` 带原生三维样张 `sample.pptx`；`city_wheel` 的 `sample.pptx` 保留四页动画状态，并附 `state-01…04.png` 与 `motion_reference.json`。模板页数与样张页数分别记录，动画状态不扩大模板的单页范围。
+- `arc_perspective_cards` 的图片来自用户提供的内部学习素材，`city_wheel` 的示例图片与城市数据未独立核验授权；两者仅供本地浏览比较，公开分发前须替换素材或取得许可，详见各自 `sample.json`。
 - 图片改造样张用于说明排版或视觉风格，按实际来源标注 `preview_kind`；独立生成的示例不称作同一原图的改造验证。
 - 存在授权或署名文件时随对应样张保留，并在 `sample.json` 注明。
 - SVG 样张内的摄影内容应嵌入或具有明确、有效的包内引用；不得依赖临时附件目录。
 
-16 组图片改造样张均取自原作者公开帖，只用于说明风格；`sample.json` 记录来源，原帖未提供改造前原片的条目不标为对照。
+16 组图片改造样张均取自原作者公开帖与公开提示词仓库，只用于说明风格；`sample.json` 记录来源，原帖未提供改造前原片的条目不标为对照。
 
 执行说明位于 `workflows/`，来源记录位于技能根目录 `provenance.json`。本目录不再混放资源发现索引或执行流程说明。
 

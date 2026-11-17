@@ -27,11 +27,11 @@
 ```text
 single-page-design/
 ├── templates/
-│   ├── page_layouts/<id>/       单页结构规格、SVG 和应用所需素材
+│   ├── page_layouts/<id>/       单页结构规格、SVG 和应用所需素材（5 个已注册）
 │   ├── image_styles/            图片改造风格入口（16 个已注册风格）
 │   └── color_palettes/<id>/     三种模式共用的配色定义
 ├── references/
-│   ├── page_layouts/<id>/       对应单页样张与样张说明
+│   ├── page_layouts/<id>/       对应单页样张与样张说明（部分带样张 pptx 与动画状态）
 │   ├── image_styles/<id>/       对应图片风格样张与来源记录
 │   ├── color_palettes/          对应配色色块样张与整体预览
 │   ├── typography.md            图片排版的 4 级字阶与字体规则
@@ -114,8 +114,8 @@ single-page-design/
 
 ## 当前状态与实施边界
 
-当前保留三个单页 PPT 模板、16 个图片改造风格、23 款字体登记（默认宋 / 黑 / 等宽，11 基础 + 12 本机扩展）、4 级默认字阶和 56 组共用配色。图片风格定义在 `templates/image_styles/`，样张与作者来源在 `references/image_styles/`；图片排版流程在 `workflows/image-layout.md`，字体数据在 `references/` 的 JSON 与 `typography.md` 中。图片改造与图片排版都以用户输入为内容来源，样张只用于风格比较。
+当前保留五个单页 PPT 模板（其中 `city_wheel` 为四态动画样张、`arc_perspective_cards` 为原生三维样张）、16 个图片改造风格、23 款字体登记（默认宋 / 黑 / 等宽，11 基础 + 12 本机扩展）、4 级默认字阶和 56 组共用配色。图片风格定义在 `templates/image_styles/`，样张与作者来源在 `references/image_styles/`；图片排版流程在 `workflows/image-layout.md`，字体数据在 `references/` 的 JSON 与 `typography.md` 中。图片改造与图片排版都以用户输入为内容来源，样张只用于风格比较。
 
-单页 PPT 原生成工作流、原 Confirm UI 与 Live Preview 已迁入；普通生成完整保留策划、两阶段确认、模板安装、素材准备、质量检查与原生导出。原整套演示模板集合未迁入，注册的单页库保持现有三个模板。条件分支按原规则触发，外部服务的凭据与依赖仍需使用环境提供。
+单页 PPT 原生成工作流、原 Confirm UI 与 Live Preview 已迁入；普通生成完整保留策划、两阶段确认、模板安装、素材准备、质量检查与原生导出。原整套演示模板集合未迁入，注册的单页库保持现有五个模板。条件分支按原规则触发，外部服务的凭据与依赖仍需使用环境提供。
 
 独立样式展厅前端未完成，历史 gallery.py 中的浏览器编辑能力不属于已确认范围；本轮不继续开发该展厅。图片排版不在展厅中，由对话进入。原 Confirm UI 与 Live Preview 属于迁入的 PPT 流程运行能力。

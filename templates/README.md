@@ -17,6 +17,8 @@
 
 索引保留原 `layout_scope: page`、画布与页面类型等字段，增加 `mode: ppt-layout`、模板根目录与样张入口。新增样张只用于浏览，不作为导出内容。
 
+当前登记 5 个单页 layout：`image_fade_profile`、`torn_paper_diagonal`、`type_foreground_cover`、`arc_perspective_cards`、`city_wheel`。后两者的样张分别保留原生三维成品与四页动画状态，模板本身仍各为一个单页版式。
+
 模板选择仍是原 PPT 生成流程的输入；本资源目录不另行定义精简生成路线。
 
 ## 图片改造

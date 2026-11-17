@@ -24,4 +24,4 @@
 
 ## 维护
 
-新增配色保留既有编号，使用新 ID；定义置于技能根目录的 `templates/color_palettes/<id>/palette.json`，对应样张和来源说明置于同目录的 `<id>/`，更新索引和整体预览。校验 HEX/RGB 一致、ID 对应及包内相对引用。任务中的临时配色放在任务工作区，只有用户要求入库时才登记。
+新增配色保留既有编号，使用新 ID；定义置于 `templates/color_palettes/<id>/palette.json`，对应样张和来源说明置于 `references/color_palettes/<id>/`，更新索引和整体预览。校验 HEX/RGB 一致、ID 对应及包内相对引用。任务中的临时配色放在任务工作区，只有用户要求入库时才登记。
