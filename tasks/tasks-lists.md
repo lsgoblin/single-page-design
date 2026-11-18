@@ -50,7 +50,7 @@
 | 编号 | 任务 | 问题与目标 | 本轮是否需要完成 | 类型 | 状态 | 依据（实测） | 验收要点 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | IMP-CONTENT-01 | 版式覆盖 3/9 页面类型 | 注册版式只覆盖 cover×1、toc×1、content×3；参考池按 9 类页面组织，章节、金句、数据、对比、流程、人物团队 6 类无模板。展厅只有 5 个可选项，用户要“数据页”就没有。 | 待 OPEN-03 | 内容 | 待开始 | `templates/page_layouts/page_layouts_index.json` 的 `page_types` 实测；本机草稿 `drafts/单页layout/README.md` 记录 49 张参考图按 9 类组织（未入版本库）。 | 二选一：①补 6 类各 1 个版式（含 `design_spec.md` + SVG + 样张 + 索引登记 + 通过 IMP-ENG-01 索引测试）；②在 [README.md](../README.md) 与展厅明确标注当前覆盖 3 类，措辞不再暗示版式库完整。 |
-| IMP-DOC-01 | 清上游残留 | `.env.example` 与 `agents/openai.yaml` 仍指向 `ppt-master`，与本包名不符，新用户按它配环境会找错路径。 | 是（低成本） | 文档 | 待开始 | `.env.example` 查找顺序段写 `~/.ppt-master/.env`、`~/.agents/skills/ppt-master/.env`；`agents/openai.yaml`（159B）同源。 | 路径与包名对齐 `single-page-design`；全库不再出现 `ppt-master` 的**路径**（SPONSORS、provenance、attribution_guard 中的**署名**保留）。 |
+| IMP-DOC-01 | 清上游残留 | `.env.example` 与 `agents/openai.yaml` 仍指向 `ppt-master`，与本包名不符，新用户按它配环境会找错路径。 | 是（低成本） | 文档 | 待开始 | `.env.example` 查找顺序段写 `~/.ppt-master/.env`、`~/.agents/skills/ppt-master/.env`；`agents/openai.yaml`（159B）同源。 | 路径与包名对齐 `single-page-design`；全库不再出现 `ppt-master` 的**路径**（`LICENSE`、`provenance.json`、`attribution_guard.py` 中的**版权与来源声明**保留）。 |
 | IMP-UX-01 | 展厅交互小缺陷 | `preview_kind` 后端已取但前端未用；“导出”轮询无超时，任务卡住时界面无限等待；鉴权失败只有通用提示。 | 否 | 交互 | 待开始 | `scripts/single_page.py:34-36` 新增 `preview_kind` 字段；`gallery/app.js:365-400` 的 `startExport` 轮询无上限；`scripts/gallery.py:314-315` 403 统一文案。 | 轮询超时给出明确失败与重试；`preview_kind` 用于区分“风格样张/原片对照”展示；鉴权失败提示可操作（如“请从展厅主页重新打开”）。 |
 
 ### 2.4 清理（P3）
