@@ -1,0 +1,4 @@
+# 仅包含 pytest 配置；本仓库是技能包，不添加打包/发布元数据。
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
