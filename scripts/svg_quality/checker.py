@@ -7665,7 +7665,7 @@ class SVGQualityChecker:
                 'release SVG projects require spec_lock.md pptx_structure.mode: '
                 'flat (free design / brand-only) or structured (deck/layout '
                 f'template); found {declared_mode!r}. Create a template '
-                'workspace through skills/ppt-simplify/workflows/create-template.md '
+                'workspace through ${SKILL_DIR}/workflows/pptx/create-template.md '
                 'before generating structured SVG pages. Existing PPTX/SVG files '
                 'are not upgraded in place.',
             ))
@@ -9271,7 +9271,7 @@ class SVGQualityChecker:
                     "source-analysis native_structure/source.pptx contracts "
                     "must not be packaged as reusable template inputs; rebuild "
                     "through "
-                    "skills/ppt-simplify/workflows/create-template.md",
+                    "${SKILL_DIR}/workflows/pptx/create-template.md",
                 ))
 
             if declared_structure_mode != 'structured':
@@ -9288,7 +9288,7 @@ class SVGQualityChecker:
                     'error',
                     'legacy_structure_contract',
                     "legacy template structure detected; create a new current "
-                    "workspace through skills/ppt-simplify/workflows/"
+                    "workspace through ${SKILL_DIR}/workflows/pptx/"
                     "create-template.md before Step 3 consumption",
                 ))
         active_texts = [spec.read_text(encoding='utf-8') for spec in _active_roster_specs(dir_path)]

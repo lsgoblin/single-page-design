@@ -25,7 +25,7 @@ Configuration source (process env wins, `.env` is the fallback layer):
   1. Current process environment variables
   2. The first `.env` found among:
      - Current working directory
-     - Skill directory (e.g. `~/.agents/skills/ppt-simplify/.env`)
+     - Skill directory (e.g. `~/.agents/skills/single-page-design/.env`)
      - Repo root (when running from a clone)
      - `~/.ppt-master/.env` (user-level config)
 
