@@ -22,7 +22,7 @@ metadata:
 
 # Single Page Design
 
-本技能有三种模式：单页 PPT-layout、图片改造、图片排版。用户可在本机展厅浏览并选择前两种资源，或直接以「图片排版」进入一图一句的排版模式；在对话中提供内容与修改要求，查看浏览器更新后的预览，再确认导出。
+本技能有三种模式：单页 PPT-layout、图片改造、图片排版。用户可在本机展厅浏览并选择版式、图片风格与配色，或直接以「图片排版」进入一图一句的排版模式；在对话中提供内容与修改要求，查看浏览器更新后的预览，再确认导出。
 
 本包从 PPT Simplify / PPT Master v6.7.2 提取单页模板及导出依赖，是独立衍生技能；上游版权与 MIT 许可保留。`official_repository` 表示上游来源，不表示本衍生包由上游官方发布。运行不依赖原仓库、其他技能包或安装目录。
 
@@ -31,6 +31,8 @@ metadata:
 以宿主提供的本文件绝对路径确定 `SKILL_DIR`。命令中的占位符须替换成该绝对目录，工作文件保存在用户的任务目录，不写回技能包。Python 命令示例用 `python`；宿主只有 `python3` 时使用等价命令。
 
 调用提取的 PPT 工具前执行 `python3 "${SKILL_DIR}/scripts/attribution_guard.py"`。该检查保留上游署名、许可证与工具完整性；失败则报告，不绕过。
+
+需要浏览资源时，用 `python3 "${SKILL_DIR}/scripts/gallery.py" --session <任务目录>` 启动本机展厅；选择写入 `<任务目录>/selection.json`，内容生成与修改仍在对话里完成。展厅是可选工具；不启动展厅也能直接读索引、模板，在对话里完成流程。
 
 根据交付物只读取对应模式的说明和选中的模板、样张：
 
@@ -64,7 +66,7 @@ metadata:
 
 `workflows/pptx/guides/` 保存原角色、规则及设计能力目录，`workflows/pptx/resources/` 保存规格 schema、图表、表格、图标等运行依赖；二者是 PPT 流程内部能力，不增加展厅模式。正式单页模板继续从 `templates/page_layouts/` 发现，对应样张继续在 `references/page_layouts/`。
 
-`single_page.py init/export` 仅是底层验证工具，未完成的 `gallery.py` 仍是展厅历史原型，均不替代原生成流程。原 Confirm UI 与 Live Preview 随流程迁入，分别服务策划确认与页面预览；本次不开发样式展厅前端。
+`single_page.py init/export` 仅是底层验证工具；`gallery.py` 启动本机展厅，提供版式、图片风格与配色的浏览和选择，选择写入任务目录的 `selection.json`。两者都不替代原生成流程。原 Confirm UI 与 Live Preview 随流程迁入，分别服务策划确认与页面预览。
 
 ## 共同设计判断
 
@@ -93,4 +95,4 @@ metadata:
 
 新增或调整字体与字号规则时，同步更新 `references/typography_index.json`、`references/type_hierarchy.json` 与 `references/typography.md`；覆盖率必须注明实测样本，扩展字库不写入随包资源。图片排版的色卡与字体是可选覆盖；默认不问，用户点名才读。
 
-`scripts/` 中包括提取的上游依赖和本项目工具/未完成原型。工具私有的 `scripts/assets/` 不属于展厅模板库。Sponsor 文件仅保留上游归属信息，不在正常设计中主动推介。模板发现使用 `templates/` 的两份模式索引；可选配色另读 `templates/color_palettes/color_palettes_index.json`，不回退到旧路径。
+`scripts/` 中包括提取的上游依赖和本项目工具；`gallery/` 存放展厅前端静态文件，由 `scripts/gallery.py` 提供本机服务。工具私有的 `scripts/assets/` 不属于展厅模板库。Sponsor 文件仅保留上游归属信息，不在正常设计中主动推介。模板发现使用 `templates/` 的两份模式索引；可选配色另读 `templates/color_palettes/color_palettes_index.json`，不回退到旧路径。

@@ -31,7 +31,9 @@ def image_styles():
         if recipe['id'] != key or sample['template_id'] != key:
             raise ValueError(f'Template and sample ids do not match: {key}')
         preview = (Path(entry['reference']).parent / sample['preview']).as_posix()
-        styles.append(dict(recipe, preview=preview, preview_note=sample.get('note', '')))
+        styles.append(dict(recipe, preview=preview, preview_note=sample.get('note', ''),
+                           preview_kind=sample.get('preview_kind', ''),
+                           source=sample.get('source', {})))
     return styles
 
 

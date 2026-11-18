@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Local skill gallery. python gallery.py --session <external-work-directory>"""
+"""Local skill gallery for browsing layouts, image styles and palettes.
+
+    python gallery.py --session <external-work-directory>
+
+Browsing and selection stay in the browser; content changes still happen in
+chat. The chosen resource is written to <session>/selection.json.
+"""
 from __future__ import annotations
 
 import argparse
@@ -25,8 +31,37 @@ from xml.etree import ElementTree as ET
 from single_page import SKILL, LIBRARY, catalog, image_styles, outside_skill, slide_source
 
 UI = SKILL / 'gallery'
-NAMES = {'image_fade_profile': '图文渐隐信息页', 'type_foreground_cover': '大字与前景穿插',
-         'torn_paper_diagonal': '双纸层斜向开窗'}
+
+
+def layout_name(key, entry):
+    spec = SKILL / entry['template'] / 'templates' / 'design_spec.md'
+    if spec.is_file():
+        for line in spec.read_text(encoding='utf-8').splitlines():
+            if line.startswith('# '):
+                title = line[2:].split(' — ')[0].strip()
+                if title:
+                    return title
+    return key
+
+
+def palette_library():
+    index = read_json(SKILL / 'templates/color_palettes/color_palettes_index.json')
+    items = []
+    for key, entry in index.items():
+        sample_path = SKILL / entry.get('reference', '')
+        sample = read_json(sample_path) if sample_path.is_file() else {}
+        source = sample.get('source', {})
+        items.append({
+            'id': key,
+            'name': entry.get('name', key),
+            'colors': entry.get('colors', []),
+            'preview': entry.get('preview', ''),
+            'credit': source.get('visible_credit', ''),
+            'note': sample.get('note', ''),
+        })
+    return items
+
+
 DEFAULTS = dict(TITLE='看见留白', SUBTITLE='A quieter way to see', SECTION_NAME='FIELD NOTES',
                 KEY_MESSAGE='少一点，更清楚。', TAGLINE='Less, with intention.',
                 CONTENT_AREA='让画面聚焦，让每一处留白都有意义。', SOURCE='预览使用包内演示素材')
@@ -58,6 +93,9 @@ class Gallery:
         self.session.mkdir(parents=True, exist_ok=True)
         self.state_path = self.session / 'gallery_state.json'
         self.state = read_json(self.state_path) if self.state_path.exists() else {'selected': None, 'projects': []}
+        self.layouts = [dict(entry, id=key, kind='ppt-layout', name=layout_name(key, entry))
+                        for key, entry in catalog().items()]
+        self.palettes = palette_library()
         self.token = secrets.token_urlsafe(32)
         self.lock = threading.RLock()
         self.jobs = {}
@@ -90,9 +128,9 @@ class Gallery:
                     preview_revision=str(modified), modified=source.stat().st_mtime)
 
     def contents(self):
-        layouts = [dict(value, id=key, kind='ppt-layout', name=NAMES.get(key, key))
-                   for key, value in catalog().items()]
-        styles = [dict(s, kind='image-transform', summary=s['use_when']) for s in image_styles()]
+        layouts = [dict(item) for item in self.layouts]
+        styles = [dict(s, kind='image-transform') for s in image_styles()]
+        palettes = [dict(item, kind='color-palette') for item in self.palettes]
         projects = []
         for item in self.state['projects']:
             try:
@@ -100,7 +138,8 @@ class Gallery:
                 projects.append({k: view[k] for k in ['id', 'name', 'layout', 'modified', 'preview_revision']})
             except (OSError, ValueError, ET.ParseError):
                 projects.append(dict(item, unavailable=True))
-        return dict(layouts=layouts, styles=styles, projects=projects, selected=self.state['selected'])
+        return dict(layouts=layouts, styles=styles, palettes=palettes, projects=projects,
+                    selected=self.state['selected'])
 
     def create(self, layout):
         if layout not in catalog():
@@ -118,10 +157,12 @@ class Gallery:
                     node.text = 'FLOW'
         ET.register_namespace('', 'http://www.w3.org/2000/svg')
         tree.write(source, encoding='utf-8', xml_declaration=True)
-        project = dict(id=key, layout=layout, name=NAMES.get(layout, layout), path=str(workspace))
+        project = dict(id=key, layout=layout, path=str(workspace),
+                       name=next((item['name'] for item in self.layouts if item['id'] == layout), layout))
         self.state['projects'].append(project)
-        self.state['selected'] = dict(kind='ppt-layout', id=layout, project=key)
+        self.state['selected'] = dict(kind='ppt-layout', id=layout, name=project['name'], project=key)
         self.save()
+        write_json(self.session / 'selection.json', {'selected': self.state['selected']})
         return self.project_view(key)
 
     def update(self, data):
@@ -185,7 +226,9 @@ class Gallery:
                                             capture_output=True, text=True, encoding='utf-8', timeout=180)
                     (workspace / 'export.log').write_text(result.stdout + result.stderr, encoding='utf-8')
                     if result.returncode:
-                        raise ValueError('导出未完成。请检查作品素材或查看 export.log。')
+                        lines = [line.strip() for line in (result.stdout + result.stderr).splitlines() if line.strip()]
+                        detail = lines[-1] if lines else '请检查作品素材或查看 export.log。'
+                        raise ValueError('导出未完成。' + detail)
                     project['latest_export'] = output.name
                     self.save()
                     self.jobs[job_id].update(status='done', filename=output.name)
@@ -233,6 +276,8 @@ class Handler(BaseHTTPRequestHandler):
             url = urlsplit(self.path)
             query = parse_qs(url.query)
             path = unquote(url.path)
+            if path == '/favicon.ico':
+                return self.send(b'', 'image/x-icon', status=204)
             if path == '/':
                 page = (UI / 'index.html').read_text(encoding='utf-8').replace('__TOKEN__', html.escape(self.app.token))
                 return self.send(page.encode('utf-8'), 'text/html; charset=utf-8')
@@ -288,14 +333,31 @@ class Handler(BaseHTTPRequestHandler):
                 if self.path == '/api/save':
                     return self.send(self.app.update(data))
                 if self.path == '/api/select':
-                    choices = self.app.contents()['styles']
-                    choice = next((s for s in choices if s['id'] == data['id']), None)
+                    kind = data.get('kind')
+                    if kind == 'none' or not data.get('id'):
+                        self.app.state['selected'] = None
+                        self.app.save()
+                        write_json(self.app.session / 'selection.json', {'selected': None})
+                        return self.send({'selected': None})
+                    pools = {
+                        'ppt-layout': [dict(item) for item in self.app.layouts],
+                        'image-transform': [dict(s, kind='image-transform') for s in image_styles()],
+                        'color-palette': [dict(item, kind='color-palette') for item in self.app.palettes],
+                    }
+                    choices = pools.get(kind)
+                    if choices is None:
+                        raise ValueError('未知的资源类别。')
+                    choice = next((item for item in choices if item['id'] == data['id']), None)
                     if choice is None:
-                        raise ValueError('未找到该风格。')
-                    self.app.state['selected'] = dict(kind=choice['kind'], id=choice['id'], name=choice['name'])
+                        raise ValueError('未找到该资源。')
+                    selected = {field: choice[field] for field in ('kind', 'id', 'name') if field in choice}
+                    for field in ('colors', 'preview', 'use_when'):
+                        if choice.get(field):
+                            selected[field] = choice[field]
+                    self.app.state['selected'] = selected
                     self.app.save()
-                    write_json(self.app.session / 'selection.json', self.app.state['selected'])
-                    return self.send(self.app.state['selected'])
+                    write_json(self.app.session / 'selection.json', {'selected': selected})
+                    return self.send(selected)
                 if self.path == '/api/export':
                     return self.send(self.app.export(data['project']))
             self.send({'error': '未找到该操作。'}, status=404)

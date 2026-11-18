@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="gallery-token" content="__TOKEN__">
+  <title>单页设计 · 样品间</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <a class="skip" href="#grid">跳到资源列表</a>
+  <div class="app">
+    <aside class="rail">
+      <div class="brand">
+        <span class="brand-mark">单页设计</span>
+        <span class="brand-sub">样品间 / specimen room</span>
+      </div>
+
+      <nav class="nav" aria-label="资源类别">
+        <button class="nav-item" type="button" data-view="layouts">
+          <span>版式</span><span class="nav-count" id="count-layouts">—</span>
+        </button>
+        <button class="nav-item" type="button" data-view="styles">
+          <span>图片风格</span><span class="nav-count" id="count-styles">—</span>
+        </button>
+        <button class="nav-item" type="button" data-view="palettes">
+          <span>配色</span><span class="nav-count" id="count-palettes">—</span>
+        </button>
+        <button class="nav-item" type="button" data-view="projects">
+          <span>作品</span><span class="nav-count" id="count-projects">—</span>
+        </button>
+      </nav>
+
+      <div class="selection">
+        <p class="selection-title">当前选用</p>
+        <div class="selection-body" id="selection-body"><span class="muted">还没有选择</span></div>
+        <div class="selection-actions">
+          <button type="button" class="ghost" id="copy-selection" disabled>复制选择</button>
+          <button type="button" class="ghost" id="clear-selection" disabled>清除</button>
+        </div>
+      </div>
+
+      <p class="rail-note">展厅只负责浏览与记录选择。选好后回到对话说明用途和修改要求。</p>
+    </aside>
+
+    <main class="main">
+      <header class="masthead">
+        <div class="masthead-copy">
+          <h1 id="view-title">版式</h1>
+          <p id="view-desc">一页 PPT 的完整版式：结构规格、SVG 原型与可替换素材。</p>
+        </div>
+        <div class="tools">
+          <label class="search">
+            <span class="sr-only">筛选</span>
+            <input id="search" type="search" placeholder="筛选名称、标签或色值" autocomplete="off" spellcheck="false">
+          </label>
+          <button type="button" class="ghost refresh" id="refresh" title="重新读取资源与作品">刷新</button>
+        </div>
+      </header>
+
+      <section id="grid" class="grid" aria-label="资源列表" tabindex="-1"></section>
+      <p id="empty" class="empty" hidden></p>
+    </main>
+
+    <aside class="detail" id="detail" aria-label="详情"></aside>
+  </div>
+
+  <div class="backdrop" id="backdrop" hidden></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
