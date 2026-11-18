@@ -106,8 +106,15 @@ def main(argv=None):
                 raise ValueError(f'Output already exists: {target}; use --force to replace.')
         from attribution_guard import require_skill_integrity
         require_skill_integrity()
+        from render_check import render_unavailable_message, renderer_status
         from svg_to_pptx.pptx_package.media import convert_svg_to_png
         from svg_to_pptx.use_expander import expand_use_data_icons, expand_local_use_references
+        # Diagnose the preview renderer before rendering: a missing renderer is an
+        # environment problem and must not surface as an unexplained one-line failure.
+        # svglib counts as usable, so this only fires when nothing can render at all.
+        render_ok, _renderer, render_detail = renderer_status()
+        if not render_ok:
+            raise RuntimeError(render_unavailable_message(render_detail))
         output.parent.mkdir(parents=True, exist_ok=True)
         # Render first: do not report complete delivery without a usable preview.
         tree = ET.parse(source)
