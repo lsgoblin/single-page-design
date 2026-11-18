@@ -15,9 +15,7 @@ metadata:
   copyright: "Copyright (c) 2025-2026 Hugo He"
   license: "MIT"
   official_repository: "https://github.com/hugohe3/ppt-master"
-  sponsors:
-    - "SPONSORS.md"
-    - "SPONSORS_CN.md"
+  sponsors: []
 ---
 
 # Single Page Design
@@ -30,7 +28,7 @@ metadata:
 
 以宿主提供的本文件绝对路径确定 `SKILL_DIR`。命令中的占位符须替换成该绝对目录，工作文件保存在用户的任务目录，不写回技能包。Python 命令示例用 `python`；宿主只有 `python3` 时使用等价命令。
 
-调用提取的 PPT 工具前执行 `python3 "${SKILL_DIR}/scripts/attribution_guard.py"`。该检查保留上游署名、许可证与工具完整性；失败则报告，不绕过。
+调用提取的 PPT 工具前执行 `python3 "${SKILL_DIR}/scripts/attribution_guard.py"`。该检查保留上游许可证、版权声明与工具完整性；失败则报告，不绕过。
 
 需要浏览资源时，用 `python3 "${SKILL_DIR}/scripts/gallery.py" --session <任务目录>` 启动本机展厅；选择写入 `<任务目录>/selection.json`，内容生成与修改仍在对话里完成。展厅是可选工具；不启动展厅也能直接读索引、模板，在对话里完成流程。
 
@@ -95,4 +93,4 @@ metadata:
 
 新增或调整字体与字号规则时，同步更新 `references/typography_index.json`、`references/type_hierarchy.json` 与 `references/typography.md`；覆盖率必须注明实测样本，扩展字库不写入随包资源。图片排版的色卡与字体是可选覆盖；默认不问，用户点名才读。
 
-`scripts/` 中包括提取的上游依赖和本项目工具；`gallery/` 存放展厅前端静态文件，由 `scripts/gallery.py` 提供本机服务。工具私有的 `scripts/assets/` 不属于展厅模板库。Sponsor 文件仅保留上游归属信息，不在正常设计中主动推介。模板发现使用 `templates/` 的两份模式索引；可选配色另读 `templates/color_palettes/color_palettes_index.json`，不回退到旧路径。
+`scripts/` 中包括提取的上游依赖和本项目工具；`gallery/` 存放展厅前端静态文件，由 `scripts/gallery.py` 提供本机服务。工具私有的 `scripts/assets/` 不属于展厅模板库。上游署名以 `LICENSE` 与 `SKILL.md` 元数据中的版权、许可声明承载，包内不再附带赞助者列表文件，正常设计中也不主动推介模型或服务。模板发现使用 `templates/` 的两份模式索引；可选配色另读 `templates/color_palettes/color_palettes_index.json`，不回退到旧路径。

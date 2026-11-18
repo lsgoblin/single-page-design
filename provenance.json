@@ -14,8 +14,6 @@
   },
   "source_sha256": {
     "LICENSE": "cd9cf27f52d3c336dd42e13f4a1df453da118e25e15520bbe02f91d75531e91b",
-    "SPONSORS.md": "82c3b270de6c8d12f5e86084d3c59412b4fa919a6b50d074326afdc6cd0a4a01",
-    "SPONSORS_CN.md": "a87d2c199e8c7fb300991177acf6924b74f5574662a64035063a57c4acc2d194",
     "scripts/attribution_guard.py": "b9dd1ca04171363ab9b31d0da1ef0b870c9558224e2bf3c90c5abe7e72b18439",
     "scripts/authoring_roundtrip.py": "957c0a1c9ab32b09294ca450ad32af39e9b9af5e1b1e6e6c9f2277c72a1e2253",
     "scripts/compact_svg_coordinates.py": "9825fd82a3206c68fe6e95a8c0776c41cd1c09318843e001d2bed7658db6d48b",
