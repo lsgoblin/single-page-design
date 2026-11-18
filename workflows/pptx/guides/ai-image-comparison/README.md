@@ -36,17 +36,17 @@ Each subdirectory contains:
 To reproduce or regenerate:
 
 ```bash
-python3 skills/ppt-master/scripts/image_gen.py \
+python3 ${SKILL_DIR}/scripts/image_gen.py \
     --manifest ${SKILL_DIR}/workflows/pptx/guides/ai-image-comparison/rendering/_manifest.json \
     -o ${SKILL_DIR}/workflows/pptx/guides/ai-image-comparison/rendering/ \
     --backend openai
 
-python3 skills/ppt-master/scripts/image_gen.py \
+python3 ${SKILL_DIR}/scripts/image_gen.py \
     --manifest ${SKILL_DIR}/workflows/pptx/guides/ai-image-comparison/palette/_manifest.json \
     -o ${SKILL_DIR}/workflows/pptx/guides/ai-image-comparison/palette/ \
     --backend openai
 
-python3 skills/ppt-master/scripts/image_gen.py \
+python3 ${SKILL_DIR}/scripts/image_gen.py \
     --manifest ${SKILL_DIR}/workflows/pptx/guides/ai-image-comparison/type/_manifest.json \
     -o ${SKILL_DIR}/workflows/pptx/guides/ai-image-comparison/type/ \
     --backend openai
